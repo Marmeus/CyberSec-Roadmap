@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Security Certification Roadmap</title>
+  <meta name="description" content="A cybersecurity certification roadmap across eight domains.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,600;8..60,680&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=10">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="brand">
+      <p class="eyebrow">Cybersecurity</p>
+      <h1><a href="#/">Certification Roadmap</a></h1>
+    </div>
+    <nav id="domain-nav" class="domain-nav" aria-label="Areas"></nav>
+    <div class="stripe" aria-hidden="true">
+      <span style="background:#70AD47"></span>
+      <span style="background:#008080"></span>
+      <span style="background:#fa8e36"></span>
+      <span style="background:#e4ac03"></span>
+      <span style="background:#2a2a2a"></span>
+      <span style="background:#683e9b"></span>
+      <span style="background:#6bb3f6"></span>
+      <span style="background:#2e5688"></span>
+      <span style="background:#c0514d"></span>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <label class="field">
+      <span>Search</span>
+      <input id="search" type="search" placeholder="Acronym, name, or exam detail" autocomplete="off">
+    </label>
+    <label class="field" id="domain-field">
+      <span>Domain</span>
+      <select id="domain"></select>
+    </label>
+    <label class="field">
+      <span>Level</span>
+      <select id="level">
+        <option value="all">All levels</option>
+      </select>
+    </label>
+    <p id="count" class="count" aria-live="polite"></p>
+    <div id="hscroll" class="hscroll" tabindex="0" aria-label="Scroll the roadmap sideways" hidden>
+      <div id="hscroll-inner"></div>
+    </div>
+  </div>
+  <div id="tabs" class="tabs" role="tablist" aria-label="Domains" hidden></div>
+
+  <main id="main">
+    <p class="loading">Loading certifications…</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      This page is licensed <a href="LICENSE">CC BY-SA 4.0</a>.
+    </p>
+  </footer>
+
+  <div id="backdrop" class="backdrop" hidden></div>
+  <aside id="detail" class="detail" role="dialog" aria-modal="true" aria-labelledby="detail-title" hidden>
+    <div class="detail-bar">
+      <button id="detail-close" type="button">Close</button>
+    </div>
+    <p id="detail-kicker" class="detail-kicker"></p>
+    <h2 id="detail-title"></h2>
+    <p id="detail-name" class="detail-name"></p>
+    <dl id="detail-meta" class="detail-meta"></dl>
+    <ul id="detail-lines" class="detail-lines"></ul>
+    <p id="detail-link" class="detail-link"></p>
+  </aside>
+
+  <noscript>
+    <p class="noscript">This roadmap needs JavaScript to load the certification catalog.</p>
+  </noscript>
+  <script src="js/app.js?v=10"></script>
+</body>
+</html>

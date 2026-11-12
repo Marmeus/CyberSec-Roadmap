@@ -1,0 +1,224 @@
+{
+  "source": {
+    "title": "Security Certification Roadmap",
+    "commit": "08d8c6317ce436645b49e46c724d487107f5a9fa",
+    "license": "CC BY-SA 4.0",
+    "updated": "July 2024"
+  },
+  "levels": [
+    {
+      "id": "expert",
+      "label": "Expert"
+    },
+    {
+      "id": "intermediate",
+      "label": "Intermediate"
+    },
+    {
+      "id": "beginner",
+      "label": "Beginner"
+    }
+  ],
+  "domains": [
+    {
+      "id": "network",
+      "title": "Communication and Network Security",
+      "shortTitle": "Network",
+      "color": "#70AD47",
+      "ink": "#14210c",
+      "description": "Securing communication channels and networks: protocols, wireless and cellular links, IP networking, hardware availability, and third-party connectivity.",
+      "sections": [
+        {
+          "id": "core",
+          "title": "Network security",
+          "description": "Certifications for designing, operating, and defending networks.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "iam",
+      "title": "Identity and Access Management",
+      "shortTitle": "IAM",
+      "color": "#008080",
+      "ink": "#ffffff",
+      "description": "Proving identity and granting access: authentication, single sign-on, authorization, privilege, and identity proofing.",
+      "sections": [
+        {
+          "id": "core",
+          "title": "Identity and access",
+          "description": "Certifications focused on identity, authentication, and access control.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "title": "Security Architecture and Engineering",
+      "shortTitle": "Engineering",
+      "color": "#fa8e36",
+      "ink": "#2a1404",
+      "description": "Security architecture and engineering: models and design, cryptography, cloud and virtualized systems, and reducing system vulnerabilities.",
+      "sections": [
+        {
+          "id": "cloud-sysops",
+          "title": "Cloud/SysOps",
+          "description": "Cloud platforms, systems administration, and the security of virtualized infrastructure.",
+          "subsections": []
+        },
+        {
+          "id": "nix",
+          "title": "*nix",
+          "description": "Linux and Unix administration and security certifications.",
+          "subsections": []
+        },
+        {
+          "id": "ics-iot",
+          "title": "ICS/IoT",
+          "description": "Industrial control systems, operational technology, and connected devices.",
+          "subsections": []
+        },
+        {
+          "id": "other",
+          "title": "Other engineering",
+          "description": "Architecture and engineering certifications outside the cloud, Unix, and industrial columns on the source chart.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "asset",
+      "title": "Asset Security",
+      "shortTitle": "Asset",
+      "color": "#e4ac03",
+      "ink": "#241c04",
+      "description": "Protecting data and other assets across collection, storage, retention, and destruction, including classification, ownership, and the data lifecycle.",
+      "sections": [
+        {
+          "id": "core",
+          "title": "Asset security",
+          "description": "Data protection, privacy, and asset-handling certifications.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "Security and Risk Management",
+      "shortTitle": "Management",
+      "color": "#2a2a2a",
+      "ink": "#ffffff",
+      "description": "Governance and risk: policies, awareness, supply-chain risk, and how organizations decide what security work to do.",
+      "sections": [
+        {
+          "id": "leadership",
+          "title": "Leadership and programs",
+          "description": "Service management, program management, and leadership certifications such as ITIL, PMI, and Scrum.",
+          "subsections": []
+        },
+        {
+          "id": "grc",
+          "title": "GRC",
+          "description": "Governance, risk, and compliance, including the broad certifications the source chart places in the GRC band.",
+          "subsections": []
+        },
+        {
+          "id": "other",
+          "title": "Professional schemes",
+          "description": "National and specialist management schemes that sit beside the GRC band on the source chart.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "title": "Security Assessment and Testing",
+      "shortTitle": "Testing",
+      "color": "#683e9b",
+      "ink": "#ffffff",
+      "description": "Finding weaknesses with vulnerability assessment, attack simulation, compliance checks, and coordinated disclosure.",
+      "sections": [
+        {
+          "id": "core",
+          "title": "Assessment and testing",
+          "description": "Assessment, audit, and security-testing certifications.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "software",
+      "title": "Software Security",
+      "shortTitle": "Software",
+      "color": "#6bb3f6",
+      "ink": "#0c2236",
+      "description": "Building security into software: secure design, code review, development methods, and third-party and open-source risk.",
+      "sections": [
+        {
+          "id": "core",
+          "title": "Software security",
+          "description": "Secure development and application-security certifications.",
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "id": "operations",
+      "title": "Security Operations",
+      "shortTitle": "Operations",
+      "color": "#2e5688",
+      "ink": "#ffffff",
+      "accent": "#c0514d",
+      "description": "Day-to-day security work: monitoring, digital forensics, incident handling, penetration testing, and exploit research.",
+      "sections": [
+        {
+          "id": "monitoring",
+          "title": "Monitoring and detection",
+          "description": "Security operations, detection, and analyst certifications from the unlabeled defensive columns on the source chart.",
+          "color": "#2e5688",
+          "ink": "#ffffff",
+          "subsections": []
+        },
+        {
+          "id": "forensics",
+          "title": "Forensics",
+          "description": "Digital forensics and evidence handling.",
+          "color": "#2e5688",
+          "ink": "#ffffff",
+          "subsections": []
+        },
+        {
+          "id": "incident-handling",
+          "title": "Incident Handling",
+          "description": "Detecting, responding to, and recovering from security incidents.",
+          "color": "#2e5688",
+          "ink": "#ffffff",
+          "subsections": []
+        },
+        {
+          "id": "penetration-testing",
+          "title": "Penetration Testing",
+          "description": "Authorized attack simulation and offensive security testing.",
+          "color": "#c0514d",
+          "ink": "#2a1210",
+          "subsections": [
+            {"id": "web", "title": "Web", "description": "Web application penetration testing."},
+            {"id": "mobile", "title": "Mobile", "description": "Mobile application penetration testing."},
+            {"id": "api", "title": "API", "description": "API penetration testing."},
+            {"id": "network", "title": "Network", "description": "Network and infrastructure penetration testing."},
+            {"id": "wireless", "title": "Wireless", "description": "Wireless network penetration testing."},
+            {"id": "cloud", "title": "Cloud", "description": "Cloud penetration testing."}
+          ]
+        },
+        {
+          "id": "exploitation",
+          "title": "Exploitation",
+          "description": "Exploit research and advanced offensive technique certifications.",
+          "color": "#c0514d",
+          "ink": "#2a1210",
+          "subsections": []
+        }
+      ]
+    }
+  ]
+}

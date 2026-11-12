@@ -13,7 +13,7 @@
       "operations"
     ],
     "section": "exploitation",
-    "subsection": null,
+    "subsection": "exploit-development",
     "level": "expert",
     "row": 2,
     "column": 46,
@@ -35,7 +35,7 @@
       "iam"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "cisco",
     "level": "expert",
     "row": 3,
     "column": 4,
@@ -56,7 +56,7 @@
       "engineering"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "security-architecture",
     "level": "expert",
     "row": 3,
     "column": 14,
@@ -77,7 +77,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "it-service-management",
     "level": "expert",
     "row": 3,
     "column": 17,
@@ -97,7 +97,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "expert",
     "row": 3,
     "column": 44,
@@ -119,7 +119,7 @@
       "iam"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "cisco",
     "level": "expert",
     "row": 4,
     "column": 4,
@@ -140,7 +140,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "expert",
     "row": 4,
     "column": 10,
@@ -182,7 +182,7 @@
       "engineering"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "security-architecture",
     "level": "expert",
     "row": 4,
     "column": 14,
@@ -202,7 +202,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "expert",
     "row": 4,
     "column": 22,
@@ -225,7 +225,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "threat-intelligence",
     "level": "expert",
     "row": 4,
     "column": 31,
@@ -265,7 +265,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "expert",
     "row": 4,
     "column": 45,
@@ -285,7 +285,7 @@
       "operations"
     ],
     "section": "exploitation",
-    "subsection": null,
+    "subsection": "exploit-development",
     "level": "expert",
     "row": 4,
     "column": 47,
@@ -306,7 +306,7 @@
       "asset"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "expert",
     "row": 5,
     "column": 16,
@@ -326,7 +326,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "expert",
     "row": 5,
     "column": 22,
@@ -346,7 +346,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "national-schemes",
     "level": "expert",
     "row": 5,
     "column": 27,
@@ -366,7 +366,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "expert",
     "row": 5,
     "column": 37,
@@ -387,7 +387,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "expert",
     "row": 5,
     "column": 45,
@@ -407,7 +407,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "expert",
     "row": 6,
     "column": 10,
@@ -428,7 +428,7 @@
       "management"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "physical-security",
     "level": "expert",
     "row": 6,
     "column": 17,
@@ -449,7 +449,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "enterprise-architecture",
     "level": "expert",
     "row": 6,
     "column": 20,
@@ -469,7 +469,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "expert",
     "row": 6,
     "column": 21,
@@ -489,7 +489,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "expert",
     "row": 6,
     "column": 22,
@@ -509,7 +509,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "iso-isms",
     "level": "expert",
     "row": 6,
     "column": 23,
@@ -529,7 +529,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "national-schemes",
     "level": "expert",
     "row": 6,
     "column": 27,
@@ -549,7 +549,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "expert",
     "row": 6,
     "column": 37,
@@ -570,7 +570,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "mobile-forensics",
     "level": "expert",
     "row": 6,
     "column": 38,
@@ -611,7 +611,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "expert",
     "row": 7,
     "column": 22,
@@ -632,7 +632,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "soc-analyst",
     "level": "expert",
     "row": 7,
     "column": 36,
@@ -652,7 +652,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "expert",
     "row": 7,
     "column": 37,
@@ -673,7 +673,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "expert",
     "row": 7,
     "column": 38,
@@ -694,7 +694,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "threat-intelligence",
     "level": "expert",
     "row": 7,
     "column": 40,
@@ -714,7 +714,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "expert",
     "row": 7,
     "column": 45,
@@ -734,7 +734,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "juniper",
     "level": "expert",
     "row": 8,
     "column": 2,
@@ -755,7 +755,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "cisco",
     "level": "expert",
     "row": 8,
     "column": 4,
@@ -775,7 +775,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "aws",
     "level": "expert",
     "row": 8,
     "column": 9,
@@ -836,7 +836,7 @@
       "engineering"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "security-architecture",
     "level": "expert",
     "row": 8,
     "column": 14,
@@ -857,7 +857,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "enterprise-architecture",
     "level": "expert",
     "row": 8,
     "column": 17,
@@ -878,7 +878,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "expert",
     "row": 8,
     "column": 22,
@@ -898,7 +898,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "iso-isms",
     "level": "expert",
     "row": 8,
     "column": 23,
@@ -919,7 +919,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "specialist-management",
     "level": "expert",
     "row": 8,
     "column": 26,
@@ -939,7 +939,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "national-schemes",
     "level": "expert",
     "row": 8,
     "column": 27,
@@ -960,7 +960,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "iso-audit",
     "level": "expert",
     "row": 8,
     "column": 31,
@@ -980,7 +980,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "expert",
     "row": 8,
     "column": 37,
@@ -1001,7 +1001,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "expert",
     "row": 8,
     "column": 38,
@@ -1042,7 +1042,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "expert",
     "row": 8,
     "column": 44,
@@ -1063,7 +1063,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "fortinet",
     "level": "expert",
     "row": 9,
     "column": 2,
@@ -1083,7 +1083,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "azure",
     "level": "expert",
     "row": 9,
     "column": 8,
@@ -1103,7 +1103,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "expert",
     "row": 9,
     "column": 10,
@@ -1144,7 +1144,7 @@
       "engineering"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "security-architecture",
     "level": "expert",
     "row": 9,
     "column": 14,
@@ -1165,7 +1165,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "expert",
     "row": 9,
     "column": 21,
@@ -1185,7 +1185,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "expert",
     "row": 9,
     "column": 22,
@@ -1206,7 +1206,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "specialist-management",
     "level": "expert",
     "row": 9,
     "column": 26,
@@ -1227,7 +1227,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "threat-intelligence",
     "level": "expert",
     "row": 9,
     "column": 36,
@@ -1248,7 +1248,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "cloud-forensics",
     "level": "expert",
     "row": 9,
     "column": 37,
@@ -1269,7 +1269,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "threat-hunting",
     "level": "expert",
     "row": 9,
     "column": 38,
@@ -1290,7 +1290,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "expert",
     "row": 9,
     "column": 41,
@@ -1350,7 +1350,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "gcp",
     "level": "expert",
     "row": 10,
     "column": 9,
@@ -1412,7 +1412,7 @@
       "engineering"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "security-architecture",
     "level": "expert",
     "row": 10,
     "column": 14,
@@ -1433,7 +1433,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "it-service-management",
     "level": "expert",
     "row": 10,
     "column": 19,
@@ -1454,7 +1454,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "enterprise-architecture",
     "level": "expert",
     "row": 10,
     "column": 20,
@@ -1475,7 +1475,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "security-leadership",
     "level": "expert",
     "row": 10,
     "column": 21,
@@ -1495,7 +1495,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "expert",
     "row": 10,
     "column": 22,
@@ -1516,7 +1516,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "expert",
     "row": 10,
     "column": 38,
@@ -1537,7 +1537,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "incident-response",
     "level": "expert",
     "row": 10,
     "column": 40,
@@ -1558,7 +1558,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "expert",
     "row": 10,
     "column": 41,
@@ -1578,7 +1578,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "expert",
     "row": 10,
     "column": 43,
@@ -1598,7 +1598,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "expert",
     "row": 10,
     "column": 44,
@@ -1618,7 +1618,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "expert",
     "row": 10,
     "column": 45,
@@ -1639,7 +1639,7 @@
       "operations"
     ],
     "section": "exploitation",
-    "subsection": null,
+    "subsection": "reverse-engineering",
     "level": "expert",
     "row": 10,
     "column": 46,
@@ -1659,7 +1659,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "cisco",
     "level": "expert",
     "row": 11,
     "column": 3,
@@ -1679,7 +1679,7 @@
       "iam"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "identity-management",
     "level": "expert",
     "row": 11,
     "column": 6,
@@ -1699,7 +1699,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "expert",
     "row": 11,
     "column": 22,
@@ -1720,7 +1720,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "mobile-forensics",
     "level": "expert",
     "row": 11,
     "column": 37,
@@ -1740,7 +1740,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "threat-hunting",
     "level": "expert",
     "row": 11,
     "column": 38,
@@ -1761,7 +1761,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "expert",
     "row": 11,
     "column": 43,
@@ -1781,7 +1781,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "juniper",
     "level": "expert",
     "row": 12,
     "column": 2,
@@ -1801,7 +1801,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "palo-alto",
     "level": "expert",
     "row": 12,
     "column": 3,
@@ -1821,7 +1821,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "fortinet",
     "level": "expert",
     "row": 12,
     "column": 4,
@@ -1841,7 +1841,7 @@
       "iam"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "federation-sso",
     "level": "expert",
     "row": 12,
     "column": 6,
@@ -1861,7 +1861,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "expert",
     "row": 12,
     "column": 8,
@@ -1882,7 +1882,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "expert",
     "row": 12,
     "column": 9,
@@ -1924,7 +1924,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "it-service-management",
     "level": "expert",
     "row": 12,
     "column": 17,
@@ -1944,7 +1944,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "expert",
     "row": 12,
     "column": 20,
@@ -1965,7 +1965,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "security-leadership",
     "level": "expert",
     "row": 12,
     "column": 21,
@@ -1985,7 +1985,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "expert",
     "row": 12,
     "column": 22,
@@ -2005,7 +2005,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "risk-management",
     "level": "expert",
     "row": 12,
     "column": 23,
@@ -2026,7 +2026,7 @@
       "testing"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "specialist-management",
     "level": "expert",
     "row": 12,
     "column": 25,
@@ -2047,7 +2047,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "iso-audit",
     "level": "expert",
     "row": 12,
     "column": 30,
@@ -2067,7 +2067,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vulnerability-assessment",
     "level": "expert",
     "row": 12,
     "column": 31,
@@ -2088,7 +2088,7 @@
       "software"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "application-security",
     "level": "expert",
     "row": 12,
     "column": 33,
@@ -2108,7 +2108,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "soc-analyst",
     "level": "expert",
     "row": 12,
     "column": 36,
@@ -2129,7 +2129,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "expert",
     "row": 12,
     "column": 37,
@@ -2150,7 +2150,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "expert",
     "row": 12,
     "column": 38,
@@ -2170,7 +2170,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "incident-response",
     "level": "expert",
     "row": 12,
     "column": 40,
@@ -2190,7 +2190,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "expert",
     "row": 12,
     "column": 42,
@@ -2210,7 +2210,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "expert",
     "row": 12,
     "column": 45,
@@ -2230,7 +2230,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "f5",
     "level": "intermediate",
     "row": 13,
     "column": 3,
@@ -2250,7 +2250,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "cisco",
     "level": "intermediate",
     "row": 13,
     "column": 4,
@@ -2271,7 +2271,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "azure",
     "level": "intermediate",
     "row": 13,
     "column": 6,
@@ -2292,7 +2292,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 13,
     "column": 9,
@@ -2313,7 +2313,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 13,
     "column": 10,
@@ -2334,7 +2334,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 13,
     "column": 11,
@@ -2376,7 +2376,7 @@
       "engineering"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "isms-implementation",
     "level": "intermediate",
     "row": 13,
     "column": 14,
@@ -2396,7 +2396,7 @@
       "asset"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "data-protection",
     "level": "intermediate",
     "row": 13,
     "column": 16,
@@ -2417,7 +2417,7 @@
       "management"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "data-protection",
     "level": "intermediate",
     "row": 13,
     "column": 17,
@@ -2437,7 +2437,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "intermediate",
     "row": 13,
     "column": 20,
@@ -2457,7 +2457,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "intermediate",
     "row": 13,
     "column": 21,
@@ -2477,7 +2477,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "intermediate",
     "row": 13,
     "column": 22,
@@ -2497,7 +2497,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "specialist-management",
     "level": "intermediate",
     "row": 13,
     "column": 26,
@@ -2518,7 +2518,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "audit",
     "level": "intermediate",
     "row": 13,
     "column": 27,
@@ -2539,7 +2539,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vulnerability-assessment",
     "level": "intermediate",
     "row": 13,
     "column": 30,
@@ -2560,7 +2560,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "iso-audit",
     "level": "intermediate",
     "row": 13,
     "column": 31,
@@ -2580,7 +2580,7 @@
       "software"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "secure-development",
     "level": "intermediate",
     "row": 13,
     "column": 33,
@@ -2601,7 +2601,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "soc-analyst",
     "level": "intermediate",
     "row": 13,
     "column": 35,
@@ -2622,7 +2622,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "mobile-forensics",
     "level": "intermediate",
     "row": 13,
     "column": 37,
@@ -2643,7 +2643,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "intermediate",
     "row": 13,
     "column": 38,
@@ -2664,7 +2664,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "incident-response",
     "level": "intermediate",
     "row": 13,
     "column": 40,
@@ -2685,7 +2685,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 13,
     "column": 42,
@@ -2706,7 +2706,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 13,
     "column": 43,
@@ -2746,7 +2746,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 13,
     "column": 45,
@@ -2766,7 +2766,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "checkpoint",
     "level": "intermediate",
     "row": 14,
     "column": 2,
@@ -2786,7 +2786,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "palo-alto",
     "level": "intermediate",
     "row": 14,
     "column": 3,
@@ -2806,7 +2806,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "palo-alto",
     "level": "intermediate",
     "row": 14,
     "column": 4,
@@ -2826,7 +2826,7 @@
       "iam"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "identity-management",
     "level": "intermediate",
     "row": 14,
     "column": 6,
@@ -2846,7 +2846,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 14,
     "column": 8,
@@ -2867,7 +2867,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 14,
     "column": 9,
@@ -2888,7 +2888,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 14,
     "column": 10,
@@ -2909,7 +2909,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 14,
     "column": 11,
@@ -2972,7 +2972,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "platform-architecture",
     "level": "intermediate",
     "row": 14,
     "column": 14,
@@ -2992,7 +2992,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "intermediate",
     "row": 14,
     "column": 20,
@@ -3013,7 +3013,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "intermediate",
     "row": 14,
     "column": 21,
@@ -3033,7 +3033,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "risk-management",
     "level": "intermediate",
     "row": 14,
     "column": 22,
@@ -3053,7 +3053,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "iso-isms",
     "level": "intermediate",
     "row": 14,
     "column": 23,
@@ -3074,7 +3074,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "compliance-awareness",
     "level": "intermediate",
     "row": 14,
     "column": 24,
@@ -3097,7 +3097,7 @@
       "operations"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "secure-development",
     "level": "intermediate",
     "row": 14,
     "column": 27,
@@ -3118,7 +3118,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "blue-team",
     "level": "intermediate",
     "row": 14,
     "column": 36,
@@ -3139,7 +3139,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "data-recovery",
     "level": "intermediate",
     "row": 14,
     "column": 37,
@@ -3159,7 +3159,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "intermediate",
     "row": 14,
     "column": 38,
@@ -3180,7 +3180,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "defense-analysis",
     "level": "intermediate",
     "row": 14,
     "column": 39,
@@ -3201,7 +3201,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "defense-analysis",
     "level": "intermediate",
     "row": 14,
     "column": 40,
@@ -3221,7 +3221,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 14,
     "column": 41,
@@ -3283,7 +3283,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 14,
     "column": 44,
@@ -3324,7 +3324,7 @@
       "operations"
     ],
     "section": "exploitation",
-    "subsection": null,
+    "subsection": "mobile-exploitation",
     "level": "intermediate",
     "row": 14,
     "column": 47,
@@ -3344,7 +3344,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "fortinet",
     "level": "intermediate",
     "row": 15,
     "column": 2,
@@ -3364,7 +3364,7 @@
       "iam"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "identity-management",
     "level": "intermediate",
     "row": 15,
     "column": 6,
@@ -3384,7 +3384,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 15,
     "column": 8,
@@ -3404,7 +3404,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 15,
     "column": 9,
@@ -3424,7 +3424,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 15,
     "column": 11,
@@ -3485,7 +3485,7 @@
       "engineering"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "platform-architecture",
     "level": "intermediate",
     "row": 15,
     "column": 14,
@@ -3506,7 +3506,7 @@
       "asset"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "data-protection",
     "level": "intermediate",
     "row": 15,
     "column": 17,
@@ -3526,7 +3526,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "it-service-management",
     "level": "intermediate",
     "row": 15,
     "column": 19,
@@ -3546,7 +3546,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "intermediate",
     "row": 15,
     "column": 20,
@@ -3566,7 +3566,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "intermediate",
     "row": 15,
     "column": 21,
@@ -3587,7 +3587,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "iso-isms",
     "level": "intermediate",
     "row": 15,
     "column": 22,
@@ -3607,7 +3607,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "intermediate",
     "row": 15,
     "column": 23,
@@ -3627,7 +3627,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "iso-isms",
     "level": "intermediate",
     "row": 15,
     "column": 24,
@@ -3648,7 +3648,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "risk-management",
     "level": "intermediate",
     "row": 15,
     "column": 25,
@@ -3668,7 +3668,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "specialist-management",
     "level": "intermediate",
     "row": 15,
     "column": 26,
@@ -3690,7 +3690,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vulnerability-assessment",
     "level": "intermediate",
     "row": 15,
     "column": 27,
@@ -3710,7 +3710,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vulnerability-assessment",
     "level": "intermediate",
     "row": 15,
     "column": 30,
@@ -3731,7 +3731,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "iso-audit",
     "level": "intermediate",
     "row": 15,
     "column": 31,
@@ -3752,7 +3752,7 @@
       "software"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "secure-development",
     "level": "intermediate",
     "row": 15,
     "column": 33,
@@ -3772,7 +3772,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "siem-detection",
     "level": "intermediate",
     "row": 15,
     "column": 35,
@@ -3792,7 +3792,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "siem-detection",
     "level": "intermediate",
     "row": 15,
     "column": 36,
@@ -3812,7 +3812,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "intermediate",
     "row": 15,
     "column": 37,
@@ -3832,7 +3832,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "threat-hunting",
     "level": "intermediate",
     "row": 15,
     "column": 38,
@@ -3852,7 +3852,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "threat-intelligence",
     "level": "intermediate",
     "row": 15,
     "column": 40,
@@ -3894,7 +3894,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 15,
     "column": 43,
@@ -3914,7 +3914,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 15,
     "column": 44,
@@ -3954,7 +3954,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "checkpoint",
     "level": "intermediate",
     "row": 16,
     "column": 2,
@@ -3975,7 +3975,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "aws",
     "level": "intermediate",
     "row": 16,
     "column": 6,
@@ -3996,7 +3996,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 16,
     "column": 9,
@@ -4016,7 +4016,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 16,
     "column": 10,
@@ -4037,7 +4037,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 16,
     "column": 11,
@@ -4078,7 +4078,7 @@
       "engineering"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "security-architecture",
     "level": "intermediate",
     "row": 16,
     "column": 14,
@@ -4098,7 +4098,7 @@
       "asset"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "privacy",
     "level": "intermediate",
     "row": 16,
     "column": 16,
@@ -4118,7 +4118,7 @@
       "asset"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "privacy",
     "level": "intermediate",
     "row": 16,
     "column": 17,
@@ -4138,7 +4138,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "intermediate",
     "row": 16,
     "column": 19,
@@ -4158,7 +4158,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "intermediate",
     "row": 16,
     "column": 20,
@@ -4178,7 +4178,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "intermediate",
     "row": 16,
     "column": 21,
@@ -4199,7 +4199,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "compliance-awareness",
     "level": "intermediate",
     "row": 16,
     "column": 22,
@@ -4219,7 +4219,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "risk-management",
     "level": "intermediate",
     "row": 16,
     "column": 23,
@@ -4240,7 +4240,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "iso-isms",
     "level": "intermediate",
     "row": 16,
     "column": 24,
@@ -4261,7 +4261,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "iso-isms",
     "level": "intermediate",
     "row": 16,
     "column": 25,
@@ -4282,7 +4282,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vulnerability-assessment",
     "level": "intermediate",
     "row": 16,
     "column": 27,
@@ -4302,7 +4302,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "audit",
     "level": "intermediate",
     "row": 16,
     "column": 30,
@@ -4323,7 +4323,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "iso-audit",
     "level": "intermediate",
     "row": 16,
     "column": 31,
@@ -4343,7 +4343,7 @@
       "software"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "application-security",
     "level": "intermediate",
     "row": 16,
     "column": 33,
@@ -4363,7 +4363,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "blue-team",
     "level": "intermediate",
     "row": 16,
     "column": 35,
@@ -4384,7 +4384,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "siem-detection",
     "level": "intermediate",
     "row": 16,
     "column": 36,
@@ -4405,7 +4405,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "intermediate",
     "row": 16,
     "column": 37,
@@ -4426,7 +4426,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "threat-hunting",
     "level": "intermediate",
     "row": 16,
     "column": 38,
@@ -4447,7 +4447,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "incident-response",
     "level": "intermediate",
     "row": 16,
     "column": 40,
@@ -4468,7 +4468,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 16,
     "column": 41,
@@ -4488,7 +4488,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 16,
     "column": 42,
@@ -4529,7 +4529,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 16,
     "column": 45,
@@ -4550,7 +4550,7 @@
       "operations"
     ],
     "section": "exploitation",
-    "subsection": null,
+    "subsection": "reverse-engineering",
     "level": "intermediate",
     "row": 16,
     "column": 46,
@@ -4570,7 +4570,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "juniper",
     "level": "intermediate",
     "row": 17,
     "column": 2,
@@ -4590,7 +4590,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "compliance-awareness",
     "level": "intermediate",
     "row": 17,
     "column": 22,
@@ -4610,7 +4610,7 @@
       "software"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "ml-automation",
     "level": "intermediate",
     "row": 17,
     "column": 33,
@@ -4631,7 +4631,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "siem-detection",
     "level": "intermediate",
     "row": 17,
     "column": 36,
@@ -4651,7 +4651,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "intermediate",
     "row": 17,
     "column": 37,
@@ -4671,7 +4671,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "intermediate",
     "row": 17,
     "column": 38,
@@ -4691,7 +4691,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "incident-response",
     "level": "intermediate",
     "row": 17,
     "column": 39,
@@ -4711,7 +4711,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "incident-response",
     "level": "intermediate",
     "row": 17,
     "column": 40,
@@ -4731,7 +4731,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 17,
     "column": 41,
@@ -4751,7 +4751,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 17,
     "column": 42,
@@ -4791,7 +4791,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 17,
     "column": 44,
@@ -4812,7 +4812,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 17,
     "column": 45,
@@ -4832,7 +4832,7 @@
       "operations"
     ],
     "section": "exploitation",
-    "subsection": null,
+    "subsection": "reverse-engineering",
     "level": "intermediate",
     "row": 17,
     "column": 46,
@@ -4852,7 +4852,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "f5",
     "level": "intermediate",
     "row": 18,
     "column": 2,
@@ -4872,7 +4872,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "fortinet",
     "level": "intermediate",
     "row": 18,
     "column": 3,
@@ -4892,7 +4892,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "cisco",
     "level": "intermediate",
     "row": 18,
     "column": 4,
@@ -4913,7 +4913,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "azure",
     "level": "intermediate",
     "row": 18,
     "column": 6,
@@ -4933,7 +4933,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 18,
     "column": 9,
@@ -4954,7 +4954,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 18,
     "column": 10,
@@ -4975,7 +4975,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 18,
     "column": 11,
@@ -5036,7 +5036,7 @@
       "asset"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "identity-asset",
     "level": "intermediate",
     "row": 18,
     "column": 16,
@@ -5057,7 +5057,7 @@
       "management"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "data-protection",
     "level": "intermediate",
     "row": 18,
     "column": 17,
@@ -5078,7 +5078,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "security-leadership",
     "level": "intermediate",
     "row": 18,
     "column": 21,
@@ -5098,7 +5098,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "intermediate",
     "row": 18,
     "column": 22,
@@ -5119,7 +5119,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "iso-isms",
     "level": "intermediate",
     "row": 18,
     "column": 23,
@@ -5139,7 +5139,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "iso-isms",
     "level": "intermediate",
     "row": 18,
     "column": 24,
@@ -5160,7 +5160,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "risk-management",
     "level": "intermediate",
     "row": 18,
     "column": 25,
@@ -5180,7 +5180,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "specialist-management",
     "level": "intermediate",
     "row": 18,
     "column": 26,
@@ -5202,7 +5202,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "audit",
     "level": "intermediate",
     "row": 18,
     "column": 27,
@@ -5222,7 +5222,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "audit",
     "level": "intermediate",
     "row": 18,
     "column": 30,
@@ -5243,7 +5243,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "iso-audit",
     "level": "intermediate",
     "row": 18,
     "column": 31,
@@ -5263,7 +5263,7 @@
       "software"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "application-security",
     "level": "intermediate",
     "row": 18,
     "column": 33,
@@ -5283,7 +5283,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "siem-detection",
     "level": "intermediate",
     "row": 18,
     "column": 35,
@@ -5303,7 +5303,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "soc-analyst",
     "level": "intermediate",
     "row": 18,
     "column": 36,
@@ -5323,7 +5323,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "intermediate",
     "row": 18,
     "column": 37,
@@ -5343,7 +5343,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "intermediate",
     "row": 18,
     "column": 38,
@@ -5363,7 +5363,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "threat-intelligence",
     "level": "intermediate",
     "row": 18,
     "column": 39,
@@ -5383,7 +5383,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "incident-response",
     "level": "intermediate",
     "row": 18,
     "column": 40,
@@ -5403,7 +5403,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 18,
     "column": 41,
@@ -5424,7 +5424,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 18,
     "column": 42,
@@ -5444,7 +5444,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 18,
     "column": 43,
@@ -5465,7 +5465,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 18,
     "column": 44,
@@ -5486,7 +5486,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 18,
     "column": 45,
@@ -5506,7 +5506,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "f5",
     "level": "intermediate",
     "row": 19,
     "column": 2,
@@ -5526,7 +5526,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "palo-alto",
     "level": "intermediate",
     "row": 19,
     "column": 3,
@@ -5546,7 +5546,7 @@
       "iam"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "access-control",
     "level": "intermediate",
     "row": 19,
     "column": 6,
@@ -5566,7 +5566,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 19,
     "column": 8,
@@ -5586,7 +5586,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "aws",
     "level": "intermediate",
     "row": 19,
     "column": 9,
@@ -5606,7 +5606,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 19,
     "column": 10,
@@ -5648,7 +5648,7 @@
       "engineering"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "isms-implementation",
     "level": "intermediate",
     "row": 19,
     "column": 14,
@@ -5669,7 +5669,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "enterprise-architecture",
     "level": "intermediate",
     "row": 19,
     "column": 17,
@@ -5689,7 +5689,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "enterprise-architecture",
     "level": "intermediate",
     "row": 19,
     "column": 20,
@@ -5709,7 +5709,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "intermediate",
     "row": 19,
     "column": 21,
@@ -5729,7 +5729,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "intermediate",
     "row": 19,
     "column": 22,
@@ -5750,7 +5750,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "compliance-awareness",
     "level": "intermediate",
     "row": 19,
     "column": 23,
@@ -5771,7 +5771,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "risk-management",
     "level": "intermediate",
     "row": 19,
     "column": 24,
@@ -5792,7 +5792,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "risk-management",
     "level": "intermediate",
     "row": 19,
     "column": 25,
@@ -5812,7 +5812,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "specialist-management",
     "level": "intermediate",
     "row": 19,
     "column": 26,
@@ -5834,7 +5834,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "audit",
     "level": "intermediate",
     "row": 19,
     "column": 27,
@@ -5855,7 +5855,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vulnerability-assessment",
     "level": "intermediate",
     "row": 19,
     "column": 30,
@@ -5875,7 +5875,7 @@
       "software"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "secure-development",
     "level": "intermediate",
     "row": 19,
     "column": 33,
@@ -5895,7 +5895,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "soc-analyst",
     "level": "intermediate",
     "row": 19,
     "column": 35,
@@ -5915,7 +5915,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "soc-analyst",
     "level": "intermediate",
     "row": 19,
     "column": 36,
@@ -5936,7 +5936,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "intermediate",
     "row": 19,
     "column": 37,
@@ -5957,7 +5957,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "osint",
     "level": "intermediate",
     "row": 19,
     "column": 38,
@@ -5977,7 +5977,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "threat-intelligence",
     "level": "intermediate",
     "row": 19,
     "column": 39,
@@ -5998,7 +5998,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "defense-analysis",
     "level": "intermediate",
     "row": 19,
     "column": 40,
@@ -6058,7 +6058,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 19,
     "column": 44,
@@ -6100,7 +6100,7 @@
       "operations"
     ],
     "section": "exploitation",
-    "subsection": null,
+    "subsection": "reverse-engineering",
     "level": "intermediate",
     "row": 19,
     "column": 47,
@@ -6120,7 +6120,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vendor-neutral",
     "level": "intermediate",
     "row": 20,
     "column": 3,
@@ -6141,7 +6141,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vendor-neutral",
     "level": "intermediate",
     "row": 20,
     "column": 4,
@@ -6161,7 +6161,7 @@
       "iam"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "identity-management",
     "level": "intermediate",
     "row": 20,
     "column": 6,
@@ -6181,7 +6181,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "azure",
     "level": "intermediate",
     "row": 20,
     "column": 8,
@@ -6202,7 +6202,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 20,
     "column": 9,
@@ -6223,7 +6223,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 20,
     "column": 10,
@@ -6243,7 +6243,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 20,
     "column": 11,
@@ -6263,7 +6263,7 @@
       "engineering"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "platform-architecture",
     "level": "intermediate",
     "row": 20,
     "column": 14,
@@ -6284,7 +6284,7 @@
       "management"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "physical-security",
     "level": "intermediate",
     "row": 20,
     "column": 17,
@@ -6305,7 +6305,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "security-leadership",
     "level": "intermediate",
     "row": 20,
     "column": 20,
@@ -6326,7 +6326,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "security-leadership",
     "level": "intermediate",
     "row": 20,
     "column": 21,
@@ -6347,7 +6347,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "risk-management",
     "level": "intermediate",
     "row": 20,
     "column": 22,
@@ -6368,7 +6368,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "risk-management",
     "level": "intermediate",
     "row": 20,
     "column": 23,
@@ -6389,7 +6389,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "compliance-awareness",
     "level": "intermediate",
     "row": 20,
     "column": 24,
@@ -6409,7 +6409,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "compliance-awareness",
     "level": "intermediate",
     "row": 20,
     "column": 25,
@@ -6429,7 +6429,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "specialist-management",
     "level": "intermediate",
     "row": 20,
     "column": 26,
@@ -6449,7 +6449,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "specialist-management",
     "level": "intermediate",
     "row": 20,
     "column": 27,
@@ -6470,7 +6470,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vulnerability-assessment",
     "level": "intermediate",
     "row": 20,
     "column": 29,
@@ -6490,7 +6490,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vulnerability-assessment",
     "level": "intermediate",
     "row": 20,
     "column": 30,
@@ -6510,7 +6510,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "audit",
     "level": "intermediate",
     "row": 20,
     "column": 31,
@@ -6530,7 +6530,7 @@
       "software"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "application-security",
     "level": "intermediate",
     "row": 20,
     "column": 33,
@@ -6550,7 +6550,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "soc-analyst",
     "level": "intermediate",
     "row": 20,
     "column": 35,
@@ -6571,7 +6571,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "soc-analyst",
     "level": "intermediate",
     "row": 20,
     "column": 36,
@@ -6591,7 +6591,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "data-recovery",
     "level": "intermediate",
     "row": 20,
     "column": 37,
@@ -6612,7 +6612,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "threat-hunting",
     "level": "intermediate",
     "row": 20,
     "column": 38,
@@ -6632,7 +6632,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "incident-response",
     "level": "intermediate",
     "row": 20,
     "column": 39,
@@ -6652,7 +6652,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "threat-intelligence",
     "level": "intermediate",
     "row": 20,
     "column": 40,
@@ -6672,7 +6672,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 20,
     "column": 41,
@@ -6692,7 +6692,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 20,
     "column": 42,
@@ -6712,7 +6712,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 20,
     "column": 43,
@@ -6733,7 +6733,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 20,
     "column": 44,
@@ -6753,7 +6753,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 20,
     "column": 45,
@@ -6773,7 +6773,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "f5",
     "level": "intermediate",
     "row": 21,
     "column": 2,
@@ -6793,7 +6793,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vendor-neutral",
     "level": "intermediate",
     "row": 21,
     "column": 3,
@@ -6813,7 +6813,7 @@
       "iam"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "identity-management",
     "level": "intermediate",
     "row": 21,
     "column": 6,
@@ -6833,7 +6833,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "gcp",
     "level": "intermediate",
     "row": 21,
     "column": 9,
@@ -6853,7 +6853,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 21,
     "column": 10,
@@ -6873,7 +6873,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "intermediate",
     "row": 21,
     "column": 11,
@@ -6933,7 +6933,7 @@
       "engineering"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "security-architecture",
     "level": "intermediate",
     "row": 21,
     "column": 14,
@@ -6954,7 +6954,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "enterprise-architecture",
     "level": "intermediate",
     "row": 21,
     "column": 19,
@@ -6974,7 +6974,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "intermediate",
     "row": 21,
     "column": 20,
@@ -6994,7 +6994,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "intermediate",
     "row": 21,
     "column": 21,
@@ -7014,7 +7014,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "intermediate",
     "row": 21,
     "column": 22,
@@ -7034,7 +7034,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "compliance-awareness",
     "level": "intermediate",
     "row": 21,
     "column": 23,
@@ -7055,7 +7055,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "iso-isms",
     "level": "intermediate",
     "row": 21,
     "column": 24,
@@ -7076,7 +7076,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "iso-isms",
     "level": "intermediate",
     "row": 21,
     "column": 25,
@@ -7096,7 +7096,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "specialist-management",
     "level": "intermediate",
     "row": 21,
     "column": 26,
@@ -7118,7 +7118,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "audit",
     "level": "intermediate",
     "row": 21,
     "column": 27,
@@ -7138,7 +7138,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "audit",
     "level": "intermediate",
     "row": 21,
     "column": 30,
@@ -7158,7 +7158,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vulnerability-assessment",
     "level": "intermediate",
     "row": 21,
     "column": 31,
@@ -7178,7 +7178,7 @@
       "software"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "application-security",
     "level": "intermediate",
     "row": 21,
     "column": 33,
@@ -7199,7 +7199,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "soc-analyst",
     "level": "intermediate",
     "row": 21,
     "column": 35,
@@ -7220,7 +7220,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "soc-analyst",
     "level": "intermediate",
     "row": 21,
     "column": 36,
@@ -7240,7 +7240,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "intermediate",
     "row": 21,
     "column": 37,
@@ -7260,7 +7260,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "threat-hunting",
     "level": "intermediate",
     "row": 21,
     "column": 38,
@@ -7280,7 +7280,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "threat-intelligence",
     "level": "intermediate",
     "row": 21,
     "column": 39,
@@ -7300,7 +7300,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "incident-response",
     "level": "intermediate",
     "row": 21,
     "column": 40,
@@ -7340,7 +7340,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 21,
     "column": 43,
@@ -7381,7 +7381,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "intermediate",
     "row": 21,
     "column": 45,
@@ -7402,7 +7402,7 @@
       "operations"
     ],
     "section": "exploitation",
-    "subsection": null,
+    "subsection": "exploit-development",
     "level": "intermediate",
     "row": 21,
     "column": 46,
@@ -7422,7 +7422,7 @@
       "operations"
     ],
     "section": "exploitation",
-    "subsection": null,
+    "subsection": "exploit-development",
     "level": "intermediate",
     "row": 21,
     "column": 47,
@@ -7443,7 +7443,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vendor-neutral",
     "level": "beginner",
     "row": 22,
     "column": 2,
@@ -7463,7 +7463,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "palo-alto",
     "level": "beginner",
     "row": 22,
     "column": 3,
@@ -7484,7 +7484,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vendor-neutral",
     "level": "beginner",
     "row": 22,
     "column": 4,
@@ -7504,7 +7504,7 @@
       "iam"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "access-control",
     "level": "beginner",
     "row": 22,
     "column": 6,
@@ -7524,7 +7524,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "beginner",
     "row": 22,
     "column": 8,
@@ -7544,7 +7544,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "beginner",
     "row": 22,
     "column": 10,
@@ -7564,7 +7564,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "beginner",
     "row": 22,
     "column": 11,
@@ -7626,7 +7626,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "beginner",
     "row": 22,
     "column": 22,
@@ -7647,7 +7647,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "threat-intelligence",
     "level": "beginner",
     "row": 22,
     "column": 36,
@@ -7667,7 +7667,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "beginner",
     "row": 22,
     "column": 37,
@@ -7687,7 +7687,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "incident-response",
     "level": "beginner",
     "row": 22,
     "column": 39,
@@ -7708,7 +7708,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "defense-analysis",
     "level": "beginner",
     "row": 22,
     "column": 40,
@@ -7769,7 +7769,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "beginner",
     "row": 22,
     "column": 44,
@@ -7789,7 +7789,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "beginner",
     "row": 22,
     "column": 45,
@@ -7809,7 +7809,7 @@
       "operations"
     ],
     "section": "exploitation",
-    "subsection": null,
+    "subsection": "exploit-development",
     "level": "beginner",
     "row": 22,
     "column": 46,
@@ -7829,7 +7829,7 @@
       "operations"
     ],
     "section": "exploitation",
-    "subsection": null,
+    "subsection": "exploit-development",
     "level": "beginner",
     "row": 22,
     "column": 47,
@@ -7849,7 +7849,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "juniper",
     "level": "beginner",
     "row": 23,
     "column": 2,
@@ -7869,7 +7869,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "fortinet",
     "level": "beginner",
     "row": 23,
     "column": 3,
@@ -7889,7 +7889,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vendor-neutral",
     "level": "beginner",
     "row": 23,
     "column": 4,
@@ -7909,7 +7909,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "beginner",
     "row": 23,
     "column": 8,
@@ -7930,7 +7930,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "beginner",
     "row": 23,
     "column": 9,
@@ -7950,7 +7950,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "beginner",
     "row": 23,
     "column": 10,
@@ -7971,7 +7971,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "beginner",
     "row": 23,
     "column": 11,
@@ -8031,7 +8031,7 @@
       "asset"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "privacy",
     "level": "beginner",
     "row": 23,
     "column": 16,
@@ -8051,7 +8051,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "beginner",
     "row": 23,
     "column": 22,
@@ -8071,7 +8071,7 @@
       "software"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "application-security",
     "level": "beginner",
     "row": 23,
     "column": 33,
@@ -8091,7 +8091,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "soc-analyst",
     "level": "beginner",
     "row": 23,
     "column": 36,
@@ -8111,7 +8111,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "beginner",
     "row": 23,
     "column": 38,
@@ -8131,7 +8131,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "defense-analysis",
     "level": "beginner",
     "row": 23,
     "column": 39,
@@ -8151,7 +8151,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "threat-intelligence",
     "level": "beginner",
     "row": 23,
     "column": 40,
@@ -8191,7 +8191,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "beginner",
     "row": 23,
     "column": 43,
@@ -8211,7 +8211,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "beginner",
     "row": 23,
     "column": 44,
@@ -8231,7 +8231,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "checkpoint",
     "level": "beginner",
     "row": 24,
     "column": 2,
@@ -8251,7 +8251,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vendor-neutral",
     "level": "beginner",
     "row": 24,
     "column": 3,
@@ -8271,7 +8271,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "cisco",
     "level": "beginner",
     "row": 24,
     "column": 4,
@@ -8291,7 +8291,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "beginner",
     "row": 24,
     "column": 8,
@@ -8311,7 +8311,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "gcp",
     "level": "beginner",
     "row": 24,
     "column": 9,
@@ -8331,7 +8331,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "aws",
     "level": "beginner",
     "row": 24,
     "column": 10,
@@ -8392,7 +8392,7 @@
       "engineering"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "isms-implementation",
     "level": "beginner",
     "row": 24,
     "column": 14,
@@ -8412,7 +8412,7 @@
       "asset"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "privacy",
     "level": "beginner",
     "row": 24,
     "column": 16,
@@ -8432,7 +8432,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "beginner",
     "row": 24,
     "column": 22,
@@ -8452,7 +8452,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "soc-analyst",
     "level": "beginner",
     "row": 24,
     "column": 36,
@@ -8472,7 +8472,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "beginner",
     "row": 24,
     "column": 37,
@@ -8492,7 +8492,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "incident-response",
     "level": "beginner",
     "row": 24,
     "column": 39,
@@ -8513,7 +8513,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "defense-analysis",
     "level": "beginner",
     "row": 24,
     "column": 40,
@@ -8533,7 +8533,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vendor-neutral",
     "level": "beginner",
     "row": 25,
     "column": 3,
@@ -8553,7 +8553,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vendor-neutral",
     "level": "beginner",
     "row": 25,
     "column": 4,
@@ -8573,7 +8573,7 @@
       "iam"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "access-control",
     "level": "beginner",
     "row": 25,
     "column": 6,
@@ -8593,7 +8593,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "azure",
     "level": "beginner",
     "row": 25,
     "column": 8,
@@ -8613,7 +8613,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "beginner",
     "row": 25,
     "column": 9,
@@ -8633,7 +8633,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "beginner",
     "row": 25,
     "column": 10,
@@ -8694,7 +8694,7 @@
       "engineering"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "security-architecture",
     "level": "beginner",
     "row": 25,
     "column": 14,
@@ -8714,7 +8714,7 @@
       "asset"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "privacy",
     "level": "beginner",
     "row": 25,
     "column": 16,
@@ -8735,7 +8735,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "enterprise-architecture",
     "level": "beginner",
     "row": 25,
     "column": 17,
@@ -8755,7 +8755,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "beginner",
     "row": 25,
     "column": 20,
@@ -8775,7 +8775,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "beginner",
     "row": 25,
     "column": 21,
@@ -8796,7 +8796,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "beginner",
     "row": 25,
     "column": 22,
@@ -8816,7 +8816,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "compliance-awareness",
     "level": "beginner",
     "row": 25,
     "column": 23,
@@ -8837,7 +8837,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "compliance-awareness",
     "level": "beginner",
     "row": 25,
     "column": 24,
@@ -8858,7 +8858,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "risk-management",
     "level": "beginner",
     "row": 25,
     "column": 25,
@@ -8878,7 +8878,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "specialist-management",
     "level": "beginner",
     "row": 25,
     "column": 26,
@@ -8898,7 +8898,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "specialist-management",
     "level": "beginner",
     "row": 25,
     "column": 27,
@@ -8918,7 +8918,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vulnerability-assessment",
     "level": "beginner",
     "row": 25,
     "column": 30,
@@ -8939,7 +8939,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vulnerability-assessment",
     "level": "beginner",
     "row": 25,
     "column": 31,
@@ -8959,7 +8959,7 @@
       "software"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "secure-development",
     "level": "beginner",
     "row": 25,
     "column": 33,
@@ -8980,7 +8980,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "soc-analyst",
     "level": "beginner",
     "row": 25,
     "column": 35,
@@ -9001,7 +9001,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "soc-analyst",
     "level": "beginner",
     "row": 25,
     "column": 36,
@@ -9021,7 +9021,7 @@
       "operations"
     ],
     "section": "forensics",
-    "subsection": null,
+    "subsection": "digital-forensics",
     "level": "beginner",
     "row": 25,
     "column": 38,
@@ -9042,7 +9042,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "incident-response",
     "level": "beginner",
     "row": 25,
     "column": 39,
@@ -9062,7 +9062,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "beginner",
     "row": 25,
     "column": 42,
@@ -9082,7 +9082,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "beginner",
     "row": 25,
     "column": 43,
@@ -9103,7 +9103,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "beginner",
     "row": 25,
     "column": 44,
@@ -9123,7 +9123,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "fortinet",
     "level": "beginner",
     "row": 26,
     "column": 2,
@@ -9143,7 +9143,7 @@
       "network"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "palo-alto",
     "level": "beginner",
     "row": 26,
     "column": 3,
@@ -9163,7 +9163,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "aws",
     "level": "beginner",
     "row": 26,
     "column": 9,
@@ -9183,7 +9183,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "beginner",
     "row": 26,
     "column": 10,
@@ -9203,7 +9203,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "beginner",
     "row": 26,
     "column": 11,
@@ -9243,7 +9243,7 @@
       "engineering"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "security-architecture",
     "level": "beginner",
     "row": 26,
     "column": 14,
@@ -9263,7 +9263,7 @@
       "asset"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "privacy",
     "level": "beginner",
     "row": 26,
     "column": 16,
@@ -9283,7 +9283,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "it-service-management",
     "level": "beginner",
     "row": 26,
     "column": 19,
@@ -9304,7 +9304,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "beginner",
     "row": 26,
     "column": 20,
@@ -9324,7 +9324,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "beginner",
     "row": 26,
     "column": 21,
@@ -9344,7 +9344,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "compliance-awareness",
     "level": "beginner",
     "row": 26,
     "column": 22,
@@ -9364,7 +9364,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "beginner",
     "row": 26,
     "column": 23,
@@ -9384,7 +9384,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "iso-isms",
     "level": "beginner",
     "row": 26,
     "column": 24,
@@ -9404,7 +9404,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "governance",
     "level": "beginner",
     "row": 26,
     "column": 25,
@@ -9424,7 +9424,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "specialist-management",
     "level": "beginner",
     "row": 26,
     "column": 26,
@@ -9446,7 +9446,7 @@
       "testing"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "specialist-management",
     "level": "beginner",
     "row": 26,
     "column": 27,
@@ -9467,7 +9467,7 @@
       "testing"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "vulnerability-assessment",
     "level": "beginner",
     "row": 26,
     "column": 31,
@@ -9487,7 +9487,7 @@
       "software"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "application-security",
     "level": "beginner",
     "row": 26,
     "column": 33,
@@ -9507,7 +9507,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "soc-analyst",
     "level": "beginner",
     "row": 26,
     "column": 36,
@@ -9527,7 +9527,7 @@
       "operations"
     ],
     "section": "incident-handling",
-    "subsection": null,
+    "subsection": "incident-response",
     "level": "beginner",
     "row": 26,
     "column": 40,
@@ -9547,7 +9547,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "beginner",
     "row": 26,
     "column": 42,
@@ -9567,7 +9567,7 @@
       "operations"
     ],
     "section": "penetration-testing",
-    "subsection": null,
+    "subsection": "general",
     "level": "beginner",
     "row": 26,
     "column": 43,
@@ -9587,7 +9587,7 @@
       "iam"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "access-control",
     "level": "beginner",
     "row": 27,
     "column": 6,
@@ -9607,7 +9607,7 @@
       "engineering"
     ],
     "section": "cloud-sysops",
-    "subsection": null,
+    "subsection": "multi-cloud",
     "level": "beginner",
     "row": 27,
     "column": 8,
@@ -9628,7 +9628,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "it-service-management",
     "level": "beginner",
     "row": 27,
     "column": 17,
@@ -9648,7 +9648,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "beginner",
     "row": 27,
     "column": 20,
@@ -9668,7 +9668,7 @@
       "management"
     ],
     "section": "leadership",
-    "subsection": null,
+    "subsection": "project-management",
     "level": "beginner",
     "row": 27,
     "column": 21,
@@ -9688,7 +9688,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "iso-isms",
     "level": "beginner",
     "row": 27,
     "column": 23,
@@ -9708,7 +9708,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "iso-isms",
     "level": "beginner",
     "row": 27,
     "column": 24,
@@ -9729,7 +9729,7 @@
       "management"
     ],
     "section": "grc",
-    "subsection": null,
+    "subsection": "risk-management",
     "level": "beginner",
     "row": 27,
     "column": 25,
@@ -9750,7 +9750,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "specialist-management",
     "level": "beginner",
     "row": 27,
     "column": 26,
@@ -9771,7 +9771,7 @@
       "management"
     ],
     "section": "other",
-    "subsection": null,
+    "subsection": "specialist-management",
     "level": "beginner",
     "row": 27,
     "column": 27,
@@ -9791,7 +9791,7 @@
       "software"
     ],
     "section": "core",
-    "subsection": null,
+    "subsection": "secure-development",
     "level": "beginner",
     "row": 27,
     "column": 33,
@@ -9811,7 +9811,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "soc-analyst",
     "level": "beginner",
     "row": 27,
     "column": 35,
@@ -9831,7 +9831,7 @@
       "operations"
     ],
     "section": "monitoring",
-    "subsection": null,
+    "subsection": "soc-analyst",
     "level": "beginner",
     "row": 27,
     "column": 36,

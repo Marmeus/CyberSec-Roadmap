@@ -32,7 +32,15 @@
           "id": "core",
           "title": "Network security",
           "description": "Certifications for designing, operating, and defending networks.",
-          "subsections": []
+          "subsections": [
+            {"id": "cisco", "title": "Cisco", "description": "Cisco networking and security certification track."},
+            {"id": "juniper", "title": "Juniper", "description": "Juniper Networks security certification track."},
+            {"id": "palo-alto", "title": "Palo Alto Networks", "description": "Palo Alto Networks cybersecurity certification track."},
+            {"id": "fortinet", "title": "Fortinet", "description": "Fortinet network security certification track."},
+            {"id": "f5", "title": "F5", "description": "F5 application delivery and security certifications."},
+            {"id": "checkpoint", "title": "Check Point", "description": "Check Point security administration and expert certifications."},
+            {"id": "vendor-neutral", "title": "Vendor-neutral", "description": "Protocol analysis, wireless, and multi-vendor network security certifications."}
+          ]
         }
       ]
     },
@@ -48,7 +56,11 @@
           "id": "core",
           "title": "Identity and access",
           "description": "Certifications focused on identity, authentication, and access control.",
-          "subsections": []
+          "subsections": [
+            {"id": "identity-management", "title": "Identity management", "description": "Certifications for managing digital identities and identity governance."},
+            {"id": "access-control", "title": "Access control", "description": "Certifications for access management, privilege, and entitlement."},
+            {"id": "federation-sso", "title": "Federation and SSO", "description": "Single sign-on, federation, and zero-trust network access certifications."}
+          ]
         }
       ]
     },
@@ -64,7 +76,12 @@
           "id": "cloud-sysops",
           "title": "Cloud/SysOps",
           "description": "Cloud platforms, systems administration, and the security of virtualized infrastructure.",
-          "subsections": []
+          "subsections": [
+            {"id": "aws", "title": "AWS", "description": "Amazon Web Services cloud and security certifications."},
+            {"id": "azure", "title": "Azure", "description": "Microsoft Azure cloud and security certifications."},
+            {"id": "gcp", "title": "GCP", "description": "Google Cloud Platform cloud and security certifications."},
+            {"id": "multi-cloud", "title": "Multi-cloud and platform", "description": "Vendor-neutral cloud, container, virtualisation, and systems administration certifications."}
+          ]
         },
         {
           "id": "nix",
@@ -82,7 +99,11 @@
           "id": "other",
           "title": "Other engineering",
           "description": "Architecture and engineering certifications outside the cloud, Unix, and industrial columns on the source chart.",
-          "subsections": []
+          "subsections": [
+            {"id": "security-architecture", "title": "Security architecture", "description": "Enterprise and technical security architecture certifications."},
+            {"id": "isms-implementation", "title": "ISMS implementation", "description": "Information security management system implementation certifications."},
+            {"id": "platform-architecture", "title": "Platform architecture", "description": "Platform-specific architecture and configuration certifications."}
+          ]
         }
       ]
     },
@@ -98,7 +119,12 @@
           "id": "core",
           "title": "Asset security",
           "description": "Data protection, privacy, and asset-handling certifications.",
-          "subsections": []
+          "subsections": [
+            {"id": "data-protection", "title": "Data protection", "description": "Certifications for data classification, handling, and protection controls."},
+            {"id": "privacy", "title": "Privacy", "description": "Personal data privacy law and practice certifications."},
+            {"id": "physical-security", "title": "Physical security", "description": "Physical asset protection and professional investigation certifications."},
+            {"id": "identity-asset", "title": "Identity as an asset", "description": "Identity governance and digital identity asset management certifications."}
+          ]
         }
       ]
     },
@@ -114,19 +140,32 @@
           "id": "leadership",
           "title": "Leadership and programs",
           "description": "Service management, program management, and leadership certifications such as ITIL, PMI, and Scrum.",
-          "subsections": []
+          "subsections": [
+            {"id": "it-service-management", "title": "IT service management", "description": "Service lifecycle, risk framework, and operations management certifications."},
+            {"id": "project-management", "title": "Project and program management", "description": "Project, program, and agile delivery management certifications."},
+            {"id": "enterprise-architecture", "title": "Enterprise architecture", "description": "Enterprise and business architecture framework certifications."},
+            {"id": "security-leadership", "title": "Security leadership", "description": "Certifications oriented toward security strategy and leadership roles."}
+          ]
         },
         {
           "id": "grc",
           "title": "GRC",
           "description": "Governance, risk, and compliance, including the broad certifications the source chart places in the GRC band.",
-          "subsections": []
+          "subsections": [
+            {"id": "governance", "title": "Governance", "description": "Broad security management and governance certifications including CISSP and CISM."},
+            {"id": "risk-management", "title": "Risk management", "description": "Information and cyber risk assessment and management certifications."},
+            {"id": "iso-isms", "title": "ISO ISMS", "description": "ISO/IEC 27001 and related ISMS implementation, audit, and practitioner certifications."},
+            {"id": "compliance-awareness", "title": "Compliance and awareness", "description": "Security awareness, accreditation, and compliance programme certifications."}
+          ]
         },
         {
           "id": "other",
           "title": "Professional schemes",
           "description": "National and specialist management schemes that sit beside the GRC band on the source chart.",
-          "subsections": []
+          "subsections": [
+            {"id": "national-schemes", "title": "National schemes", "description": "Government-backed cybersecurity professional registration schemes."},
+            {"id": "specialist-management", "title": "Specialist management", "description": "Specialist and foundation-level security management certifications."}
+          ]
         }
       ]
     },
@@ -142,7 +181,11 @@
           "id": "core",
           "title": "Assessment and testing",
           "description": "Assessment, audit, and security-testing certifications.",
-          "subsections": []
+          "subsections": [
+            {"id": "audit", "title": "Audit", "description": "Information systems, continuity, and GRC audit certifications."},
+            {"id": "iso-audit", "title": "ISO audit", "description": "ISO 27001 and ISO 20000 lead auditor and internal auditor certifications."},
+            {"id": "vulnerability-assessment", "title": "Vulnerability assessment", "description": "Vulnerability scanning, security testing, and third-party risk certifications."}
+          ]
         }
       ]
     },
@@ -158,7 +201,11 @@
           "id": "core",
           "title": "Software security",
           "description": "Secure development and application-security certifications.",
-          "subsections": []
+          "subsections": [
+            {"id": "application-security", "title": "Application security", "description": "Web and application penetration testing, code review, and AppSec certifications."},
+            {"id": "secure-development", "title": "Secure development", "description": "Secure software development lifecycle and DevSecOps certifications."},
+            {"id": "ml-automation", "title": "ML and automation", "description": "Machine learning security and security automation certifications."}
+          ]
         }
       ]
     },
@@ -177,7 +224,12 @@
           "description": "Security operations, detection, and analyst certifications from the unlabeled defensive columns on the source chart.",
           "color": "#2e5688",
           "ink": "#ffffff",
-          "subsections": []
+          "subsections": [
+            {"id": "soc-analyst", "title": "SOC analyst", "description": "Security operations centre analyst and monitoring certifications."},
+            {"id": "threat-intelligence", "title": "Threat intelligence", "description": "Cyber threat intelligence, OSINT, and malware analysis certifications."},
+            {"id": "siem-detection", "title": "SIEM and detection", "description": "SIEM engineering, detection rule writing, and log analysis certifications."},
+            {"id": "blue-team", "title": "Blue team", "description": "Defensive security operations and blue-team specialist certifications."}
+          ]
         },
         {
           "id": "forensics",
@@ -185,7 +237,14 @@
           "description": "Digital forensics and evidence handling.",
           "color": "#2e5688",
           "ink": "#ffffff",
-          "subsections": []
+          "subsections": [
+            {"id": "digital-forensics", "title": "Digital forensics", "description": "Computer, disk, and network forensics and evidence examination certifications."},
+            {"id": "mobile-forensics", "title": "Mobile forensics", "description": "Mobile device and application forensics certifications."},
+            {"id": "cloud-forensics", "title": "Cloud forensics", "description": "Cloud environment forensics and investigation certifications."},
+            {"id": "osint", "title": "OSINT", "description": "Open-source intelligence gathering and analysis certifications."},
+            {"id": "threat-hunting", "title": "Threat hunting", "description": "Proactive threat hunting, ATT&CK-based investigation, and intrusion analysis certifications."},
+            {"id": "data-recovery", "title": "Data recovery", "description": "Disaster recovery and data restoration certifications."}
+          ]
         },
         {
           "id": "incident-handling",
@@ -193,7 +252,11 @@
           "description": "Detecting, responding to, and recovering from security incidents.",
           "color": "#2e5688",
           "ink": "#ffffff",
-          "subsections": []
+          "subsections": [
+            {"id": "incident-response", "title": "Incident response", "description": "Security incident detection, containment, eradication, and recovery certifications."},
+            {"id": "threat-intelligence", "title": "Threat intelligence", "description": "Operational threat intelligence and adversary tracking certifications."},
+            {"id": "defense-analysis", "title": "Defense analysis", "description": "Adversary emulation, security analytics, and defensive strategy certifications."}
+          ]
         },
         {
           "id": "penetration-testing",
@@ -202,6 +265,7 @@
           "color": "#c0514d",
           "ink": "#2a1210",
           "subsections": [
+            {"id": "general", "title": "General", "description": "Broad penetration testing and ethical hacking certifications not tied to a specific target type."},
             {"id": "web", "title": "Web", "description": "Web application penetration testing."},
             {"id": "mobile", "title": "Mobile", "description": "Mobile application penetration testing."},
             {"id": "api", "title": "API", "description": "API penetration testing."},
@@ -216,7 +280,11 @@
           "description": "Exploit research and advanced offensive technique certifications.",
           "color": "#c0514d",
           "ink": "#2a1210",
-          "subsections": []
+          "subsections": [
+            {"id": "exploit-development", "title": "Exploit development", "description": "Vulnerability research, exploit writing, and advanced offensive tooling certifications."},
+            {"id": "reverse-engineering", "title": "Reverse engineering", "description": "Malware analysis and binary reverse engineering certifications."},
+            {"id": "mobile-exploitation", "title": "Mobile exploitation", "description": "Mobile platform exploitation and vulnerability research certifications."}
+          ]
         }
       ]
     }

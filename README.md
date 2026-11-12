@@ -6,11 +6,11 @@ This project is licensed [CC BY-SA 4.0](LICENSE).
 
 ## View it
 
-GitHub Pages can serve this repository with no build step:
+Deploy to Vercel with no build step:
 
-1. Open the repository **Settings → Pages**.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select branch `main` and folder `/` (root), then save.
+1. Import the repository at [vercel.com/new](https://vercel.com/new).
+2. Leave the framework preset as **Other** and the build command blank.
+3. Click **Deploy**.
 
 For a local preview, serve the folder over HTTP so the page can load the JSON files:
 

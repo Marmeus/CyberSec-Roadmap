@@ -276,7 +276,29 @@
       "aria-pressed": cert.id === state.selectedId ? "true" : "false",
       "aria-label": cert.abbreviation + ", " + cert.name + ", " + levelLabel(cert.level)
     });
-    button.style.background = colors.color;
+    if (cert.crossDomain && cert.areas && cert.areas.length > 1) {
+      var areaColors = [];
+      var homeArea = state.areaById[cert.area];
+      if (homeArea) areaColors.push(homeArea.color);
+      cert.areas.forEach(function (aid) {
+        if (aid === cert.area) return;
+        var a = state.areaById[aid];
+        if (a && areaColors.indexOf(a.color) === -1) areaColors.push(a.color);
+      });
+      if (areaColors.length > 1) {
+        var stops = [];
+        areaColors.forEach(function (c, i) {
+          var p1 = (i / areaColors.length * 100).toFixed(1) + "%";
+          var p2 = ((i + 1) / areaColors.length * 100).toFixed(1) + "%";
+          stops.push(c + " " + p1, c + " " + p2);
+        });
+        button.style.background = "linear-gradient(to right, " + stops.join(", ") + ")";
+      } else {
+        button.style.background = colors.color;
+      }
+    } else {
+      button.style.background = colors.color;
+    }
     button.style.color = colors.ink;
     extra(button, cert);
     return button;
@@ -338,7 +360,29 @@
         });
       });
       if (!certs.length) return;
-      var col = el("section", { class: "section-col" });
+      var col = el("section", { class: "section-col" + (column.id === "also" ? " section-col--also" : "") });
+      if (column.id === "also") {
+        var seenAreas = [], colors = [];
+        certs.forEach(function (cert) {
+          if (seenAreas.indexOf(cert.area) === -1) {
+            seenAreas.push(cert.area);
+            var a = state.areaById[cert.area];
+            if (a) colors.push(a.color);
+          }
+        });
+        if (colors.length > 1) {
+          var stops = [];
+          colors.forEach(function (c, i) {
+            var p1 = (i / colors.length * 100).toFixed(2) + "%";
+            var p2 = ((i + 1) / colors.length * 100).toFixed(2) + "%";
+            stops.push(c + " " + p1, c + " " + p2);
+          });
+          col.classList.add("section-col--also-gradient");
+          col.style.setProperty("--also-gradient", "linear-gradient(to right, " + stops.join(", ") + ")");
+        } else if (colors.length === 1) {
+          col.style.setProperty("--bar", colors[0]);
+        }
+      }
       col.append(el("h3", null, column.title));
       if (column.note && area.domains.length > 1) {
         col.append(el("p", { class: "section-note" }, column.note));
@@ -572,6 +616,33 @@
     hlock = false;
   }
 
+  function setupCrossHighlight() {
+    var hlTimer;
+    function clearHL() {
+      main.removeAttribute("data-cross-hl");
+      main.querySelectorAll(".is-hl").forEach(function (b) { b.classList.remove("is-hl"); });
+    }
+    main.addEventListener("mouseover", function (e) {
+      var btn = e.target.closest("[data-cert]");
+      if (!btn || !main.contains(btn)) return;
+      var certId = btn.getAttribute("data-cert");
+      var cert = state.certById[certId];
+      clearTimeout(hlTimer);
+      if (!cert || !cert.crossDomain) { clearHL(); return; }
+      var all = main.querySelectorAll('[data-cert="' + certId + '"]');
+      if (all.length < 2) { clearHL(); return; }
+      clearHL();
+      main.setAttribute("data-cross-hl", "1");
+      all.forEach(function (b) { b.classList.add("is-hl"); });
+    });
+    main.addEventListener("mouseout", function (e) {
+      var btn = e.target.closest("[data-cert]");
+      if (!btn || !main.contains(btn)) return;
+      if (btn.contains(e.relatedTarget)) return;
+      hlTimer = setTimeout(clearHL, 80);
+    });
+  }
+
   function bind() {
     filterToggle.addEventListener("click", function () {
       var open = toolbar.classList.toggle("filters-open");
@@ -634,6 +705,7 @@
     window.addEventListener("hashchange", render);
     window.addEventListener("resize", updateHScroll);
     setupDragScroll();
+    setupCrossHighlight();
     var hbar = document.getElementById("hscroll");
     hbar.addEventListener("scroll", function () {
       if (hlock) return;

@@ -370,7 +370,7 @@
             if (a) colors.push(a.color);
           }
         });
-        if (colors.length > 1) {
+        if (colors.length > 0) {
           var stops = [];
           colors.forEach(function (c, i) {
             var p1 = (i / colors.length * 100).toFixed(2) + "%";
@@ -379,8 +379,6 @@
           });
           col.classList.add("section-col--also-gradient");
           col.style.setProperty("--also-gradient", "linear-gradient(to right, " + stops.join(", ") + ")");
-        } else if (colors.length === 1) {
-          col.style.setProperty("--bar", colors[0]);
         }
       }
       col.append(el("h3", null, column.title));

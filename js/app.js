@@ -346,13 +346,18 @@
   // One column per domain. Certifications with no specialty are listed by level.
   // Each specialty comes next, with Expert, Intermediate, and Beginner inside it.
   function renderDomainRow(area, groups, buttonFor) {
-    var columns = area.domains.map(function (domain) {
+    var domainColumns = area.domains.map(function (domain) {
       return { id: domain.id, title: domain.title, note: domain.description || "", specialties: domain.specialties || [] };
     });
-    columns.push({ id: "also", title: ALSO_TITLE, note: ALSO_NOTE, specialties: [] });
 
-    var row = el("div", { class: "section-row" });
-    columns.forEach(function (column) {
+    var wrap = el("div", { class: "domain-row-wrap" });
+    var isAreaView = state.route.name === "area";
+    var row = el("div", { class: "section-row" + (isAreaView && domainColumns.length > 1 ? " section-row--fixed" : "") });
+    if (isAreaView && domainColumns.length > 1) {
+      row.style.gridTemplateColumns = "repeat(" + domainColumns.length + ", minmax(15rem, 1fr))";
+    }
+
+    domainColumns.forEach(function (column) {
       var certs = [];
       groups.forEach(function (group) {
         group.blocks.forEach(function (block) {
@@ -360,27 +365,7 @@
         });
       });
       if (!certs.length) return;
-      var col = el("section", { class: "section-col" + (column.id === "also" ? " section-col--also" : "") });
-      if (column.id === "also") {
-        var seenAreas = [], colors = [];
-        certs.forEach(function (cert) {
-          if (seenAreas.indexOf(cert.area) === -1) {
-            seenAreas.push(cert.area);
-            var a = state.areaById[cert.area];
-            if (a) colors.push(a.color);
-          }
-        });
-        if (colors.length > 0) {
-          var stops = [];
-          colors.forEach(function (c, i) {
-            var p1 = (i / colors.length * 100).toFixed(2) + "%";
-            var p2 = ((i + 1) / colors.length * 100).toFixed(2) + "%";
-            stops.push(c + " " + p1, c + " " + p2);
-          });
-          col.classList.add("section-col--also-gradient");
-          col.style.setProperty("--also-gradient", "linear-gradient(to right, " + stops.join(", ") + ")");
-        }
-      }
+      var col = el("section", { class: "section-col" });
       col.append(el("h3", null, column.title));
       if (column.note && area.domains.length > 1) {
         col.append(el("p", { class: "section-note" }, column.note));
@@ -397,7 +382,42 @@
       });
       row.append(col);
     });
-    return row;
+    wrap.append(row);
+
+    // "Also placed here" rendered below the domain row
+    var alsoCerts = [];
+    groups.forEach(function (group) {
+      group.blocks.forEach(function (block) {
+        if (block.id === "also") alsoCerts = alsoCerts.concat(block.certs);
+      });
+    });
+    if (alsoCerts.length) {
+      var alsoCol = el("section", { class: "section-col section-col--also" });
+      var seenAreas = [], colors = [];
+      alsoCerts.forEach(function (cert) {
+        if (seenAreas.indexOf(cert.area) === -1) {
+          seenAreas.push(cert.area);
+          var a = state.areaById[cert.area];
+          if (a) colors.push(a.color);
+        }
+      });
+      if (colors.length > 0) {
+        var stops = [];
+        colors.forEach(function (c, i) {
+          var p1 = (i / colors.length * 100).toFixed(2) + "%";
+          var p2 = ((i + 1) / colors.length * 100).toFixed(2) + "%";
+          stops.push(c + " " + p1, c + " " + p2);
+        });
+        alsoCol.classList.add("section-col--also-gradient");
+        alsoCol.style.setProperty("--also-gradient", "linear-gradient(to right, " + stops.join(", ") + ")");
+      }
+      alsoCol.append(el("h3", null, ALSO_TITLE));
+      alsoCol.append(el("p", { class: "section-note" }, ALSO_NOTE));
+      appendLevels(alsoCol, alsoCerts, buttonFor);
+      wrap.append(alsoCol);
+    }
+
+    return wrap;
   }
 
   function appendLevels(parent, certs, buttonFor, tag) {

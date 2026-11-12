@@ -25,7 +25,6 @@
   var levelSelect = document.getElementById("level");
   var countEl = document.getElementById("count");
   var tabsEl = document.getElementById("tabs");
-  var navEl = document.getElementById("domain-nav");
   var detail = document.getElementById("detail");
   var backdrop = document.getElementById("backdrop");
   var lastFocus = null;
@@ -358,20 +357,6 @@
     return node;
   }
 
-  function renderNav() {
-    var links = [el("a", { href: "#/" }, "Overview")];
-    if (state.route.name === "chart") links[0].setAttribute("aria-current", "page");
-    state.domains.forEach(function (domain) {
-      var link = el("a", { href: "#/area/" + domain.id }, domain.shortTitle);
-      link.style.setProperty("--bar", domain.color);
-      if (state.route.name === "area" && state.route.id === domain.id) {
-        link.setAttribute("aria-current", "page");
-      }
-      links.push(link);
-    });
-    navEl.replaceChildren.apply(navEl, links);
-  }
-
   function renderTabs() {
     var show = state.mobile && state.route.name === "chart";
     tabsEl.hidden = !show;
@@ -405,7 +390,6 @@
 
   function render() {
     state.route = parseRoute();
-    renderNav();
     renderTabs();
     var title = "Security Certification Roadmap";
     main.replaceChildren(lede());

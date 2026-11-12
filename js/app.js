@@ -751,6 +751,6 @@
       render();
     })
     .catch(function () {
-      fail("The certification data could not be loaded. Open this site over HTTP, for example GitHub Pages or python3 -m http.server, then reload.");
+      fail("The certification data could not be loaded.");
     });
 })();

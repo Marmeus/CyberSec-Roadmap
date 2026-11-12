@@ -145,6 +145,8 @@ main {
   overflow-x: auto;
   overflow-y: hidden;
   scrollbar-width: none;
+  cursor: grab;
+  user-select: none;
 }
 .board::-webkit-scrollbar { height: 0; width: 0; }
 
@@ -238,6 +240,8 @@ main {
   overflow-x: auto;
   overflow-y: hidden;
   scrollbar-width: none;
+  cursor: grab;
+  user-select: none;
 }
 .area-band-inner {
   display: flex;

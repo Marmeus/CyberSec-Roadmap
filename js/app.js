@@ -1,6 +1,5 @@
 (function () {
   var state = {
-    source: null,
     levels: [],
     domains: [],
     domainById: {},
@@ -351,10 +350,7 @@
   }
 
   function lede() {
-    var page = state.source && state.source.page;
-    var text = "Eight cybersecurity domains, read from the expert end of the chart down to beginner. ";
-    var node = el("p", { class: "lede" }, text);
-    return node;
+    return el("p", { class: "lede" }, "Eight cybersecurity domains, read from the expert end of the chart down to beginner.");
   }
 
   function renderTabs() {
@@ -381,6 +377,48 @@
       });
       return button;
     }));
+  }
+
+  function setupDragScroll() {
+    var drag = { on: false, x: 0, y: 0, sl: 0, st: 0, el: null, moved: false };
+
+    main.addEventListener("pointerdown", function (e) {
+      if (e.pointerType !== "mouse" || e.button !== 0) return;
+      if (e.target.closest("button, a")) return;
+      var scroller = main.querySelector(".board, .area-band");
+      if (!scroller) return;
+      drag.on = true;
+      drag.moved = false;
+      drag.x = e.clientX;
+      drag.y = e.clientY;
+      drag.sl = scroller.scrollLeft;
+      drag.st = window.scrollY;
+      drag.el = scroller;
+      main.setPointerCapture(e.pointerId);
+      main.style.cursor = "grabbing";
+    });
+
+    main.addEventListener("pointermove", function (e) {
+      if (!drag.on) return;
+      var dx = drag.x - e.clientX;
+      var dy = drag.y - e.clientY;
+      if (Math.abs(dx) > 3 || Math.abs(dy) > 3) drag.moved = true;
+      drag.el.scrollLeft = drag.sl + dx;
+      window.scrollTo(window.scrollX, drag.st + dy);
+    });
+
+    function endDrag(e) {
+      if (!drag.on) return;
+      drag.on = false;
+      main.style.cursor = "";
+      try { main.releasePointerCapture(e.pointerId); } catch (_) {}
+    }
+    main.addEventListener("pointerup", endDrag);
+    main.addEventListener("pointercancel", endDrag);
+
+    main.addEventListener("click", function (e) {
+      if (drag.moved) { e.stopPropagation(); drag.moved = false; }
+    }, true);
   }
 
   function updateCount(matched, total, label) {
@@ -504,6 +542,7 @@
     });
     window.addEventListener("hashchange", render);
     window.addEventListener("resize", updateHScroll);
+    setupDragScroll();
     var hbar = document.getElementById("hscroll");
     hbar.addEventListener("scroll", function () {
       if (hlock) return;
@@ -547,7 +586,6 @@
       });
     })
     .then(function (loaded) {
-      state.source = loaded.domainsDoc.source || {};
       state.levels = loaded.domainsDoc.levels || [];
       state.domains = loaded.domainsDoc.domains || [];
       state.certs = loaded.certs;

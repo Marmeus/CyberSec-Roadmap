@@ -3,7 +3,7 @@
     "id": "osee",
     "abbreviation": "OSEE",
     "name": "Offensive Security Exploitation Expert",
-    "url": "https://www.offensive-security.com/awe-osee/",
+    "url": "https://www.offsec.com/courses/exp-401/",
     "details": [
       "$5,000 lab",
       "Plus travel"
@@ -84,7 +84,7 @@
     "id": "osce3",
     "abbreviation": "OSCE3",
     "name": "Offensive Security Certified Expert 3",
-    "url": "https://help.offensive-security.com/hc/en-us/articles/4403282452628-What-is-OSCE3-",
+    "url": "https://www.offsec.com/certifications/osce3/",
     "details": [
       "$4,649 3 labs"
     ],
@@ -225,7 +225,7 @@
     "id": "oswe",
     "abbreviation": "OSWE",
     "name": "Offensive Security Web Expert",
-    "url": "https://www.offensive-security.com/awae-oswe/",
+    "url": "https://www.offsec.com/courses/web-300/",
     "details": [
       "~$1649 lab"
     ],
@@ -244,7 +244,7 @@
     "id": "osep",
     "abbreviation": "OSEP",
     "name": "Offensive Security Experienced Penetration Tester",
-    "url": "https://www.offensive-security.com/pen300-osep/",
+    "url": "https://www.offsec.com/courses/pen-300/",
     "details": [
       "$1,499 lab"
     ],
@@ -263,7 +263,7 @@
     "id": "osed",
     "abbreviation": "OSED",
     "name": "Offensive Security Exploit Developer",
-    "url": "https://www.offensive-security.com/exp301-osed/",
+    "url": "https://www.offsec.com/courses/exp-301/",
     "details": [
       "$1,499 lab"
     ],
@@ -597,7 +597,7 @@
       "$800 course",
       "2 exam attempt included"
     ],
-    "level": "expert",
+    "level": "intermediate",
     "crossDomain": false,
     "area": "operations",
     "areas": [
@@ -1274,6 +1274,25 @@
     "updatedAt": "2024-07"
   },
   {
+    "id": "htb-cape",
+    "abbreviation": "HTB CAPE",
+    "name": "Hack The Box Certified Active Directory Pentesting Expert",
+    "url": "https://academy.hackthebox.com/preview/certifications/htb-certified-active-directory-pentesting-expert",
+    "details": [
+      "$490 Subscription available"
+    ],
+    "level": "expert",
+    "crossDomain": false,
+    "area": "operations",
+    "areas": [
+      "operations"
+    ],
+    "domain": "penetration-testing",
+    "specialty": "general",
+    "issuer": "Hack The Box",
+    "updatedAt": "2026-11"
+  },
+  {
     "id": "google-pcsa",
     "abbreviation": "Google PCSA",
     "name": "Google Professional Cloud Architect",
@@ -1471,10 +1490,10 @@
     "updatedAt": "2024-07"
   },
   {
-    "id": "paces",
-    "abbreviation": "PACES",
-    "name": "Pentester Academy Certified Enterprise Security Specialist",
-    "url": "https://www.alteredsecurity.com/paces",
+    "id": "crtm",
+    "abbreviation": "CRTM",
+    "name": "Altered Security Certified Red Team Master",
+    "url": "https://www.alteredsecurity.com/gcb",
     "details": [
       "$339-749 Lab access",
       "Exam included"
@@ -1488,7 +1507,7 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Altered Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2026-11"
   },
   {
     "id": "s-cehl",
@@ -1589,7 +1608,7 @@
   {
     "id": "cimp",
     "abbreviation": "CIMP",
-    "name": "Identify Management Institute Certified Identity Management Professional",
+    "name": "Identity Management Institute Certified Identity Management Professional",
     "url": "https://www.identitymanagementinstitute.org/cimp/",
     "details": [
       "$295 + Membership"
@@ -1606,10 +1625,10 @@
     "updatedAt": "2024-07"
   },
   {
-    "id": "casp-plus",
-    "abbreviation": "CASP+",
-    "name": "CompTIA Advanced Security Practitioner+",
-    "url": "https://www.comptia.org/certifications/comptia-advanced-security-practitioner",
+    "id": "securityx",
+    "abbreviation": "SecurityX",
+    "name": "CompTIA SecurityX",
+    "url": "https://www.comptia.org/certifications/securityx",
     "details": [
       "$509 exam"
     ],
@@ -1622,7 +1641,7 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "CompTIA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2026-11"
   },
   {
     "id": "gasf",
@@ -2094,11 +2113,12 @@
   },
   {
     "id": "oscp",
-    "abbreviation": "OSCP",
-    "name": "Offensive Security Certified Professional",
-    "url": "https://www.offensive-security.com/pwk-oscp/",
+    "abbreviation": "OSCP+",
+    "name": "OffSec Certified Professional+",
+    "url": "https://www.offsec.com/courses/pen-200/",
     "details": [
-      "$1,499 labs"
+      "$1,649 (90-day lab + exam)",
+      "3-year renewal required"
     ],
     "level": "expert",
     "crossDomain": false,
@@ -2109,7 +2129,7 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "OffSec",
-    "updatedAt": "2024-07"
+    "updatedAt": "2026-11"
   },
   {
     "id": "f5-cse-sec",
@@ -2215,8 +2235,9 @@
     "name": "GIAC Certified Windows Security Administrator",
     "url": "https://www.giac.org/certifications/certified-windows-security-administrator-gcwn/",
     "details": [
-      "$979 exam",
-      "SANS course recommended"
+      "$999 exam",
+      "SANS course recommended",
+      "Currently in abeyance (not sold by GIAC)"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -2287,6 +2308,25 @@
     "specialty": "data-protection",
     "issuer": "IAPP",
     "updatedAt": "2024-07"
+  },
+  {
+    "id": "cipm",
+    "abbreviation": "CIPM",
+    "name": "IAPP Certified Information Privacy Manager",
+    "url": "https://iapp.org/certify/cipm/",
+    "details": [
+      "$550 exam"
+    ],
+    "level": "intermediate",
+    "crossDomain": false,
+    "area": "asset",
+    "areas": [
+      "asset"
+    ],
+    "domain": "core",
+    "specialty": "privacy",
+    "issuer": "IAPP",
+    "updatedAt": "2026-11"
   },
   {
     "id": "cdpse",
@@ -2469,8 +2509,9 @@
     "name": "GIAC Certified Detection Analyst",
     "url": "https://www.giac.org/certification/certified-detection-analyst-gcda",
     "details": [
-      "$979 exam",
-      "SANS course recommended"
+      "$999 exam",
+      "SANS course recommended",
+      "Currently in abeyance (not sold by GIAC)"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -2587,7 +2628,7 @@
     "id": "oswp",
     "abbreviation": "OSWP",
     "name": "Offensive Security Wireless Professional",
-    "url": "https://www.offensive-security.com/wifu-oswp/",
+    "url": "https://www.offsec.com/courses/pen-210/",
     "details": [
       "$450 labs"
     ],
@@ -2681,7 +2722,7 @@
   {
     "id": "ciam",
     "abbreviation": "CIAM",
-    "name": "Identify Management Institute Certified Identify and Access Manager",
+    "name": "Identity Management Institute Certified Identity and Access Manager",
     "url": "https://www.identitymanagementinstitute.org/ciam/",
     "details": [
       "$390 Exam"
@@ -2861,7 +2902,7 @@
     "name": "GIAC Certified Project Manager",
     "url": "https://www.giac.org/certification/gcpm",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "level": "intermediate",
@@ -3174,7 +3215,7 @@
   {
     "id": "fcss-ns",
     "abbreviation": "FCSS NS",
-    "name": "Fortinet Certificed Solution Specialist - Network Security",
+    "name": "Fortinet Certified Solution Specialist - Network Security",
     "url": "https://training.fortinet.com/local/staticpage/view.php?page=fcss_network_security",
     "details": [
       "$800 two exams"
@@ -3217,7 +3258,7 @@
     "details": [
       "$599 exam"
     ],
-    "level": "intermediate",
+    "level": "expert",
     "crossDomain": false,
     "area": "engineering",
     "areas": [
@@ -3697,7 +3738,7 @@
     "id": "osmr",
     "abbreviation": "OSMR",
     "name": "Offensive Security MacOS Researcher",
-    "url": "https://www.offensive-security.com/exp312-osmr/",
+    "url": "https://www.offsec.com/courses/exp-312/",
     "details": [
       "$2,499 exam",
       "Learning subscription required"
@@ -3891,7 +3932,7 @@
   {
     "id": "cipa",
     "abbreviation": "CIPA",
-    "name": "IMI Certified Identity Protection comptia-advanced-security-practitioner",
+    "name": "IMI Certified Identity Protection Advisor",
     "url": "https://www.identitymanagementinstitute.org/cipa/",
     "details": [
       "$295 Exam"
@@ -4397,7 +4438,7 @@
   {
     "id": "crest-cchia",
     "abbreviation": "CREST CCHIA",
-    "name": "CREST Certified Host intrustion Analyst",
+    "name": "CREST Certified Host Intrusion Analyst",
     "url": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-host-intrusion-analyst",
     "details": [
       "$2,481 exam & essay",
@@ -4647,7 +4688,7 @@
     "id": "ccna",
     "abbreviation": "CCNA",
     "name": "Cisco Certified Network Associate",
-    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html",
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/associate/ccna.html",
     "details": [
       "~$330 exam"
     ],
@@ -5018,12 +5059,12 @@
   {
     "id": "cisco-coa",
     "abbreviation": "Cisco COA",
-    "name": "Cisco Certified CyberOps Associate Cyber Operations",
-    "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html",
+    "name": "Cisco Certified CyberOps Associate",
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/associate/cyberops-associate/index.html",
     "details": [
-      "~$325 exam"
+      "~$330 exam"
     ],
-    "level": "intermediate",
+    "level": "beginner",
     "crossDomain": false,
     "area": "operations",
     "areas": [
@@ -5271,7 +5312,8 @@
     "name": "GIAC Cloud Security Essentials",
     "url": "https://www.giac.org/certifications/cloud-security-essentials-gcld/",
     "details": [
-      "$979 exam SANS course recommended"
+      "$999 exam",
+      "SANS course recommended"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -5325,7 +5367,7 @@
   {
     "id": "isa-cras",
     "abbreviation": "ISA CRAS",
-    "name": "ISA Certified Risk Assesment Specialist",
+    "name": "ISA Certified Risk Assessment Specialist",
     "url": "https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/",
     "details": [
       "$2,700 course + exam",
@@ -5679,7 +5721,7 @@
     "id": "osda",
     "abbreviation": "OSDA",
     "name": "Offensive Security Defense Analyst",
-    "url": "https://www.offensive-security.com/soc200-osda/",
+    "url": "https://www.offsec.com/courses/soc-200/",
     "details": [
       "$2,499 exam",
       "Learning subscription required"
@@ -5756,7 +5798,7 @@
     "id": "oswa",
     "abbreviation": "OSWA",
     "name": "Offensive Security Web Assessor",
-    "url": "https://www.offensive-security.com/web200-oswa/",
+    "url": "https://www.offsec.com/courses/web-200/",
     "details": [
       "$2,499 Exam",
       "Learning subscription required"
@@ -5771,6 +5813,82 @@
     "specialty": "web",
     "issuer": "OffSec",
     "updatedAt": "2024-07"
+  },
+  {
+    "id": "oscc",
+    "abbreviation": "OSCC",
+    "name": "OffSec Certified Professional (CyberCore)",
+    "url": "https://www.offsec.com/courses/sec-100/",
+    "details": [
+      "Included with Learning subscription"
+    ],
+    "level": "beginner",
+    "crossDomain": false,
+    "area": "operations",
+    "areas": [
+      "operations"
+    ],
+    "domain": "monitoring",
+    "specialty": "general",
+    "issuer": "OffSec",
+    "updatedAt": "2026-11"
+  },
+  {
+    "id": "osir",
+    "abbreviation": "OSIR",
+    "name": "OffSec Incident Responder",
+    "url": "https://www.offsec.com/courses/ir-200/",
+    "details": [
+      "Included with Learning subscription"
+    ],
+    "level": "intermediate",
+    "crossDomain": false,
+    "area": "operations",
+    "areas": [
+      "operations"
+    ],
+    "domain": "incident-handling",
+    "specialty": "incident-response",
+    "issuer": "OffSec",
+    "updatedAt": "2026-11"
+  },
+  {
+    "id": "osth",
+    "abbreviation": "OSTH",
+    "name": "OffSec Threat Hunter",
+    "url": "https://www.offsec.com/courses/th-200/",
+    "details": [
+      "Included with Learning subscription"
+    ],
+    "level": "expert",
+    "crossDomain": false,
+    "area": "operations",
+    "areas": [
+      "operations"
+    ],
+    "domain": "monitoring",
+    "specialty": "threat-intelligence",
+    "issuer": "OffSec",
+    "updatedAt": "2026-11"
+  },
+  {
+    "id": "sjd-100",
+    "abbreviation": "SJD-100",
+    "name": "OffSec Secure Java Development Essentials",
+    "url": "https://www.offsec.com/courses/sjd-100/",
+    "details": [
+      "Included with Learning subscription"
+    ],
+    "level": "intermediate",
+    "crossDomain": false,
+    "area": "architecture",
+    "areas": [
+      "architecture"
+    ],
+    "domain": "software",
+    "specialty": "secure-coding",
+    "issuer": "OffSec",
+    "updatedAt": "2026-11"
   },
   {
     "id": "crea",
@@ -6454,7 +6572,7 @@
   {
     "id": "cist",
     "abbreviation": "CIST",
-    "name": "IMI Certfied Identity and Security Technologist",
+    "name": "IMI Certified Identity and Security Technologist",
     "url": "https://www.identitymanagementinstitute.org/cist/",
     "details": [
       "$295 exam"
@@ -7075,7 +7193,7 @@
     "name": "Palo Alto Networks Certified Network Security Administrator",
     "url": "https://www.paloaltonetworks.com/services/education/certification",
     "details": [
-      "$155 exam"
+      "Retired Jan 2025"
     ],
     "level": "beginner",
     "crossDomain": false,
@@ -7111,7 +7229,7 @@
   {
     "id": "sc-300",
     "abbreviation": "SC-300",
-    "name": "Microsoft Certfied: Identity and Access Administrator Associate",
+    "name": "Microsoft Certified: Identity and Access Administrator Associate",
     "url": "https://docs.microsoft.com/en-us/learn/certifications/identity-and-access-administrator/",
     "details": [
       "$165 exam"
@@ -7458,7 +7576,7 @@
   {
     "id": "fca",
     "abbreviation": "FCA",
-    "name": "Fortinet Certificed Associate",
+    "name": "Fortinet Certified Associate",
     "url": "https://training.fortinet.com/local/staticpage/view.php?page=fca_cybersecurity",
     "details": [
       "Free course and exam required"
@@ -7593,10 +7711,10 @@
   {
     "id": "az-220",
     "abbreviation": "AZ-220",
-    "name": "Azure IoT Developer Specialty",
-    "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-iot-developer-specialty?wt.mc_id=learningredirect_certs-web-wwl",
+    "name": "Microsoft Certified: Azure IoT Developer Specialty",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-iot-developer-specialty/",
     "details": [
-      "$165 exam"
+      "Retired Nov 2024"
     ],
     "level": "beginner",
     "crossDomain": false,
@@ -8127,7 +8245,7 @@
   {
     "id": "cams",
     "abbreviation": "CAMS",
-    "name": "IMI Certfied Access Management Specialist",
+    "name": "IMI Certified Access Management Specialist",
     "url": "https://www.identitymanagementinstitute.org/cams/",
     "details": [
       "$195 exam"
@@ -8358,7 +8476,7 @@
   {
     "id": "c-iscap",
     "abbreviation": "C)ISCAP",
-    "name": "Mile2 Information Systems Certification and Accredidation Professional",
+    "name": "Mile2 Information Systems Certification and Accreditation Professional",
     "url": "https://www.mile2.com/iscap_outline/",
     "details": [
       "$550 exam"
@@ -8519,7 +8637,7 @@
       "$100 annual sub",
       "Unknown exam cost"
     ],
-    "level": "beginner",
+    "level": "expert",
     "crossDomain": false,
     "area": "operations",
     "areas": [
@@ -8553,7 +8671,7 @@
   {
     "id": "dv-milf",
     "abbreviation": "DV MILF",
-    "name": "Dark Vortex Malware Incident and Log Foensics",
+    "name": "Dark Vortex Malware Incident and Log Forensics",
     "url": "https://0xdarkvortex.dev/training-programs/malware-incident-and-log-forensics/",
     "details": [
       "$2000 exam"
@@ -8672,7 +8790,7 @@
     "name": "Palo Alto Networks Certified Cybersecurity Entry-level Technician",
     "url": "https://www.paloaltonetworks.com/services/education/certification",
     "details": [
-      "$110 exam"
+      "Retired Jan 2025"
     ],
     "level": "beginner",
     "crossDomain": false,
@@ -8898,7 +9016,7 @@
   {
     "id": "bcs-fismp",
     "abbreviation": "BCS FISMP",
-    "name": "BCS Foundation Certifiate in Information Security Management Principles",
+    "name": "BCS Foundation Certificate in Information Security Management Principles",
     "url": "https://www.bcs.org/get-qualified/certifications-for-professionals/information-security-and-ccp-scheme-certifications/bcs-foundation-certificate-in-information-security-management-principles/",
     "details": [
       "$249 exam"
@@ -8972,6 +9090,66 @@
     "specialty": "specialist-management",
     "issuer": "GIAC",
     "updatedAt": "2024-07"
+  },
+  {
+    "id": "gxfe",
+    "abbreviation": "GXFE",
+    "name": "GIAC Experienced Forensics Examiner",
+    "url": "https://www.giac.org/certifications/experienced-forensics-examiner-gxfe/",
+    "details": [
+      "$999 exam",
+      "SANS course recommended"
+    ],
+    "level": "expert",
+    "crossDomain": false,
+    "area": "operations",
+    "areas": [
+      "operations"
+    ],
+    "domain": "forensics",
+    "specialty": "digital-forensics",
+    "issuer": "GIAC",
+    "updatedAt": "2026-11"
+  },
+  {
+    "id": "gcad",
+    "abbreviation": "GCAD",
+    "name": "GIAC Cloud Security Architecture and Design",
+    "url": "https://www.giac.org/certifications/cloud-security-architecture-design-gcad/",
+    "details": [
+      "$999 exam",
+      "SANS course recommended"
+    ],
+    "level": "expert",
+    "crossDomain": false,
+    "area": "engineering",
+    "areas": [
+      "engineering"
+    ],
+    "domain": "cloud-sysops",
+    "specialty": "multi-cloud",
+    "issuer": "GIAC",
+    "updatedAt": "2026-11"
+  },
+  {
+    "id": "gcil",
+    "abbreviation": "GCIL",
+    "name": "GIAC Cyber Incident Leader",
+    "url": "https://www.giac.org/certifications/cyber-incident-leader-gcil/",
+    "details": [
+      "$999 exam",
+      "SANS course recommended"
+    ],
+    "level": "expert",
+    "crossDomain": false,
+    "area": "operations",
+    "areas": [
+      "operations"
+    ],
+    "domain": "incident-handling",
+    "specialty": "incident-response",
+    "issuer": "GIAC",
+    "updatedAt": "2026-11"
   },
   {
     "id": "tuv-cyaware",
@@ -9269,7 +9447,7 @@
     "url": "https://www.itgovernance.co.uk/shop/product/certified-iso-27001-isms-foundation-training-course",
     "details": [
       "$853 course exam",
-      "Brandeed course required"
+      "Branded course required"
     ],
     "level": "beginner",
     "crossDomain": false,
@@ -9323,7 +9501,7 @@
   {
     "id": "mics",
     "abbreviation": "MICS",
-    "name": "Mosse Institute Introductions to Cyber Security",
+    "name": "Mosse Institute Introduction to Cyber Security",
     "url": "https://www.mosse-institute.com/certifications/mics-introduction-to-cyber-security.html",
     "details": [
       "Free exam"
@@ -9549,5 +9727,62 @@
     "specialty": "cloud",
     "issuer": "HackTricks Academy",
     "updatedAt": "2024-07"
+  },
+  {
+    "id": "google-cyb-prof",
+    "abbreviation": "Google CybProf",
+    "name": "Google Cybersecurity Professional Certificate",
+    "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+    "details": [
+      "~$49/month Coursera"
+    ],
+    "level": "beginner",
+    "crossDomain": false,
+    "area": "operations",
+    "areas": [
+      "operations"
+    ],
+    "domain": "monitoring",
+    "specialty": "soc-analyst",
+    "issuer": "Google",
+    "updatedAt": "2026-11"
+  },
+  {
+    "id": "thm-sal1",
+    "abbreviation": "THM SAL1",
+    "name": "TryHackMe Security Analyst Level 1",
+    "url": "https://tryhackme.com/certification/security-analyst-level-1",
+    "details": [
+      "$200 exam"
+    ],
+    "level": "beginner",
+    "crossDomain": false,
+    "area": "operations",
+    "areas": [
+      "operations"
+    ],
+    "domain": "monitoring",
+    "specialty": "soc-analyst",
+    "issuer": "TryHackMe",
+    "updatedAt": "2026-11"
+  },
+  {
+    "id": "cwp",
+    "abbreviation": "CWP",
+    "name": "Certified WiFiChallenge Professional",
+    "url": "https://academy.wifichallenge.com/courses/certified-wifichallenge-professional-cwp",
+    "details": [
+      "Included with Academy subscription"
+    ],
+    "level": "expert",
+    "crossDomain": false,
+    "area": "operations",
+    "areas": [
+      "operations"
+    ],
+    "domain": "penetration-testing",
+    "specialty": "wireless",
+    "issuer": "WiFiChallenge Academy",
+    "updatedAt": "2026-11"
   }
 ]

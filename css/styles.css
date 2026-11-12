@@ -325,6 +325,22 @@ main {
 
 .backdrop[hidden], .detail[hidden], .tabs[hidden], .field[hidden] { display: none; }
 
+.toolbar-top { display: contents; }
+
+.filter-toggle { display: none; }
+
+.filter-badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--header);
+  border: 2px solid var(--paper);
+  padding: 0;
+}
+
 .detail {
   position: fixed;
   top: 0;
@@ -386,6 +402,53 @@ main {
   .field { width: 100%; }
   .field input,
   .field select { min-width: 0; width: 100%; }
+
+  .toolbar-top {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .toolbar-top .field { flex: 1 1 0; width: auto; }
+  .filter-toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 2.25rem;
+    height: 2.25rem;
+    background: var(--card);
+    border: 1px solid #d4cec3;
+    border-radius: 10px;
+    color: var(--ink);
+    cursor: pointer;
+    padding: 0;
+  }
+  .filter-toggle[aria-expanded="true"] {
+    background: var(--header);
+    border-color: var(--header);
+    color: #fff;
+  }
+  .filter-toggle[aria-expanded="true"] .filter-badge {
+    background: #e4ac03;
+    border-color: var(--header);
+  }
+  .filter-field { display: none; }
+  .toolbar.filters-open label.filter-field:not([hidden]) { display: flex; flex-direction: column; }
+  .filter-reset { display: none; }
+  .toolbar.filters-open .filter-reset:not([hidden]) {
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: 1px solid #d4cec3;
+    border-radius: 8px;
+    padding: 0.5rem;
+    font: 600 0.9rem/1.2 "Source Sans 3", sans-serif;
+    color: var(--muted);
+    cursor: pointer;
+    text-align: center;
+  }
 
   main { padding: 0.75rem 1rem 2rem; }
 

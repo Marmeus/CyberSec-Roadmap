@@ -8,6 +8,7 @@
     query: "",
     domain: "all",
     level: "all",
+    specialty: "all",
     route: { name: "chart" },
     selectedId: null
   };
@@ -20,6 +21,12 @@
   var domainSelect = document.getElementById("domain");
   var domainField = document.getElementById("domain-field");
   var levelSelect = document.getElementById("level");
+  var specialtySelect = document.getElementById("specialty");
+  var specialtyField = document.getElementById("specialty-field");
+  var filterToggle = document.getElementById("filter-toggle");
+  var filterBadge = document.getElementById("filter-badge");
+  var filterReset = document.getElementById("filter-reset");
+  var toolbar = document.querySelector(".toolbar");
   var countEl = document.getElementById("count");
   var tabsEl = document.getElementById("tabs");
   var detail = document.getElementById("detail");
@@ -110,9 +117,43 @@
 
   function matchesFilters(cert) {
     if (state.level !== "all" && cert.level !== state.level) return false;
+    if (state.specialty !== "all" && cert.subsection !== state.specialty) return false;
     var query = state.query.trim().toLowerCase();
     if (!query) return true;
     return haystack(cert).indexOf(query) !== -1;
+  }
+
+  function updateSpecialtyField() {
+    var domainId = state.route.name === "area" ? state.route.id
+      : state.domain !== "all" ? state.domain : null;
+    if (!domainId) {
+      specialtyField.hidden = true;
+      state.specialty = "all";
+      return;
+    }
+    var domain = state.domainById[domainId];
+    var subs = [];
+    if (domain) {
+      domain.sections.forEach(function (s) {
+        (s.subsections || []).forEach(function (sub) { subs.push(sub); });
+      });
+    }
+    if (!subs.length) {
+      specialtyField.hidden = true;
+      state.specialty = "all";
+      return;
+    }
+    if (specialtySelect.dataset.domain !== domainId) {
+      var options = [el("option", { value: "all" }, "All specialties")];
+      subs.forEach(function (sub) {
+        options.push(el("option", { value: sub.id }, sub.title));
+      });
+      specialtySelect.replaceChildren.apply(specialtySelect, options);
+      specialtySelect.dataset.domain = domainId;
+      state.specialty = "all";
+      specialtySelect.value = "all";
+    }
+    specialtyField.hidden = false;
   }
 
   function byPosition(a, b) {
@@ -422,8 +463,16 @@
     countEl.textContent = label ? text + " in " + label : text + " certifications";
   }
 
+  function updateFilterBadge() {
+    var active = state.domain !== "all" || state.specialty !== "all" || state.level !== "all";
+    filterBadge.hidden = !active;
+    filterReset.hidden = !active;
+  }
+
   function render() {
     state.route = parseRoute();
+    updateSpecialtyField();
+    updateFilterBadge();
     renderTabs();
     domainField.hidden = state.route.name === "area";
     var title = "Security Certification Roadmap";
@@ -495,6 +544,18 @@
   }
 
   function bind() {
+    filterToggle.addEventListener("click", function () {
+      var open = toolbar.classList.toggle("filters-open");
+      filterToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    filterReset.addEventListener("click", function () {
+      state.domain = "all";
+      state.specialty = "all";
+      state.level = "all";
+      domainSelect.value = "all";
+      levelSelect.value = "all";
+      render();
+    });
     searchInput.addEventListener("input", function () {
       state.query = searchInput.value;
       render();
@@ -505,6 +566,10 @@
     });
     levelSelect.addEventListener("change", function () {
       state.level = levelSelect.value;
+      render();
+    });
+    specialtySelect.addEventListener("change", function () {
+      state.specialty = specialtySelect.value;
       render();
     });
     main.addEventListener("click", function (event) {

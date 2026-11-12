@@ -191,7 +191,7 @@
   }
 
   function byPosition(a, b) {
-    return a.row - b.row || a.column - b.column || a.abbreviation.localeCompare(b.abbreviation);
+    return a.abbreviation.localeCompare(b.abbreviation);
   }
 
   function certsInArea(areaId) {
@@ -465,7 +465,12 @@
   }
 
   function lede() {
-    return el("p", { class: "lede" }, "Eight cybersecurity areas, read from the expert end of the chart down to beginner.");
+    var text = "A double border means the certification is also drawn into another area.";
+    if (state.route.name === "chart") {
+      text += " Choose an area name to open its domains.";
+    }
+    text += " Certifications are listed alphabetically within each level.";
+    return el("p", { class: "lede" }, text);
   }
 
   function renderTabs() {
@@ -569,11 +574,6 @@
       }
       main.append(renderBoard(matched));
     }
-    var legend = "A double border means the certification is also drawn into another area.";
-    if (state.route.name === "chart") {
-      legend += " Choose an area name to open its domains.";
-    }
-    main.append(el("p", { class: "legend" }, legend));
     updateHScroll();
 
     if (state.selectedId && !document.querySelector('[data-cert="' + state.selectedId + '"]')) {

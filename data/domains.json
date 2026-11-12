@@ -263,7 +263,7 @@
           "title": "Penetration Testing",
           "description": "Authorized attack simulation and offensive security testing.",
           "color": "#c0514d",
-          "ink": "#2a1210",
+          "ink": "#ffffff",
           "subsections": [
             {"id": "general", "title": "General", "description": "Broad penetration testing and ethical hacking certifications not tied to a specific target type."},
             {"id": "web", "title": "Web", "description": "Web application penetration testing."},
@@ -279,7 +279,7 @@
           "title": "Exploitation",
           "description": "Exploit research and advanced offensive technique certifications.",
           "color": "#c0514d",
-          "ink": "#2a1210",
+          "ink": "#ffffff",
           "subsections": [
             {"id": "exploit-development", "title": "Exploit development", "description": "Vulnerability research, exploit writing, and advanced offensive tooling certifications."},
             {"id": "reverse-engineering", "title": "Reverse engineering", "description": "Malware analysis and binary reverse engineering certifications."},

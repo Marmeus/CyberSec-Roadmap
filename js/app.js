@@ -85,10 +85,11 @@
 
   function paint(cert) {
     var domain = state.domainById[cert.domain] || { color: "#444", ink: "#fff" };
-    var sub = subsectionOf(cert) || sectionOf(cert);
+    var section = sectionOf(cert);
+    var sub = subsectionOf(cert);
     return {
-      color: (sub && sub.color) || domain.color,
-      ink: (sub && sub.ink) || domain.ink
+      color: (sub && sub.color) || (section && section.color) || domain.color,
+      ink: (sub && sub.ink) || (section && section.ink) || domain.ink
     };
   }
 

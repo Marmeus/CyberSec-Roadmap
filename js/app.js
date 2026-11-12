@@ -1,32 +1,35 @@
 (function () {
   var state = {
     levels: [],
-    domains: [],
-    domainById: {},
+    areas: [],
+    areaById: {},
     certs: [],
     certById: {},
     query: "",
+    area: "all",
     domain: "all",
-    level: "all",
     specialty: "all",
+    level: "all",
     route: { name: "chart" },
     selectedId: null
   };
 
   var ALSO_TITLE = "Also placed here";
-  var ALSO_NOTE = "These certifications are drawn across this domain on the source chart.";
+  var ALSO_NOTE = "These certifications are drawn across this area on the source chart.";
 
   var main = document.getElementById("main");
   var searchInput = document.getElementById("search");
+  var areaSelect = document.getElementById("area");
+  var areaField = document.getElementById("area-field");
   var domainSelect = document.getElementById("domain");
   var domainField = document.getElementById("domain-field");
-  var levelSelect = document.getElementById("level");
   var specialtySelect = document.getElementById("specialty");
   var specialtyField = document.getElementById("specialty-field");
   var filterToggle = document.getElementById("filter-toggle");
   var filterBadge = document.getElementById("filter-badge");
   var filterReset = document.getElementById("filter-reset");
   var toolbar = document.querySelector(".toolbar");
+  var levelSelect = document.getElementById("level");
   var countEl = document.getElementById("count");
   var tabsEl = document.getElementById("tabs");
   var detail = document.getElementById("detail");
@@ -60,7 +63,7 @@
   function parseRoute() {
     var hash = (location.hash || "#/").replace(/^#/, "");
     var match = hash.match(/^\/area\/([a-z0-9-]+)\/?$/);
-    if (match && state.domainById[match[1]]) return { name: "area", id: match[1] };
+    if (match && state.areaById[match[1]]) return { name: "area", id: match[1] };
     return { name: "chart" };
   }
 
@@ -77,92 +80,123 @@
     return null;
   }
 
-  function sectionOf(cert) {
-    return findById((state.domainById[cert.domain] || {}).sections, cert.section);
+  function domainOf(cert) {
+    return findById((state.areaById[cert.area] || {}).domains, cert.domain);
   }
 
-  function subsectionOf(cert) {
-    var section = sectionOf(cert);
-    return section ? findById(section.subsections, cert.subsection) : null;
+  function specialtyOf(cert) {
+    var domain = domainOf(cert);
+    return domain ? findById(domain.specialties, cert.specialty) : null;
   }
 
   function paint(cert) {
-    var domain = state.domainById[cert.domain] || { color: "#444", ink: "#fff" };
-    var section = sectionOf(cert);
-    var sub = subsectionOf(cert);
+    var area = state.areaById[cert.area] || { color: "#444", ink: "#fff" };
+    var domain = domainOf(cert);
+    var spec = specialtyOf(cert);
     return {
-      color: (sub && sub.color) || (section && section.color) || domain.color,
-      ink: (sub && sub.ink) || (section && section.ink) || domain.ink
+      color: (spec && spec.color) || (domain && domain.color) || area.color,
+      ink: (spec && spec.ink) || (domain && domain.ink) || area.ink
     };
   }
 
-  function belongs(cert, domainId) {
-    return cert.domain === domainId || (cert.crossDomain && cert.domains.indexOf(domainId) !== -1);
+  function belongs(cert, areaId) {
+    return cert.area === areaId || (cert.crossDomain && cert.areas.indexOf(areaId) !== -1);
   }
 
   function haystack(cert) {
-    var domain = state.domainById[cert.domain];
-    var section = sectionOf(cert);
-    var sub = subsectionOf(cert);
+    var area = state.areaById[cert.area];
+    var domain = domainOf(cert);
+    var spec = specialtyOf(cert);
     return [
       cert.abbreviation,
       cert.name,
+      area ? area.title : "",
+      area ? area.shortTitle : "",
       domain ? domain.title : "",
-      domain ? domain.shortTitle : "",
-      section ? section.title : "",
-      sub ? sub.title : "",
+      spec ? spec.title : "",
       (cert.details || []).join(" ")
     ].join(" ").toLowerCase();
   }
 
   function matchesFilters(cert) {
     if (state.level !== "all" && cert.level !== state.level) return false;
-    if (state.specialty !== "all" && cert.subsection !== state.specialty) return false;
+    if (state.domain !== "all" && cert.domain !== state.domain) return false;
+    if (state.specialty !== "all" && cert.specialty !== state.specialty) return false;
     var query = state.query.trim().toLowerCase();
     if (!query) return true;
     return haystack(cert).indexOf(query) !== -1;
   }
 
-  function updateSpecialtyField() {
-    var domainId = state.route.name === "area" ? state.route.id
-      : state.domain !== "all" ? state.domain : null;
-    if (!domainId) {
-      specialtyField.hidden = true;
-      state.specialty = "all";
+  function updateDomainField() {
+    var areaId = state.route.name === "area" ? state.route.id
+      : state.area !== "all" ? state.area : null;
+    if (!areaId) {
+      domainField.hidden = true;
+      state.domain = "all";
       return;
     }
-    var domain = state.domainById[domainId];
-    var subs = [];
-    if (domain) {
-      domain.sections.forEach(function (s) {
-        (s.subsections || []).forEach(function (sub) { subs.push(sub); });
+    var area = state.areaById[areaId];
+    var domains = area ? area.domains : [];
+    if (domains.length <= 1) {
+      domainField.hidden = true;
+      state.domain = "all";
+      return;
+    }
+    if (domainSelect.dataset.area !== areaId) {
+      var options = [el("option", { value: "all" }, "All domains")];
+      domains.forEach(function (d) {
+        options.push(el("option", { value: d.id }, d.title));
       });
+      domainSelect.replaceChildren.apply(domainSelect, options);
+      domainSelect.dataset.area = areaId;
+      state.domain = "all";
+      domainSelect.value = "all";
     }
-    if (!subs.length) {
+    domainField.hidden = false;
+  }
+
+  function updateSpecialtyField() {
+    var areaId = state.route.name === "area" ? state.route.id
+      : state.area !== "all" ? state.area : null;
+    if (!areaId || state.domain === "all") {
       specialtyField.hidden = true;
       state.specialty = "all";
       return;
     }
-    if (specialtySelect.dataset.domain !== domainId) {
+    var area = state.areaById[areaId];
+    var domainObj = area ? findById(area.domains, state.domain) : null;
+    var specialties = domainObj ? (domainObj.specialties || []) : [];
+    if (!specialties.length) {
+      specialtyField.hidden = true;
+      state.specialty = "all";
+      return;
+    }
+    if (specialtySelect.dataset.domain !== state.domain) {
       var options = [el("option", { value: "all" }, "All specialties")];
-      subs.forEach(function (sub) {
-        options.push(el("option", { value: sub.id }, sub.title));
+      specialties.forEach(function (s) {
+        options.push(el("option", { value: s.id }, s.title));
       });
       specialtySelect.replaceChildren.apply(specialtySelect, options);
-      specialtySelect.dataset.domain = domainId;
+      specialtySelect.dataset.domain = state.domain;
       state.specialty = "all";
       specialtySelect.value = "all";
     }
     specialtyField.hidden = false;
   }
 
+  function updateFilterBadge() {
+    var active = state.area !== "all" || state.domain !== "all" || state.specialty !== "all" || state.level !== "all";
+    filterBadge.hidden = !active;
+    filterReset.hidden = !active;
+  }
+
   function byPosition(a, b) {
     return a.row - b.row || a.column - b.column || a.abbreviation.localeCompare(b.abbreviation);
   }
 
-  function certsInDomain(domainId) {
+  function certsInArea(areaId) {
     return state.certs.filter(function (cert) {
-      return belongs(cert, domainId) && matchesFilters(cert);
+      return belongs(cert, areaId) && matchesFilters(cert);
     });
   }
 
@@ -171,23 +205,23 @@
     if (!cert) return;
     state.selectedId = id;
     lastFocus = opener || document.activeElement;
-    var domain = state.domainById[cert.domain];
-    var section = sectionOf(cert);
-    var sub = subsectionOf(cert);
+    var area = state.areaById[cert.area];
+    var domain = domainOf(cert);
+    var spec = specialtyOf(cert);
     document.getElementById("detail-kicker").textContent = levelLabel(cert.level);
     document.getElementById("detail-title").textContent = cert.abbreviation;
     document.getElementById("detail-name").textContent = cert.name;
 
     var meta = document.getElementById("detail-meta");
     meta.replaceChildren();
-    addMeta(meta, "Domain", domain ? domain.title : cert.domain);
-    if (domain && domain.sections.length > 1 && section) addMeta(meta, "Section", section.title);
-    if (sub) addMeta(meta, "Subsection", sub.title);
+    addMeta(meta, "Area", area ? area.title : cert.area);
+    if (area && area.domains.length > 1 && domain) addMeta(meta, "Domain", domain.title);
+    if (spec) addMeta(meta, "Specialty", spec.title);
     addMeta(meta, "Level", levelLabel(cert.level));
     if (cert.crossDomain) {
-      var others = cert.domains.filter(function (domainId) { return domainId !== cert.domain; })
-        .map(function (domainId) {
-          return state.domainById[domainId] ? state.domainById[domainId].shortTitle : domainId;
+      var others = cert.areas.filter(function (areaId) { return areaId !== cert.area; })
+        .map(function (areaId) {
+          return state.areaById[areaId] ? state.areaById[areaId].shortTitle : areaId;
         });
       addMeta(meta, "Also in", others.join(", "));
     }
@@ -203,9 +237,9 @@
     if (cert.url && /^https?:\/\//i.test(cert.url)) {
       linkHost.append(el("a", { href: cert.url, target: "_blank", rel: "noopener noreferrer" }, "Official certification page"));
     }
-    if (domain) {
+    if (area) {
       if (linkHost.childNodes.length) linkHost.append(document.createTextNode(" · "));
-      linkHost.append(el("a", { href: "#/area/" + domain.id }, domain.shortTitle + " area"));
+      linkHost.append(el("a", { href: "#/area/" + area.id }, area.shortTitle + " area"));
     }
 
     detail.hidden = false;
@@ -263,19 +297,19 @@
     });
   }
 
-  // Groups an area's certifications by level, then by section.
+  // Groups an area's certifications by level, then by domain.
   // Certifications from other areas that are drawn into this one go in "Also placed here".
-  function levelBlocks(domain, certs) {
-    var native = certs.filter(function (cert) { return cert.domain === domain.id; });
-    var visitors = certs.filter(function (cert) { return cert.domain !== domain.id; });
+  function levelBlocks(area, certs) {
+    var native = certs.filter(function (cert) { return cert.area === area.id; });
+    var visitors = certs.filter(function (cert) { return cert.area !== area.id; });
     return state.levels.map(function (level) {
-      var blocks = domain.sections.map(function (section) {
+      var blocks = area.domains.map(function (domain) {
         return {
-          id: section.id,
-          title: section.title,
-          note: domain.sections.length > 1 ? section.description : "",
+          id: domain.id,
+          title: domain.title,
+          note: area.domains.length > 1 ? domain.description : "",
           certs: native.filter(function (cert) {
-            return cert.level === level.id && cert.section === section.id;
+            return cert.level === level.id && cert.domain === domain.id;
           }).sort(byPosition)
         };
       }).filter(function (block) { return block.certs.length; });
@@ -287,13 +321,13 @@
     }).filter(function (group) { return group.blocks.length; });
   }
 
-  // One column per section. Certifications with no subsection are listed by level.
-  // Each subsection comes next, with Expert, Intermediate, and Beginner inside it.
-  function renderSectionRow(domain, groups, buttonFor) {
-    var columns = domain.sections.map(function (section) {
-      return { id: section.id, title: section.title, note: section.description || "", subsections: section.subsections || [] };
+  // One column per domain. Certifications with no specialty are listed by level.
+  // Each specialty comes next, with Expert, Intermediate, and Beginner inside it.
+  function renderDomainRow(area, groups, buttonFor) {
+    var columns = area.domains.map(function (domain) {
+      return { id: domain.id, title: domain.title, note: domain.description || "", specialties: domain.specialties || [] };
     });
-    columns.push({ id: "also", title: ALSO_TITLE, note: ALSO_NOTE, subsections: [] });
+    columns.push({ id: "also", title: ALSO_TITLE, note: ALSO_NOTE, specialties: [] });
 
     var row = el("div", { class: "section-row" });
     columns.forEach(function (column) {
@@ -306,18 +340,18 @@
       if (!certs.length) return;
       var col = el("section", { class: "section-col" });
       col.append(el("h3", null, column.title));
-      if (column.note && domain.sections.length > 1) {
+      if (column.note && area.domains.length > 1) {
         col.append(el("p", { class: "section-note" }, column.note));
       }
-      var known = column.subsections.map(function (sub) { return sub.id; });
+      var known = column.specialties.map(function (s) { return s.id; });
       appendLevels(col, certs.filter(function (cert) {
-        return known.indexOf(cert.subsection) === -1;
+        return known.indexOf(cert.specialty) === -1;
       }), buttonFor);
-      column.subsections.forEach(function (sub) {
-        var inSub = certs.filter(function (cert) { return cert.subsection === sub.id; });
-        if (!inSub.length) return;
-        col.append(el("h4", { class: "subsection-title" }, sub.title));
-        appendLevels(col, inSub, buttonFor, "h5");
+      column.specialties.forEach(function (s) {
+        var inSpec = certs.filter(function (cert) { return cert.specialty === s.id; });
+        if (!inSpec.length) return;
+        col.append(el("h4", { class: "subsection-title" }, s.title));
+        appendLevels(col, inSpec, buttonFor, "h5");
       });
       row.append(col);
     });
@@ -338,58 +372,58 @@
     return wrap;
   }
 
-  function renderColumn(domain, certs) {
+  function renderColumn(area, certs) {
     var column = el("section", { class: "column" });
-    column.style.setProperty("--bar", domain.color);
+    column.style.setProperty("--bar", area.color);
     var title = el("h2", { class: "column-title" }, el("a", {
-      href: "#/area/" + domain.id,
-      title: domain.title
-    }, domain.shortTitle));
+      href: "#/area/" + area.id,
+      title: area.title
+    }, area.shortTitle));
     column.append(title);
-    var groups = levelBlocks(domain, certs);
+    var groups = levelBlocks(area, certs);
     if (!groups.length) {
       column.append(el("p", { class: "empty" }, "Nothing matches."));
       return column;
     }
-    column.append(renderSectionRow(domain, groups, chip));
+    column.append(renderDomainRow(area, groups, chip));
     return column;
   }
 
   function renderBoard(list) {
-    var shown = state.domain === "all"
-      ? state.domains
-      : state.domains.filter(function (domain) { return domain.id === state.domain; });
+    var shown = state.area === "all"
+      ? state.areas
+      : state.areas.filter(function (area) { return area.id === state.area; });
     var board = el("div", { class: "board" });
-    shown.forEach(function (domain) {
-      var certs = list.filter(function (cert) { return belongs(cert, domain.id); });
-      board.append(renderColumn(domain, certs));
+    shown.forEach(function (area) {
+      var certs = list.filter(function (cert) { return belongs(cert, area.id); });
+      board.append(renderColumn(area, certs));
     });
     return board;
   }
 
-  function renderArea(domain, certs) {
+  function renderArea(area, certs) {
     var article = el("article", { class: "area" });
-    article.style.setProperty("--bar", domain.color);
+    article.style.setProperty("--bar", area.color);
     article.append(
       el("p", { class: "area-kicker" }, "Area"),
-      el("p", { class: "description" }, domain.description)
+      el("p", { class: "description" }, area.description)
     );
-    var groups = levelBlocks(domain, certs);
+    var groups = levelBlocks(area, certs);
     if (!groups.length) {
       article.append(el("p", { class: "empty" }, "No certifications match these filters."));
       return article;
     }
     var inner = el("div", { class: "area-band-inner" });
     inner.append(
-      el("h2", { class: "column-title" }, domain.title),
-      renderSectionRow(domain, groups, card)
+      el("h2", { class: "column-title" }, area.title),
+      renderDomainRow(area, groups, card)
     );
     article.append(el("div", { class: "area-band" }, inner));
     return article;
   }
 
   function lede() {
-    return el("p", { class: "lede" }, "Eight cybersecurity domains, read from the expert end of the chart down to beginner.");
+    return el("p", { class: "lede" }, "Eight cybersecurity areas, read from the expert end of the chart down to beginner.");
   }
 
   function renderTabs() {
@@ -401,19 +435,19 @@
     allBtn.style.setProperty("--bar", "#1b2430");
     allBtn.addEventListener("click", function () { location.hash = "#/"; });
 
-    var domainBtns = state.domains.map(function (domain) {
-      var selected = state.route.name === "area" && state.route.id === domain.id;
+    var areaBtns = state.areas.map(function (area) {
+      var selected = state.route.name === "area" && state.route.id === area.id;
       var button = el("button", {
         type: "button", class: "tab", role: "tab",
         "aria-selected": selected ? "true" : "false",
-        id: "tab-" + domain.id
-      }, domain.shortTitle);
-      button.style.setProperty("--bar", domain.color);
-      button.addEventListener("click", function () { location.hash = "#/area/" + domain.id; });
+        id: "tab-" + area.id
+      }, area.shortTitle);
+      button.style.setProperty("--bar", area.color);
+      button.addEventListener("click", function () { location.hash = "#/area/" + area.id; });
       return button;
     });
 
-    tabsEl.replaceChildren.apply(tabsEl, [allBtn].concat(domainBtns));
+    tabsEl.replaceChildren.apply(tabsEl, [allBtn].concat(areaBtns));
   }
 
   function setupDragScroll() {
@@ -463,44 +497,39 @@
     countEl.textContent = label ? text + " in " + label : text + " certifications";
   }
 
-  function updateFilterBadge() {
-    var active = state.domain !== "all" || state.specialty !== "all" || state.level !== "all";
-    filterBadge.hidden = !active;
-    filterReset.hidden = !active;
-  }
-
   function render() {
     state.route = parseRoute();
+    updateDomainField();
     updateSpecialtyField();
     updateFilterBadge();
     renderTabs();
-    domainField.hidden = state.route.name === "area";
+    areaField.hidden = state.route.name === "area";
     var title = "Security Certification Roadmap";
     main.replaceChildren(lede());
 
     if (state.route.name === "area") {
-      var area = state.domainById[state.route.id];
+      var area = state.areaById[state.route.id];
       document.title = area.shortTitle + " · " + title;
-      var inArea = certsInDomain(area.id);
+      var inArea = certsInArea(area.id);
       var areaTotal = state.certs.filter(function (cert) { return belongs(cert, area.id); }).length;
       updateCount(inArea.length, areaTotal, area.shortTitle);
       main.append(renderArea(area, inArea));
     } else {
       document.title = title;
       var matched = state.certs.filter(matchesFilters);
-      if (state.domain === "all") updateCount(matched.length, state.certs.length);
+      if (state.area === "all") updateCount(matched.length, state.certs.length);
       else {
-        var selected = state.domainById[state.domain];
-        var selectedMatch = matched.filter(function (cert) { return belongs(cert, state.domain); });
-        var selectedTotal = state.certs.filter(function (cert) { return belongs(cert, state.domain); }).length;
+        var selected = state.areaById[state.area];
+        var selectedMatch = matched.filter(function (cert) { return belongs(cert, state.area); });
+        var selectedTotal = state.certs.filter(function (cert) { return belongs(cert, state.area); }).length;
         updateCount(selectedMatch.length, selectedTotal, selected ? selected.shortTitle : "");
         matched = selectedMatch;
       }
       main.append(renderBoard(matched));
     }
-    var legend = "A double border means the certification is also drawn into another domain.";
+    var legend = "A double border means the certification is also drawn into another area.";
     if (state.route.name === "chart") {
-      legend += " Choose a domain name to open its sections.";
+      legend += " Choose an area name to open its domains.";
     }
     main.append(el("p", { class: "legend" }, legend));
     updateHScroll();
@@ -548,28 +577,36 @@
       var open = toolbar.classList.toggle("filters-open");
       filterToggle.setAttribute("aria-expanded", open ? "true" : "false");
     });
-    filterReset.addEventListener("click", function () {
-      state.domain = "all";
-      state.specialty = "all";
-      state.level = "all";
-      domainSelect.value = "all";
-      levelSelect.value = "all";
-      render();
-    });
     searchInput.addEventListener("input", function () {
       state.query = searchInput.value;
       render();
     });
+    areaSelect.addEventListener("change", function () {
+      state.area = areaSelect.value;
+      state.domain = "all";
+      state.specialty = "all";
+      render();
+    });
     domainSelect.addEventListener("change", function () {
       state.domain = domainSelect.value;
+      state.specialty = "all";
+      render();
+    });
+    specialtySelect.addEventListener("change", function () {
+      state.specialty = specialtySelect.value;
       render();
     });
     levelSelect.addEventListener("change", function () {
       state.level = levelSelect.value;
       render();
     });
-    specialtySelect.addEventListener("change", function () {
-      state.specialty = specialtySelect.value;
+    filterReset.addEventListener("click", function () {
+      state.area = "all";
+      state.domain = "all";
+      state.specialty = "all";
+      state.level = "all";
+      areaSelect.value = "all";
+      levelSelect.value = "all";
       render();
     });
     main.addEventListener("click", function (event) {
@@ -608,12 +645,12 @@
     });
   }
 
-  function fillFilters() {
-    var options = [el("option", { value: "all" }, "All domains")];
-    state.domains.forEach(function (domain) {
-      options.push(el("option", { value: domain.id }, domain.title));
+  function fillAreaFilter() {
+    var options = [el("option", { value: "all" }, "All areas")];
+    state.areas.forEach(function (area) {
+      options.push(el("option", { value: area.id }, area.title));
     });
-    domainSelect.replaceChildren.apply(domainSelect, options);
+    areaSelect.replaceChildren.apply(areaSelect, options);
     state.levels.forEach(function (level) {
       levelSelect.append(el("option", { value: level.id }, level.label));
     });
@@ -633,11 +670,11 @@
     })
     .then(function (loaded) {
       state.levels = loaded.domainsDoc.levels || [];
-      state.domains = loaded.domainsDoc.domains || [];
+      state.areas = loaded.domainsDoc.areas || [];
       state.certs = loaded.certs;
-      state.domains.forEach(function (domain) { state.domainById[domain.id] = domain; });
+      state.areas.forEach(function (area) { state.areaById[area.id] = area; });
       state.certs.forEach(function (cert) { state.certById[cert.id] = cert; });
-      fillFilters();
+      fillAreaFilter();
       bind();
       render();
     })

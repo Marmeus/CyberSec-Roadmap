@@ -305,6 +305,21 @@ main {
 .site-footer a { color: var(--ink); }
 .site-footer p { max-width: 52rem; margin: 0 auto; }
 
+.cert-tooltip {
+  position: fixed;
+  z-index: 15;
+  background: var(--header);
+  color: #f0ece4;
+  border-radius: 10px;
+  padding: 0.6rem 0.85rem;
+  max-width: 220px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  pointer-events: none;
+}
+.tip-name { display: block; font-weight: 600; font-size: 0.85rem; line-height: 1.35; margin-bottom: 0.3rem; }
+.tip-issuer { display: block; font-size: 0.78rem; color: #9e97a0; margin-bottom: 0.2rem; }
+.tip-price { display: block; font-size: 0.8rem; color: #c0bab4; }
+
 .backdrop {
   position: fixed;
   inset: 0;

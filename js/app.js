@@ -614,6 +614,63 @@
     hlock = false;
   }
 
+  function setupTooltip() {
+    var tip = document.getElementById("cert-tooltip");
+    var autoHideTimer;
+
+    function showTip(btn) {
+      var cert = state.certById[btn.getAttribute("data-cert")];
+      if (!cert) return;
+
+      tip.querySelector(".tip-name").textContent = cert.name;
+      var issuerEl = tip.querySelector(".tip-issuer");
+      issuerEl.textContent = cert.issuer || "";
+      issuerEl.hidden = !cert.issuer;
+      var priceEl = tip.querySelector(".tip-price");
+      var price = cert.details && cert.details.length ? cert.details.join(" · ") : "";
+      priceEl.textContent = price;
+      priceEl.hidden = !price;
+
+      tip.hidden = false;
+      var r = btn.getBoundingClientRect();
+      var w = tip.offsetWidth, h = tip.offsetHeight;
+      var top = r.bottom + 8;
+      if (top + h > window.innerHeight - 8) top = r.top - h - 8;
+      var left = r.left;
+      if (left + w > window.innerWidth - 8) left = window.innerWidth - w - 8;
+      if (left < 8) left = 8;
+      tip.style.top = top + "px";
+      tip.style.left = left + "px";
+    }
+
+    function hideTip() {
+      clearTimeout(autoHideTimer);
+      tip.hidden = true;
+    }
+
+    // Desktop: hover
+    main.addEventListener("mouseover", function (e) {
+      var btn = e.target.closest("[data-cert]");
+      if (!btn) { hideTip(); return; }
+      showTip(btn);
+    });
+    main.addEventListener("mouseout", function (e) {
+      var btn = e.target.closest("[data-cert]");
+      if (!btn || btn.contains(e.relatedTarget)) return;
+      hideTip();
+    });
+
+    // Mobile/tablet: touch
+    main.addEventListener("touchstart", function (e) {
+      var btn = e.target.closest("[data-cert]");
+      if (!btn) { hideTip(); return; }
+      clearTimeout(autoHideTimer);
+      showTip(btn);
+      autoHideTimer = setTimeout(hideTip, 2500);
+    }, { passive: true });
+    main.addEventListener("touchmove", hideTip, { passive: true });
+  }
+
   function setupCrossHighlight() {
     var hlTimer;
     function clearHL() {
@@ -703,6 +760,7 @@
     window.addEventListener("hashchange", render);
     window.addEventListener("resize", updateHScroll);
     setupDragScroll();
+    setupTooltip();
     setupCrossHighlight();
     var hbar = document.getElementById("hscroll");
     hbar.addEventListener("scroll", function () {

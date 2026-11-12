@@ -195,7 +195,7 @@
     "name": "GIAC Security Expert",
     "url": "https://www.giac.org/get-certified/giac-portfolio-certifications/#GSE",
     "details": [
-      "~$7475 for 10 exams"
+      "~$7,990 for 6 practitioner + 4 applied knowledge exams"
     ],
     "domain": "management",
     "domains": [
@@ -215,7 +215,7 @@
     "name": "GIAC Reverse Engineering Malware",
     "url": "https://www.giac.org/certifications/reverse-engineering-malware-grem/",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -316,8 +316,8 @@
   {
     "id": "cissp-concentrations",
     "abbreviation": "CISSP Concentrations",
-    "name": "(ISC)2 Certified Information Systems Security Professional Concentrations",
-    "url": "https://www.isc2.org/certifications#Specialized",
+    "name": "ISC2 Certified Information Systems Security Professional Concentrations",
+    "url": "https://www.isc2.org/certifications/cissp/concentrations",
     "details": [
       "$599 exam"
     ],
@@ -379,7 +379,7 @@
     "name": "GIAC Exploit Researcher and Advanced Penetration Tester",
     "url": "https://www.giac.org/certification/gxpn",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -562,7 +562,7 @@
     "name": "GIAC iOS and MacOS Examiner",
     "url": "https://www.giac.org/certifications/ios-macos-examiner-gime/",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -583,7 +583,7 @@
     "name": "GIAC Assessing Wireless Networks",
     "url": "https://www.giac.org/certification/gawn",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -601,8 +601,8 @@
   {
     "id": "cissp",
     "abbreviation": "CISSP",
-    "name": "(ISC)2 Certified Information Systems Security Professional",
-    "url": "https://www.isc2.org/Certifications/CISSP",
+    "name": "ISC2 Certified Information Systems Security Professional",
+    "url": "https://www.isc2.org/certifications/cissp",
     "details": [
       "$749 exam"
     ],
@@ -631,8 +631,8 @@
     "domains": [
       "operations"
     ],
-    "section": "monitoring",
-    "subsection": "soc-analyst",
+    "section": "incident-handling",
+    "subsection": "incident-response",
     "level": "expert",
     "row": 7,
     "column": 36,
@@ -665,7 +665,7 @@
     "name": "GIAC Certified Forensic Analyst",
     "url": "https://www.giac.org/certification/gcfa",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -686,7 +686,7 @@
     "name": "GIAC Cyber Threat Intelligence",
     "url": "https://www.giac.org/certification/gcti",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -808,7 +808,7 @@
     "name": "GIAC Defending Advanced Threats",
     "url": "https://www.giac.org/certification/defending-advanced-threats-gdat",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "engineering",
@@ -911,7 +911,7 @@
     "name": "GIAC Strategic Planning, Policy and Leadership",
     "url": "https://www.giac.org/certification/gstrt",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "management",
@@ -952,8 +952,9 @@
     "name": "GIAC Systems and Network Auditor",
     "url": "https://www.giac.org/certification/gsna",
     "details": [
-      "$979 exam",
-      "SANS course recommended"
+      "$999 exam",
+      "SANS course recommended",
+      "Currently in abeyance (not sold by GIAC)"
     ],
     "domain": "testing",
     "domains": [
@@ -993,7 +994,7 @@
     "name": "GIAC Network Forensic Analyst",
     "url": "https://www.giac.org/certification/network-forensic-analyst-gnfa",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -1178,7 +1179,7 @@
     "name": "GIAC Security Professional",
     "url": "https://www.giac.org/get-certified/giac-portfolio-certifications/#gsp",
     "details": [
-      "~$3735 for 5 exams"
+      "~$3,995 for 3 practitioner + 2 applied knowledge exams"
     ],
     "domain": "management",
     "domains": [
@@ -1198,7 +1199,7 @@
     "name": "GIAC Information Security Professional",
     "url": "https://www.giac.org/certification/gisp",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "management",
@@ -1240,7 +1241,7 @@
     "name": "GIAC Cloud Forensics Responder",
     "url": "https://www.giac.org/certifications/cloud-forensics-responder-gcfr/",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -1404,7 +1405,7 @@
     "name": "GIAC Defensible Security Architecture",
     "url": "https://www.giac.org/certification/defensible-security-architecture-gdsa",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "engineering",
@@ -1467,7 +1468,7 @@
     "name": "GIAC Security Leadership Certification",
     "url": "https://www.giac.org/certification/gslc",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "management",
@@ -1505,10 +1506,10 @@
   {
     "id": "gcfe",
     "abbreviation": "GCFE",
-    "name": "GIAC Cerified Forensics Examiner",
+    "name": "GIAC Certified Forensic Examiner",
     "url": "https://www.giac.org/certification/gcfe",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -1529,7 +1530,7 @@
     "name": "GIAC Enterprise Incident Response",
     "url": "https://www.giac.org/certifications/enterprise-incident-responder-geir/",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -1548,7 +1549,7 @@
     "id": "paces",
     "abbreviation": "PACES",
     "name": "Pentester Academy Certified Enterprise Security Specialist",
-    "url": "https://www.pentesteracademy.com/gcb",
+    "url": "https://www.alteredsecurity.com/paces",
     "details": [
       "$339-749 Lab access",
       "Exam included"
@@ -1712,7 +1713,7 @@
     "name": "GIAC Advanced Smartphone Forensics",
     "url": "https://www.giac.org/certification/advanced-smartphone-forensics-gasf",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -1874,7 +1875,7 @@
     "name": "GIAC Cloud Threat Detection",
     "url": "https://www.giac.org/certifications/cloud-threat-detection-gctd/",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "engineering",
@@ -1916,7 +1917,7 @@
     "url": "https://www.axelos.com/certifications/itil-certifications/itil-managing-professional-itil-4",
     "details": [
       "$9,600 4 course exams",
-      "4 branded courses requires"
+      "4 branded courses required"
     ],
     "domain": "management",
     "domains": [
@@ -1957,8 +1958,9 @@
     "name": "GIAC Law of Data Security & Investigations",
     "url": "https://www.giac.org/certification/law-data-security-investigations-gleg",
     "details": [
-      "$979 exam",
-      "SANS course recommended"
+      "$999 exam",
+      "SANS course recommended",
+      "Currently in abeyance (not sold by GIAC)"
     ],
     "domain": "management",
     "domains": [
@@ -1995,8 +1997,8 @@
   {
     "id": "cgrc",
     "abbreviation": "CGRC",
-    "name": "(ISC)2 Certified in Governance, Risk and Compliance",
-    "url": "https://www.isc2.org/Certifications/CGRC",
+    "name": "ISC2 Certified in Governance, Risk and Compliance",
+    "url": "https://www.isc2.org/certifications/cgrc",
     "details": [
       "$599 exam"
     ],
@@ -2039,7 +2041,7 @@
     "name": "GIAC Critical Controls Certification",
     "url": "https://www.giac.org/certification/critical-controls-certification-gccc",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "testing",
@@ -2080,7 +2082,7 @@
     "name": "GIAC Certified Web Application Defender",
     "url": "https://www.giac.org/certification/certified-web-application-defender-gweb",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "software",
@@ -2142,7 +2144,7 @@
     "name": "GIAC Certified Enterprise Defender",
     "url": "https://www.giac.org/certification/certified-enterprise-defender-gced",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -2259,9 +2261,9 @@
   },
   {
     "id": "ms-100",
-    "abbreviation": "MS-100",
-    "name": "Microsoft 365 Certified Enterprise Administrator Expert",
-    "url": "https://docs.microsoft.com/en-us/learn/certifications/m365-enterprise-administrator",
+    "abbreviation": "MS-102",
+    "name": "Microsoft 365 Certified: Enterprise Administrator Expert",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/m365-enterprise-administrator-expert/",
     "details": [
       "$165 exam"
     ],
@@ -2284,7 +2286,7 @@
     "name": "GIAC Public Cloud Security",
     "url": "https://www.giac.org/certifications/public-cloud-security-gpcs/",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "engineering",
@@ -2305,7 +2307,7 @@
     "name": "GIAC Cloud Security Automation",
     "url": "https://www.giac.org/certification/cloud-security-automation-gcsa",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "engineering",
@@ -2347,7 +2349,7 @@
     "name": "GIAC Response and Industrial Defense",
     "url": "https://www.giac.org/certification/response-industrial-defense-grid",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course encouraged"
     ],
     "domain": "engineering",
@@ -2531,7 +2533,7 @@
     "name": "GIAC Continuous Monitoring",
     "url": "https://www.giac.org/certification/continuous-monitoring-certification-gmon",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "testing",
@@ -2653,10 +2655,10 @@
   {
     "id": "gcih",
     "abbreviation": "GCIH",
-    "name": "GIAC Certified Forensics Analystr",
+    "name": "GIAC Certified Incident Handler",
     "url": "https://www.giac.org/certification/gcih",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -2698,7 +2700,7 @@
     "name": "GIAC Certified Penetration Tester",
     "url": "https://www.giac.org/certification/gpen",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -3084,8 +3086,8 @@
   {
     "id": "csslp",
     "abbreviation": "CSSLP",
-    "name": "(ISC)2 Certified Secure Software Lifecycle Professional",
-    "url": "https://www.isc2.org/Certifications/CSSLP",
+    "name": "ISC2 Certified Secure Software Lifecycle Professional",
+    "url": "https://www.isc2.org/certifications/csslp",
     "details": [
       "$599 exam"
     ],
@@ -3172,7 +3174,7 @@
     "name": "GIAC Python Coder",
     "url": "https://www.giac.org/certification/python-coder-gpyc",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -3254,7 +3256,7 @@
     "name": "GIAC Cloud Penetration Tester",
     "url": "https://www.giac.org/certification/gcpn",
     "details": [
-      "$2,499 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -3275,7 +3277,7 @@
     "name": "GIAC Red Team Professional",
     "url": "https://www.giac.org/certifications/red-team-professional-grtp/",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -3316,7 +3318,7 @@
     "name": "GIAC Mobile Device Security Analyst",
     "url": "https://www.giac.org/certification/mobile-device-security-analyst-gmob",
     "details": [
-      "$399 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -3374,8 +3376,8 @@
   {
     "id": "ccsp",
     "abbreviation": "CCSP",
-    "name": "(ISC)2 Certified Cloud Security Professional",
-    "url": "https://www.isc2.org/Certifications/CCSP",
+    "name": "ISC2 Certified Cloud Security Professional",
+    "url": "https://www.isc2.org/certifications/ccsp",
     "details": [
       "$599 exam"
     ],
@@ -3681,7 +3683,7 @@
     "name": "GIAC Certified Intrusion Analyst",
     "url": "https://www.giac.org/certification/certified-intrusion-analyst-gcia",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "testing",
@@ -3760,10 +3762,10 @@
     "crossDomain": false
   },
   {
-    "id": "sc-400",
-    "abbreviation": "SC-400",
-    "name": "Microsoft Certified Information Protection Administrator Associate",
-    "url": "https://docs.microsoft.com/en-us/learn/certifications/information-protection-administrator/",
+    "id": "sc-401",
+    "abbreviation": "SC-401",
+    "name": "Microsoft Information Security Administrator",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/information-security-administrator/",
     "details": [
       "$165 exam"
     ],
@@ -3865,7 +3867,7 @@
     "name": "GIAC Web Application Penetration Tester",
     "url": "https://www.giac.org/certification/gwapt",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -4376,7 +4378,7 @@
     "name": "GIAC Security Operations Certified",
     "url": "https://www.giac.org/certifications/security-operations-certified-gsoc/",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -4397,7 +4399,7 @@
     "name": "GIAC Battlefield Forensics and Acquisition",
     "url": "https://www.giac.org/certification/gbfa",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -4603,7 +4605,7 @@
     "name": "GIAC Machine Learning Engineer",
     "url": "https://www.giac.org/certifications/machine-learning-engineer-gmle/",
     "details": [
-      "$979 exam"
+      "$999 exam"
     ],
     "domain": "software",
     "domains": [
@@ -4883,7 +4885,7 @@
     "id": "ccna",
     "abbreviation": "CCNA",
     "name": "Cisco Certified Network Associate",
-    "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html",
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html",
     "details": [
       "~$330 exam"
     ],
@@ -5008,7 +5010,7 @@
     "name": "GIAC Critical Infrastructure Protection",
     "url": "https://www.giac.org/certification/critical-infrastructure-protection-gcip",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course encouraged"
     ],
     "domain": "engineering",
@@ -5020,26 +5022,6 @@
     "level": "intermediate",
     "row": 18,
     "column": 13,
-    "columnSpan": 1,
-    "crossDomain": false
-  },
-  {
-    "id": "cimp-2",
-    "abbreviation": "CIMP",
-    "name": "IMI Certified Identity Management Professional",
-    "url": "https://www.identitymanagementinstitute.org/cimp/",
-    "details": [
-      "$295 Exam"
-    ],
-    "domain": "asset",
-    "domains": [
-      "asset"
-    ],
-    "section": "core",
-    "subsection": "identity-asset",
-    "level": "intermediate",
-    "row": 18,
-    "column": 16,
     "columnSpan": 1,
     "crossDomain": false
   },
@@ -5394,7 +5376,7 @@
     "id": "c-psh",
     "abbreviation": "C)PSH",
     "name": "Mile2 Certified Powershell Hacker",
-    "url": "https://www.mile2.com/cpSH_outline/",
+    "url": "https://mile2.com/certifications/c-psh/",
     "details": [
       "$550 exam"
     ],
@@ -5636,7 +5618,7 @@
   },
   {
     "id": "splk-3001",
-    "abbreviation": "SPLK- 3001",
+    "abbreviation": "SPLK-3001",
     "name": "Splunk Enterprise Security Certified Administrator",
     "url": "https://www.splunk.com/en_us/training/certification-track/splunk-es-certified-admin.html",
     "details": [
@@ -5949,7 +5931,7 @@
     "name": "GIAC Open Source Intelligence",
     "url": "https://www.giac.org/certification/open-source-intelligence-gosi",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -7597,7 +7579,7 @@
     "name": "GIAC Global Industrial Security Professional",
     "url": "https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course encouraged"
     ],
     "domain": "engineering",
@@ -7618,7 +7600,7 @@
     "name": "GIAC Security Essentials Certification",
     "url": "https://www.giac.org/certification/security-essentials-gsec",
     "details": [
-      "$979 exam",
+      "$999 exam",
       "SANS course recommended"
     ],
     "domain": "management",
@@ -7700,7 +7682,7 @@
     "name": "GIAC Foundational Cybersecurity Technologies",
     "url": "https://www.giac.org/certifications/foundational-cybersecurity-technologies-gfact/",
     "details": [
-      "$979 exam",
+      "$399 exam",
       "SANS course recommended"
     ],
     "domain": "operations",
@@ -8041,8 +8023,8 @@
   {
     "id": "sscp",
     "abbreviation": "SSCP",
-    "name": "(ISC)2 Systems Security Certified Practitioner",
-    "url": "https://www.isc2.org/Certifications/SSCP",
+    "name": "ISC2 Systems Security Certified Practitioner",
+    "url": "https://www.isc2.org/certifications/sscp",
     "details": [
       "$249 exam"
     ],
@@ -9437,7 +9419,7 @@
     "name": "GIAC Information Security Fundamentals",
     "url": "https://www.giac.org/certification/information-security-fundamentals-gisf",
     "details": [
-      "$979 exam",
+      "$499 exam",
       "SANS course recommended"
     ],
     "domain": "management",
@@ -9835,6 +9817,228 @@
     "level": "beginner",
     "row": 27,
     "column": 36,
+    "columnSpan": 1,
+    "crossDomain": false
+  },
+  {
+    "id": "tisp",
+    "abbreviation": "T.I.S.P.",
+    "name": "TeleTrusT Information Security Professional",
+    "url": "https://www.teletrust.de/en/certifications/tisp/",
+    "details": [
+      "~€800 exam"
+    ],
+    "domain": "management",
+    "domains": [
+      "management"
+    ],
+    "section": "grc",
+    "subsection": "governance",
+    "level": "expert",
+    "row": 28,
+    "column": 25,
+    "columnSpan": 1,
+    "crossDomain": false
+  },
+  {
+    "id": "htb-cdep",
+    "abbreviation": "HTB CDEP",
+    "name": "Hack the Box Certified Detection Engineering Professional",
+    "url": "https://academy.hackthebox.com/preview/certifications/htb-certified-detection-engineering-professional",
+    "details": [
+      "$210 exam"
+    ],
+    "domain": "operations",
+    "domains": [
+      "operations"
+    ],
+    "section": "monitoring",
+    "subsection": "siem-detection",
+    "level": "intermediate",
+    "row": 28,
+    "column": 35,
+    "columnSpan": 1,
+    "crossDomain": false
+  },
+  {
+    "id": "pjsa",
+    "abbreviation": "PJSA",
+    "name": "TCM Security Practical Junior SOC Analyst",
+    "url": "https://certifications.tcm-sec.com/pjsa/",
+    "details": [
+      "$149 exam"
+    ],
+    "domain": "operations",
+    "domains": [
+      "operations"
+    ],
+    "section": "monitoring",
+    "subsection": "soc-analyst",
+    "level": "beginner",
+    "row": 28,
+    "column": 36,
+    "columnSpan": 1,
+    "crossDomain": false
+  },
+  {
+    "id": "crtp",
+    "abbreviation": "CRTP",
+    "name": "Altered Security Certified Red Team Professional",
+    "url": "https://www.alteredsecurity.com/redteamlab",
+    "details": [
+      "$249 lab (90 days)",
+      "Exam included"
+    ],
+    "domain": "operations",
+    "domains": [
+      "operations"
+    ],
+    "section": "penetration-testing",
+    "subsection": "general",
+    "level": "intermediate",
+    "row": 28,
+    "column": 42,
+    "columnSpan": 1,
+    "crossDomain": false
+  },
+  {
+    "id": "crte",
+    "abbreviation": "CRTE",
+    "name": "Altered Security Certified Red Team Expert",
+    "url": "https://www.alteredsecurity.com/redteamlab",
+    "details": [
+      "$499 lab (30 days)",
+      "Exam included"
+    ],
+    "domain": "operations",
+    "domains": [
+      "operations"
+    ],
+    "section": "penetration-testing",
+    "subsection": "general",
+    "level": "expert",
+    "row": 28,
+    "column": 43,
+    "columnSpan": 1,
+    "crossDomain": false
+  },
+  {
+    "id": "arta",
+    "abbreviation": "ARTA",
+    "name": "HackTricks Training AWS Red Team Associate",
+    "url": "https://training.hacktricks.xyz/courses/arta",
+    "details": [
+      "$199 exam"
+    ],
+    "domain": "operations",
+    "domains": [
+      "operations"
+    ],
+    "section": "penetration-testing",
+    "subsection": "cloud",
+    "level": "intermediate",
+    "row": 28,
+    "column": 44,
+    "columnSpan": 1,
+    "crossDomain": false
+  },
+  {
+    "id": "arte",
+    "abbreviation": "ARTE",
+    "name": "HackTricks Training AWS Red Team Expert",
+    "url": "https://training.hacktricks.xyz/courses/arte",
+    "details": [
+      "$395 exam"
+    ],
+    "domain": "operations",
+    "domains": [
+      "operations"
+    ],
+    "section": "penetration-testing",
+    "subsection": "cloud",
+    "level": "expert",
+    "row": 28,
+    "column": 44,
+    "columnSpan": 1,
+    "crossDomain": false
+  },
+  {
+    "id": "grta",
+    "abbreviation": "GRTA",
+    "name": "HackTricks Training GCP Red Team Associate",
+    "url": "https://training.hacktricks.xyz/courses/grta",
+    "details": [
+      "$199 exam"
+    ],
+    "domain": "operations",
+    "domains": [
+      "operations"
+    ],
+    "section": "penetration-testing",
+    "subsection": "cloud",
+    "level": "intermediate",
+    "row": 28,
+    "column": 45,
+    "columnSpan": 1,
+    "crossDomain": false
+  },
+  {
+    "id": "grte",
+    "abbreviation": "GRTE",
+    "name": "HackTricks Training GCP Red Team Expert",
+    "url": "https://training.hacktricks.xyz/courses/grte",
+    "details": [
+      "$395 exam"
+    ],
+    "domain": "operations",
+    "domains": [
+      "operations"
+    ],
+    "section": "penetration-testing",
+    "subsection": "cloud",
+    "level": "expert",
+    "row": 28,
+    "column": 45,
+    "columnSpan": 1,
+    "crossDomain": false
+  },
+  {
+    "id": "azrta",
+    "abbreviation": "AzRTA",
+    "name": "HackTricks Training Azure Red Team Associate",
+    "url": "https://training.hacktricks.xyz/courses/azrta",
+    "details": [
+      "$199 exam"
+    ],
+    "domain": "operations",
+    "domains": [
+      "operations"
+    ],
+    "section": "penetration-testing",
+    "subsection": "cloud",
+    "level": "intermediate",
+    "row": 28,
+    "column": 46,
+    "columnSpan": 1,
+    "crossDomain": false
+  },
+  {
+    "id": "azrte",
+    "abbreviation": "AzRTE",
+    "name": "HackTricks Training Azure Red Team Expert",
+    "url": "https://training.hacktricks.xyz/courses/azrte",
+    "details": [
+      "$395 exam"
+    ],
+    "domain": "operations",
+    "domains": [
+      "operations"
+    ],
+    "section": "penetration-testing",
+    "subsection": "cloud",
+    "level": "expert",
+    "row": 28,
+    "column": 46,
     "columnSpan": 1,
     "crossDomain": false
   }

@@ -8,8 +8,6 @@
     query: "",
     domain: "all",
     level: "all",
-    mobileDomain: "network",
-    mobile: false,
     route: { name: "chart" },
     selectedId: null
   };
@@ -354,29 +352,27 @@
   }
 
   function renderTabs() {
-    var show = state.mobile && state.route.name === "chart";
-    tabsEl.hidden = !show;
-    domainField.hidden = state.mobile || state.route.name === "area";
-    if (!show) {
-      tabsEl.replaceChildren();
-      return;
-    }
-    tabsEl.replaceChildren.apply(tabsEl, state.domains.map(function (domain) {
-      var selected = domain.id === state.mobileDomain;
+    var allBtn = el("button", {
+      type: "button", class: "tab", role: "tab",
+      "aria-selected": state.route.name === "chart" ? "true" : "false",
+      id: "tab-all"
+    }, "All");
+    allBtn.style.setProperty("--bar", "#1b2430");
+    allBtn.addEventListener("click", function () { location.hash = "#/"; });
+
+    var domainBtns = state.domains.map(function (domain) {
+      var selected = state.route.name === "area" && state.route.id === domain.id;
       var button = el("button", {
-        type: "button",
-        class: "tab",
-        role: "tab",
+        type: "button", class: "tab", role: "tab",
         "aria-selected": selected ? "true" : "false",
         id: "tab-" + domain.id
       }, domain.shortTitle);
       button.style.setProperty("--bar", domain.color);
-      button.addEventListener("click", function () {
-        state.mobileDomain = domain.id;
-        render();
-      });
+      button.addEventListener("click", function () { location.hash = "#/area/" + domain.id; });
       return button;
-    }));
+    });
+
+    tabsEl.replaceChildren.apply(tabsEl, [allBtn].concat(domainBtns));
   }
 
   function setupDragScroll() {
@@ -385,7 +381,7 @@
     main.addEventListener("pointerdown", function (e) {
       if (e.pointerType !== "mouse" || e.button !== 0) return;
       if (e.target.closest("button, a")) return;
-      var scroller = main.querySelector(".board, .area-band");
+      var scroller = main.querySelector(".board");
       if (!scroller) return;
       drag.on = true;
       drag.moved = false;
@@ -429,6 +425,7 @@
   function render() {
     state.route = parseRoute();
     renderTabs();
+    domainField.hidden = state.route.name === "area";
     var title = "Security Certification Roadmap";
     main.replaceChildren(lede());
 
@@ -439,14 +436,6 @@
       var areaTotal = state.certs.filter(function (cert) { return belongs(cert, area.id); }).length;
       updateCount(inArea.length, areaTotal, area.shortTitle);
       main.append(renderArea(area, inArea));
-    } else if (state.mobile) {
-      document.title = title;
-      var mobileDomain = state.domainById[state.mobileDomain] || state.domains[0];
-      state.mobileDomain = mobileDomain.id;
-      var mobileCerts = certsInDomain(mobileDomain.id);
-      var mobileTotal = state.certs.filter(function (cert) { return belongs(cert, mobileDomain.id); }).length;
-      updateCount(mobileCerts.length, mobileTotal, mobileDomain.shortTitle);
-      main.append(renderArea(mobileDomain, mobileCerts));
     } else {
       document.title = title;
       var matched = state.certs.filter(matchesFilters);
@@ -461,7 +450,7 @@
       main.append(renderBoard(matched));
     }
     var legend = "A double border means the certification is also drawn into another domain.";
-    if (state.route.name === "chart" && !state.mobile) {
+    if (state.route.name === "chart") {
       legend += " Choose a domain name to open its sections.";
     }
     main.append(el("p", { class: "legend" }, legend));
@@ -477,7 +466,7 @@
   }
 
   function hscrollTarget() {
-    return document.querySelector(".board") || document.querySelector(".area-band");
+    return document.querySelector(".board");
   }
 
   function updateHScroll() {
@@ -552,14 +541,6 @@
       target.scrollLeft = hbar.scrollLeft;
       hlock = false;
     });
-    var media = typeof window.matchMedia === "function" ? window.matchMedia("(max-width: 900px)") : null;
-    state.mobile = !!(media && media.matches);
-    if (media && media.addEventListener) {
-      media.addEventListener("change", function (event) {
-        state.mobile = event.matches;
-        render();
-      });
-    }
   }
 
   function fillFilters() {
@@ -591,7 +572,6 @@
       state.certs = loaded.certs;
       state.domains.forEach(function (domain) { state.domainById[domain.id] = domain; });
       state.certs.forEach(function (cert) { state.certById[cert.id] = cert; });
-      if (state.domains.length) state.mobileDomain = state.domains[0].id;
       fillFilters();
       bind();
       render();

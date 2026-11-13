@@ -104,7 +104,7 @@ main {
   padding: 0.85rem 1.25rem 2.5rem;
 }
 
-.lede { margin: 0 0 0.75rem; max-width: 46rem; color: var(--muted); }
+.lede { margin: 0 0 0.75rem; max-width: none; width: 100%; color: var(--muted); }
 .lede a { color: var(--ink); }
 
 .board {

@@ -267,11 +267,17 @@
     });
   }
 
+  function levelBg(color, level) {
+    if (level === "beginner")     return "color-mix(in srgb, " + color + " 40%, white)";
+    if (level === "intermediate") return "color-mix(in srgb, " + color + " 70%, white)";
+    return color;
+  }
+
   function makeCertButton(cert, className, extra) {
     var colors = paint(cert);
     var button = el("button", {
       type: "button",
-      class: className + (cert.crossDomain ? " is-cross" : ""),
+      class: className + (cert.crossDomain ? " is-cross" : "") + " cert-" + cert.level,
       "data-cert": cert.id,
       "aria-pressed": cert.id === state.selectedId ? "true" : "false",
       "aria-label": cert.abbreviation + ", " + cert.name + ", " + levelLabel(cert.level)
@@ -290,16 +296,18 @@
         areaColors.forEach(function (c, i) {
           var p1 = (i / areaColors.length * 100).toFixed(1) + "%";
           var p2 = ((i + 1) / areaColors.length * 100).toFixed(1) + "%";
-          stops.push(c + " " + p1, c + " " + p2);
+          var mixed = levelBg(c, cert.level);
+          stops.push(mixed + " " + p1, mixed + " " + p2);
         });
         button.style.background = "linear-gradient(to right, " + stops.join(", ") + ")";
       } else {
-        button.style.background = colors.color;
+        button.style.background = levelBg(colors.color, cert.level);
       }
     } else {
-      button.style.background = colors.color;
+      button.style.background = levelBg(colors.color, cert.level);
     }
-    button.style.color = colors.ink;
+    var whiteAreas = ["management", "operations", "testing"];
+    button.style.color = whiteAreas.indexOf(cert.area) !== -1 ? "#ffffff" : "#1c1917";
     extra(button, cert);
     return button;
   }
@@ -490,6 +498,7 @@
       text += " Choose an area name to open its domains.";
     }
     text += " Certifications are listed alphabetically within each level.";
+    text += " Darker shade indicates higher difficulty; lighter shade indicates easier certifications.";
     return el("p", { class: "lede" }, text);
   }
 

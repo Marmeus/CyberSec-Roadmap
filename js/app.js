@@ -11,7 +11,8 @@
     specialty: "all",
     level: "all",
     route: { name: "chart" },
-    selectedId: null
+    selectedId: null,
+    groupByDomain: false
   };
 
   var ALSO_TITLE = "Also placed here";
@@ -26,6 +27,7 @@
   var specialtySelect = document.getElementById("specialty");
   var specialtyField = document.getElementById("specialty-field");
   var filterToggle = document.getElementById("filter-toggle");
+  var domainToggleBtn = document.getElementById("domain-toggle");
   var filterBadge = document.getElementById("filter-badge");
   var filterReset = document.getElementById("filter-reset");
   var toolbar = document.querySelector(".toolbar");
@@ -471,6 +473,47 @@
     return board;
   }
 
+  function renderDomainBoard(list) {
+    var board = el("div", { class: "board" });
+    var shown = state.area === "all"
+      ? state.areas
+      : state.areas.filter(function (area) { return area.id === state.area; });
+
+    shown.forEach(function (area) {
+      area.domains.forEach(function (domain) {
+        var domainCerts = list.filter(function (cert) {
+          return cert.area === area.id && cert.domain === domain.id;
+        }).sort(byPosition);
+        if (!domainCerts.length) return;
+
+        var column = el("section", { class: "column" });
+        column.style.setProperty("--bar", domain.color || area.color);
+        column.append(
+          el("h2", { class: "column-title" },
+            el("a", { href: "#/area/" + area.id, title: area.title }, domain.title)
+          ),
+          el("p", { class: "column-area-label" }, area.shortTitle)
+        );
+
+        var col = el("section", { class: "section-col" });
+        var specialties = domain.specialties || [];
+        var known = specialties.map(function (s) { return s.id; });
+        appendLevels(col, domainCerts.filter(function (cert) {
+          return known.indexOf(cert.specialty) === -1;
+        }), chip);
+        specialties.forEach(function (s) {
+          var inSpec = domainCerts.filter(function (cert) { return cert.specialty === s.id; });
+          if (!inSpec.length) return;
+          col.append(el("h4", { class: "subsection-title" }, s.title));
+          appendLevels(col, inSpec, chip, "h5");
+        });
+        column.append(col);
+        board.append(column);
+      });
+    });
+    return board;
+  }
+
   function renderArea(area, certs) {
     var article = el("article", { class: "area" });
     article.style.setProperty("--bar", area.color);
@@ -601,7 +644,7 @@
         updateCount(selectedMatch.length, selectedTotal, selected ? selected.shortTitle : "");
         matched = selectedMatch;
       }
-      main.append(renderBoard(matched));
+      main.append(state.groupByDomain ? renderDomainBoard(matched) : renderBoard(matched));
     }
     updateHScroll();
 
@@ -731,6 +774,16 @@
     filterToggle.addEventListener("click", function () {
       var open = toolbar.classList.toggle("filters-open");
       filterToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    domainToggleBtn.addEventListener("click", function () {
+      state.groupByDomain = !state.groupByDomain;
+      domainToggleBtn.setAttribute("aria-pressed", state.groupByDomain ? "true" : "false");
+      domainToggleBtn.classList.toggle("is-active", state.groupByDomain);
+      if (state.route.name === "area") {
+        location.hash = "#/";
+      } else {
+        render();
+      }
     });
     searchInput.addEventListener("input", function () {
       state.query = searchInput.value;

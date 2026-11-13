@@ -354,7 +354,7 @@
     var isAreaView = state.route.name === "area";
     var row = el("div", { class: "section-row" + (isAreaView && domainColumns.length > 1 ? " section-row--fixed" : "") });
     if (isAreaView && domainColumns.length > 1) {
-      row.style.gridTemplateColumns = "repeat(" + domainColumns.length + ", minmax(15rem, 1fr))";
+      row.style.gridTemplateColumns = "repeat(" + domainColumns.length + ", minmax(12rem, 1fr))";
     }
 
     domainColumns.forEach(function (column) {

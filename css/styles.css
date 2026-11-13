@@ -198,11 +198,14 @@ main {
 
 @media (hover: hover) {
   [data-cert] { transition: opacity 0.15s; }
+  .column { transition: opacity 0.15s; }
   main[data-cross-hl] [data-cert]:not(.is-hl) { opacity: 0.15; }
   main[data-cross-hl] [data-cert].is-hl {
     outline: 2px solid rgba(255, 255, 255, 0.85);
     outline-offset: 2px;
   }
+  main[data-cross-hl] .column:not(.is-col-hl) { opacity: 0.15; }
+  main[data-cross-hl] .column:not(.is-col-hl) [data-cert] { opacity: 1; }
 }
 
 .chip[aria-pressed="true"], .card[aria-pressed="true"], .chip:focus-visible, .card:focus-visible, .tab:focus-visible, button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible {

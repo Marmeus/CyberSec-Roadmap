@@ -748,6 +748,7 @@
     function clearHL() {
       main.removeAttribute("data-cross-hl");
       main.querySelectorAll(".is-hl").forEach(function (b) { b.classList.remove("is-hl"); });
+      main.querySelectorAll(".is-col-hl").forEach(function (c) { c.classList.remove("is-col-hl"); });
     }
     main.addEventListener("mouseover", function (e) {
       var btn = e.target.closest("[data-cert]");
@@ -760,7 +761,11 @@
       if (all.length < 2) { clearHL(); return; }
       clearHL();
       main.setAttribute("data-cross-hl", "1");
-      all.forEach(function (b) { b.classList.add("is-hl"); });
+      all.forEach(function (b) {
+        b.classList.add("is-hl");
+        var col = b.closest(".column");
+        if (col) col.classList.add("is-col-hl");
+      });
     });
     main.addEventListener("mouseout", function (e) {
       var btn = e.target.closest("[data-cert]");

@@ -113,7 +113,7 @@
       cert.abbreviation,
       cert.name,
       area ? area.title : "",
-      area ? area.shortTitle : "",
+      area ? area.title : "",
       domain ? domain.title : "",
       spec ? spec.title : "",
       (cert.details || []).join(" ")
@@ -223,7 +223,7 @@
     if (cert.crossDomain) {
       var others = cert.areas.filter(function (areaId) { return areaId !== cert.area; })
         .map(function (areaId) {
-          return state.areaById[areaId] ? state.areaById[areaId].shortTitle : areaId;
+          return state.areaById[areaId] ? state.areaById[areaId].title : areaId;
         });
       addMeta(meta, "Also in", others.join(", "));
     }
@@ -241,7 +241,7 @@
     }
     if (area) {
       if (linkHost.childNodes.length) linkHost.append(document.createTextNode(" · "));
-      linkHost.append(el("a", { href: "#/area/" + area.id }, area.shortTitle + " area"));
+      linkHost.append(el("a", { href: "#/area/" + area.id }, area.title + " area"));
     }
 
     detail.hidden = false;
@@ -448,9 +448,8 @@
     var column = el("section", { class: "column" });
     column.style.setProperty("--bar", area.color);
     var title = el("h2", { class: "column-title" }, el("a", {
-      href: "#/area/" + area.id,
-      title: area.title
-    }, area.shortTitle));
+      href: "#/area/" + area.id
+    }, area.title));
     column.append(title);
     var groups = levelBlocks(area, certs);
     if (!groups.length) {
@@ -492,7 +491,7 @@
           el("h2", { class: "column-title" },
             el("a", { href: "#/area/" + area.id, title: area.title }, domain.title)
           ),
-          el("p", { class: "column-area-label" }, area.shortTitle)
+          el("p", { class: "column-area-label" }, area.title)
         );
 
         var col = el("section", { class: "section-col" });
@@ -560,7 +559,7 @@
         type: "button", class: "tab", role: "tab",
         "aria-selected": selected ? "true" : "false",
         id: "tab-" + area.id
-      }, area.shortTitle);
+      }, area.title);
       button.style.setProperty("--bar", area.color);
       button.addEventListener("click", function () { location.hash = "#/area/" + area.id; });
       return button;
@@ -628,10 +627,10 @@
 
     if (state.route.name === "area") {
       var area = state.areaById[state.route.id];
-      document.title = area.shortTitle + " · " + title;
+      document.title = area.title + " · " + title;
       var inArea = certsInArea(area.id);
       var areaTotal = state.certs.filter(function (cert) { return belongs(cert, area.id); }).length;
-      updateCount(inArea.length, areaTotal, area.shortTitle);
+      updateCount(inArea.length, areaTotal, area.title);
       main.append(renderArea(area, inArea));
     } else {
       document.title = title;
@@ -641,7 +640,7 @@
         var selected = state.areaById[state.area];
         var selectedMatch = matched.filter(function (cert) { return belongs(cert, state.area); });
         var selectedTotal = state.certs.filter(function (cert) { return belongs(cert, state.area); }).length;
-        updateCount(selectedMatch.length, selectedTotal, selected ? selected.shortTitle : "");
+        updateCount(selectedMatch.length, selectedTotal, selected ? selected.title : "");
         matched = selectedMatch;
       }
       main.append(state.groupByDomain ? renderDomainBoard(matched) : renderBoard(matched));

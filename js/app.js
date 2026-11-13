@@ -384,7 +384,7 @@
     });
     wrap.append(row);
 
-    // "Also placed here" rendered below the domain row
+    // "Also placed here" rendered as next cell after the last domain column
     var alsoCerts = [];
     groups.forEach(function (group) {
       group.blocks.forEach(function (block) {
@@ -414,7 +414,7 @@
       alsoCol.append(el("h3", null, ALSO_TITLE));
       alsoCol.append(el("p", { class: "section-note" }, ALSO_NOTE));
       appendLevels(alsoCol, alsoCerts, buttonFor);
-      wrap.append(alsoCol);
+      row.append(alsoCol);
     }
 
     return wrap;

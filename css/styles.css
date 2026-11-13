@@ -258,10 +258,7 @@ main {
   overflow-x: auto;
   overscroll-behavior-x: contain;
 }
-.section-col--also {
-  width: 100%;
-  margin-top: auto;
-}
+.section-col--also {}
 .section-col {
   min-width: 0;
   background: var(--card);

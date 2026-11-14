@@ -564,6 +564,33 @@ main {
   border-top: 1px solid var(--line);
 }
 .detail-lines:empty { display: none; }
+.detail-paths {
+  margin: 0.9rem 0 0;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--line);
+}
+.detail-paths-label {
+  margin: 0 0 0.45rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.detail-paths-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.path-chip {
+  border: 0;
+  border-radius: 5px;
+  padding: 0.28rem 0.5rem;
+  font: 700 0.78rem/1.2 "Source Sans 3", sans-serif;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.path-chip:hover { opacity: 0.8; }
 .detail-link {
   margin: 1.1rem 0 0;
   padding-top: 1.1rem;

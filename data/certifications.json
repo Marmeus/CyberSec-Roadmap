@@ -102,7 +102,13 @@
     "specialty": "general",
     "issuer": "OffSec",
     "updatedAt": "2024-07",
-    "description": "OffSec Certified Expert 3 validates mastery across web attacks, Windows exploitation, and antivirus evasion, targeting elite penetration testers."
+    "description": "OffSec Certified Expert 3 validates mastery across web attacks, Windows exploitation, and antivirus evasion, targeting elite penetration testers.",
+    "requires": [
+      "osep",
+      "osed",
+      "oswe"
+    ],
+    "leadsTo": []
   },
   {
     "id": "ccie-ent",
@@ -250,7 +256,13 @@
     "specialty": "web",
     "issuer": "OffSec",
     "updatedAt": "2024-07",
-    "description": "OffSec Web Expert validates advanced skills in exploiting web application vulnerabilities through whitebox testing, targeting experienced application security testers."
+    "description": "OffSec Web Expert validates advanced skills in exploiting web application vulnerabilities through whitebox testing, targeting experienced application security testers.",
+    "requires": [
+      "oscp"
+    ],
+    "leadsTo": [
+      "osce3"
+    ]
   },
   {
     "id": "osep",
@@ -270,7 +282,13 @@
     "specialty": "general",
     "issuer": "OffSec",
     "updatedAt": "2024-07",
-    "description": "OffSec Experienced Penetration Tester validates advanced offensive skills including AV evasion and Active Directory exploitation for experienced penetration testers."
+    "description": "OffSec Experienced Penetration Tester validates advanced offensive skills including AV evasion and Active Directory exploitation for experienced penetration testers.",
+    "requires": [
+      "oscp"
+    ],
+    "leadsTo": [
+      "osce3"
+    ]
   },
   {
     "id": "osed",
@@ -290,7 +308,13 @@
     "specialty": "exploit-development",
     "issuer": "OffSec",
     "updatedAt": "2024-07",
-    "description": "OffSec Exploit Developer validates skills in Windows exploit development, including custom shellcode and exploit bypass techniques."
+    "description": "OffSec Exploit Developer validates skills in Windows exploit development, including custom shellcode and exploit bypass techniques.",
+    "requires": [
+      "oscp"
+    ],
+    "leadsTo": [
+      "osce3"
+    ]
   },
   {
     "id": "pgmp",
@@ -2238,7 +2262,13 @@
     "specialty": "general",
     "issuer": "OffSec",
     "updatedAt": "2026-11",
-    "description": "OffSec Certified Professional validates practical penetration testing skills against realistic lab environments, the most recognized entry-level pentesting certification."
+    "description": "OffSec Certified Professional validates practical penetration testing skills against realistic lab environments, the most recognized entry-level pentesting certification.",
+    "requires": [],
+    "leadsTo": [
+      "osep",
+      "osed",
+      "oswe"
+    ]
   },
   {
     "id": "f5-cse-sec",

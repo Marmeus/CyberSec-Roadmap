@@ -36,6 +36,8 @@
   var tabsEl = document.getElementById("tabs");
   var detail = document.getElementById("detail");
   var backdrop = document.getElementById("backdrop");
+  var detailRequires = document.getElementById("detail-requires");
+  var detailLeadsTo  = document.getElementById("detail-leads-to");
   var lastFocus = null;
   var hlock = false;
 
@@ -222,6 +224,9 @@
       descEl.hidden = true;
     }
 
+    renderPathSection(detailRequires, cert.requires || []);
+    renderPathSection(detailLeadsTo,  cert.leadsTo  || []);
+
     var meta = document.getElementById("detail-meta");
     meta.replaceChildren();
     addMeta(meta, "Area", area ? area.title : cert.area);
@@ -257,6 +262,26 @@
     backdrop.hidden = false;
     setPressed(id);
     document.getElementById("detail-close").focus();
+  }
+
+  function renderPathSection(container, ids) {
+    var chipsEl = container.querySelector(".detail-paths-chips");
+    chipsEl.replaceChildren();
+    var valid = ids.filter(function (id) { return state.certById[id]; });
+    container.hidden = valid.length === 0;
+    valid.forEach(function (id) {
+      var c = state.certById[id];
+      var colors = paint(c);
+      var btn = el("button", {
+        type: "button",
+        class: "chip path-chip",
+        "data-cert": id,
+        "aria-pressed": id === state.selectedId ? "true" : "false",
+        style: "background:" + colors.color + ";color:" + colors.ink
+      }, c.abbreviation);
+      btn.addEventListener("click", function () { openDetail(id, btn); });
+      chipsEl.appendChild(btn);
+    });
   }
 
   function addMeta(list, term, value) {

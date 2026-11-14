@@ -214,6 +214,14 @@
     document.getElementById("detail-title").textContent = cert.abbreviation;
     document.getElementById("detail-name").textContent = cert.name;
 
+    var descEl = document.getElementById("detail-desc");
+    if (cert.description) {
+      descEl.textContent = cert.description;
+      descEl.hidden = false;
+    } else {
+      descEl.hidden = true;
+    }
+
     var meta = document.getElementById("detail-meta");
     meta.replaceChildren();
     addMeta(meta, "Area", area ? area.title : cert.area);
@@ -668,7 +676,7 @@
     updateFilterBadge();
     renderTabs();
     areaField.hidden = state.route.name === "area";
-    var title = "Security Certification Roadmap";
+    var title = "Security Certification Map";
     main.replaceChildren(lede());
 
     if (state.route.name === "area") {

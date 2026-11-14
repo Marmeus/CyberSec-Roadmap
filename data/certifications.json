@@ -17,7 +17,8 @@
     "domain": "exploitation",
     "specialty": "exploit-development",
     "issuer": "OffSec",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "OffSec Exploitation Expert is the most advanced OffSec certification, validating expert-level exploit development and research on live systems."
   },
   {
     "id": "ccie-sec",
@@ -38,7 +39,8 @@
     "domain": "core",
     "specialty": "cisco",
     "issuer": "Cisco",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Cisco Certified Internetwork Expert Security validates elite-level skills in designing and implementing complex Cisco security infrastructure."
   },
   {
     "id": "crest-crtsa",
@@ -58,7 +60,8 @@
     "domain": "other",
     "specialty": "security-architecture",
     "issuer": "CREST",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CREST Registered Technical Security Architect validates competency in designing secure technical architectures, for experienced security architects."
   },
   {
     "id": "itil-master",
@@ -78,7 +81,8 @@
     "domain": "leadership",
     "specialty": "it-service-management",
     "issuer": "AXELOS",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "AXELOS ITIL Master validates the ability to apply ITIL principles in complex real-world IT service management scenarios, for senior IT practitioners."
   },
   {
     "id": "osce3",
@@ -97,7 +101,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "OffSec",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "OffSec Certified Expert 3 validates mastery across web attacks, Windows exploitation, and antivirus evasion, targeting elite penetration testers."
   },
   {
     "id": "ccie-ent",
@@ -118,7 +123,8 @@
     "domain": "core",
     "specialty": "cisco",
     "issuer": "Cisco",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Cisco Certified Internetwork Expert Enterprise Infrastructure validates expert-level skills in designing and troubleshooting complex enterprise networks."
   },
   {
     "id": "vcdx-dcv",
@@ -138,7 +144,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "VMware",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "VMware Certified Design Expert in Datacenter Virtualization validates elite VMware design skills and architecture decisions for the most experienced VMware professionals."
   },
   {
     "id": "rhca",
@@ -158,7 +165,8 @@
     "domain": "nix",
     "specialty": null,
     "issuer": "Red Hat",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Red Hat Certified Architect is the highest Red Hat certification, validating mastery of multiple Red Hat technologies for senior system architects."
   },
   {
     "id": "sabsa-scm",
@@ -178,7 +186,8 @@
     "domain": "other",
     "specialty": "security-architecture",
     "issuer": "SABSA Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SABSA Chartered Security Architect Master validates advanced mastery of the SABSA methodology for senior security architects and practitioners."
   },
   {
     "id": "gse",
@@ -197,7 +206,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Security Expert is the most advanced GIAC certification, validating elite knowledge across multiple security domains through written exams and a hands-on lab."
   },
   {
     "id": "grem",
@@ -219,7 +229,8 @@
     "domain": "monitoring",
     "specialty": "threat-intelligence",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Reverse Engineering Malware validates expertise in analyzing malicious code and understanding malware behavior, for incident responders and malware analysts."
   },
   {
     "id": "oswe",
@@ -238,7 +249,8 @@
     "domain": "penetration-testing",
     "specialty": "web",
     "issuer": "OffSec",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "OffSec Web Expert validates advanced skills in exploiting web application vulnerabilities through whitebox testing, targeting experienced application security testers."
   },
   {
     "id": "osep",
@@ -257,7 +269,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "OffSec",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "OffSec Experienced Penetration Tester validates advanced offensive skills including AV evasion and Active Directory exploitation for experienced penetration testers."
   },
   {
     "id": "osed",
@@ -276,7 +289,8 @@
     "domain": "exploitation",
     "specialty": "exploit-development",
     "issuer": "OffSec",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "OffSec Exploit Developer validates skills in Windows exploit development, including custom shellcode and exploit bypass techniques."
   },
   {
     "id": "pgmp",
@@ -296,7 +310,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "PMI",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "PMI Program Management Professional validates expertise in aligning programs with organizational strategy, targeting experienced program and senior project managers."
   },
   {
     "id": "cissp-concentrations",
@@ -315,7 +330,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "(ISC)²",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISC2 CISSP Concentrations validate specialized expertise in one of four domains (architecture, engineering, management, or cloud) for practicing CISSPs."
   },
   {
     "id": "ncsc-ccplp",
@@ -334,7 +350,8 @@
     "domain": "other",
     "specialty": "national-schemes",
     "issuer": "NCSC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "NCSC Certified Cybersecurity Professional Lead Practitioner validates senior-level cybersecurity competence against the UK National Cyber Security Centre's framework."
   },
   {
     "id": "cfce",
@@ -353,7 +370,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "IACIS",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IACIS Certified Forensic Computer Examiner validates proficiency in forensic examination of computers and digital media, for law enforcement and forensic professionals."
   },
   {
     "id": "gxpn",
@@ -373,7 +391,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Exploit Researcher and Advanced Penetration Tester validates elite skills in exploiting systems, researching vulnerabilities, and conducting advanced penetration tests."
   },
   {
     "id": "vcix-dcv",
@@ -392,7 +411,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "VMware",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "VMware Certified Implementation Expert in Datacenter Virtualization validates advanced VMware vSphere implementation and troubleshooting skills for senior VMware engineers."
   },
   {
     "id": "asis-cpp",
@@ -412,7 +432,8 @@
     "domain": "core",
     "specialty": "physical-security",
     "issuer": "ASIS International",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ASIS Certified Protection Professional validates knowledge of physical and information security management for senior security directors and managers."
   },
   {
     "id": "zach-eapro",
@@ -432,7 +453,8 @@
     "domain": "leadership",
     "specialty": "enterprise-architecture",
     "issuer": "Zachman International",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Zachman Enterprise Architect Professional validates mastery of the Zachman Framework for enterprise architecture, targeting experienced enterprise architects."
   },
   {
     "id": "pmp",
@@ -451,7 +473,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "PMI",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "PMI Project Management Professional validates mastery of project management processes and leadership, aimed at experienced project managers across all industries."
   },
   {
     "id": "cism",
@@ -470,7 +493,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "ISACA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISACA Certified Information Security Manager validates competency in managing and governing an enterprise information security program."
   },
   {
     "id": "s-isme",
@@ -489,7 +513,8 @@
     "domain": "grc",
     "specialty": "iso-isms",
     "issuer": "SECO Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SECO Information Security Management Expert validates expert-level knowledge in information security management strategy and governance."
   },
   {
     "id": "ncsc-ccpsp",
@@ -508,7 +533,8 @@
     "domain": "other",
     "specialty": "national-schemes",
     "issuer": "NCSC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "NCSC Certified Cybersecurity Professional Senior Practitioner validates senior cybersecurity expertise aligned with the UK National Cyber Security Centre's certification scheme."
   },
   {
     "id": "csfa",
@@ -527,7 +553,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "CSIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CSIAC CyberSecurity Forensic Analyst validates competency in digital forensics and cybersecurity analysis, for government and defense-focused security professionals."
   },
   {
     "id": "gime",
@@ -547,7 +574,8 @@
     "domain": "forensics",
     "specialty": "mobile-forensics",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC iOS and MacOS Examiner validates skills in forensic acquisition and analysis of iOS and macOS devices for digital forensics professionals."
   },
   {
     "id": "gawn",
@@ -567,7 +595,8 @@
     "domain": "penetration-testing",
     "specialty": "wireless",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Assessing Wireless Networks validates skills in assessing and exploiting wireless network vulnerabilities for security professionals."
   },
   {
     "id": "cissp",
@@ -586,7 +615,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "(ISC)²",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISC2 Certified Information Systems Security Professional validates broad expertise across eight cybersecurity domains, widely recognized as the leading senior security credential."
   },
   {
     "id": "ccd",
@@ -606,7 +636,8 @@
     "domain": "incident-handling",
     "specialty": "incident-response",
     "issuer": "CyberDefenders",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CyberDefenders Certified CyberDefender validates practical blue team skills including SOC analysis, threat hunting, and incident response through hands-on labs."
   },
   {
     "id": "cawfe",
@@ -625,7 +656,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "IACIS",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IACIS Certified Advanced Windows Forensic Examiner validates advanced skills in forensic examination of Windows systems for digital forensics professionals."
   },
   {
     "id": "gcfa",
@@ -645,7 +677,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Certified Forensic Analyst validates skills in advanced digital forensics, including memory and artifact analysis for incident response."
   },
   {
     "id": "gcti",
@@ -665,7 +698,8 @@
     "domain": "incident-handling",
     "specialty": "threat-intelligence",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Cyber Threat Intelligence validates competency in producing and consuming cyber threat intelligence to improve defensive security operations."
   },
   {
     "id": "crest-csam",
@@ -684,7 +718,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "CREST",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CREST Certified Simulated Attack Manager validates competency in managing red team exercises and coordinating complex simulated attack operations."
   },
   {
     "id": "jncie-sec",
@@ -703,7 +738,8 @@
     "domain": "core",
     "specialty": "juniper",
     "issuer": "Juniper Networks",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Juniper Networks Certified Internet Expert Security validates elite-level expertise in deploying and troubleshooting Juniper security solutions."
   },
   {
     "id": "ccde",
@@ -723,7 +759,8 @@
     "domain": "core",
     "specialty": "cisco",
     "issuer": "Cisco",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Cisco Certified Design Expert validates expert-level ability to design complex enterprise network infrastructure solutions."
   },
   {
     "id": "aws-sap",
@@ -742,7 +779,8 @@
     "domain": "cloud-sysops",
     "specialty": "aws",
     "issuer": "Amazon Web Services",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "AWS Certified Solutions Architect Professional validates advanced skills in designing and deploying complex AWS cloud solutions at scale."
   },
   {
     "id": "rhce",
@@ -761,7 +799,8 @@
     "domain": "nix",
     "specialty": null,
     "issuer": "Red Hat",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Red Hat Certified Engineer validates proficiency in managing Red Hat Enterprise Linux systems and automating configurations with Ansible."
   },
   {
     "id": "gdat",
@@ -781,7 +820,8 @@
     "domain": "ics-iot",
     "specialty": null,
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Defending Advanced Threats validates skills in defending against advanced persistent threats using threat intelligence and analysis techniques."
   },
   {
     "id": "sc-100",
@@ -800,7 +840,8 @@
     "domain": "other",
     "specialty": "security-architecture",
     "issuer": "Microsoft",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Microsoft Cybersecurity Architect validates expert-level skills in designing security strategies and architectures across Microsoft cloud and hybrid environments."
   },
   {
     "id": "togaf",
@@ -820,7 +861,8 @@
     "domain": "leadership",
     "specialty": "enterprise-architecture",
     "issuer": "The Open Group",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "The Open Group TOGAF Certified validates comprehensive knowledge of the TOGAF enterprise architecture framework, for experienced enterprise architects."
   },
   {
     "id": "cciso",
@@ -840,7 +882,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "EC-Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC-Council Certified Chief Information Security Officer validates executive-level CISO competency across governance, risk, strategy, and security program management."
   },
   {
     "id": "eexin-ism",
@@ -859,7 +902,8 @@
     "domain": "grc",
     "specialty": "iso-isms",
     "issuer": "EXIN",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EXIN Information Security Management Foundation validates basic knowledge of information security management based on ISO/IEC 27001, for security beginners."
   },
   {
     "id": "gstrt",
@@ -879,7 +923,8 @@
     "domain": "other",
     "specialty": "specialist-management",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Strategic Planning, Policy and Leadership validates competency in developing cybersecurity strategy, policy, and leading security organizations."
   },
   {
     "id": "ncsc-ccpp",
@@ -898,7 +943,8 @@
     "domain": "other",
     "specialty": "national-schemes",
     "issuer": "NCSC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "NCSC Certified Cybersecurity Professional Practitioner validates practitioner-level cybersecurity competence aligned with the UK National Cyber Security Centre's framework."
   },
   {
     "id": "gsna",
@@ -919,7 +965,8 @@
     "domain": "core",
     "specialty": "iso-audit",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Systems and Network Auditor validates skills in auditing systems and networks against security standards and best practices."
   },
   {
     "id": "cfsr",
@@ -938,7 +985,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "OpenText",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "OpenText Certified Forensic Security Responder validates skills in using OpenText forensic tools for incident response and digital investigation."
   },
   {
     "id": "gnfa",
@@ -958,7 +1006,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Network Forensic Analyst validates expertise in capturing and analyzing network traffic to investigate security incidents."
   },
   {
     "id": "ewptx",
@@ -978,7 +1027,8 @@
     "domain": "penetration-testing",
     "specialty": "web",
     "issuer": "INE Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "eLearnSecurity Web Application Penetration Tester eXtreme validates advanced web application hacking skills including complex vulnerability chaining and exploitation."
   },
   {
     "id": "crest-ccsas",
@@ -997,7 +1047,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "CREST",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CREST Certified Simulated Attack Specialist validates expertise in conducting advanced red team and simulated attack operations."
   },
   {
     "id": "fcx",
@@ -1017,7 +1068,8 @@
     "domain": "core",
     "specialty": "fortinet",
     "issuer": "Fortinet",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Fortinet Certified Expert validates elite mastery of the Fortinet security platform, the highest level in the Fortinet certification track."
   },
   {
     "id": "az-305",
@@ -1036,7 +1088,8 @@
     "domain": "cloud-sysops",
     "specialty": "azure",
     "issuer": "Microsoft",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Microsoft Azure Solutions Architect Expert validates advanced skills in designing cloud and hybrid Azure solutions meeting business and technical requirements."
   },
   {
     "id": "vcix-nv",
@@ -1055,7 +1108,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "VMware",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "VMware Certified Implementation Expert in Network Virtualization validates advanced VMware NSX implementation and troubleshooting skills."
   },
   {
     "id": "lpic-3",
@@ -1074,7 +1128,8 @@
     "domain": "nix",
     "specialty": null,
     "issuer": "LPI",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "LPI LPIC-3 303 Security validates advanced Linux security skills including access control, cryptography, and network security for senior Linux professionals."
   },
   {
     "id": "sabsa-scp",
@@ -1094,7 +1149,8 @@
     "domain": "other",
     "specialty": "security-architecture",
     "issuer": "SABSA Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SABSA Chartered Security Architect Practitioner validates practical competency in applying the SABSA framework for enterprise security architecture."
   },
   {
     "id": "psm-iii",
@@ -1114,7 +1170,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "Scrum.org",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Scrum.org Professional Scrum Master III certifies deep expertise and mastery of Scrum mechanics and coaching, for advanced Scrum practitioners and coaches."
   },
   {
     "id": "gsp",
@@ -1133,7 +1190,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Security Professional validates broad foundational security knowledge across multiple domains for security practitioners."
   },
   {
     "id": "gisp",
@@ -1153,7 +1211,8 @@
     "domain": "other",
     "specialty": "specialist-management",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Information Security Professional validates comprehensive information security knowledge across multiple domains for security professionals."
   },
   {
     "id": "mtia",
@@ -1173,7 +1232,8 @@
     "domain": "monitoring",
     "specialty": "threat-intelligence",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Certified Threat Intelligence Analyst validates practical skills in collecting, analyzing, and disseminating actionable cyber threat intelligence."
   },
   {
     "id": "gcfr",
@@ -1193,7 +1253,8 @@
     "domain": "forensics",
     "specialty": "cloud-forensics",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Cloud Forensics Responder validates skills in performing forensic investigations and incident response in cloud environments."
   },
   {
     "id": "btl2",
@@ -1213,7 +1274,8 @@
     "domain": "forensics",
     "specialty": "threat-hunting",
     "issuer": "Security Blue Team",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Security Blue Team Level 2 validates advanced blue team skills including SIEM engineering, threat hunting, and advanced incident response."
   },
   {
     "id": "mrt",
@@ -1233,7 +1295,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Certified Red Teamer validates practical offensive security skills used in red team operations and adversary simulation."
   },
   {
     "id": "crest-cctinf",
@@ -1252,7 +1315,8 @@
     "domain": "penetration-testing",
     "specialty": "network",
     "issuer": "CREST",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CREST Certified Infrastructure Tester validates competency in performing penetration tests against network infrastructure and enterprise systems."
   },
   {
     "id": "htb-cwee",
@@ -1271,7 +1335,8 @@
     "domain": "penetration-testing",
     "specialty": "web",
     "issuer": "Hack The Box",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Hack the Box Certified Web Exploitation Expert validates advanced web application security testing and exploitation skills."
   },
   {
     "id": "htb-cape",
@@ -1290,7 +1355,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Hack The Box",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "description": "Hack the Box Certified Active Directory Pentesting Expert validates advanced skills in attacking and exploiting Active Directory environments."
   },
   {
     "id": "google-pcsa",
@@ -1309,7 +1375,8 @@
     "domain": "cloud-sysops",
     "specialty": "gcp",
     "issuer": "Google",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Google Professional Cloud Architect validates expertise in designing and managing Google Cloud Platform solutions for complex enterprise requirements."
   },
   {
     "id": "sce",
@@ -1328,7 +1395,8 @@
     "domain": "nix",
     "specialty": null,
     "issuer": "SUSE",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SUSE Certified Engineer validates advanced skills in administering and managing SUSE Linux Enterprise Server environments."
   },
   {
     "id": "isa-ce",
@@ -1348,7 +1416,8 @@
     "domain": "ics-iot",
     "specialty": null,
     "issuer": "ISA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISA Cybersecurity Expert validates expert-level knowledge in ICS/SCADA cybersecurity based on ISA/IEC 62443 standards, for senior OT security professionals."
   },
   {
     "id": "gdsa",
@@ -1368,7 +1437,8 @@
     "domain": "other",
     "specialty": "security-architecture",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Defensible Security Architecture validates expertise in designing and building network architectures that are defensible and resilient to attack."
   },
   {
     "id": "itil-sl",
@@ -1388,7 +1458,8 @@
     "domain": "leadership",
     "specialty": "it-service-management",
     "issuer": "AXELOS",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "AXELOS ITIL Specialist validates in-depth knowledge of specific ITIL 4 practice areas, for IT service management professionals seeking specialization."
   },
   {
     "id": "zach-eap",
@@ -1408,7 +1479,8 @@
     "domain": "leadership",
     "specialty": "enterprise-architecture",
     "issuer": "Zachman International",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Zachman Enterprise Architect Practitioner validates proficiency in applying the Zachman Framework for designing and documenting enterprise architectures."
   },
   {
     "id": "gslc",
@@ -1428,7 +1500,8 @@
     "domain": "leadership",
     "specialty": "security-leadership",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Security Leadership Certification validates competency in managing and leading information security organizations and programs."
   },
   {
     "id": "s-ciso",
@@ -1447,7 +1520,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "SECO Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SECO Certified CISO validates the strategic leadership knowledge and skills required for a Chief Information Security Officer role."
   },
   {
     "id": "gcfe",
@@ -1467,7 +1541,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Certified Forensic Examiner validates skills in conducting computer forensic examinations and producing court-admissible evidence."
   },
   {
     "id": "geir",
@@ -1487,7 +1562,8 @@
     "domain": "incident-handling",
     "specialty": "incident-response",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Enterprise Incident Response validates expert-level skills in leading and executing enterprise-scale incident response operations."
   },
   {
     "id": "crtm",
@@ -1507,7 +1583,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Altered Security",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "description": "Altered Security Certified Red Team Master validates elite-level red team skills including complex Active Directory attacks and advanced evasion techniques."
   },
   {
     "id": "s-cehl",
@@ -1526,7 +1603,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "SECO Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SECO Ethical Hacking Leader validates leadership competency in managing ethical hacking programs and offensive security teams."
   },
   {
     "id": "crest-crt",
@@ -1545,7 +1623,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "CREST",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CREST Registered Penetration Tester validates competency in conducting penetration tests against network infrastructure, for entry-level certified testers."
   },
   {
     "id": "crto-ii",
@@ -1564,7 +1643,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Zero Point Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Zero Point Security Red Team Operator II validates advanced red team operator skills focusing on evasive tradecraft and complex attack chains."
   },
   {
     "id": "mcd",
@@ -1584,7 +1664,8 @@
     "domain": "exploitation",
     "specialty": "reverse-engineering",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Certified Code Deobfuscation Specialist validates skills in analyzing and reverse-engineering obfuscated malicious code."
   },
   {
     "id": "ccnp-sec",
@@ -1603,7 +1684,8 @@
     "domain": "core",
     "specialty": "cisco",
     "issuer": "Cisco",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Cisco Certified Network Professional Security validates advanced skills in implementing and managing Cisco security solutions in enterprise networks."
   },
   {
     "id": "cimp",
@@ -1622,7 +1704,8 @@
     "domain": "core",
     "specialty": "identity-management",
     "issuer": "Identity Management Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IMI Certified Identity Management Professional validates competency in designing, implementing, and managing enterprise identity management programs."
   },
   {
     "id": "securityx",
@@ -1641,7 +1724,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "CompTIA",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "description": "CompTIA SecurityX (formerly CASP+) validates advanced security architecture, risk management, and integration skills for experienced security engineers."
   },
   {
     "id": "gasf",
@@ -1661,7 +1745,8 @@
     "domain": "forensics",
     "specialty": "mobile-forensics",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Advanced Smartphone Forensics validates skills in forensic acquisition and analysis of smartphones and mobile devices."
   },
   {
     "id": "ecthp",
@@ -1680,7 +1765,8 @@
     "domain": "forensics",
     "specialty": "threat-hunting",
     "issuer": "INE Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "eLearnSecurity Certified Threat Hunting Professional validates competency in proactive threat hunting using OSINT, analytics, and behavioral detection techniques."
   },
   {
     "id": "s-ehe",
@@ -1700,7 +1786,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "SECO Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SECO Ethical Hacking Expert validates advanced ethical hacking expertise covering complex attack techniques for experienced security professionals."
   },
   {
     "id": "jncip-sec",
@@ -1719,7 +1806,8 @@
     "domain": "core",
     "specialty": "juniper",
     "issuer": "Juniper Networks",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Juniper Networks Certified Internet Professional Security validates advanced skills in deploying and troubleshooting Juniper security technologies."
   },
   {
     "id": "pcnse",
@@ -1738,7 +1826,8 @@
     "domain": "core",
     "specialty": "palo-alto",
     "issuer": "Palo Alto Networks",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Palo Alto Networks Certified Network Security Engineer validates advanced skills in designing, deploying, and troubleshooting Palo Alto Networks security platforms."
   },
   {
     "id": "fcss-zta",
@@ -1757,7 +1846,8 @@
     "domain": "core",
     "specialty": "fortinet",
     "issuer": "Fortinet",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Fortinet Certified Solution Specialist Zero Trust Access validates expertise in implementing zero trust access solutions using the Fortinet security fabric."
   },
   {
     "id": "fcss-sase",
@@ -1776,7 +1866,8 @@
     "domain": "core",
     "specialty": "federation-sso",
     "issuer": "Fortinet",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Fortinet Certified Solution Specialist SASE validates competency in deploying and managing Secure Access Service Edge solutions using Fortinet technologies."
   },
   {
     "id": "fcss-pcs",
@@ -1795,7 +1886,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "Fortinet",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Fortinet Certified Solution Specialist Public Cloud Security validates expertise in securing workloads in public cloud environments using Fortinet products."
   },
   {
     "id": "gctd",
@@ -1815,7 +1907,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Cloud Threat Detection validates skills in detecting and responding to threats in cloud environments using native and third-party security tools."
   },
   {
     "id": "cace",
@@ -1834,7 +1927,8 @@
     "domain": "ics-iot",
     "specialty": null,
     "issuer": "Excida",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Excida IEC 62443 Certified Automation Cybersecurity Expert validates advanced expertise in OT/ICS cybersecurity based on the ISA/IEC 62443 standard."
   },
   {
     "id": "itil-mp",
@@ -1855,7 +1949,8 @@
     "domain": "leadership",
     "specialty": "it-service-management",
     "issuer": "AXELOS",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "AXELOS ITIL Managing Professional validates practical skills in running IT-enabled products and services, for IT practitioners and managers."
   },
   {
     "id": "scrum-sps",
@@ -1874,7 +1969,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "Scrum.org",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Scrum.org Professional Scrum with SAFe certifies competency in combining Scrum with the Scaled Agile Framework for enterprise agile delivery."
   },
   {
     "id": "gleg",
@@ -1895,7 +1991,8 @@
     "domain": "leadership",
     "specialty": "security-leadership",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Law of Data Security & Investigations validates knowledge of legal, regulatory, and investigative aspects of cybersecurity and digital evidence."
   },
   {
     "id": "cissm",
@@ -1914,7 +2011,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "GAQM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GAQM Certified Information Systems Security Manager validates management-level knowledge of information security programs and governance frameworks."
   },
   {
     "id": "cgrc",
@@ -1933,7 +2031,8 @@
     "domain": "grc",
     "specialty": "risk-management",
     "issuer": "(ISC)²",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISC2 Certified in Governance, Risk and Compliance validates competency in developing and implementing security governance, risk, and compliance programs."
   },
   {
     "id": "crisc",
@@ -1953,7 +2052,8 @@
     "domain": "other",
     "specialty": "specialist-management",
     "issuer": "ISACA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISACA Certified in Risk and Information Systems Control validates expertise in identifying and managing IT and business risks for risk management professionals."
   },
   {
     "id": "gccc",
@@ -1973,7 +2073,8 @@
     "domain": "core",
     "specialty": "iso-audit",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Critical Controls Certification validates knowledge of implementing the CIS Critical Security Controls to defend enterprise environments."
   },
   {
     "id": "pci-qsa",
@@ -1992,7 +2093,8 @@
     "domain": "core",
     "specialty": "vulnerability-assessment",
     "issuer": "PCI Security Standards Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "PCI Qualified Security Assessor validates competency to audit organizations against PCI DSS requirements, for security assessors serving payment card industry clients."
   },
   {
     "id": "gweb",
@@ -2012,7 +2114,8 @@
     "domain": "core",
     "specialty": "application-security",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Certified Web Application Defender validates skills in securing web applications and understanding common web vulnerabilities and defenses."
   },
   {
     "id": "cisco-cop",
@@ -2031,7 +2134,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "Cisco",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Cisco Certified CyberOps Professional validates advanced skills in security operations, threat hunting, and security engineering in a SOC environment."
   },
   {
     "id": "ccfe",
@@ -2051,7 +2155,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "Infosec Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Infosec Institute Certified Computer Forensics Examiner validates competency in forensic examination of computers and electronic media."
   },
   {
     "id": "gced",
@@ -2071,7 +2176,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Certified Enterprise Defender validates skills in building defense-in-depth solutions and implementing security controls across enterprise environments."
   },
   {
     "id": "mcpe",
@@ -2090,7 +2196,8 @@
     "domain": "incident-handling",
     "specialty": "incident-response",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Certified Cyber Protection Expert validates advanced knowledge in protecting organizations against sophisticated cyber threats."
   },
   {
     "id": "crest-cctim",
@@ -2109,7 +2216,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "CREST",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CREST Certified Threat Intelligence Manager validates management-level competency in leading threat intelligence programs and teams."
   },
   {
     "id": "oscp",
@@ -2129,7 +2237,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "OffSec",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "description": "OffSec Certified Professional validates practical penetration testing skills against realistic lab environments, the most recognized entry-level pentesting certification."
   },
   {
     "id": "f5-cse-sec",
@@ -2148,7 +2257,8 @@
     "domain": "core",
     "specialty": "f5",
     "issuer": "F5",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "F5 Certified Solution Expert Security validates advanced skills in architecting comprehensive F5 security solutions for complex enterprise environments."
   },
   {
     "id": "ccnp-ent",
@@ -2167,7 +2277,8 @@
     "domain": "core",
     "specialty": "cisco",
     "issuer": "Cisco",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Cisco Certified Network Professional Enterprise validates advanced skills in implementing and managing enterprise networking solutions."
   },
   {
     "id": "ms-100",
@@ -2187,7 +2298,8 @@
     "domain": "cloud-sysops",
     "specialty": "azure",
     "issuer": "Microsoft",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Microsoft 365 Enterprise Administrator Expert validates advanced skills in managing and securing Microsoft 365 services and enterprise deployments."
   },
   {
     "id": "gpcs",
@@ -2207,7 +2319,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Public Cloud Security validates expertise in securing workloads and infrastructure across AWS, Azure, and Google Cloud environments."
   },
   {
     "id": "gcsa",
@@ -2227,7 +2340,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Cloud Security Automation validates skills in automating security controls and processes within cloud environments using infrastructure-as-code."
   },
   {
     "id": "gcwn",
@@ -2248,7 +2362,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Certified Windows Security Administrator validates expertise in securing Windows environments, including Active Directory and endpoint hardening."
   },
   {
     "id": "grid",
@@ -2268,7 +2383,8 @@
     "domain": "ics-iot",
     "specialty": null,
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Response and Industrial Defense validates skills in incident response and security in industrial control system environments."
   },
   {
     "id": "cis-li",
@@ -2288,7 +2404,8 @@
     "domain": "other",
     "specialty": "isms-implementation",
     "issuer": "IT Governance",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IBITGQ Certified ISO 27001 Lead Implementer validates competency to design and implement an ISO/IEC 27001-compliant ISMS."
   },
   {
     "id": "cipt",
@@ -2307,7 +2424,8 @@
     "domain": "core",
     "specialty": "data-protection",
     "issuer": "IAPP",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IAPP Certified Information Privacy Technologist validates technical expertise in building privacy into IT systems, for privacy engineers and architects."
   },
   {
     "id": "cipm",
@@ -2326,7 +2444,8 @@
     "domain": "core",
     "specialty": "privacy",
     "issuer": "IAPP",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "description": "IAPP Certified Information Privacy Manager validates competency in operationalizing privacy programs and policies within organizations."
   },
   {
     "id": "cdpse",
@@ -2346,7 +2465,8 @@
     "domain": "core",
     "specialty": "data-protection",
     "issuer": "ISACA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISACA Certified Data Privacy Solutions Engineer validates technical expertise in implementing privacy-by-design and building data privacy solutions."
   },
   {
     "id": "csm",
@@ -2365,7 +2485,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "GAQM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GAQM Certified Scrum Master validates knowledge of the Scrum framework and the responsibilities of a Scrum Master in agile teams."
   },
   {
     "id": "casm",
@@ -2384,7 +2505,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "GAQM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GAQM Certified Agile Scrum Master validates knowledge of combining agile principles with Scrum practices for effective project management."
   },
   {
     "id": "cm-isso",
@@ -2403,7 +2525,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Master Information Systems Security Officer is a master-level credential for senior security officers combining multiple Mile2 certifications."
   },
   {
     "id": "s-isp",
@@ -2422,7 +2545,8 @@
     "domain": "other",
     "specialty": "specialist-management",
     "issuer": "SECO Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SECO Information Security Practitioner validates practical information security knowledge for professionals in operational security roles."
   },
   {
     "id": "cisa",
@@ -2442,7 +2566,8 @@
     "domain": "core",
     "specialty": "audit",
     "issuer": "ISACA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISACA Certified Information Systems Auditor validates competency in auditing, monitoring, and assessing IT and business systems, a leading IS audit credential."
   },
   {
     "id": "gmon",
@@ -2462,7 +2587,8 @@
     "domain": "core",
     "specialty": "vulnerability-assessment",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Continuous Monitoring validates skills in implementing and operating continuous security monitoring programs using network and host-based sensors."
   },
   {
     "id": "cis-la",
@@ -2482,7 +2608,8 @@
     "domain": "core",
     "specialty": "iso-audit",
     "issuer": "IT Governance",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IBITGQ Certified ISO 27001 Lead Auditor validates ability to plan and lead audits of information security management systems."
   },
   {
     "id": "s-cspl",
@@ -2501,7 +2628,8 @@
     "domain": "core",
     "specialty": "secure-development",
     "issuer": "SECO Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SECO Secure Programming Certified Leader validates leadership in implementing secure software development practices across development teams."
   },
   {
     "id": "gcda",
@@ -2522,7 +2650,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Certified Detection Analyst validates expertise in using data analysis and detection engineering to identify threats in security operations environments."
   },
   {
     "id": "cmfe",
@@ -2542,7 +2671,8 @@
     "domain": "forensics",
     "specialty": "mobile-forensics",
     "issuer": "Infosec Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Infosec Institute Certified Mobile Forensics Examiner validates competency in forensically examining mobile devices to recover digital evidence."
   },
   {
     "id": "gx-fa",
@@ -2562,7 +2692,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Experienced Forensics Analyst validates advanced forensic analysis skills through a challenging exam for experienced forensic practitioners."
   },
   {
     "id": "gcih",
@@ -2582,7 +2713,8 @@
     "domain": "incident-handling",
     "specialty": "incident-response",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Certified Incident Handler validates competency in detecting, responding to, and recovering from computer security incidents."
   },
   {
     "id": "gx-pt",
@@ -2602,7 +2734,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Experienced Penetration Tester validates advanced penetration testing expertise through a comprehensive exam for seasoned testers."
   },
   {
     "id": "gpen",
@@ -2622,7 +2755,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Certified Penetration Tester validates skills in conducting penetration tests using best-practice techniques and methodologies."
   },
   {
     "id": "oswp",
@@ -2641,7 +2775,8 @@
     "domain": "penetration-testing",
     "specialty": "wireless",
     "issuer": "OffSec",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "OffSec Wireless Professional validates skills in attacking and exploiting wireless networks, including WEP, WPA, and WPA2."
   },
   {
     "id": "crto",
@@ -2660,7 +2795,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Zero Point Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Zero Point Security Certified Red Team Operator validates practical red team operations skills including command-and-control, evasion, and Active Directory attacks."
   },
   {
     "id": "ccsm",
@@ -2679,7 +2815,8 @@
     "domain": "core",
     "specialty": "checkpoint",
     "issuer": "Check Point",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Check Point Certified Security Master validates expert-level mastery of Check Point security technologies and advanced troubleshooting."
   },
   {
     "id": "pcsae",
@@ -2698,7 +2835,8 @@
     "domain": "core",
     "specialty": "palo-alto",
     "issuer": "Palo Alto Networks",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Palo Alto Certified Cloud Security Automation Engineer validates skills in automating security operations and cloud security using Palo Alto technologies."
   },
   {
     "id": "pccse",
@@ -2717,7 +2855,8 @@
     "domain": "core",
     "specialty": "palo-alto",
     "issuer": "Palo Alto Networks",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Prisma Certified Cloud Security Engineer validates expertise in securing cloud environments using Palo Alto Networks Prisma Cloud platform."
   },
   {
     "id": "ciam",
@@ -2736,7 +2875,8 @@
     "domain": "core",
     "specialty": "identity-management",
     "issuer": "Identity Management Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IMI Certified Identity and Access Manager validates competency in managing identity and access management programs within organizations."
   },
   {
     "id": "fcss-so",
@@ -2755,7 +2895,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "Fortinet",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Fortinet Certified Solution Specialist Security Operations validates expertise in deploying and managing Fortinet security operations and SIEM solutions."
   },
   {
     "id": "pdso-cde",
@@ -2775,7 +2916,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "Practical DevSecOps",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Practical DevSecOps Certified DevSecOps Expert validates advanced expertise in embedding security into DevOps pipelines and software delivery processes."
   },
   {
     "id": "vcp-dcv",
@@ -2795,7 +2937,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "VMware",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "VMware Certified Professional Datacenter Virtualization validates skills in deploying, managing, and troubleshooting VMware vSphere environments."
   },
   {
     "id": "cks",
@@ -2815,7 +2958,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "CNCF",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CNCF Certified Kubernetes Security Specialist validates expertise in securing Kubernetes clusters and workloads in cloud-native environments."
   },
   {
     "id": "lfcs",
@@ -2834,7 +2978,8 @@
     "domain": "nix",
     "specialty": null,
     "issuer": "Linux Foundation",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Linux Foundation Certified System Administrator validates practical skills in Linux system administration, including storage, networking, and service management."
   },
   {
     "id": "fcss-ot",
@@ -2853,7 +2998,8 @@
     "domain": "ics-iot",
     "specialty": null,
     "issuer": "Fortinet",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Fortinet Certified Solution Specialist OT Security validates expertise in securing operational technology networks using Fortinet security products."
   },
   {
     "id": "cssa",
@@ -2875,7 +3021,8 @@
     "domain": "other",
     "specialty": "platform-architecture",
     "issuer": "Infosec Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Infosec Institute Certified SCADA Security Architect validates competency in designing and implementing security architectures for SCADA and industrial control systems."
   },
   {
     "id": "scrum-psd",
@@ -2894,7 +3041,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "Scrum.org",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Scrum.org Professional Scrum Developer proves proficiency in modern engineering practices for Scrum-based software development teams."
   },
   {
     "id": "gcpm",
@@ -2914,7 +3062,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Certified Project Manager validates knowledge of project management processes and methodologies as applied to IT and security projects."
   },
   {
     "id": "bcs-pcirm",
@@ -2933,7 +3082,8 @@
     "domain": "grc",
     "specialty": "risk-management",
     "issuer": "BCS",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "BCS Practitioner Certificate in Information Risk Management validates ability to manage information security risks within organizations."
   },
   {
     "id": "pexin-ism",
@@ -2952,7 +3102,8 @@
     "domain": "grc",
     "specialty": "iso-isms",
     "issuer": "EXIN",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EXIN Information Security Management Professional validates practical application of ISO/IEC 27001-based security management, for experienced security professionals."
   },
   {
     "id": "mgrc",
@@ -2972,7 +3123,8 @@
     "domain": "grc",
     "specialty": "compliance-awareness",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Certified GRC Expert validates practical skills in governance, risk management, and compliance program implementation."
   },
   {
     "id": "csslp",
@@ -2994,7 +3146,8 @@
     "domain": "core",
     "specialty": "secure-development",
     "issuer": "(ISC)²",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISC2 Certified Secure Software Lifecycle Professional validates expertise in incorporating security into every phase of the software development lifecycle."
   },
   {
     "id": "mth",
@@ -3014,7 +3167,8 @@
     "domain": "monitoring",
     "specialty": "blue-team",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Certified Threat Hunter validates practical threat hunting skills for proactively detecting threats in enterprise environments."
   },
   {
     "id": "cdrp",
@@ -3034,7 +3188,8 @@
     "domain": "forensics",
     "specialty": "data-recovery",
     "issuer": "Infosec Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Infosec Institute Certified Data Recovery Professional validates competency in recovering digital data from damaged or corrupted storage media."
   },
   {
     "id": "ecdfp",
@@ -3053,7 +3208,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "INE Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "eLearnSecurity Certified Digital Forensics Professional validates advanced digital forensics skills including disk, memory, and network artifact analysis."
   },
   {
     "id": "gpyc",
@@ -3073,7 +3229,8 @@
     "domain": "incident-handling",
     "specialty": "defense-analysis",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Python Coder validates competency in using Python programming for security automation, scripting, and tool development."
   },
   {
     "id": "mdfir",
@@ -3093,7 +3250,8 @@
     "domain": "incident-handling",
     "specialty": "defense-analysis",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Certified DFIR Specialist validates practical digital forensics and incident response skills for security operations professionals."
   },
   {
     "id": "lpt",
@@ -3112,7 +3270,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "EC-Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC-Council Licensed Penetration Tester validates advanced penetration testing expertise with a practical lab component for experienced security professionals."
   },
   {
     "id": "pnpt",
@@ -3131,7 +3290,8 @@
     "domain": "penetration-testing",
     "specialty": "network",
     "issuer": "TCM Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "TCM Security Practical Network Penetration Tester validates practical network penetration testing skills through a 5-day hands-on exam scenario."
   },
   {
     "id": "gcpn",
@@ -3151,7 +3311,8 @@
     "domain": "penetration-testing",
     "specialty": "cloud",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Cloud Penetration Tester validates skills in assessing and exploiting vulnerabilities in cloud environments across major providers."
   },
   {
     "id": "grtp",
@@ -3171,7 +3332,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Red Team Professional validates advanced offensive security skills including adversary simulation and red team operation management."
   },
   {
     "id": "sog-capenx",
@@ -3190,7 +3352,8 @@
     "domain": "penetration-testing",
     "specialty": "web",
     "issuer": "SecOps Group",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SecOps Group Certified AppSec Pentesting eXpert validates advanced application security penetration testing skills through a practical exam."
   },
   {
     "id": "gmob",
@@ -3210,7 +3373,8 @@
     "domain": "exploitation",
     "specialty": "mobile-exploitation",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Mobile Device Security Analyst validates skills in assessing the security of mobile devices and applications for Android and iOS platforms."
   },
   {
     "id": "fcss-ns",
@@ -3229,7 +3393,8 @@
     "domain": "core",
     "specialty": "fortinet",
     "issuer": "Fortinet",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Fortinet Certified Solution Specialist Network Security validates expertise in deploying and managing Fortinet network security solutions."
   },
   {
     "id": "cidpro",
@@ -3248,7 +3413,8 @@
     "domain": "core",
     "specialty": "identity-management",
     "issuer": "IDPro",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IDPro Certified Identity Professional validates broad knowledge of identity and access management concepts, standards, and emerging practices."
   },
   {
     "id": "ccsp",
@@ -3267,7 +3433,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "(ISC)²",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISC2 Certified Cloud Security Professional validates expertise in cloud security architecture, governance, and operations across all major platforms."
   },
   {
     "id": "fcp-pcs",
@@ -3286,7 +3453,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "Fortinet",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Fortinet Certified Professional Public Cloud Security validates competency in securing workloads in public cloud environments using Fortinet technologies."
   },
   {
     "id": "fcp-so",
@@ -3305,7 +3473,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "Fortinet",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Fortinet Certified Professional Security Operations validates skills in deploying and managing Fortinet security operations and analytics solutions."
   },
   {
     "id": "rhcsa",
@@ -3324,7 +3493,8 @@
     "domain": "nix",
     "specialty": null,
     "issuer": "Red Hat",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Red Hat Certified System Administrator validates competency in managing and administering Red Hat Enterprise Linux systems."
   },
   {
     "id": "isa-cds",
@@ -3343,7 +3513,8 @@
     "domain": "ics-iot",
     "specialty": null,
     "issuer": "ISA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISA Certified Design Specialist validates competency in applying IEC 62443 standards to design cybersecurity programs for industrial control systems."
   },
   {
     "id": "sfcta",
@@ -3363,7 +3534,8 @@
     "domain": "other",
     "specialty": "platform-architecture",
     "issuer": "Salesforce",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Salesforce Certified Technical Architect is the highest Salesforce certification, validating expert ability to architect complex enterprise Salesforce solutions."
   },
   {
     "id": "epdpp",
@@ -3383,7 +3555,8 @@
     "domain": "core",
     "specialty": "data-protection",
     "issuer": "EXIN",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EXIN Privacy and Data Protection Practitioner validates ability to implement GDPR-compliant data protection programs, for privacy professionals."
   },
   {
     "id": "m-o-r-p",
@@ -3402,7 +3575,8 @@
     "domain": "leadership",
     "specialty": "it-service-management",
     "issuer": "AXELOS",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "AXELOS M_o_R Practitioner validates ability to apply the Management of Risk framework in real organizational contexts, for risk management professionals."
   },
   {
     "id": "cpd",
@@ -3421,7 +3595,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "GAQM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GAQM Certified Project Director validates leadership skills for directing and overseeing complex projects at a senior management level."
   },
   {
     "id": "pmi-acp",
@@ -3440,7 +3615,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "PMI",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "PMI Agile Certified Practitioner proves competency in agile principles and practices across multiple frameworks, for project managers transitioning to agile environments."
   },
   {
     "id": "eism",
@@ -3460,7 +3636,8 @@
     "domain": "grc",
     "specialty": "iso-isms",
     "issuer": "EC-Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC-Council Information Security Manager validates management-level competency in information security governance and leadership for security managers."
   },
   {
     "id": "cgeit",
@@ -3479,7 +3656,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "ISACA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISACA Certified in the Governance of Enterprise IT validates expertise in IT governance frameworks and their alignment with business strategy."
   },
   {
     "id": "exin-27001e",
@@ -3498,7 +3676,8 @@
     "domain": "grc",
     "specialty": "iso-isms",
     "issuer": "EXIN",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EXIN ISO/IEC 27001 Expert validates advanced ability to design and lead ISMS implementation based on ISO/IEC 27001, for senior security practitioners."
   },
   {
     "id": "pecb-27005lm",
@@ -3518,7 +3697,8 @@
     "domain": "grc",
     "specialty": "risk-management",
     "issuer": "PECB",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "PECB ISO/IEC 27005 Lead Risk Manager validates expertise in information security risk management based on ISO/IEC 27005, for senior risk professionals."
   },
   {
     "id": "dccrp",
@@ -3537,7 +3717,8 @@
     "domain": "other",
     "specialty": "specialist-management",
     "issuer": "DRII",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "DRI Certified Cyber Resilience Professional validates competency in building cyber resilience programs combining cybersecurity and business continuity."
   },
   {
     "id": "gcia",
@@ -3558,7 +3739,8 @@
     "domain": "core",
     "specialty": "vulnerability-assessment",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Certified Intrusion Analyst validates expertise in analyzing network traffic and logs to detect and respond to intrusions."
   },
   {
     "id": "ctpra",
@@ -3577,7 +3759,8 @@
     "domain": "core",
     "specialty": "vulnerability-assessment",
     "issuer": "Shared Assessments",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Shared Assessments Certified Third-Party Risk Assessor validates skills in assessing and managing third-party and supply chain risks."
   },
   {
     "id": "pecb-27001la",
@@ -3597,7 +3780,8 @@
     "domain": "core",
     "specialty": "iso-audit",
     "issuer": "PECB",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "PECB ISO/IEC 27001 Lead Auditor validates competency to plan and conduct ISMS audits aligned with ISO/IEC 27001, for lead auditors."
   },
   {
     "id": "devnet-pro",
@@ -3617,7 +3801,8 @@
     "domain": "core",
     "specialty": "secure-development",
     "issuer": "Cisco",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Cisco DevNet Professional validates advanced skills in developing and automating solutions using Cisco APIs and DevOps practices."
   },
   {
     "id": "sc-401",
@@ -3636,7 +3821,8 @@
     "domain": "monitoring",
     "specialty": "siem-detection",
     "issuer": "Microsoft",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Microsoft Information Security Administrator validates skills in implementing and managing Microsoft Purview information protection and compliance solutions."
   },
   {
     "id": "cce",
@@ -3655,7 +3841,8 @@
     "domain": "monitoring",
     "specialty": "siem-detection",
     "issuer": "ISFCE",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISFCE Certified Computer Examiner validates competency in forensically examining digital devices and presenting findings in legal proceedings."
   },
   {
     "id": "cm-dfi",
@@ -3674,7 +3861,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Master Digital Forensic Investigator is a master-level credential for experienced digital forensics and incident investigation professionals."
   },
   {
     "id": "crest-cria",
@@ -3693,7 +3881,8 @@
     "domain": "forensics",
     "specialty": "threat-hunting",
     "issuer": "CREST",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CREST Registered Intrusion Analyst validates competency in analyzing intrusion data and network artifacts to identify and characterize security incidents."
   },
   {
     "id": "crest-crtia",
@@ -3712,7 +3901,8 @@
     "domain": "incident-handling",
     "specialty": "threat-intelligence",
     "issuer": "CREST",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CREST Registered Threat Intelligence Analyst validates competency in collecting and analyzing cyber threat intelligence to inform defensive operations."
   },
   {
     "id": "gwapt",
@@ -3732,7 +3922,8 @@
     "domain": "penetration-testing",
     "specialty": "web",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Web Application Penetration Tester validates skills in assessing and exploiting web application vulnerabilities through comprehensive testing."
   },
   {
     "id": "osmr",
@@ -3752,7 +3943,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "OffSec",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "OffSec MacOS Researcher validates expertise in security research and exploitation techniques specific to the macOS operating system."
   },
   {
     "id": "gcpt",
@@ -3771,7 +3963,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "GAQM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GAQM Certified Penetration Tester validates knowledge of penetration testing methodologies, tools, and techniques for security professionals."
   },
   {
     "id": "ccpenx-aws",
@@ -3790,7 +3983,8 @@
     "domain": "penetration-testing",
     "specialty": "cloud",
     "issuer": "SecOps Group",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SecOps Group Certified Cloud Pentesting eXpert AWS validates advanced penetration testing skills against Amazon Web Services environments."
   },
   {
     "id": "ccse",
@@ -3809,7 +4003,8 @@
     "domain": "core",
     "specialty": "checkpoint",
     "issuer": "Check Point",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Check Point Certified Security Expert validates advanced skills in implementing, upgrading, and troubleshooting Check Point security solutions."
   },
   {
     "id": "aws-css",
@@ -3829,7 +4024,8 @@
     "domain": "cloud-sysops",
     "specialty": "aws",
     "issuer": "Amazon Web Services",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "AWS Certified Security Specialty validates expertise in securing AWS workloads, covering IAM, data protection, infrastructure security, and incident response."
   },
   {
     "id": "sfcccc",
@@ -3849,7 +4045,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "Salesforce",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Salesforce Certified Community Cloud Consultant validates skills in designing, building, and deploying Salesforce Experience Cloud (community) solutions."
   },
   {
     "id": "exin-pcsa",
@@ -3868,7 +4065,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "EXIN",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EXIN Professional Cloud Solution Architect validates skills in designing and planning cloud solutions, for cloud architects and senior IT professionals."
   },
   {
     "id": "cka",
@@ -3888,7 +4086,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "CNCF",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CNCF Certified Kubernetes Administrator validates skills in administering and maintaining Kubernetes clusters in production environments."
   },
   {
     "id": "tuv-cotcp",
@@ -3907,7 +4106,8 @@
     "domain": "ics-iot",
     "specialty": null,
     "issuer": "TÜV Rheinland",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "TÜV Rheinland Certified OT Cybersecurity Professional validates knowledge of operational technology cybersecurity principles and IEC 62443 standards."
   },
   {
     "id": "sabsa-scf",
@@ -3927,7 +4127,8 @@
     "domain": "other",
     "specialty": "security-architecture",
     "issuer": "SABSA Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SABSA Chartered Security Architect Foundation validates foundational knowledge of the SABSA enterprise security architecture framework and methodology."
   },
   {
     "id": "cipa",
@@ -3946,7 +4147,8 @@
     "domain": "core",
     "specialty": "privacy",
     "issuer": "Identity Management Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IMI Certified Identity Protection Advisor validates knowledge of identity theft threats, prevention strategies, and victim recovery processes."
   },
   {
     "id": "dcpp",
@@ -3965,7 +4167,8 @@
     "domain": "core",
     "specialty": "privacy",
     "issuer": "DSCI",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "DSCI Certified Privacy Professional validates knowledge of data privacy principles, regulations, and practices, with a focus on Indian privacy laws."
   },
   {
     "id": "scrum-pal",
@@ -3984,7 +4187,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "Scrum.org",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Scrum.org Professional Agile Leadership validates leadership approaches supporting agile teams, aimed at managers and executives in agile organizations."
   },
   {
     "id": "capm",
@@ -4003,7 +4207,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "PMI",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "PMI Certified Associate in Project Management validates foundational project management knowledge and terminology, for those entering the field."
   },
   {
     "id": "psm-ii",
@@ -4022,7 +4227,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "Scrum.org",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Scrum.org Professional Scrum Master II validates advanced understanding of Scrum in complex environments, for experienced Scrum Masters."
   },
   {
     "id": "apmg-20000p",
@@ -4042,7 +4248,8 @@
     "domain": "grc",
     "specialty": "compliance-awareness",
     "issuer": "APMG International",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "APMG ISO/IEC 20000 Practitioner validates ability to implement and manage an IT Service Management System based on ISO/IEC 20000."
   },
   {
     "id": "c-isrm",
@@ -4061,7 +4268,8 @@
     "domain": "grc",
     "specialty": "risk-management",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Information Systems Risk Manager validates knowledge of information security risk management processes and industry frameworks."
   },
   {
     "id": "apmg-27001p",
@@ -4081,7 +4289,8 @@
     "domain": "grc",
     "specialty": "iso-isms",
     "issuer": "APMG International",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "APMG ISO/IEC 27001 Practitioner validates ability to implement and manage an ISMS based on ISO/IEC 27001 requirements."
   },
   {
     "id": "pecb-27001li",
@@ -4101,7 +4310,8 @@
     "domain": "grc",
     "specialty": "iso-isms",
     "issuer": "PECB",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "PECB ISO/IEC 27001 Lead Implementer validates competency to design and implement an ISO/IEC 27001-compliant ISMS in organizations."
   },
   {
     "id": "is20",
@@ -4121,7 +4331,8 @@
     "domain": "core",
     "specialty": "vulnerability-assessment",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 IS20 Controls validates knowledge of the CIS Critical Security Controls framework for prioritizing and implementing security best practices."
   },
   {
     "id": "c-issa",
@@ -4140,7 +4351,8 @@
     "domain": "core",
     "specialty": "audit",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Information Systems Security Auditor validates competency to audit information systems security controls and processes."
   },
   {
     "id": "apmg-27001a",
@@ -4160,7 +4372,8 @@
     "domain": "core",
     "specialty": "iso-audit",
     "issuer": "APMG International",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "APMG ISO/IEC 27001 Auditor validates competency to plan and conduct information security management system audits against ISO/IEC 27001."
   },
   {
     "id": "case",
@@ -4179,7 +4392,8 @@
     "domain": "core",
     "specialty": "application-security",
     "issuer": "EC-Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC-Council Certified Application Security Engineer validates skills in building secure .NET or Java applications through the SDLC."
   },
   {
     "id": "c-dre",
@@ -4198,7 +4412,8 @@
     "domain": "monitoring",
     "specialty": "blue-team",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Disaster Recovery Engineer validates skills in designing and implementing business continuity and disaster recovery plans."
   },
   {
     "id": "gsoc",
@@ -4218,7 +4433,8 @@
     "domain": "monitoring",
     "specialty": "siem-detection",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Security Operations Certified validates competency in core security operations skills including monitoring, detection, and incident triage."
   },
   {
     "id": "gbfa",
@@ -4238,7 +4454,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Battlefield Forensics and Acquisition validates skills in rapid forensic data collection and triage in operational and military environments."
   },
   {
     "id": "btl1",
@@ -4258,7 +4475,8 @@
     "domain": "forensics",
     "specialty": "threat-hunting",
     "issuer": "Security Blue Team",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Security Blue Team Level 1 validates foundational blue team skills including phishing analysis, threat intelligence, and SIEM investigation."
   },
   {
     "id": "mbt",
@@ -4278,7 +4496,8 @@
     "domain": "incident-handling",
     "specialty": "incident-response",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Certified Blue Teamer validates practical defensive security skills including monitoring, detection, and incident response."
   },
   {
     "id": "mpt",
@@ -4298,7 +4517,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Certified Penetration Tester validates practical penetration testing skills covering network, web, and Active Directory attack techniques."
   },
   {
     "id": "cpent",
@@ -4317,7 +4537,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "EC-Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC-Council Certified Penetration Testing Professional validates advanced penetration testing skills with a practical lab exam covering network and IoT targets."
   },
   {
     "id": "crest-cctapp",
@@ -4336,7 +4557,8 @@
     "domain": "penetration-testing",
     "specialty": "web",
     "issuer": "CREST",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CREST Certified Web Application Tester validates competency in performing comprehensive security assessments of web applications."
   },
   {
     "id": "htb-cpts",
@@ -4356,7 +4578,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Hack The Box",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Hack the Box Certified Penetration Testing Specialist validates practical penetration testing skills through an intensive hands-on exam."
   },
   {
     "id": "mre",
@@ -4376,7 +4599,8 @@
     "domain": "exploitation",
     "specialty": "reverse-engineering",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Certified Reverse Engineer validates practical skills in reversing and analyzing compiled code to understand malware behavior."
   },
   {
     "id": "jncis-sec",
@@ -4395,7 +4619,8 @@
     "domain": "core",
     "specialty": "juniper",
     "issuer": "Juniper Networks",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Juniper Networks Certified Internet Specialist Security validates intermediate skills in implementing Juniper security technologies."
   },
   {
     "id": "programming-language",
@@ -4414,7 +4639,8 @@
     "domain": "grc",
     "specialty": "compliance-awareness",
     "issuer": null,
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": ""
   },
   {
     "id": "gmle",
@@ -4433,7 +4659,8 @@
     "domain": "core",
     "specialty": "ml-automation",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Machine Learning Engineer validates skills in developing and securing machine learning systems and applying ML to cybersecurity use cases."
   },
   {
     "id": "crest-cchia",
@@ -4453,7 +4680,8 @@
     "domain": "monitoring",
     "specialty": "siem-detection",
     "issuer": "CREST",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CREST Certified Host Intrusion Analyst validates expertise in analyzing host-based artifacts to detect and characterize intrusion activity."
   },
   {
     "id": "ence",
@@ -4472,7 +4700,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "OpenText",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "OpenText EnCase Certified Examiner validates proficiency in using EnCase software for digital forensics investigations and legal proceedings."
   },
   {
     "id": "ace",
@@ -4491,7 +4720,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "OpenText",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "OpenText AccessData Certified Examiner validates competency in using FTK and related tools for computer forensics examinations."
   },
   {
     "id": "ecir",
@@ -4510,7 +4740,8 @@
     "domain": "incident-handling",
     "specialty": "incident-response",
     "issuer": "INE Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "eLearnSecurity Certified Incident Responder validates competency in detecting, investigating, and responding to cybersecurity incidents."
   },
   {
     "id": "c-ihe",
@@ -4529,7 +4760,8 @@
     "domain": "incident-handling",
     "specialty": "incident-response",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Incident Handling Engineer validates competency in detecting, containing, eradicating, and recovering from cybersecurity incidents."
   },
   {
     "id": "cstl",
@@ -4548,7 +4780,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "The Cyber Scheme",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Cyber Scheme Team Leader validates leadership competency for managing and directing penetration testing teams in UK government-aligned assessments."
   },
   {
     "id": "ecppt",
@@ -4567,7 +4800,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "INE Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "eLearnSecurity Certified Professional Penetration Tester validates practical penetration testing skills across network, web, and system security."
   },
   {
     "id": "ewpt",
@@ -4586,7 +4820,8 @@
     "domain": "penetration-testing",
     "specialty": "web",
     "issuer": "INE Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "eLearnSecurity Web Application Penetration Tester validates web application security testing skills through a comprehensive practical exam."
   },
   {
     "id": "cm-ips",
@@ -4605,7 +4840,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Master Intrusion Prevention Specialist is a master-level credential for experienced penetration testing and intrusion prevention professionals."
   },
   {
     "id": "htb-cbbh",
@@ -4625,7 +4861,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Hack The Box",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Hack the Box Certified Bug Bounty Hunter validates practical bug bounty hunting skills with a focus on web application vulnerabilities."
   },
   {
     "id": "pjmr",
@@ -4644,7 +4881,8 @@
     "domain": "exploitation",
     "specialty": "reverse-engineering",
     "issuer": "TCM Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "TCM Security Practical Junior Malware Researcher validates foundational malware analysis and reverse engineering skills through a hands-on exam."
   },
   {
     "id": "f5-cts-apm",
@@ -4663,7 +4901,8 @@
     "domain": "core",
     "specialty": "f5",
     "issuer": "F5",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "F5 Certified Technical Specialist Access Policy Manager validates expertise in configuring and managing F5 BIG-IP Access Policy Manager solutions."
   },
   {
     "id": "fcp-ns",
@@ -4682,7 +4921,8 @@
     "domain": "core",
     "specialty": "fortinet",
     "issuer": "Fortinet",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Fortinet Certified Professional Network Security validates skills in deploying and managing Fortinet network security products and architectures."
   },
   {
     "id": "ccna",
@@ -4701,7 +4941,8 @@
     "domain": "core",
     "specialty": "cisco",
     "issuer": "Cisco",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Cisco Certified Network Associate validates foundational networking and infrastructure skills for IT professionals in networking roles."
   },
   {
     "id": "az-500",
@@ -4721,7 +4962,8 @@
     "domain": "cloud-sysops",
     "specialty": "azure",
     "issuer": "Microsoft",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Microsoft Azure Security Engineer Associate validates skills in implementing security controls and protecting Azure workloads and identities."
   },
   {
     "id": "csa-cgc",
@@ -4740,7 +4982,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "Cloud Security Alliance",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CSA Cloud Governance & Compliance validates knowledge of cloud governance frameworks, compliance requirements, and risk management for cloud environments."
   },
   {
     "id": "vcp-nv",
@@ -4760,7 +5003,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "VMware",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "VMware Certified Professional Network Virtualization validates skills in deploying, managing, and troubleshooting VMware NSX network virtualization solutions."
   },
   {
     "id": "ckad",
@@ -4780,7 +5024,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "CNCF",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CNCF Certified Kubernetes Application Developer validates skills in building, deploying, and managing containerized applications on Kubernetes."
   },
   {
     "id": "lpic-2",
@@ -4799,7 +5044,8 @@
     "domain": "nix",
     "specialty": null,
     "issuer": "LPI",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "LPI LPIC-2 validates advanced Linux system administration skills including networking, security, and advanced system management."
   },
   {
     "id": "gcip",
@@ -4819,7 +5065,8 @@
     "domain": "ics-iot",
     "specialty": null,
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Critical Infrastructure Protection validates skills in securing industrial control systems and critical infrastructure against cyber threats."
   },
   {
     "id": "cdp",
@@ -4839,7 +5086,8 @@
     "domain": "core",
     "specialty": "data-protection",
     "issuer": "Identity Management Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IMI Certified in Data Protection validates competency in implementing data protection controls and managing privacy risks within organizations."
   },
   {
     "id": "ccp",
@@ -4859,7 +5107,8 @@
     "domain": "leadership",
     "specialty": "security-leadership",
     "issuer": "EC-First",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC First Certified CCMC Professional validates competency in cybersecurity and compliance management within complex regulatory environments."
   },
   {
     "id": "c-isso",
@@ -4878,7 +5127,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Information Systems Security Officer validates management-level knowledge of information security governance and program oversight."
   },
   {
     "id": "cis-rm",
@@ -4898,7 +5148,8 @@
     "domain": "grc",
     "specialty": "iso-isms",
     "issuer": "IT Governance",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IBITGQ Certified ISO 27005 Risk Management Specialist validates competency in information security risk management based on ISO/IEC 27005."
   },
   {
     "id": "exin-27001p",
@@ -4917,7 +5168,8 @@
     "domain": "grc",
     "specialty": "iso-isms",
     "issuer": "EXIN",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EXIN ISO/IEC 27001 Professional validates proficiency in applying ISO/IEC 27001 requirements for information security management programs."
   },
   {
     "id": "pecb-27032cm",
@@ -4937,7 +5189,8 @@
     "domain": "grc",
     "specialty": "risk-management",
     "issuer": "PECB",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "PECB ISO/IEC 27032 Lead Cybersecurity Manager validates ability to lead cybersecurity programs based on ISO/IEC 27032 guidelines."
   },
   {
     "id": "c-hissp",
@@ -4956,7 +5209,8 @@
     "domain": "other",
     "specialty": "specialist-management",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Healthcare Information Systems Security Practitioner validates information security knowledge specific to healthcare environments and HIPAA."
   },
   {
     "id": "apmg-20000a",
@@ -4977,7 +5231,8 @@
     "domain": "core",
     "specialty": "audit",
     "issuer": "APMG International",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "APMG ISO/IEC 20000 Auditor validates competency to audit IT service management systems against ISO/IEC 20000 requirements."
   },
   {
     "id": "c-isms-la",
@@ -4996,7 +5251,8 @@
     "domain": "core",
     "specialty": "audit",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified ISMS Lead Auditor validates ability to lead audits of information security management systems against ISO/IEC 27001."
   },
   {
     "id": "cis-ia",
@@ -5016,7 +5272,8 @@
     "domain": "core",
     "specialty": "iso-audit",
     "issuer": "IT Governance",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IBITGQ Certified ISO 27001 Internal Auditor validates skills to audit an ISMS against ISO/IEC 27001 from within an organization."
   },
   {
     "id": "casst",
@@ -5035,7 +5292,8 @@
     "domain": "core",
     "specialty": "application-security",
     "issuer": "GAQM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GAQM Certified Advanced Software Security Tester validates advanced skills in testing software applications for security weaknesses and vulnerabilities."
   },
   {
     "id": "osip",
@@ -5054,7 +5312,8 @@
     "domain": "monitoring",
     "specialty": "siem-detection",
     "issuer": "IntelTechniques",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IntelTechniques Open Source Intelligence Professional validates practical OSINT investigation skills using the Michael Bazzell methodology."
   },
   {
     "id": "cisco-coa",
@@ -5073,7 +5332,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "Cisco",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Cisco Certified CyberOps Associate validates foundational skills in security monitoring, threat analysis, and incident response within a SOC."
   },
   {
     "id": "c-csa",
@@ -5092,7 +5352,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Cybersecurity Analyst validates skills in cybersecurity analysis, threat investigation, and security monitoring."
   },
   {
     "id": "chfi",
@@ -5111,7 +5372,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "EC-Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC-Council Computer Hacking Forensics Investigator validates skills in investigating computer hacking incidents and recovering digital evidence."
   },
   {
     "id": "s-ta",
@@ -5130,7 +5392,8 @@
     "domain": "incident-handling",
     "specialty": "threat-intelligence",
     "issuer": "SECO Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SECO Certified Threat Analyst validates competency in threat analysis, threat intelligence collection, and security monitoring operations."
   },
   {
     "id": "ecih",
@@ -5149,7 +5412,8 @@
     "domain": "incident-handling",
     "specialty": "incident-response",
     "issuer": "EC-Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC-Council Certified Incident Handler validates competency in detecting, responding to, and recovering from various types of cybersecurity incidents."
   },
   {
     "id": "c-psh",
@@ -5168,7 +5432,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified PowerShell Hacker validates competency in using PowerShell scripting for offensive security and penetration testing operations."
   },
   {
     "id": "cmwapt",
@@ -5188,7 +5453,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Infosec Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Infosec Institute Certified Mobile and Web App Penetration Tester validates competency in performing security tests on mobile and web applications."
   },
   {
     "id": "c-ptc",
@@ -5207,7 +5473,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Penetration Testing Consultant validates advanced skills in managing and conducting professional penetration testing engagements."
   },
   {
     "id": "crtop",
@@ -5227,7 +5494,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Infosec Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Infosec Institute Certified Red Team Operations Professional validates skills in planning and executing red team engagements and adversary simulation."
   },
   {
     "id": "csr",
@@ -5247,7 +5515,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Cyber Struggle",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Cyber Struggle Ranger validates cybersecurity skills through a scenario-based certification focused on offensive security and red teaming."
   },
   {
     "id": "f5-cts-dns",
@@ -5266,7 +5535,8 @@
     "domain": "core",
     "specialty": "f5",
     "issuer": "F5",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "F5 Certified Technical Specialist Domain Name Services validates expertise in configuring and managing DNS on F5 BIG-IP platforms."
   },
   {
     "id": "pcdra",
@@ -5285,7 +5555,8 @@
     "domain": "core",
     "specialty": "palo-alto",
     "issuer": "Palo Alto Networks",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Palo Alto Networks Certified Detection and Remediation Analyst validates skills in using Cortex XDR for threat detection, investigation, and response."
   },
   {
     "id": "sf-ciamd",
@@ -5304,7 +5575,8 @@
     "domain": "core",
     "specialty": "access-control",
     "issuer": "Salesforce",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Salesforce Certified Identity and Access Management Designer validates skills in designing identity and access management solutions on the Salesforce platform."
   },
   {
     "id": "gcld",
@@ -5324,7 +5596,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Cloud Security Essentials validates foundational knowledge of cloud security concepts across AWS, Azure, and Google Cloud platforms."
   },
   {
     "id": "aws-saa",
@@ -5343,7 +5616,8 @@
     "domain": "cloud-sysops",
     "specialty": "aws",
     "issuer": "Amazon Web Services",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "AWS Certified Solutions Architect Associate validates skills in designing cost-effective and secure AWS solutions for common use cases."
   },
   {
     "id": "exin-pcserm",
@@ -5362,7 +5636,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "EXIN",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EXIN Professional Cloud Service Manager validates skills in managing cloud services, SLAs, and vendor relationships."
   },
   {
     "id": "isa-cras",
@@ -5382,7 +5657,8 @@
     "domain": "ics-iot",
     "specialty": null,
     "issuer": "ISA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISA Certified Risk Assessment Specialist validates competency in applying IEC 62443 risk assessment methodologies to industrial control systems."
   },
   {
     "id": "splk-3001",
@@ -5402,7 +5678,8 @@
     "domain": "other",
     "specialty": "isms-implementation",
     "issuer": "Splunk",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Splunk Enterprise Security Certified Administrator validates skills in installing, configuring, and managing Splunk Enterprise Security for SOC operations."
   },
   {
     "id": "bcs-pciaa",
@@ -5422,7 +5699,8 @@
     "domain": "leadership",
     "specialty": "enterprise-architecture",
     "issuer": "BCS",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "BCS Practitioner Certificate in Information Assurance Architecture validates competency in designing security architectures to assure information systems."
   },
   {
     "id": "ccsa",
@@ -5441,7 +5719,8 @@
     "domain": "leadership",
     "specialty": "enterprise-architecture",
     "issuer": "EC-First",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC First Certified Cyber Security Architect validates competency in designing secure enterprise architectures for cybersecurity professionals."
   },
   {
     "id": "ppm",
@@ -5460,7 +5739,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "GAQM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GAQM Professional in Project Management validates competency in project management methodologies and practices for mid-level project managers."
   },
   {
     "id": "c-issm",
@@ -5479,7 +5759,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Information Systems Security Manager validates competency in managing and directing an organization's information security program."
   },
   {
     "id": "tuv-itsm",
@@ -5499,7 +5780,8 @@
     "domain": "grc",
     "specialty": "compliance-awareness",
     "issuer": "TÜV Rheinland",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "TÜV Rheinland IT Security Manager validates knowledge of IT security management concepts and regulatory requirements for security managers in Germany."
   },
   {
     "id": "ccrmp",
@@ -5519,7 +5801,8 @@
     "domain": "grc",
     "specialty": "risk-management",
     "issuer": "IT Governance",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IBITGQ Certified in Managing Cyber Security Risk validates practical skills in identifying and managing cybersecurity risks within organizations."
   },
   {
     "id": "pecb-27005rm",
@@ -5539,7 +5822,8 @@
     "domain": "grc",
     "specialty": "risk-management",
     "issuer": "PECB",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "PECB ISO/IEC 27005 Risk Manager validates ability to establish and manage an information security risk management program based on ISO/IEC 27005."
   },
   {
     "id": "csba",
@@ -5558,7 +5842,8 @@
     "domain": "other",
     "specialty": "specialist-management",
     "issuer": "QAI",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "QAI Certified Software Business Analyst validates competency in business analysis skills specifically applied to software quality and development projects."
   },
   {
     "id": "dcbcla",
@@ -5579,7 +5864,8 @@
     "domain": "core",
     "specialty": "audit",
     "issuer": "DRII",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "DRI Certified Business Continuity Lead Auditor validates competency to audit business continuity management programs against established standards."
   },
   {
     "id": "tuv-msa",
@@ -5599,7 +5885,8 @@
     "domain": "core",
     "specialty": "vulnerability-assessment",
     "issuer": "TÜV Rheinland",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "TÜV Rheinland Mobile Security Analyst validates knowledge of mobile device security assessment and mobile threat analysis."
   },
   {
     "id": "devnet-a",
@@ -5618,7 +5905,8 @@
     "domain": "core",
     "specialty": "secure-development",
     "issuer": "Cisco",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Cisco DevNet Associate validates foundational skills in software development and APIs for automating and programming Cisco infrastructure."
   },
   {
     "id": "cysa-plus",
@@ -5637,7 +5925,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "CompTIA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CompTIA Cybersecurity Analyst+ validates skills in threat detection, analysis, and response for cybersecurity analysts in a SOC environment."
   },
   {
     "id": "csx-p",
@@ -5656,7 +5945,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "ISACA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISACA Cybersecurity Practitioner validates practical hands-on cybersecurity skills in areas such as monitoring, defense, and analysis."
   },
   {
     "id": "c-nfe",
@@ -5676,7 +5966,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Network Forensics Examiner validates competency in capturing and analyzing network traffic for digital forensics purposes."
   },
   {
     "id": "gosi",
@@ -5696,7 +5987,8 @@
     "domain": "forensics",
     "specialty": "osint",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Open Source Intelligence validates skills in collecting and analyzing publicly available information for security investigations and threat intelligence."
   },
   {
     "id": "c-tia",
@@ -5715,7 +6007,8 @@
     "domain": "incident-handling",
     "specialty": "threat-intelligence",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Threat Intelligence Analyst validates skills in collecting, analyzing, and operationalizing cyber threat intelligence."
   },
   {
     "id": "osda",
@@ -5735,7 +6028,8 @@
     "domain": "incident-handling",
     "specialty": "defense-analysis",
     "issuer": "OffSec",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "OffSec Defense Analyst validates skills in defending networks, detecting threats, and responding to incidents using a blue team methodology."
   },
   {
     "id": "emapt",
@@ -5754,7 +6048,8 @@
     "domain": "penetration-testing",
     "specialty": "mobile",
     "issuer": "INE Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "eLearnSecurity Mobile Application Penetration Tester validates skills in assessing the security of Android and iOS mobile applications."
   },
   {
     "id": "bscp",
@@ -5773,7 +6068,8 @@
     "domain": "penetration-testing",
     "specialty": "web",
     "issuer": "PortSwigger",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "PortSwigger Burp Suite Certified Practitioner validates practical web application penetration testing skills using the Burp Suite security platform."
   },
   {
     "id": "opst",
@@ -5792,7 +6088,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "ISECOM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISECOM OSSTMM Professional Security Tester validates competency in performing security tests according to the Open Source Security Testing Methodology Manual."
   },
   {
     "id": "oswa",
@@ -5812,7 +6109,8 @@
     "domain": "penetration-testing",
     "specialty": "web",
     "issuer": "OffSec",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "OffSec Web Assessor validates skills in assessing and exploiting web application vulnerabilities through whitebox and blackbox testing approaches."
   },
   {
     "id": "oscc",
@@ -5831,7 +6129,8 @@
     "domain": "monitoring",
     "specialty": "general",
     "issuer": "OffSec",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "description": "OffSec Certified Professional CyberCore validates foundational cybersecurity knowledge covering core concepts in security operations and monitoring."
   },
   {
     "id": "osir",
@@ -5850,7 +6149,8 @@
     "domain": "incident-handling",
     "specialty": "incident-response",
     "issuer": "OffSec",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "description": "OffSec Incident Responder validates practical incident response skills including evidence collection, analysis, and containment for security professionals."
   },
   {
     "id": "osth",
@@ -5869,7 +6169,8 @@
     "domain": "monitoring",
     "specialty": "threat-intelligence",
     "issuer": "OffSec",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "description": "OffSec Threat Hunter validates advanced threat hunting skills including behavioral analysis and hypothesis-driven hunting in enterprise environments."
   },
   {
     "id": "sjd-100",
@@ -5888,7 +6189,8 @@
     "domain": "software",
     "specialty": "secure-coding",
     "issuer": "OffSec",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "description": "OffSec Secure Java Development Essentials validates foundational knowledge of secure coding practices and common vulnerabilities in Java applications."
   },
   {
     "id": "crea",
@@ -5908,7 +6210,8 @@
     "domain": "exploitation",
     "specialty": "reverse-engineering",
     "issuer": "Infosec Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Infosec Institute Certified Reverse Engineering Analyst validates competency in analyzing malware and reverse-engineering compiled code."
   },
   {
     "id": "cwsp",
@@ -5927,7 +6230,8 @@
     "domain": "core",
     "specialty": "vendor-neutral",
     "issuer": "CWNP",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CWNP Certified Wireless Security Professional validates expertise in designing and implementing security solutions for wireless networks."
   },
   {
     "id": "crest-ccnia",
@@ -5947,7 +6251,8 @@
     "domain": "core",
     "specialty": "vendor-neutral",
     "issuer": "CREST",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CREST Certified Network Intrusion Analyst validates expertise in analyzing network traffic to detect and characterize intrusion activity."
   },
   {
     "id": "cige",
@@ -5966,7 +6271,8 @@
     "domain": "core",
     "specialty": "identity-management",
     "issuer": "Identity Management Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IMI Certified Identity Governance Expert validates expertise in designing and managing identity governance programs including role management and access certification."
   },
   {
     "id": "az-104",
@@ -5985,7 +6291,8 @@
     "domain": "cloud-sysops",
     "specialty": "azure",
     "issuer": "Microsoft",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Microsoft Azure Administrator Associate validates skills in managing Azure identities, storage, compute, networking, and monitoring."
   },
   {
     "id": "clcsm",
@@ -6005,7 +6312,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "PECB",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "PECB Lead Cloud Security Manager validates competency to plan and manage cloud security programs based on established cloud security standards."
   },
   {
     "id": "ccse-2",
@@ -6025,7 +6333,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "EC-Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC-Council Certified Cloud Security Engineer validates skills in designing and implementing security controls in multi-cloud environments."
   },
   {
     "id": "mcse",
@@ -6044,7 +6353,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Cloud Security Engineer validates practical cloud security engineering skills for securing infrastructure in major cloud environments."
   },
   {
     "id": "sfsa",
@@ -6063,7 +6373,8 @@
     "domain": "other",
     "specialty": "platform-architecture",
     "issuer": "Salesforce",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Salesforce System Architect validates advanced skills in designing multi-cloud Salesforce solutions and system integration architectures."
   },
   {
     "id": "asis-app",
@@ -6083,7 +6394,8 @@
     "domain": "core",
     "specialty": "physical-security",
     "issuer": "ASIS International",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ASIS Associate Protection Professional validates foundational knowledge of physical security and protection principles for security practitioners."
   },
   {
     "id": "cnda",
@@ -6103,7 +6415,8 @@
     "domain": "leadership",
     "specialty": "security-leadership",
     "issuer": "EC-Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC-Council Certified Network Defense Architect validates advanced skills in designing and implementing comprehensive network defense architectures."
   },
   {
     "id": "dacrp",
@@ -6123,7 +6436,8 @@
     "domain": "leadership",
     "specialty": "security-leadership",
     "issuer": "DRII",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "DRI Associate Cyber Resilience Professional validates foundational knowledge of cyber resilience principles for those entering the field."
   },
   {
     "id": "cisrm",
@@ -6143,7 +6457,8 @@
     "domain": "grc",
     "specialty": "risk-management",
     "issuer": "IT Governance",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IBITGQ Certified ISO 27005 Risk Management Specialist validates competency in managing information security risks aligned with ISO/IEC 27005."
   },
   {
     "id": "dcrmp",
@@ -6163,7 +6478,8 @@
     "domain": "grc",
     "specialty": "risk-management",
     "issuer": "DRII",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "DRI Certified Risk Management Professional validates competency in identifying, assessing, and managing operational and cyber risks."
   },
   {
     "id": "ssap",
@@ -6183,7 +6499,8 @@
     "domain": "grc",
     "specialty": "compliance-awareness",
     "issuer": "SANS Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SANS Security Awareness Professional validates expertise in building and managing effective security awareness programs for organizations."
   },
   {
     "id": "grcp",
@@ -6202,7 +6519,8 @@
     "domain": "grc",
     "specialty": "compliance-awareness",
     "issuer": "OCEG",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "OCEG GRC Professional validates knowledge of Governance, Risk, and Compliance principles and practices, for GRC managers and practitioners."
   },
   {
     "id": "sacp",
@@ -6221,7 +6539,8 @@
     "domain": "other",
     "specialty": "specialist-management",
     "issuer": "The H Layer",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "The H Layer Security Awareness and Culture Professional validates competency in developing human-centric security awareness and behavioral change programs."
   },
   {
     "id": "cisp",
@@ -6240,7 +6559,8 @@
     "domain": "other",
     "specialty": "specialist-management",
     "issuer": "GAQM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GAQM Certified Information Security Professional validates broad knowledge of information security principles, practices, and technologies."
   },
   {
     "id": "tuv-auditor",
@@ -6260,7 +6580,8 @@
     "domain": "core",
     "specialty": "vulnerability-assessment",
     "issuer": "TÜV Rheinland",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "TÜV Rheinland IT Security Auditor validates knowledge of IT security auditing methodologies and standards for auditors in Germany."
   },
   {
     "id": "ctprp",
@@ -6279,7 +6600,8 @@
     "domain": "core",
     "specialty": "vulnerability-assessment",
     "issuer": "Shared Assessments",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Shared Assessments Certified Third-Party Risk Professional validates expertise in developing and managing third-party risk management programs."
   },
   {
     "id": "iia-cia",
@@ -6298,7 +6620,8 @@
     "domain": "core",
     "specialty": "audit",
     "issuer": "IIA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IIA Certified Internal Auditor is the globally recognized standard for internal auditors, validating competency across internal audit practices."
   },
   {
     "id": "ccsc",
@@ -6317,7 +6640,8 @@
     "domain": "core",
     "specialty": "application-security",
     "issuer": "CertNexus",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CertNexus Cyber Secure Coder validates competency in developing secure software and applying secure coding practices throughout the SDLC."
   },
   {
     "id": "sc-200",
@@ -6336,7 +6660,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "Microsoft",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Microsoft Security Operations Analyst Associate validates skills in mitigating threats using Microsoft Sentinel, Defender, and other Microsoft security tools."
   },
   {
     "id": "mrci",
@@ -6356,7 +6681,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Remote Cybersecurity Internship validates practical entry-level cybersecurity skills through hands-on project-based learning."
   },
   {
     "id": "edrp",
@@ -6375,7 +6701,8 @@
     "domain": "forensics",
     "specialty": "data-recovery",
     "issuer": "EC-Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC-Council Disaster Recovery Professional validates skills in planning and implementing business continuity and disaster recovery strategies."
   },
   {
     "id": "htb-cdsa",
@@ -6395,7 +6722,8 @@
     "domain": "forensics",
     "specialty": "threat-hunting",
     "issuer": "Hack The Box",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Hack the Box Certified Defensive Security Analyst validates practical blue team skills through hands-on threat detection and incident analysis."
   },
   {
     "id": "cfr",
@@ -6414,7 +6742,8 @@
     "domain": "incident-handling",
     "specialty": "incident-response",
     "issuer": "CertNexus",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CertNexus CyberSec First Responder validates skills in analyzing and responding to cybersecurity incidents, aligned with DoDD 8570 requirements."
   },
   {
     "id": "ctia",
@@ -6433,7 +6762,8 @@
     "domain": "incident-handling",
     "specialty": "threat-intelligence",
     "issuer": "EC-Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC-Council Certified Threat Intelligence Analyst validates skills in collecting, processing, and analyzing cyber threat intelligence to inform defenses."
   },
   {
     "id": "cstm",
@@ -6452,7 +6782,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "The Cyber Scheme",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Cyber Scheme Team Member validates penetration testing competency for individual assessors in UK government-aligned certification programs."
   },
   {
     "id": "ejpt",
@@ -6471,7 +6802,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "INE",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "eLearnSecurity Junior Penetration Tester validates entry-level penetration testing knowledge and practical skills through a hands-on lab exam."
   },
   {
     "id": "s-ehp",
@@ -6490,7 +6822,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "SECO Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SECO Ethical Hacking Practitioner validates practical ethical hacking skills for security professionals conducting penetration tests."
   },
   {
     "id": "chat",
@@ -6510,7 +6843,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "ISECOM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISECOM Certified Hacker Analyst Trainer validates competency to teach ethical hacking using the OSSTMM methodology."
   },
   {
     "id": "crest-cpsa",
@@ -6529,7 +6863,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "CREST",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CREST Practitioner Security Analyst validates foundational technical security knowledge as an entry point to the CREST certification pathway."
   },
   {
     "id": "f5-ca",
@@ -6548,7 +6883,8 @@
     "domain": "core",
     "specialty": "f5",
     "issuer": "F5",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "F5 BIG-IP Certified Administrator validates foundational skills in managing and administering F5 BIG-IP application delivery platforms."
   },
   {
     "id": "endp",
@@ -6567,7 +6903,8 @@
     "domain": "core",
     "specialty": "vendor-neutral",
     "issuer": "INE Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "eLearnSecurity Network Defense Professional validates practical skills in configuring and managing network security controls and defenses."
   },
   {
     "id": "cist",
@@ -6586,7 +6923,8 @@
     "domain": "core",
     "specialty": "identity-management",
     "issuer": "Identity Management Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IMI Certified Identity and Security Technologist validates technical skills in implementing identity management and security technologies."
   },
   {
     "id": "google-pcse",
@@ -6605,7 +6943,8 @@
     "domain": "cloud-sysops",
     "specialty": "gcp",
     "issuer": "Google",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Google Professional Cloud Security Engineer validates expertise in designing and implementing secure Google Cloud Platform infrastructure."
   },
   {
     "id": "exin-pcsm",
@@ -6624,7 +6963,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "EXIN",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EXIN Professional Cloud Security Manager validates competency in securing cloud environments and managing cloud security programs."
   },
   {
     "id": "mdso",
@@ -6643,7 +6983,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Certified DevSecOps Engineer validates practical skills in integrating security into DevOps pipelines and cloud-native deployments."
   },
   {
     "id": "sca",
@@ -6662,7 +7003,8 @@
     "domain": "nix",
     "specialty": null,
     "issuer": "SUSE",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SUSE Certified Administrator validates foundational skills in administering SUSE Linux Enterprise Server systems."
   },
   {
     "id": "isa-cap",
@@ -6681,7 +7023,8 @@
     "domain": "ics-iot",
     "specialty": null,
     "issuer": "ISA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISA Certified Automation Specialist validates competency in process automation systems based on ISA standards."
   },
   {
     "id": "tuv-cosm",
@@ -6700,7 +7043,8 @@
     "domain": "other",
     "specialty": "security-architecture",
     "issuer": "Limes Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Limes Security TÜV Certified OT Security Manager validates management-level knowledge of operational technology security and IEC 62443 governance."
   },
   {
     "id": "zach-eaa",
@@ -6720,7 +7064,8 @@
     "domain": "leadership",
     "specialty": "enterprise-architecture",
     "issuer": "Zachman International",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Zachman Enterprise Architect Associate validates foundational knowledge of the Zachman Framework for enterprise architecture design and documentation."
   },
   {
     "id": "cad",
@@ -6739,7 +7084,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "GAQM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GAQM Certified Agile Developer validates knowledge of agile development principles and practices for software developers on agile teams."
   },
   {
     "id": "cac",
@@ -6758,7 +7104,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "GAQM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GAQM Certified Agile Coach validates competency in coaching teams and organizations through agile transformations and culture change."
   },
   {
     "id": "ismi-csmp",
@@ -6777,7 +7124,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "ISMI",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISMI Certified Security Management Professional validates advanced knowledge of security management principles for senior security professionals."
   },
   {
     "id": "cscs",
@@ -6796,7 +7144,8 @@
     "domain": "grc",
     "specialty": "compliance-awareness",
     "issuer": "EC-First",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC First Certified Security Compliance Specialist validates knowledge of security compliance frameworks and regulatory requirements for compliance professionals."
   },
   {
     "id": "apmg-27001f",
@@ -6816,7 +7165,8 @@
     "domain": "grc",
     "specialty": "iso-isms",
     "issuer": "APMG International",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "APMG ISO/IEC 27001 Foundation validates introductory knowledge of the ISO/IEC 27001 information security management standard."
   },
   {
     "id": "pecb-27001f",
@@ -6836,7 +7186,8 @@
     "domain": "grc",
     "specialty": "iso-isms",
     "issuer": "PECB",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "PECB ISO/IEC 27001 Foundation validates introductory knowledge of ISO/IEC 27001 information security management system principles."
   },
   {
     "id": "c-slo",
@@ -6855,7 +7206,8 @@
     "domain": "other",
     "specialty": "specialist-management",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Security Leadership Officer validates security leadership competencies for professionals advancing into security management roles."
   },
   {
     "id": "dcbca",
@@ -6876,7 +7228,8 @@
     "domain": "core",
     "specialty": "audit",
     "issuer": "DRII",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "DRI Certified Business Continuity Auditor validates competency in auditing business continuity management programs against established best practices."
   },
   {
     "id": "grca",
@@ -6895,7 +7248,8 @@
     "domain": "core",
     "specialty": "audit",
     "issuer": "OCEG",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "OCEG GRC Auditor validates competency in auditing Governance, Risk, and Compliance programs and internal controls."
   },
   {
     "id": "cisst",
@@ -6914,7 +7268,8 @@
     "domain": "core",
     "specialty": "vulnerability-assessment",
     "issuer": "GAQM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GAQM Certified Information Systems Security Tester validates competency in testing information systems security controls and identifying vulnerabilities."
   },
   {
     "id": "c-swae",
@@ -6933,7 +7288,8 @@
     "domain": "core",
     "specialty": "application-security",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Secure Web Application Engineer validates competency in designing, developing, and securing web applications against common vulnerabilities."
   },
   {
     "id": "opsa",
@@ -6953,7 +7309,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "ISECOM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISECOM OSSTMM Professional Security Analyst validates competency in analyzing security using the Open Source Security Testing Methodology Manual."
   },
   {
     "id": "csae",
@@ -6973,7 +7330,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "Cyber Struggle",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Cyber Struggle AEGIS validates advanced cybersecurity defense and operations skills through scenario-based training and assessment."
   },
   {
     "id": "asis-pci",
@@ -6992,7 +7350,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "ASIS International",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ASIS Professional Certified Investigator validates expertise in case management, evidence handling, and investigative interviewing for security investigators."
   },
   {
     "id": "mad-soca",
@@ -7011,7 +7370,8 @@
     "domain": "forensics",
     "specialty": "threat-hunting",
     "issuer": "MITRE Engenuity",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "MITRE ATT&CK Defender SOC Assessment validates knowledge of ATT&CK-based detection and analytics for security operations professionals."
   },
   {
     "id": "mad-cti",
@@ -7030,7 +7390,8 @@
     "domain": "incident-handling",
     "specialty": "threat-intelligence",
     "issuer": "MITRE Engenuity",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "MITRE ATT&CK Defender Cyber Threat Intelligence validates competency in using the ATT&CK framework for threat intelligence analysis and reporting."
   },
   {
     "id": "ceh",
@@ -7049,7 +7410,8 @@
     "domain": "incident-handling",
     "specialty": "incident-response",
     "issuer": "EC-Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC-Council Certified Ethical Hacker validates knowledge of ethical hacking tools and techniques, one of the most widely recognized security certifications."
   },
   {
     "id": "sog-capen",
@@ -7068,7 +7430,8 @@
     "domain": "penetration-testing",
     "specialty": "web",
     "issuer": "SecOps Group",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SecOps Group Certified AppSec Pentester validates practical application security penetration testing skills through an online exam."
   },
   {
     "id": "c-pte",
@@ -7087,7 +7450,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Penetration Testing Engineer validates technical skills in conducting penetration tests and exploiting vulnerabilities in networks."
   },
   {
     "id": "sog-cnpen",
@@ -7106,7 +7470,8 @@
     "domain": "penetration-testing",
     "specialty": "network",
     "issuer": "SecOps Group",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SecOps Group Certified Network Pentester validates practical network penetration testing skills through an online practical exam."
   },
   {
     "id": "dv-rtos",
@@ -7126,7 +7491,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Dark Vortex",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Dark Vortex Red Team & Operational Security validates advanced red team tradecraft and operational security techniques for security professionals."
   },
   {
     "id": "dv-otd",
@@ -7146,7 +7512,8 @@
     "domain": "exploitation",
     "specialty": "exploit-development",
     "issuer": "Dark Vortex",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Dark Vortex Offensive Tool Development validates skills in developing custom offensive security tools for red team operations."
   },
   {
     "id": "mvre",
@@ -7165,7 +7532,8 @@
     "domain": "exploitation",
     "specialty": "exploit-development",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Vulnerability Researcher and Exploitation Specialist validates skills in vulnerability research, exploit development, and security research."
   },
   {
     "id": "mnse",
@@ -7185,7 +7553,8 @@
     "domain": "core",
     "specialty": "vendor-neutral",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Network Security Essentials validates foundational knowledge of network security principles and common network attack and defense techniques."
   },
   {
     "id": "pcnsa",
@@ -7204,7 +7573,8 @@
     "domain": "core",
     "specialty": "palo-alto",
     "issuer": "Palo Alto Networks",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Palo Alto Networks Certified Network Security Administrator (retired) validated skills in configuring and managing Palo Alto Networks firewall solutions."
   },
   {
     "id": "owse",
@@ -7224,7 +7594,8 @@
     "domain": "core",
     "specialty": "vendor-neutral",
     "issuer": "ISECOM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISECOM OSSTMM Wireless Security Expert validates expertise in assessing wireless network security using the OSSTMM methodology."
   },
   {
     "id": "sc-300",
@@ -7243,7 +7614,8 @@
     "domain": "core",
     "specialty": "access-control",
     "issuer": "Microsoft",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Microsoft Identity and Access Administrator Associate validates skills in designing, implementing, and managing Azure Active Directory identity solutions."
   },
   {
     "id": "csa-ccsk",
@@ -7262,7 +7634,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "Cloud Security Alliance",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CSA Certificate of Cloud Security Knowledge validates foundational knowledge of cloud security best practices and the CSA Cloud Controls Matrix."
   },
   {
     "id": "c-cso",
@@ -7281,7 +7654,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Cloud Security Officer validates knowledge of cloud security architectures, controls, and governance."
   },
   {
     "id": "dca",
@@ -7300,7 +7674,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "Mirantis",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Docker Certified Associate validates skills in deploying, managing, and securing Docker containerized applications and environments."
   },
   {
     "id": "lpic-1",
@@ -7319,7 +7694,8 @@
     "domain": "nix",
     "specialty": null,
     "issuer": "LPI",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "LPI LPIC-1 validates foundational Linux system administration skills including command line, networking, and security fundamentals."
   },
   {
     "id": "gicsp",
@@ -7339,7 +7715,8 @@
     "domain": "ics-iot",
     "specialty": null,
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Global Industrial Security Professional validates foundational knowledge of ICS and industrial control system security for OT professionals."
   },
   {
     "id": "gsec",
@@ -7359,7 +7736,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Security Essentials validates broad foundational security knowledge across network, cloud, and information security concepts."
   },
   {
     "id": "mois",
@@ -7379,7 +7757,8 @@
     "domain": "monitoring",
     "specialty": "threat-intelligence",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Certified OSINT Expert validates practical open source intelligence gathering and analysis skills through hands-on exercises."
   },
   {
     "id": "cfa",
@@ -7398,7 +7777,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "GAQM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GAQM Certified Forensic Analyst validates foundational knowledge and skills in digital forensics investigation and evidence handling."
   },
   {
     "id": "csa",
@@ -7417,7 +7797,8 @@
     "domain": "incident-handling",
     "specialty": "incident-response",
     "issuer": "EC-Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC-Council Certified SOC Analyst validates foundational skills for working as a tier-1 SOC analyst, covering monitoring and triage."
   },
   {
     "id": "gfact",
@@ -7437,7 +7818,8 @@
     "domain": "incident-handling",
     "specialty": "defense-analysis",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Foundational Cybersecurity Technologies validates fundamental cybersecurity knowledge for beginners entering the security field."
   },
   {
     "id": "sog-cmpen-and",
@@ -7456,7 +7838,8 @@
     "domain": "penetration-testing",
     "specialty": "mobile",
     "issuer": "SecOps Group",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SecOps Group Certified Mobile Pentester Android validates practical skills in assessing the security of Android mobile applications."
   },
   {
     "id": "sog-cmpen-ios",
@@ -7475,7 +7858,8 @@
     "domain": "penetration-testing",
     "specialty": "mobile",
     "issuer": "SecOps Group",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SecOps Group Certified Mobile Pentester iOS validates practical skills in assessing the security of iOS mobile applications."
   },
   {
     "id": "dv-mos",
@@ -7495,7 +7879,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Dark Vortex",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Dark Vortex Malware on Steroids validates advanced malware development and evasion techniques for offensive security researchers."
   },
   {
     "id": "pentest-plus",
@@ -7514,7 +7899,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "CompTIA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CompTIA Pentest+ validates practical penetration testing skills and vulnerability management knowledge for security professionals."
   },
   {
     "id": "crest-csas",
@@ -7533,7 +7919,8 @@
     "domain": "exploitation",
     "specialty": "exploit-development",
     "issuer": "CREST",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CREST Certified Simulated Attack Specialist validates expertise in conducting advanced red team and simulated cyber attack exercises."
   },
   {
     "id": "eces",
@@ -7552,7 +7939,8 @@
     "domain": "exploitation",
     "specialty": "exploit-development",
     "issuer": "EC-Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC-Council Certified Encryption Specialist validates knowledge of cryptography principles, algorithms, and their application in securing data."
   },
   {
     "id": "jncia-sec",
@@ -7571,7 +7959,8 @@
     "domain": "core",
     "specialty": "juniper",
     "issuer": "Juniper Networks",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Juniper Networks Certified Internet Associate Security validates foundational knowledge of Juniper security concepts and products."
   },
   {
     "id": "fca",
@@ -7590,7 +7979,8 @@
     "domain": "core",
     "specialty": "fortinet",
     "issuer": "Fortinet",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Fortinet Certified Associate validates foundational knowledge of Fortinet products and cybersecurity concepts through free training and exams."
   },
   {
     "id": "wcna",
@@ -7609,7 +7999,8 @@
     "domain": "core",
     "specialty": "vendor-neutral",
     "issuer": "Protocol Analysis Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Protocol Analysis Institute Wireshark Certified Network Analyst validates proficiency in using Wireshark for network traffic analysis and troubleshooting."
   },
   {
     "id": "server-plus",
@@ -7628,7 +8019,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "CompTIA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CompTIA Server+ validates skills in installing, managing, and troubleshooting physical and virtual servers."
   },
   {
     "id": "pdso-cdp",
@@ -7648,7 +8040,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "Practical DevSecOps",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Practical DevSecOps Certified DevSecOps Professional validates foundational skills in integrating security practices into DevOps workflows."
   },
   {
     "id": "exin-pcd",
@@ -7667,7 +8060,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "EXIN",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EXIN Professional Cloud Developer validates competency in developing applications for cloud environments."
   },
   {
     "id": "kcna",
@@ -7687,7 +8081,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "CNCF",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CNCF Kubernetes and Cloud Native Associate validates foundational knowledge of Kubernetes and cloud-native technologies."
   },
   {
     "id": "linux-plus",
@@ -7706,7 +8101,8 @@
     "domain": "nix",
     "specialty": null,
     "issuer": "CompTIA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CompTIA Linux+ validates foundational Linux administration skills including configuration, security, scripting, and networking."
   },
   {
     "id": "az-220",
@@ -7725,7 +8121,8 @@
     "domain": "ics-iot",
     "specialty": null,
     "issuer": "Microsoft",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Microsoft Azure IoT Developer Specialty (retired) validated skills in developing, maintaining, and securing Azure IoT solutions."
   },
   {
     "id": "crfs",
@@ -7744,7 +8141,8 @@
     "domain": "core",
     "specialty": "privacy",
     "issuer": "Identity Management Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IMI Certified Red Flag Specialist validates knowledge of identity theft red flags and appropriate responses for financial and security professionals."
   },
   {
     "id": "sscp",
@@ -7763,7 +8161,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "(ISC)²",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISC2 Systems Security Certified Practitioner validates foundational knowledge across seven security domains for entry-level security practitioners."
   },
   {
     "id": "sog-cap",
@@ -7782,7 +8181,8 @@
     "domain": "core",
     "specialty": "application-security",
     "issuer": "SecOps Group",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SecOps Group Certified AppSec Practitioner validates foundational application security knowledge through an online practical exam."
   },
   {
     "id": "ccoa",
@@ -7801,7 +8201,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "ISACA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISACA Certified Cybersecurity Operations Analyst validates skills in security monitoring, incident detection, and response for SOC analysts."
   },
   {
     "id": "crest-cpia",
@@ -7820,7 +8221,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "CREST",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CREST Practitioner Intrusion Analyst validates foundational competency in analyzing intrusion data as an entry point to CREST certifications."
   },
   {
     "id": "mese",
@@ -7839,7 +8241,8 @@
     "domain": "incident-handling",
     "specialty": "defense-analysis",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Enterprise Security Engineer validates foundational security engineering skills for protecting enterprise IT environments."
   },
   {
     "id": "crest-cptia",
@@ -7858,7 +8261,8 @@
     "domain": "incident-handling",
     "specialty": "threat-intelligence",
     "issuer": "CREST",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CREST Practitioner Threat Intelligence Analyst validates foundational threat intelligence skills as an entry point to CREST certifications."
   },
   {
     "id": "mcpt",
@@ -7877,7 +8281,8 @@
     "domain": "penetration-testing",
     "specialty": "cloud",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Cloud Penetration Tester validates practical skills in assessing the security of cloud environments and cloud-native applications."
   },
   {
     "id": "c-peh",
@@ -7896,7 +8301,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Professional Ethical Hacker validates knowledge of ethical hacking techniques and methodologies for entry-level penetration testers."
   },
   {
     "id": "gcpeh",
@@ -7915,7 +8321,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "GAQM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GAQM Certified Professional Ethical Hacker validates knowledge of ethical hacking techniques, common tools, and penetration testing methodologies."
   },
   {
     "id": "ccsa-2",
@@ -7934,7 +8341,8 @@
     "domain": "core",
     "specialty": "checkpoint",
     "issuer": "Check Point",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Check Point Certified Security Administrator validates foundational skills in managing and administering Check Point security gateway solutions."
   },
   {
     "id": "its-ns",
@@ -7953,7 +8361,8 @@
     "domain": "core",
     "specialty": "vendor-neutral",
     "issuer": "Certiport",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Certiport IT Specialist Network Security validates foundational network security knowledge for students and early-career IT professionals."
   },
   {
     "id": "cct",
@@ -7972,7 +8381,8 @@
     "domain": "core",
     "specialty": "cisco",
     "issuer": "Cisco",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Cisco Certified Technician validates skills in diagnosing and restoring Cisco equipment for field support and customer service roles."
   },
   {
     "id": "cloud-plus",
@@ -7991,7 +8401,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "CompTIA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CompTIA Cloud+ validates skills in deploying and managing cloud technologies in a vendor-neutral context."
   },
   {
     "id": "google-ace",
@@ -8010,7 +8421,8 @@
     "domain": "cloud-sysops",
     "specialty": "gcp",
     "issuer": "Google",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Google Associate Cloud Engineer validates skills in deploying, managing, and monitoring applications on the Google Cloud Platform."
   },
   {
     "id": "sog-ccsp-aws",
@@ -8029,7 +8441,8 @@
     "domain": "cloud-sysops",
     "specialty": "aws",
     "issuer": "SecOps Group",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SecOps Group Certified Cloud Security Practitioner AWS validates foundational knowledge of AWS cloud security concepts and controls."
   },
   {
     "id": "lfca",
@@ -8048,7 +8461,8 @@
     "domain": "nix",
     "specialty": null,
     "issuer": "Linux Foundation",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Linux Foundation Certified IT Associate validates foundational IT knowledge including Linux, cloud, and networking concepts."
   },
   {
     "id": "isa-cfs",
@@ -8068,7 +8482,8 @@
     "domain": "ics-iot",
     "specialty": null,
     "issuer": "ISA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISA Certified Fundamentals Specialist validates foundational knowledge of ICS cybersecurity based on ISA/IEC 62443 standards."
   },
   {
     "id": "eitca-is",
@@ -8087,7 +8502,8 @@
     "domain": "other",
     "specialty": "isms-implementation",
     "issuer": "EITCA Academy",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EITCA Information Security Certificate validates foundational knowledge of information security principles and practices."
   },
   {
     "id": "cipp",
@@ -8106,7 +8522,8 @@
     "domain": "core",
     "specialty": "privacy",
     "issuer": "IAPP",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IAPP Certified Information Privacy Professional validates knowledge of data privacy laws, regulations, and compliance frameworks across jurisdictions."
   },
   {
     "id": "security-plus",
@@ -8125,7 +8542,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "CompTIA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CompTIA Security+ validates foundational cybersecurity skills and is widely recognized as the benchmark entry-level security certification."
   },
   {
     "id": "ecss",
@@ -8144,7 +8562,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "EC-Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC-Council Certified Security Specialist validates basic knowledge of network security, incident handling, and security operations."
   },
   {
     "id": "c-dfe",
@@ -8163,7 +8582,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Digital Forensics Examiner validates foundational skills in collecting, preserving, analyzing, and reporting on digital evidence."
   },
   {
     "id": "s-sa",
@@ -8182,7 +8602,8 @@
     "domain": "incident-handling",
     "specialty": "incident-response",
     "issuer": "SECO Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SECO Associate SOC Analyst validates foundational skills for working in a Security Operations Center, covering monitoring and basic incident response."
   },
   {
     "id": "dv-aoph",
@@ -8202,7 +8623,8 @@
     "domain": "incident-handling",
     "specialty": "defense-analysis",
     "issuer": "Dark Vortex",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Dark Vortex Adversary Operations and Proactive Hunting validates skills in threat hunting and adversary emulation using ATT&CK-based techniques."
   },
   {
     "id": "sog-nsp",
@@ -8221,7 +8643,8 @@
     "domain": "core",
     "specialty": "vendor-neutral",
     "issuer": "SecOps Group",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SecOps Group Certified Network Security Practitioner validates foundational network security knowledge through an online practical exam."
   },
   {
     "id": "net-plus",
@@ -8240,7 +8663,8 @@
     "domain": "core",
     "specialty": "vendor-neutral",
     "issuer": "CompTIA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CompTIA Network+ validates foundational networking skills including network configuration, management, and troubleshooting."
   },
   {
     "id": "cams",
@@ -8259,7 +8683,8 @@
     "domain": "core",
     "specialty": "access-control",
     "issuer": "Identity Management Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IMI Certified Access Management Specialist validates knowledge of access management principles and technologies for identity security professionals."
   },
   {
     "id": "az-900",
@@ -8278,7 +8703,8 @@
     "domain": "cloud-sysops",
     "specialty": "azure",
     "issuer": "Microsoft",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Microsoft Azure Fundamentals validates foundational knowledge of cloud concepts and Microsoft Azure services for those new to cloud computing."
   },
   {
     "id": "mcsf",
@@ -8297,7 +8723,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Cloud Services Fundamentals validates foundational knowledge of cloud computing concepts, services, and security considerations."
   },
   {
     "id": "msaf",
@@ -8316,7 +8743,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute System Administration Fundamentals validates basic system administration skills for entry-level IT and security professionals."
   },
   {
     "id": "apple-acsp",
@@ -8336,7 +8764,8 @@
     "domain": "nix",
     "specialty": null,
     "issuer": "Apple",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Apple Certified Support Professional validates skills in supporting macOS users, troubleshooting issues, and managing Apple hardware and software."
   },
   {
     "id": "cacs",
@@ -8355,7 +8784,8 @@
     "domain": "ics-iot",
     "specialty": null,
     "issuer": "Excida",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Excida IEC 62443 Certified Automation Cybersecurity Specialist validates knowledge of ICS cybersecurity based on the ISA/IEC 62443 framework."
   },
   {
     "id": "tuv-coste",
@@ -8374,7 +8804,8 @@
     "domain": "other",
     "specialty": "security-architecture",
     "issuer": "Limes Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Limes Security TÜV Certified OT Security Technical Expert validates technical knowledge of operational technology security and IEC 62443."
   },
   {
     "id": "epdpf",
@@ -8393,7 +8824,8 @@
     "domain": "core",
     "specialty": "privacy",
     "issuer": "EXIN",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EXIN Privacy and Data Protection Foundation validates foundational knowledge of data protection principles and GDPR requirements."
   },
   {
     "id": "togaf-fdn",
@@ -8413,7 +8845,8 @@
     "domain": "leadership",
     "specialty": "enterprise-architecture",
     "issuer": "The Open Group",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "OpenGroup TOGAF Foundation validates introductory knowledge of the TOGAF enterprise architecture framework, as an entry-level certification."
   },
   {
     "id": "csp",
@@ -8432,7 +8865,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "GAQM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GAQM Certified SAFe Practitioner validates knowledge of the Scaled Agile Framework for delivering enterprise-scale agile solutions."
   },
   {
     "id": "iiba-cca",
@@ -8451,7 +8885,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "IIBA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IIBA Certification in Cybersecurity Analysis validates business analysis competencies applied to cybersecurity, bridging security and business analysis roles."
   },
   {
     "id": "citgp",
@@ -8471,7 +8906,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "IT Governance",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IBITGQ Certified in Implementing IT Governance validates knowledge of IT governance principles for implementing governance frameworks."
   },
   {
     "id": "c-iscap",
@@ -8490,7 +8926,8 @@
     "domain": "grc",
     "specialty": "compliance-awareness",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Information Systems Certification and Accreditation Professional validates knowledge of NIST RMF for certifying and accrediting information systems."
   },
   {
     "id": "csap",
@@ -8510,7 +8947,8 @@
     "domain": "grc",
     "specialty": "compliance-awareness",
     "issuer": "Infosec Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Infosec Institute Certified Security Awareness Practitioner validates competency in designing and running security awareness programs."
   },
   {
     "id": "pecb-27032f",
@@ -8530,7 +8968,8 @@
     "domain": "grc",
     "specialty": "risk-management",
     "issuer": "PECB",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "PECB ISO/IEC 27032 Foundation validates introductory knowledge of cybersecurity principles and the ISO/IEC 27032 guidelines."
   },
   {
     "id": "mcl",
@@ -8549,7 +8988,8 @@
     "domain": "other",
     "specialty": "specialist-management",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Cybersecurity Leadership validates leadership skills and business acumen for cybersecurity professionals moving into management."
   },
   {
     "id": "its-c",
@@ -8568,7 +9008,8 @@
     "domain": "other",
     "specialty": "specialist-management",
     "issuer": "Certiport",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Certiport IT Specialist Cybersecurity validates foundational cybersecurity knowledge for students and early-career IT professionals."
   },
   {
     "id": "exin-cit",
@@ -8587,7 +9028,8 @@
     "domain": "core",
     "specialty": "vulnerability-assessment",
     "issuer": "EXIN",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EXIN Cyber & IT Security validates broad knowledge of cybersecurity and IT security fundamentals for IT professionals."
   },
   {
     "id": "tuv-cysec",
@@ -8607,7 +9049,8 @@
     "domain": "core",
     "specialty": "vulnerability-assessment",
     "issuer": "TÜV Rheinland",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "TÜV Rheinland Cybersecurity Specialist validates foundational cybersecurity knowledge and skills for IT professionals in Germany."
   },
   {
     "id": "csst",
@@ -8626,7 +9069,8 @@
     "domain": "core",
     "specialty": "secure-development",
     "issuer": "GAQM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GAQM Certified Software Security Tester validates foundational knowledge of software security testing methodologies and common application vulnerabilities."
   },
   {
     "id": "opse",
@@ -8646,7 +9090,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "ISECOM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISECOM OSSTMM Professional Security Expert validates expert-level security assessment competency using the OSSTMM methodology."
   },
   {
     "id": "csx-f",
@@ -8666,7 +9111,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "IT Governance",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IBITGQ Cyber Incident Response Management Foundation validates foundational knowledge of cyber incident response management processes."
   },
   {
     "id": "dv-milf",
@@ -8685,7 +9131,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "Dark Vortex",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Dark Vortex Malware Incident and Log Forensics validates skills in forensic analysis of malware incidents and security log data."
   },
   {
     "id": "cirm-fdn",
@@ -8705,7 +9152,8 @@
     "domain": "incident-handling",
     "specialty": "incident-response",
     "issuer": "IT Governance",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IBITGQ Cyber Incident Response Management Foundation validates foundational understanding of cyber incident response planning and execution."
   },
   {
     "id": "eehf",
@@ -8724,7 +9172,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "EXIN",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EXIN Ethical Hacking Foundation validates basic knowledge of ethical hacking techniques and methodologies for security practitioners."
   },
   {
     "id": "s-ehf",
@@ -8743,7 +9192,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "SECO Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SECO Ethical Hacking Foundation validates introductory knowledge of ethical hacking concepts, tools, and methodologies."
   },
   {
     "id": "cha",
@@ -8763,7 +9213,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "ISECOM",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISECOM Certified Hacker Analyst validates foundational knowledge of ethical hacking using the OSSTMM methodology."
   },
   {
     "id": "fcf",
@@ -8782,7 +9233,8 @@
     "domain": "core",
     "specialty": "fortinet",
     "issuer": "Fortinet",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Fortinet Certified Fundamentals validates foundational cybersecurity knowledge through Fortinet's free training and certification program."
   },
   {
     "id": "pccet",
@@ -8801,7 +9253,8 @@
     "domain": "core",
     "specialty": "palo-alto",
     "issuer": "Palo Alto Networks",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Palo Alto Networks Certified Cybersecurity Entry-level Technician (retired) validated foundational cybersecurity knowledge for beginners."
   },
   {
     "id": "aws-cp",
@@ -8820,7 +9273,8 @@
     "domain": "cloud-sysops",
     "specialty": "aws",
     "issuer": "Amazon Web Services",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "AWS Certified Cloud Practitioner validates foundational understanding of AWS Cloud concepts, services, and pricing."
   },
   {
     "id": "exin-pca",
@@ -8839,7 +9293,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "EXIN",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EXIN Professional Cloud Administrator validates skills in administering cloud infrastructure and services."
   },
   {
     "id": "a-plus",
@@ -8858,7 +9313,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "CompTIA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CompTIA A+ validates foundational IT technician skills covering hardware, software, networking, and troubleshooting."
   },
   {
     "id": "ciotsp",
@@ -8877,7 +9333,8 @@
     "domain": "ics-iot",
     "specialty": null,
     "issuer": "CertNexus",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CertNexus Certified IoT Security Practitioner validates skills in securing IoT devices and networks throughout the IoT lifecycle."
   },
   {
     "id": "tuv-cosp",
@@ -8896,7 +9353,8 @@
     "domain": "other",
     "specialty": "security-architecture",
     "issuer": "Limes Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Limes Security TÜV Certified OT Security Practitioner validates foundational operational technology security knowledge based on IEC 62443."
   },
   {
     "id": "epdpe",
@@ -8915,7 +9373,8 @@
     "domain": "core",
     "specialty": "privacy",
     "issuer": "EXIN",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EXIN Privacy and Data Protection Essentials provides introductory understanding of data protection principles and GDPR compliance fundamentals."
   },
   {
     "id": "m-o-r-fdn",
@@ -8934,7 +9393,8 @@
     "domain": "leadership",
     "specialty": "it-service-management",
     "issuer": "AXELOS",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "AXELOS M_o_R Foundation validates understanding of the Management of Risk principles and framework, for those entering risk management roles."
   },
   {
     "id": "fair-fdn",
@@ -8954,7 +9414,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "RiskLens",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "RiskLens FAIR Analysis Fundamentals validates foundational knowledge of the Factor Analysis of Information Risk model for quantifying cybersecurity risk."
   },
   {
     "id": "psm-i",
@@ -8973,7 +9434,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "Scrum.org",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Scrum.org Professional Scrum Master I validates foundational knowledge of the Scrum framework and the Scrum Master role."
   },
   {
     "id": "apmg-20000f",
@@ -8992,7 +9454,8 @@
     "domain": "grc",
     "specialty": "compliance-awareness",
     "issuer": "APMG International",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "APMG ISO/IEC 20000 Foundation validates introductory knowledge of the ISO/IEC 20000 IT service management standard."
   },
   {
     "id": "ismi-csm",
@@ -9011,7 +9474,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "ISMI",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISMI Certified Security Manager validates knowledge of security management principles for professionals entering security management roles."
   },
   {
     "id": "bcs-fismp",
@@ -9030,7 +9494,8 @@
     "domain": "grc",
     "specialty": "iso-isms",
     "issuer": "BCS",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "BCS Foundation Certificate in Information Security Management Principles validates fundamental knowledge of information security management."
   },
   {
     "id": "cc",
@@ -9049,7 +9514,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "(ISC)²",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "ISC2 Certified in Cybersecurity validates foundational cybersecurity knowledge and is available as a free exam for those entering the field."
   },
   {
     "id": "s-isf",
@@ -9068,7 +9534,8 @@
     "domain": "other",
     "specialty": "specialist-management",
     "issuer": "SECO Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SECO Information Security Foundation validates foundational knowledge of information security concepts, standards, and best practices."
   },
   {
     "id": "gisf",
@@ -9089,7 +9556,8 @@
     "domain": "other",
     "specialty": "specialist-management",
     "issuer": "GIAC",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "GIAC Information Security Fundamentals validates foundational information security knowledge for those new to the cybersecurity field."
   },
   {
     "id": "gxfe",
@@ -9109,7 +9577,8 @@
     "domain": "forensics",
     "specialty": "digital-forensics",
     "issuer": "GIAC",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "description": "GIAC Experienced Forensics Examiner validates advanced forensic examination expertise through a comprehensive exam for experienced examiners."
   },
   {
     "id": "gcad",
@@ -9129,7 +9598,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "GIAC",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "description": "GIAC Cloud Security Architecture and Design validates expertise in designing secure and resilient cloud architectures across major cloud platforms."
   },
   {
     "id": "gcil",
@@ -9149,7 +9619,8 @@
     "domain": "incident-handling",
     "specialty": "incident-response",
     "issuer": "GIAC",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "description": "GIAC Cyber Incident Leader validates leadership skills for directing cyber incident response operations at an organizational level."
   },
   {
     "id": "tuv-cyaware",
@@ -9169,7 +9640,8 @@
     "domain": "core",
     "specialty": "vulnerability-assessment",
     "issuer": "TÜV Rheinland",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "TÜV Rheinland Cybersecurity Awareness validates knowledge of human factors in cybersecurity and competency in running awareness programs."
   },
   {
     "id": "mase",
@@ -9188,7 +9660,8 @@
     "domain": "core",
     "specialty": "application-security",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Certified Application Security Engineer validates practical skills in securing web and mobile applications throughout the SDLC."
   },
   {
     "id": "c-sp",
@@ -9207,7 +9680,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Security Principles validates foundational knowledge of security principles and best practices for entry-level security professionals."
   },
   {
     "id": "cnd",
@@ -9226,7 +9700,8 @@
     "domain": "incident-handling",
     "specialty": "incident-response",
     "issuer": "EC-Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC-Council Certified Network Defender validates skills in defending and protecting network infrastructure from cyber attacks."
   },
   {
     "id": "c-va",
@@ -9245,7 +9720,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Mile2",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mile2 Certified Vulnerability Assessor validates skills in identifying, analyzing, and prioritizing security vulnerabilities in IT environments."
   },
   {
     "id": "klcp",
@@ -9264,7 +9740,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "OffSec",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "OffSec Kali Linux Certified Professional validates proficiency with the Kali Linux penetration testing distribution and its built-in tools."
   },
   {
     "id": "sc-900",
@@ -9283,7 +9760,8 @@
     "domain": "core",
     "specialty": "access-control",
     "issuer": "Microsoft",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Microsoft Security, Compliance, and Identity Fundamentals validates foundational knowledge of Microsoft security, compliance, and identity concepts."
   },
   {
     "id": "cloud-essnt",
@@ -9302,7 +9780,8 @@
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
     "issuer": "CompTIA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CompTIA Cloud Essentials validates foundational business-oriented understanding of cloud computing concepts for non-technical professionals."
   },
   {
     "id": "itil-fdn",
@@ -9322,7 +9801,8 @@
     "domain": "leadership",
     "specialty": "it-service-management",
     "issuer": "AXELOS",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "AXELOS ITIL Foundation validates knowledge of key IT service management concepts and the ITIL 4 framework, as an entry point for IT professionals."
   },
   {
     "id": "project-plus",
@@ -9341,7 +9821,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "CompTIA",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CompTIA Project+ validates foundational project management skills for IT and technology project managers."
   },
   {
     "id": "ciisec-icsf",
@@ -9360,7 +9841,8 @@
     "domain": "leadership",
     "specialty": "project-management",
     "issuer": "CIISec",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "CIISec Information and Cybersecurity Fundamentals validates foundational knowledge aligned with the Chartered Institute of Information Security's framework."
   },
   {
     "id": "fexin",
@@ -9379,7 +9861,8 @@
     "domain": "grc",
     "specialty": "iso-isms",
     "issuer": "EXIN",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EXIN Information Security Foundation validates fundamental knowledge of information security concepts aligned with ISO/IEC 27001."
   },
   {
     "id": "exin-27001f",
@@ -9398,7 +9881,8 @@
     "domain": "grc",
     "specialty": "iso-isms",
     "issuer": "EXIN",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EXIN ISO/IEC 27001 Foundation validates introductory understanding of the ISO/IEC 27001 information security management standard."
   },
   {
     "id": "pecb-27005f",
@@ -9418,7 +9902,8 @@
     "domain": "grc",
     "specialty": "risk-management",
     "issuer": "PECB",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "PECB ISO/IEC 27005 Foundation validates foundational understanding of information security risk management based on ISO/IEC 27005."
   },
   {
     "id": "c-cs-f",
@@ -9438,7 +9923,8 @@
     "domain": "other",
     "specialty": "specialist-management",
     "issuer": "IT Governance",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IBITGQ Certified Cyber Security Foundation validates foundational knowledge of cybersecurity concepts, common threats, and protective measures."
   },
   {
     "id": "cis-f",
@@ -9458,7 +9944,8 @@
     "domain": "other",
     "specialty": "specialist-management",
     "issuer": "IT Governance",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "IBITGQ Certified ISO 27001 Foundation validates introductory knowledge of the ISO/IEC 27001 information security management system."
   },
   {
     "id": "s-spf",
@@ -9477,7 +9964,8 @@
     "domain": "core",
     "specialty": "secure-development",
     "issuer": "SECO Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "SECO Secure Programming Foundation validates introductory knowledge of secure coding principles and common software vulnerabilities."
   },
   {
     "id": "cscu",
@@ -9496,7 +9984,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "EC-Council",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "EC-Council Certified Secure Computer User validates basic knowledge of computer security, safe internet usage, and personal data protection."
   },
   {
     "id": "mics",
@@ -9515,7 +10004,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "Mosse Institute",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Mosse Institute Introduction to Cyber Security validates basic cybersecurity awareness and foundational knowledge for complete beginners."
   },
   {
     "id": "tisp",
@@ -9534,7 +10024,8 @@
     "domain": "grc",
     "specialty": "governance",
     "issuer": "TeleTrusT",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "TeleTrusT Information Security Professional validates comprehensive information security expertise, recognized as a senior German IT security credential."
   },
   {
     "id": "htb-cdep",
@@ -9553,7 +10044,8 @@
     "domain": "monitoring",
     "specialty": "siem-detection",
     "issuer": "Hack The Box",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Hack the Box Certified Detection Engineering Professional validates skills in building detection rules, alert logic, and security monitoring pipelines."
   },
   {
     "id": "pjsa",
@@ -9572,7 +10064,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "TCM Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "TCM Security Practical Junior SOC Analyst validates entry-level SOC analyst skills through a practical hands-on exam."
   },
   {
     "id": "crtp",
@@ -9592,7 +10085,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Altered Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Altered Security Certified Red Team Professional validates practical Active Directory attack and red team skills through a hands-on lab exam."
   },
   {
     "id": "crte",
@@ -9612,7 +10106,8 @@
     "domain": "penetration-testing",
     "specialty": "general",
     "issuer": "Altered Security",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "Altered Security Certified Red Team Expert validates expert-level Active Directory attack techniques and advanced red team tradecraft."
   },
   {
     "id": "arta",
@@ -9631,7 +10126,8 @@
     "domain": "penetration-testing",
     "specialty": "cloud",
     "issuer": "HackTricks Academy",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "HackTricks Training AWS Red Team Associate validates foundational AWS penetration testing and cloud attack skills."
   },
   {
     "id": "arte",
@@ -9650,7 +10146,8 @@
     "domain": "penetration-testing",
     "specialty": "cloud",
     "issuer": "HackTricks Academy",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "HackTricks Training AWS Red Team Expert validates expert-level AWS cloud attack techniques and advanced penetration testing against AWS environments."
   },
   {
     "id": "grta",
@@ -9669,7 +10166,8 @@
     "domain": "penetration-testing",
     "specialty": "cloud",
     "issuer": "HackTricks Academy",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "HackTricks Training GCP Red Team Associate validates foundational Google Cloud Platform penetration testing and attack skills."
   },
   {
     "id": "grte",
@@ -9688,7 +10186,8 @@
     "domain": "penetration-testing",
     "specialty": "cloud",
     "issuer": "HackTricks Academy",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "HackTricks Training GCP Red Team Expert validates expert-level attack techniques and penetration testing against Google Cloud environments."
   },
   {
     "id": "azrta",
@@ -9707,7 +10206,8 @@
     "domain": "penetration-testing",
     "specialty": "cloud",
     "issuer": "HackTricks Academy",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "HackTricks Training Azure Red Team Associate validates foundational Azure penetration testing and cloud attack skills."
   },
   {
     "id": "azrte",
@@ -9726,7 +10226,8 @@
     "domain": "penetration-testing",
     "specialty": "cloud",
     "issuer": "HackTricks Academy",
-    "updatedAt": "2024-07"
+    "updatedAt": "2024-07",
+    "description": "HackTricks Training Azure Red Team Expert validates expert-level attack techniques and penetration testing against Microsoft Azure environments."
   },
   {
     "id": "google-cyb-prof",
@@ -9745,7 +10246,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "Google",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "description": "Google Cybersecurity Professional Certificate validates foundational cybersecurity knowledge and practical skills through Google's online learning program."
   },
   {
     "id": "thm-sal1",
@@ -9764,7 +10266,8 @@
     "domain": "monitoring",
     "specialty": "soc-analyst",
     "issuer": "TryHackMe",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "description": "TryHackMe Security Analyst Level 1 validates entry-level security analyst skills through hands-on labs covering monitoring, triage, and investigation."
   },
   {
     "id": "cwp",
@@ -9783,6 +10286,7 @@
     "domain": "penetration-testing",
     "specialty": "wireless",
     "issuer": "WiFiChallenge Academy",
-    "updatedAt": "2026-11"
+    "updatedAt": "2026-11",
+    "description": "WiFiChallenge Certified Professional validates advanced wireless security skills through practical wireless attack and defense challenges."
   }
 ]

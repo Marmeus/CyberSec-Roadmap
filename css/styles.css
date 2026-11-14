@@ -42,7 +42,7 @@ a { color: inherit; }
   padding: 1.15rem 1.25rem 0;
 }
 
-.brand { max-width: 72rem; margin: 0 auto; }
+.brand { max-width: 72rem; }
 
 .eyebrow {
   margin: 0;
@@ -457,7 +457,8 @@ main {
   font-size: 2rem;
   line-height: 1.05;
 }
-.detail-name { margin: 0 0 0.8rem; font-size: 1.05rem; }
+.detail-name { margin: 0 0 0.5rem; font-size: 1.05rem; }
+.detail-desc { margin: 0 0 0.9rem; font-size: 0.95rem; color: var(--muted); line-height: 1.5; font-style: italic; }
 .detail-meta { margin: 0 0 1rem; display: grid; grid-template-columns: 7.5rem 1fr; gap: 0.35rem 0.6rem; }
 .detail-meta dt { color: var(--muted); font-weight: 700; }
 .detail-meta dd { margin: 0; }

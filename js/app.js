@@ -115,10 +115,9 @@
       cert.abbreviation,
       cert.name,
       area ? area.title : "",
-      area ? area.title : "",
       domain ? domain.title : "",
       spec ? spec.title : "",
-      (cert.details || []).join(" ")
+      cert.issuer || ""
     ].join(" ").toLowerCase();
   }
 
@@ -503,6 +502,7 @@
     var board = el("div", { class: "board" });
     shown.forEach(function (area) {
       var certs = list.filter(function (cert) { return belongs(cert, area.id); });
+      if (!certs.length) return;
       board.append(renderColumn(area, certs));
     });
     return board;

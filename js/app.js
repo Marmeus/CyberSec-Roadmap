@@ -245,13 +245,14 @@
     var linkHost = document.getElementById("detail-link");
     linkHost.replaceChildren();
     if (cert.url && /^https?:\/\//i.test(cert.url)) {
-      linkHost.append(el("a", { href: cert.url, target: "_blank", rel: "noopener noreferrer" }, "Official certification page"));
+      linkHost.append(el("a", { class: "detail-cta", href: cert.url, target: "_blank", rel: "noopener noreferrer" }, "Official certification page →"));
     }
     if (area) {
-      if (linkHost.childNodes.length) linkHost.append(document.createTextNode(" · "));
-      linkHost.append(el("a", { href: "#/area/" + area.id }, area.title + " area"));
+      linkHost.append(el("a", { class: "detail-area", href: "#/area/" + area.id }, "Browse " + area.title));
     }
 
+    var colors = paint(cert);
+    detail.style.setProperty("--bar", colors.color);
     detail.hidden = false;
     backdrop.hidden = false;
     setPressed(id);

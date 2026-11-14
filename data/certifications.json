@@ -40,7 +40,11 @@
     "specialty": "cisco",
     "issuer": "Cisco",
     "updatedAt": "2024-07",
-    "description": "Cisco Certified Internetwork Expert Security validates elite-level skills in designing and implementing complex Cisco security infrastructure."
+    "description": "Cisco Certified Internetwork Expert Security validates elite-level skills in designing and implementing complex Cisco security infrastructure.",
+    "requires": [
+      "ccnp-sec"
+    ],
+    "leadsTo": []
   },
   {
     "id": "crest-crtsa",
@@ -61,7 +65,11 @@
     "specialty": "security-architecture",
     "issuer": "CREST",
     "updatedAt": "2024-07",
-    "description": "CREST Registered Technical Security Architect validates competency in designing secure technical architectures, for experienced security architects."
+    "description": "CREST Registered Technical Security Architect validates competency in designing secure technical architectures, for experienced security architects.",
+    "requires": [
+      "crest-crt"
+    ],
+    "leadsTo": []
   },
   {
     "id": "itil-master",
@@ -82,7 +90,12 @@
     "specialty": "it-service-management",
     "issuer": "AXELOS",
     "updatedAt": "2024-07",
-    "description": "AXELOS ITIL Master validates the ability to apply ITIL principles in complex real-world IT service management scenarios, for senior IT practitioners."
+    "description": "AXELOS ITIL Master validates the ability to apply ITIL principles in complex real-world IT service management scenarios, for senior IT practitioners.",
+    "requires": [
+      "itil-mp",
+      "itil-sl"
+    ],
+    "leadsTo": []
   },
   {
     "id": "osce3",
@@ -130,7 +143,11 @@
     "specialty": "cisco",
     "issuer": "Cisco",
     "updatedAt": "2024-07",
-    "description": "Cisco Certified Internetwork Expert Enterprise Infrastructure validates expert-level skills in designing and troubleshooting complex enterprise networks."
+    "description": "Cisco Certified Internetwork Expert Enterprise Infrastructure validates expert-level skills in designing and troubleshooting complex enterprise networks.",
+    "requires": [
+      "ccnp-ent"
+    ],
+    "leadsTo": []
   },
   {
     "id": "vcdx-dcv",
@@ -151,7 +168,11 @@
     "specialty": "multi-cloud",
     "issuer": "VMware",
     "updatedAt": "2024-07",
-    "description": "VMware Certified Design Expert in Datacenter Virtualization validates elite VMware design skills and architecture decisions for the most experienced VMware professionals."
+    "description": "VMware Certified Design Expert in Datacenter Virtualization validates elite VMware design skills and architecture decisions for the most experienced VMware professionals.",
+    "requires": [
+      "vcix-dcv"
+    ],
+    "leadsTo": []
   },
   {
     "id": "rhca",
@@ -172,7 +193,11 @@
     "specialty": null,
     "issuer": "Red Hat",
     "updatedAt": "2024-07",
-    "description": "Red Hat Certified Architect is the highest Red Hat certification, validating mastery of multiple Red Hat technologies for senior system architects."
+    "description": "Red Hat Certified Architect is the highest Red Hat certification, validating mastery of multiple Red Hat technologies for senior system architects.",
+    "requires": [
+      "rhce"
+    ],
+    "leadsTo": []
   },
   {
     "id": "sabsa-scm",
@@ -353,9 +378,13 @@
     ],
     "domain": "grc",
     "specialty": "governance",
-    "issuer": "(ISC)\u00b2",
+    "issuer": "(ISC)²",
     "updatedAt": "2024-07",
-    "description": "ISC2 CISSP Concentrations validate specialized expertise in one of four domains (architecture, engineering, management, or cloud) for practicing CISSPs."
+    "description": "ISC2 CISSP Concentrations validate specialized expertise in one of four domains (architecture, engineering, management, or cloud) for practicing CISSPs.",
+    "requires": [
+      "cissp"
+    ],
+    "leadsTo": []
   },
   {
     "id": "ncsc-ccplp",
@@ -436,7 +465,13 @@
     "specialty": "multi-cloud",
     "issuer": "VMware",
     "updatedAt": "2024-07",
-    "description": "VMware Certified Implementation Expert in Datacenter Virtualization validates advanced VMware vSphere implementation and troubleshooting skills for senior VMware engineers."
+    "description": "VMware Certified Implementation Expert in Datacenter Virtualization validates advanced VMware vSphere implementation and troubleshooting skills for senior VMware engineers.",
+    "requires": [
+      "vcp-dcv"
+    ],
+    "leadsTo": [
+      "vcdx-dcv"
+    ]
   },
   {
     "id": "asis-cpp",
@@ -478,7 +513,11 @@
     "specialty": "enterprise-architecture",
     "issuer": "Zachman International",
     "updatedAt": "2024-07",
-    "description": "Zachman Enterprise Architect Professional validates mastery of the Zachman Framework for enterprise architecture, targeting experienced enterprise architects."
+    "description": "Zachman Enterprise Architect Professional validates mastery of the Zachman Framework for enterprise architecture, targeting experienced enterprise architects.",
+    "requires": [
+      "zach-eap"
+    ],
+    "leadsTo": []
   },
   {
     "id": "pmp",
@@ -538,7 +577,13 @@
     "specialty": "iso-isms",
     "issuer": "SECO Institute",
     "updatedAt": "2024-07",
-    "description": "SECO Information Security Management Expert validates expert-level knowledge in information security management strategy and governance."
+    "description": "SECO Information Security Management Expert validates expert-level knowledge in information security management strategy and governance.",
+    "requires": [
+      "s-isp"
+    ],
+    "leadsTo": [
+      "s-ciso"
+    ]
   },
   {
     "id": "ncsc-ccpsp",
@@ -638,9 +683,15 @@
     ],
     "domain": "grc",
     "specialty": "governance",
-    "issuer": "(ISC)\u00b2",
+    "issuer": "(ISC)²",
     "updatedAt": "2024-07",
-    "description": "ISC2 Certified Information Systems Security Professional validates broad expertise across eight cybersecurity domains, widely recognized as the leading senior security credential."
+    "description": "ISC2 Certified Information Systems Security Professional validates broad expertise across eight cybersecurity domains, widely recognized as the leading senior security credential.",
+    "requires": [
+      "sscp"
+    ],
+    "leadsTo": [
+      "cissp-concentrations"
+    ]
   },
   {
     "id": "ccd",
@@ -743,7 +794,13 @@
     "specialty": "general",
     "issuer": "CREST",
     "updatedAt": "2024-07",
-    "description": "CREST Certified Simulated Attack Manager validates competency in managing red team exercises and coordinating complex simulated attack operations."
+    "description": "CREST Certified Simulated Attack Manager validates competency in managing red team exercises and coordinating complex simulated attack operations.",
+    "requires": [
+      "crest-crt"
+    ],
+    "leadsTo": [
+      "crest-ccsas"
+    ]
   },
   {
     "id": "jncie-sec",
@@ -763,7 +820,11 @@
     "specialty": "juniper",
     "issuer": "Juniper Networks",
     "updatedAt": "2024-07",
-    "description": "Juniper Networks Certified Internet Expert Security validates elite-level expertise in deploying and troubleshooting Juniper security solutions."
+    "description": "Juniper Networks Certified Internet Expert Security validates elite-level expertise in deploying and troubleshooting Juniper security solutions.",
+    "requires": [
+      "jncip-sec"
+    ],
+    "leadsTo": []
   },
   {
     "id": "ccde",
@@ -804,7 +865,11 @@
     "specialty": "aws",
     "issuer": "Amazon Web Services",
     "updatedAt": "2024-07",
-    "description": "AWS Certified Solutions Architect Professional validates advanced skills in designing and deploying complex AWS cloud solutions at scale."
+    "description": "AWS Certified Solutions Architect Professional validates advanced skills in designing and deploying complex AWS cloud solutions at scale.",
+    "requires": [
+      "aws-saa"
+    ],
+    "leadsTo": []
   },
   {
     "id": "rhce",
@@ -824,7 +889,13 @@
     "specialty": null,
     "issuer": "Red Hat",
     "updatedAt": "2024-07",
-    "description": "Red Hat Certified Engineer validates proficiency in managing Red Hat Enterprise Linux systems and automating configurations with Ansible."
+    "description": "Red Hat Certified Engineer validates proficiency in managing Red Hat Enterprise Linux systems and automating configurations with Ansible.",
+    "requires": [
+      "rhcsa"
+    ],
+    "leadsTo": [
+      "rhca"
+    ]
   },
   {
     "id": "gdat",
@@ -865,7 +936,11 @@
     "specialty": "security-architecture",
     "issuer": "Microsoft",
     "updatedAt": "2024-07",
-    "description": "Microsoft Cybersecurity Architect validates expert-level skills in designing security strategies and architectures across Microsoft cloud and hybrid environments."
+    "description": "Microsoft Cybersecurity Architect validates expert-level skills in designing security strategies and architectures across Microsoft cloud and hybrid environments.",
+    "requires": [
+      "az-500"
+    ],
+    "leadsTo": []
   },
   {
     "id": "togaf",
@@ -886,7 +961,11 @@
     "specialty": "enterprise-architecture",
     "issuer": "The Open Group",
     "updatedAt": "2024-07",
-    "description": "The Open Group TOGAF Certified validates comprehensive knowledge of the TOGAF enterprise architecture framework, for experienced enterprise architects."
+    "description": "The Open Group TOGAF Certified validates comprehensive knowledge of the TOGAF enterprise architecture framework, for experienced enterprise architects.",
+    "requires": [
+      "togaf-fdn"
+    ],
+    "leadsTo": []
   },
   {
     "id": "cciso",
@@ -1052,7 +1131,11 @@
     "specialty": "web",
     "issuer": "INE Security",
     "updatedAt": "2024-07",
-    "description": "eLearnSecurity Web Application Penetration Tester eXtreme validates advanced web application hacking skills including complex vulnerability chaining and exploitation."
+    "description": "eLearnSecurity Web Application Penetration Tester eXtreme validates advanced web application hacking skills including complex vulnerability chaining and exploitation.",
+    "requires": [
+      "ewpt"
+    ],
+    "leadsTo": []
   },
   {
     "id": "crest-ccsas",
@@ -1072,7 +1155,11 @@
     "specialty": "general",
     "issuer": "CREST",
     "updatedAt": "2024-07",
-    "description": "CREST Certified Simulated Attack Specialist validates expertise in conducting advanced red team and simulated attack operations."
+    "description": "CREST Certified Simulated Attack Specialist validates expertise in conducting advanced red team and simulated attack operations.",
+    "requires": [
+      "crest-csam"
+    ],
+    "leadsTo": []
   },
   {
     "id": "fcx",
@@ -1133,7 +1220,11 @@
     "specialty": "multi-cloud",
     "issuer": "VMware",
     "updatedAt": "2024-07",
-    "description": "VMware Certified Implementation Expert in Network Virtualization validates advanced VMware NSX implementation and troubleshooting skills."
+    "description": "VMware Certified Implementation Expert in Network Virtualization validates advanced VMware NSX implementation and troubleshooting skills.",
+    "requires": [
+      "vcp-nv"
+    ],
+    "leadsTo": []
   },
   {
     "id": "lpic-3",
@@ -1153,7 +1244,11 @@
     "specialty": null,
     "issuer": "LPI",
     "updatedAt": "2024-07",
-    "description": "LPI LPIC-3 303 Security validates advanced Linux security skills including access control, cryptography, and network security for senior Linux professionals."
+    "description": "LPI LPIC-3 303 Security validates advanced Linux security skills including access control, cryptography, and network security for senior Linux professionals.",
+    "requires": [
+      "lpic-2"
+    ],
+    "leadsTo": []
   },
   {
     "id": "sabsa-scp",
@@ -1195,7 +1290,11 @@
     "specialty": "project-management",
     "issuer": "Scrum.org",
     "updatedAt": "2024-07",
-    "description": "Scrum.org Professional Scrum Master III certifies deep expertise and mastery of Scrum mechanics and coaching, for advanced Scrum practitioners and coaches."
+    "description": "Scrum.org Professional Scrum Master III certifies deep expertise and mastery of Scrum mechanics and coaching, for advanced Scrum practitioners and coaches.",
+    "requires": [
+      "psm-ii"
+    ],
+    "leadsTo": []
   },
   {
     "id": "gsp",
@@ -1299,7 +1398,11 @@
     "specialty": "threat-hunting",
     "issuer": "Security Blue Team",
     "updatedAt": "2024-07",
-    "description": "Security Blue Team Level 2 validates advanced blue team skills including SIEM engineering, threat hunting, and advanced incident response."
+    "description": "Security Blue Team Level 2 validates advanced blue team skills including SIEM engineering, threat hunting, and advanced incident response.",
+    "requires": [
+      "btl1"
+    ],
+    "leadsTo": []
   },
   {
     "id": "mrt",
@@ -1360,7 +1463,11 @@
     "specialty": "web",
     "issuer": "Hack The Box",
     "updatedAt": "2024-07",
-    "description": "Hack the Box Certified Web Exploitation Expert validates advanced web application security testing and exploitation skills."
+    "description": "Hack the Box Certified Web Exploitation Expert validates advanced web application security testing and exploitation skills.",
+    "requires": [
+      "htb-cpts"
+    ],
+    "leadsTo": []
   },
   {
     "id": "htb-cape",
@@ -1380,7 +1487,11 @@
     "specialty": "general",
     "issuer": "Hack The Box",
     "updatedAt": "2026-11",
-    "description": "Hack the Box Certified Active Directory Pentesting Expert validates advanced skills in attacking and exploiting Active Directory environments."
+    "description": "Hack the Box Certified Active Directory Pentesting Expert validates advanced skills in attacking and exploiting Active Directory environments.",
+    "requires": [
+      "htb-cpts"
+    ],
+    "leadsTo": []
   },
   {
     "id": "google-pcsa",
@@ -1483,7 +1594,13 @@
     "specialty": "it-service-management",
     "issuer": "AXELOS",
     "updatedAt": "2024-07",
-    "description": "AXELOS ITIL Specialist validates in-depth knowledge of specific ITIL 4 practice areas, for IT service management professionals seeking specialization."
+    "description": "AXELOS ITIL Specialist validates in-depth knowledge of specific ITIL 4 practice areas, for IT service management professionals seeking specialization.",
+    "requires": [
+      "itil-fdn"
+    ],
+    "leadsTo": [
+      "itil-master"
+    ]
   },
   {
     "id": "zach-eap",
@@ -1504,7 +1621,13 @@
     "specialty": "enterprise-architecture",
     "issuer": "Zachman International",
     "updatedAt": "2024-07",
-    "description": "Zachman Enterprise Architect Practitioner validates proficiency in applying the Zachman Framework for designing and documenting enterprise architectures."
+    "description": "Zachman Enterprise Architect Practitioner validates proficiency in applying the Zachman Framework for designing and documenting enterprise architectures.",
+    "requires": [
+      "zach-eaa"
+    ],
+    "leadsTo": [
+      "zach-eapro"
+    ]
   },
   {
     "id": "gslc",
@@ -1545,7 +1668,11 @@
     "specialty": "governance",
     "issuer": "SECO Institute",
     "updatedAt": "2024-07",
-    "description": "SECO Certified CISO validates the strategic leadership knowledge and skills required for a Chief Information Security Officer role."
+    "description": "SECO Certified CISO validates the strategic leadership knowledge and skills required for a Chief Information Security Officer role.",
+    "requires": [
+      "s-isme"
+    ],
+    "leadsTo": []
   },
   {
     "id": "gcfe",
@@ -1608,7 +1735,11 @@
     "specialty": "general",
     "issuer": "Altered Security",
     "updatedAt": "2026-11",
-    "description": "Altered Security Certified Red Team Master validates elite-level red team skills including complex Active Directory attacks and advanced evasion techniques."
+    "description": "Altered Security Certified Red Team Master validates elite-level red team skills including complex Active Directory attacks and advanced evasion techniques.",
+    "requires": [
+      "crte"
+    ],
+    "leadsTo": []
   },
   {
     "id": "s-cehl",
@@ -1628,7 +1759,11 @@
     "specialty": "general",
     "issuer": "SECO Institute",
     "updatedAt": "2024-07",
-    "description": "SECO Ethical Hacking Leader validates leadership competency in managing ethical hacking programs and offensive security teams."
+    "description": "SECO Ethical Hacking Leader validates leadership competency in managing ethical hacking programs and offensive security teams.",
+    "requires": [
+      "s-ehe"
+    ],
+    "leadsTo": []
   },
   {
     "id": "crest-crt",
@@ -1648,7 +1783,15 @@
     "specialty": "general",
     "issuer": "CREST",
     "updatedAt": "2024-07",
-    "description": "CREST Registered Penetration Tester validates competency in conducting penetration tests against network infrastructure, for entry-level certified testers."
+    "description": "CREST Registered Penetration Tester validates competency in conducting penetration tests against network infrastructure, for entry-level certified testers.",
+    "requires": [
+      "crest-cpsa"
+    ],
+    "leadsTo": [
+      "crest-crtsa",
+      "crest-cctapp",
+      "crest-csam"
+    ]
   },
   {
     "id": "crto-ii",
@@ -1668,7 +1811,11 @@
     "specialty": "general",
     "issuer": "Zero Point Security",
     "updatedAt": "2024-07",
-    "description": "Zero Point Security Red Team Operator II validates advanced red team operator skills focusing on evasive tradecraft and complex attack chains."
+    "description": "Zero Point Security Red Team Operator II validates advanced red team operator skills focusing on evasive tradecraft and complex attack chains.",
+    "requires": [
+      "crto"
+    ],
+    "leadsTo": []
   },
   {
     "id": "mcd",
@@ -1709,7 +1856,13 @@
     "specialty": "cisco",
     "issuer": "Cisco",
     "updatedAt": "2024-07",
-    "description": "Cisco Certified Network Professional Security validates advanced skills in implementing and managing Cisco security solutions in enterprise networks."
+    "description": "Cisco Certified Network Professional Security validates advanced skills in implementing and managing Cisco security solutions in enterprise networks.",
+    "requires": [
+      "ccna"
+    ],
+    "leadsTo": [
+      "ccie-sec"
+    ]
   },
   {
     "id": "cimp",
@@ -1749,7 +1902,11 @@
     "specialty": "governance",
     "issuer": "CompTIA",
     "updatedAt": "2026-11",
-    "description": "CompTIA SecurityX (formerly CASP+) validates advanced security architecture, risk management, and integration skills for experienced security engineers."
+    "description": "CompTIA SecurityX (formerly CASP+) validates advanced security architecture, risk management, and integration skills for experienced security engineers.",
+    "requires": [
+      "security-plus"
+    ],
+    "leadsTo": []
   },
   {
     "id": "gasf",
@@ -1811,7 +1968,13 @@
     "specialty": "general",
     "issuer": "SECO Institute",
     "updatedAt": "2024-07",
-    "description": "SECO Ethical Hacking Expert validates advanced ethical hacking expertise covering complex attack techniques for experienced security professionals."
+    "description": "SECO Ethical Hacking Expert validates advanced ethical hacking expertise covering complex attack techniques for experienced security professionals.",
+    "requires": [
+      "s-ehp"
+    ],
+    "leadsTo": [
+      "s-cehl"
+    ]
   },
   {
     "id": "jncip-sec",
@@ -1831,7 +1994,13 @@
     "specialty": "juniper",
     "issuer": "Juniper Networks",
     "updatedAt": "2024-07",
-    "description": "Juniper Networks Certified Internet Professional Security validates advanced skills in deploying and troubleshooting Juniper security technologies."
+    "description": "Juniper Networks Certified Internet Professional Security validates advanced skills in deploying and troubleshooting Juniper security technologies.",
+    "requires": [
+      "jncis-sec"
+    ],
+    "leadsTo": [
+      "jncie-sec"
+    ]
   },
   {
     "id": "pcnse",
@@ -1911,7 +2080,11 @@
     "specialty": "multi-cloud",
     "issuer": "Fortinet",
     "updatedAt": "2024-07",
-    "description": "Fortinet Certified Solution Specialist Public Cloud Security validates expertise in securing workloads in public cloud environments using Fortinet products."
+    "description": "Fortinet Certified Solution Specialist Public Cloud Security validates expertise in securing workloads in public cloud environments using Fortinet products.",
+    "requires": [
+      "fcp-pcs"
+    ],
+    "leadsTo": []
   },
   {
     "id": "gctd",
@@ -1974,7 +2147,13 @@
     "specialty": "it-service-management",
     "issuer": "AXELOS",
     "updatedAt": "2024-07",
-    "description": "AXELOS ITIL Managing Professional validates practical skills in running IT-enabled products and services, for IT practitioners and managers."
+    "description": "AXELOS ITIL Managing Professional validates practical skills in running IT-enabled products and services, for IT practitioners and managers.",
+    "requires": [
+      "itil-fdn"
+    ],
+    "leadsTo": [
+      "itil-master"
+    ]
   },
   {
     "id": "scrum-sps",
@@ -2054,7 +2233,7 @@
     ],
     "domain": "grc",
     "specialty": "risk-management",
-    "issuer": "(ISC)\u00b2",
+    "issuer": "(ISC)²",
     "updatedAt": "2024-07",
     "description": "ISC2 Certified in Governance, Risk and Compliance validates competency in developing and implementing security governance, risk, and compliance programs."
   },
@@ -2159,7 +2338,11 @@
     "specialty": "soc-analyst",
     "issuer": "Cisco",
     "updatedAt": "2024-07",
-    "description": "Cisco Certified CyberOps Professional validates advanced skills in security operations, threat hunting, and security engineering in a SOC environment."
+    "description": "Cisco Certified CyberOps Professional validates advanced skills in security operations, threat hunting, and security engineering in a SOC environment.",
+    "requires": [
+      "cisco-coa"
+    ],
+    "leadsTo": []
   },
   {
     "id": "ccfe",
@@ -2241,7 +2424,11 @@
     "specialty": "general",
     "issuer": "CREST",
     "updatedAt": "2024-07",
-    "description": "CREST Certified Threat Intelligence Manager validates management-level competency in leading threat intelligence programs and teams."
+    "description": "CREST Certified Threat Intelligence Manager validates management-level competency in leading threat intelligence programs and teams.",
+    "requires": [
+      "crest-crtia"
+    ],
+    "leadsTo": []
   },
   {
     "id": "oscp",
@@ -2288,7 +2475,11 @@
     "specialty": "f5",
     "issuer": "F5",
     "updatedAt": "2024-07",
-    "description": "F5 Certified Solution Expert Security validates advanced skills in architecting comprehensive F5 security solutions for complex enterprise environments."
+    "description": "F5 Certified Solution Expert Security validates advanced skills in architecting comprehensive F5 security solutions for complex enterprise environments.",
+    "requires": [
+      "f5-cts-apm"
+    ],
+    "leadsTo": []
   },
   {
     "id": "ccnp-ent",
@@ -2308,7 +2499,13 @@
     "specialty": "cisco",
     "issuer": "Cisco",
     "updatedAt": "2024-07",
-    "description": "Cisco Certified Network Professional Enterprise validates advanced skills in implementing and managing enterprise networking solutions."
+    "description": "Cisco Certified Network Professional Enterprise validates advanced skills in implementing and managing enterprise networking solutions.",
+    "requires": [
+      "ccna"
+    ],
+    "leadsTo": [
+      "ccie-ent"
+    ]
   },
   {
     "id": "ms-100",
@@ -2329,7 +2526,11 @@
     "specialty": "azure",
     "issuer": "Microsoft",
     "updatedAt": "2024-07",
-    "description": "Microsoft 365 Enterprise Administrator Expert validates advanced skills in managing and securing Microsoft 365 services and enterprise deployments."
+    "description": "Microsoft 365 Enterprise Administrator Expert validates advanced skills in managing and securing Microsoft 365 services and enterprise deployments.",
+    "requires": [
+      "az-104"
+    ],
+    "leadsTo": []
   },
   {
     "id": "gpcs",
@@ -2576,7 +2777,13 @@
     "specialty": "specialist-management",
     "issuer": "SECO Institute",
     "updatedAt": "2024-07",
-    "description": "SECO Information Security Practitioner validates practical information security knowledge for professionals in operational security roles."
+    "description": "SECO Information Security Practitioner validates practical information security knowledge for professionals in operational security roles.",
+    "requires": [
+      "s-isf"
+    ],
+    "leadsTo": [
+      "s-isme"
+    ]
   },
   {
     "id": "cisa",
@@ -2826,7 +3033,11 @@
     "specialty": "general",
     "issuer": "Zero Point Security",
     "updatedAt": "2024-07",
-    "description": "Zero Point Security Certified Red Team Operator validates practical red team operations skills including command-and-control, evasion, and Active Directory attacks."
+    "description": "Zero Point Security Certified Red Team Operator validates practical red team operations skills including command-and-control, evasion, and Active Directory attacks.",
+    "requires": [],
+    "leadsTo": [
+      "crto-ii"
+    ]
   },
   {
     "id": "ccsm",
@@ -2846,7 +3057,11 @@
     "specialty": "checkpoint",
     "issuer": "Check Point",
     "updatedAt": "2024-07",
-    "description": "Check Point Certified Security Master validates expert-level mastery of Check Point security technologies and advanced troubleshooting."
+    "description": "Check Point Certified Security Master validates expert-level mastery of Check Point security technologies and advanced troubleshooting.",
+    "requires": [
+      "ccse"
+    ],
+    "leadsTo": []
   },
   {
     "id": "pcsae",
@@ -2926,7 +3141,11 @@
     "specialty": "multi-cloud",
     "issuer": "Fortinet",
     "updatedAt": "2024-07",
-    "description": "Fortinet Certified Solution Specialist Security Operations validates expertise in deploying and managing Fortinet security operations and SIEM solutions."
+    "description": "Fortinet Certified Solution Specialist Security Operations validates expertise in deploying and managing Fortinet security operations and SIEM solutions.",
+    "requires": [
+      "fcp-so"
+    ],
+    "leadsTo": []
   },
   {
     "id": "pdso-cde",
@@ -2968,7 +3187,11 @@
     "specialty": "multi-cloud",
     "issuer": "VMware",
     "updatedAt": "2024-07",
-    "description": "VMware Certified Professional Datacenter Virtualization validates skills in deploying, managing, and troubleshooting VMware vSphere environments."
+    "description": "VMware Certified Professional Datacenter Virtualization validates skills in deploying, managing, and troubleshooting VMware vSphere environments.",
+    "requires": [],
+    "leadsTo": [
+      "vcix-dcv"
+    ]
   },
   {
     "id": "cks",
@@ -2989,7 +3212,11 @@
     "specialty": "multi-cloud",
     "issuer": "CNCF",
     "updatedAt": "2024-07",
-    "description": "CNCF Certified Kubernetes Security Specialist validates expertise in securing Kubernetes clusters and workloads in cloud-native environments."
+    "description": "CNCF Certified Kubernetes Security Specialist validates expertise in securing Kubernetes clusters and workloads in cloud-native environments.",
+    "requires": [
+      "cka"
+    ],
+    "leadsTo": []
   },
   {
     "id": "lfcs",
@@ -3175,7 +3402,7 @@
     ],
     "domain": "core",
     "specialty": "secure-development",
-    "issuer": "(ISC)\u00b2",
+    "issuer": "(ISC)²",
     "updatedAt": "2024-07",
     "description": "ISC2 Certified Secure Software Lifecycle Professional validates expertise in incorporating security into every phase of the software development lifecycle."
   },
@@ -3424,7 +3651,11 @@
     "specialty": "fortinet",
     "issuer": "Fortinet",
     "updatedAt": "2024-07",
-    "description": "Fortinet Certified Solution Specialist Network Security validates expertise in deploying and managing Fortinet network security solutions."
+    "description": "Fortinet Certified Solution Specialist Network Security validates expertise in deploying and managing Fortinet network security solutions.",
+    "requires": [
+      "fcp-ns"
+    ],
+    "leadsTo": []
   },
   {
     "id": "cidpro",
@@ -3462,7 +3693,7 @@
     ],
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
-    "issuer": "(ISC)\u00b2",
+    "issuer": "(ISC)²",
     "updatedAt": "2024-07",
     "description": "ISC2 Certified Cloud Security Professional validates expertise in cloud security architecture, governance, and operations across all major platforms."
   },
@@ -3484,7 +3715,13 @@
     "specialty": "multi-cloud",
     "issuer": "Fortinet",
     "updatedAt": "2024-07",
-    "description": "Fortinet Certified Professional Public Cloud Security validates competency in securing workloads in public cloud environments using Fortinet technologies."
+    "description": "Fortinet Certified Professional Public Cloud Security validates competency in securing workloads in public cloud environments using Fortinet technologies.",
+    "requires": [
+      "fca"
+    ],
+    "leadsTo": [
+      "fcss-pcs"
+    ]
   },
   {
     "id": "fcp-so",
@@ -3504,7 +3741,13 @@
     "specialty": "multi-cloud",
     "issuer": "Fortinet",
     "updatedAt": "2024-07",
-    "description": "Fortinet Certified Professional Security Operations validates skills in deploying and managing Fortinet security operations and analytics solutions."
+    "description": "Fortinet Certified Professional Security Operations validates skills in deploying and managing Fortinet security operations and analytics solutions.",
+    "requires": [
+      "fca"
+    ],
+    "leadsTo": [
+      "fcss-so"
+    ]
   },
   {
     "id": "rhcsa",
@@ -3524,7 +3767,11 @@
     "specialty": null,
     "issuer": "Red Hat",
     "updatedAt": "2024-07",
-    "description": "Red Hat Certified System Administrator validates competency in managing and administering Red Hat Enterprise Linux systems."
+    "description": "Red Hat Certified System Administrator validates competency in managing and administering Red Hat Enterprise Linux systems.",
+    "requires": [],
+    "leadsTo": [
+      "rhce"
+    ]
   },
   {
     "id": "isa-cds",
@@ -3544,7 +3791,11 @@
     "specialty": null,
     "issuer": "ISA",
     "updatedAt": "2024-07",
-    "description": "ISA Certified Design Specialist validates competency in applying IEC 62443 standards to design cybersecurity programs for industrial control systems."
+    "description": "ISA Certified Design Specialist validates competency in applying IEC 62443 standards to design cybersecurity programs for industrial control systems.",
+    "requires": [
+      "isa-cfs"
+    ],
+    "leadsTo": []
   },
   {
     "id": "sfcta",
@@ -3832,7 +4083,11 @@
     "specialty": "secure-development",
     "issuer": "Cisco",
     "updatedAt": "2024-07",
-    "description": "Cisco DevNet Professional validates advanced skills in developing and automating solutions using Cisco APIs and DevOps practices."
+    "description": "Cisco DevNet Professional validates advanced skills in developing and automating solutions using Cisco APIs and DevOps practices.",
+    "requires": [
+      "devnet-a"
+    ],
+    "leadsTo": []
   },
   {
     "id": "sc-401",
@@ -3912,7 +4167,13 @@
     "specialty": "threat-hunting",
     "issuer": "CREST",
     "updatedAt": "2024-07",
-    "description": "CREST Registered Intrusion Analyst validates competency in analyzing intrusion data and network artifacts to identify and characterize security incidents."
+    "description": "CREST Registered Intrusion Analyst validates competency in analyzing intrusion data and network artifacts to identify and characterize security incidents.",
+    "requires": [
+      "crest-cpia"
+    ],
+    "leadsTo": [
+      "crest-ccnia"
+    ]
   },
   {
     "id": "crest-crtia",
@@ -3932,7 +4193,13 @@
     "specialty": "threat-intelligence",
     "issuer": "CREST",
     "updatedAt": "2024-07",
-    "description": "CREST Registered Threat Intelligence Analyst validates competency in collecting and analyzing cyber threat intelligence to inform defensive operations."
+    "description": "CREST Registered Threat Intelligence Analyst validates competency in collecting and analyzing cyber threat intelligence to inform defensive operations.",
+    "requires": [
+      "crest-cptia"
+    ],
+    "leadsTo": [
+      "crest-cctim"
+    ]
   },
   {
     "id": "gwapt",
@@ -4034,7 +4301,13 @@
     "specialty": "checkpoint",
     "issuer": "Check Point",
     "updatedAt": "2024-07",
-    "description": "Check Point Certified Security Expert validates advanced skills in implementing, upgrading, and troubleshooting Check Point security solutions."
+    "description": "Check Point Certified Security Expert validates advanced skills in implementing, upgrading, and troubleshooting Check Point security solutions.",
+    "requires": [
+      "ccsa-2"
+    ],
+    "leadsTo": [
+      "ccsm"
+    ]
   },
   {
     "id": "aws-css",
@@ -4055,7 +4328,11 @@
     "specialty": "aws",
     "issuer": "Amazon Web Services",
     "updatedAt": "2024-07",
-    "description": "AWS Certified Security Specialty validates expertise in securing AWS workloads, covering IAM, data protection, infrastructure security, and incident response."
+    "description": "AWS Certified Security Specialty validates expertise in securing AWS workloads, covering IAM, data protection, infrastructure security, and incident response.",
+    "requires": [
+      "aws-saa"
+    ],
+    "leadsTo": []
   },
   {
     "id": "sfcccc",
@@ -4117,7 +4394,13 @@
     "specialty": "multi-cloud",
     "issuer": "CNCF",
     "updatedAt": "2024-07",
-    "description": "CNCF Certified Kubernetes Administrator validates skills in administering and maintaining Kubernetes clusters in production environments."
+    "description": "CNCF Certified Kubernetes Administrator validates skills in administering and maintaining Kubernetes clusters in production environments.",
+    "requires": [
+      "kcna"
+    ],
+    "leadsTo": [
+      "cks"
+    ]
   },
   {
     "id": "tuv-cotcp",
@@ -4135,9 +4418,9 @@
     ],
     "domain": "ics-iot",
     "specialty": null,
-    "issuer": "T\u00dcV Rheinland",
+    "issuer": "TÜV Rheinland",
     "updatedAt": "2024-07",
-    "description": "T\u00dcV Rheinland Certified OT Cybersecurity Professional validates knowledge of operational technology cybersecurity principles and IEC 62443 standards."
+    "description": "TÜV Rheinland Certified OT Cybersecurity Professional validates knowledge of operational technology cybersecurity principles and IEC 62443 standards."
   },
   {
     "id": "sabsa-scf",
@@ -4258,7 +4541,13 @@
     "specialty": "project-management",
     "issuer": "Scrum.org",
     "updatedAt": "2024-07",
-    "description": "Scrum.org Professional Scrum Master II validates advanced understanding of Scrum in complex environments, for experienced Scrum Masters."
+    "description": "Scrum.org Professional Scrum Master II validates advanced understanding of Scrum in complex environments, for experienced Scrum Masters.",
+    "requires": [
+      "psm-i"
+    ],
+    "leadsTo": [
+      "psm-iii"
+    ]
   },
   {
     "id": "apmg-20000p",
@@ -4506,7 +4795,11 @@
     "specialty": "threat-hunting",
     "issuer": "Security Blue Team",
     "updatedAt": "2024-07",
-    "description": "Security Blue Team Level 1 validates foundational blue team skills including phishing analysis, threat intelligence, and SIEM investigation."
+    "description": "Security Blue Team Level 1 validates foundational blue team skills including phishing analysis, threat intelligence, and SIEM investigation.",
+    "requires": [],
+    "leadsTo": [
+      "btl2"
+    ]
   },
   {
     "id": "mbt",
@@ -4588,7 +4881,11 @@
     "specialty": "web",
     "issuer": "CREST",
     "updatedAt": "2024-07",
-    "description": "CREST Certified Web Application Tester validates competency in performing comprehensive security assessments of web applications."
+    "description": "CREST Certified Web Application Tester validates competency in performing comprehensive security assessments of web applications.",
+    "requires": [
+      "crest-crt"
+    ],
+    "leadsTo": []
   },
   {
     "id": "htb-cpts",
@@ -4609,7 +4906,12 @@
     "specialty": "general",
     "issuer": "Hack The Box",
     "updatedAt": "2024-07",
-    "description": "Hack the Box Certified Penetration Testing Specialist validates practical penetration testing skills through an intensive hands-on exam."
+    "description": "Hack the Box Certified Penetration Testing Specialist validates practical penetration testing skills through an intensive hands-on exam.",
+    "requires": [],
+    "leadsTo": [
+      "htb-cwee",
+      "htb-cape"
+    ]
   },
   {
     "id": "mre",
@@ -4650,7 +4952,13 @@
     "specialty": "juniper",
     "issuer": "Juniper Networks",
     "updatedAt": "2024-07",
-    "description": "Juniper Networks Certified Internet Specialist Security validates intermediate skills in implementing Juniper security technologies."
+    "description": "Juniper Networks Certified Internet Specialist Security validates intermediate skills in implementing Juniper security technologies.",
+    "requires": [
+      "jncia-sec"
+    ],
+    "leadsTo": [
+      "jncip-sec"
+    ]
   },
   {
     "id": "programming-language",
@@ -4711,7 +5019,11 @@
     "specialty": "siem-detection",
     "issuer": "CREST",
     "updatedAt": "2024-07",
-    "description": "CREST Certified Host Intrusion Analyst validates expertise in analyzing host-based artifacts to detect and characterize intrusion activity."
+    "description": "CREST Certified Host Intrusion Analyst validates expertise in analyzing host-based artifacts to detect and characterize intrusion activity.",
+    "requires": [
+      "crest-cpia"
+    ],
+    "leadsTo": []
   },
   {
     "id": "ence",
@@ -4831,7 +5143,11 @@
     "specialty": "general",
     "issuer": "INE Security",
     "updatedAt": "2024-07",
-    "description": "eLearnSecurity Certified Professional Penetration Tester validates practical penetration testing skills across network, web, and system security."
+    "description": "eLearnSecurity Certified Professional Penetration Tester validates practical penetration testing skills across network, web, and system security.",
+    "requires": [
+      "ejpt"
+    ],
+    "leadsTo": []
   },
   {
     "id": "ewpt",
@@ -4851,7 +5167,11 @@
     "specialty": "web",
     "issuer": "INE Security",
     "updatedAt": "2024-07",
-    "description": "eLearnSecurity Web Application Penetration Tester validates web application security testing skills through a comprehensive practical exam."
+    "description": "eLearnSecurity Web Application Penetration Tester validates web application security testing skills through a comprehensive practical exam.",
+    "requires": [],
+    "leadsTo": [
+      "ewptx"
+    ]
   },
   {
     "id": "cm-ips",
@@ -4932,7 +5252,13 @@
     "specialty": "f5",
     "issuer": "F5",
     "updatedAt": "2024-07",
-    "description": "F5 Certified Technical Specialist Access Policy Manager validates expertise in configuring and managing F5 BIG-IP Access Policy Manager solutions."
+    "description": "F5 Certified Technical Specialist Access Policy Manager validates expertise in configuring and managing F5 BIG-IP Access Policy Manager solutions.",
+    "requires": [
+      "f5-ca"
+    ],
+    "leadsTo": [
+      "f5-cse-sec"
+    ]
   },
   {
     "id": "fcp-ns",
@@ -4952,7 +5278,13 @@
     "specialty": "fortinet",
     "issuer": "Fortinet",
     "updatedAt": "2024-07",
-    "description": "Fortinet Certified Professional Network Security validates skills in deploying and managing Fortinet network security products and architectures."
+    "description": "Fortinet Certified Professional Network Security validates skills in deploying and managing Fortinet network security products and architectures.",
+    "requires": [
+      "fca"
+    ],
+    "leadsTo": [
+      "fcss-ns"
+    ]
   },
   {
     "id": "ccna",
@@ -4972,7 +5304,12 @@
     "specialty": "cisco",
     "issuer": "Cisco",
     "updatedAt": "2024-07",
-    "description": "Cisco Certified Network Associate validates foundational networking and infrastructure skills for IT professionals in networking roles."
+    "description": "Cisco Certified Network Associate validates foundational networking and infrastructure skills for IT professionals in networking roles.",
+    "requires": [],
+    "leadsTo": [
+      "ccnp-sec",
+      "ccnp-ent"
+    ]
   },
   {
     "id": "az-500",
@@ -4993,7 +5330,13 @@
     "specialty": "azure",
     "issuer": "Microsoft",
     "updatedAt": "2024-07",
-    "description": "Microsoft Azure Security Engineer Associate validates skills in implementing security controls and protecting Azure workloads and identities."
+    "description": "Microsoft Azure Security Engineer Associate validates skills in implementing security controls and protecting Azure workloads and identities.",
+    "requires": [
+      "az-104"
+    ],
+    "leadsTo": [
+      "sc-100"
+    ]
   },
   {
     "id": "csa-cgc",
@@ -5034,7 +5377,11 @@
     "specialty": "multi-cloud",
     "issuer": "VMware",
     "updatedAt": "2024-07",
-    "description": "VMware Certified Professional Network Virtualization validates skills in deploying, managing, and troubleshooting VMware NSX network virtualization solutions."
+    "description": "VMware Certified Professional Network Virtualization validates skills in deploying, managing, and troubleshooting VMware NSX network virtualization solutions.",
+    "requires": [],
+    "leadsTo": [
+      "vcix-nv"
+    ]
   },
   {
     "id": "ckad",
@@ -5055,7 +5402,11 @@
     "specialty": "multi-cloud",
     "issuer": "CNCF",
     "updatedAt": "2024-07",
-    "description": "CNCF Certified Kubernetes Application Developer validates skills in building, deploying, and managing containerized applications on Kubernetes."
+    "description": "CNCF Certified Kubernetes Application Developer validates skills in building, deploying, and managing containerized applications on Kubernetes.",
+    "requires": [
+      "kcna"
+    ],
+    "leadsTo": []
   },
   {
     "id": "lpic-2",
@@ -5075,7 +5426,13 @@
     "specialty": null,
     "issuer": "LPI",
     "updatedAt": "2024-07",
-    "description": "LPI LPIC-2 validates advanced Linux system administration skills including networking, security, and advanced system management."
+    "description": "LPI LPIC-2 validates advanced Linux system administration skills including networking, security, and advanced system management.",
+    "requires": [
+      "lpic-1"
+    ],
+    "leadsTo": [
+      "lpic-3"
+    ]
   },
   {
     "id": "gcip",
@@ -5363,7 +5720,11 @@
     "specialty": "soc-analyst",
     "issuer": "Cisco",
     "updatedAt": "2024-07",
-    "description": "Cisco Certified CyberOps Associate validates foundational skills in security monitoring, threat analysis, and incident response within a SOC."
+    "description": "Cisco Certified CyberOps Associate validates foundational skills in security monitoring, threat analysis, and incident response within a SOC.",
+    "requires": [],
+    "leadsTo": [
+      "cisco-cop"
+    ]
   },
   {
     "id": "c-csa",
@@ -5566,7 +5927,11 @@
     "specialty": "f5",
     "issuer": "F5",
     "updatedAt": "2024-07",
-    "description": "F5 Certified Technical Specialist Domain Name Services validates expertise in configuring and managing DNS on F5 BIG-IP platforms."
+    "description": "F5 Certified Technical Specialist Domain Name Services validates expertise in configuring and managing DNS on F5 BIG-IP platforms.",
+    "requires": [
+      "f5-ca"
+    ],
+    "leadsTo": []
   },
   {
     "id": "pcdra",
@@ -5647,7 +6012,14 @@
     "specialty": "aws",
     "issuer": "Amazon Web Services",
     "updatedAt": "2024-07",
-    "description": "AWS Certified Solutions Architect Associate validates skills in designing cost-effective and secure AWS solutions for common use cases."
+    "description": "AWS Certified Solutions Architect Associate validates skills in designing cost-effective and secure AWS solutions for common use cases.",
+    "requires": [
+      "aws-cp"
+    ],
+    "leadsTo": [
+      "aws-sap",
+      "aws-css"
+    ]
   },
   {
     "id": "exin-pcserm",
@@ -5688,7 +6060,11 @@
     "specialty": null,
     "issuer": "ISA",
     "updatedAt": "2024-07",
-    "description": "ISA Certified Risk Assessment Specialist validates competency in applying IEC 62443 risk assessment methodologies to industrial control systems."
+    "description": "ISA Certified Risk Assessment Specialist validates competency in applying IEC 62443 risk assessment methodologies to industrial control systems.",
+    "requires": [
+      "isa-cfs"
+    ],
+    "leadsTo": []
   },
   {
     "id": "splk-3001",
@@ -5809,9 +6185,9 @@
     ],
     "domain": "grc",
     "specialty": "compliance-awareness",
-    "issuer": "T\u00dcV Rheinland",
+    "issuer": "TÜV Rheinland",
     "updatedAt": "2024-07",
-    "description": "T\u00dcV Rheinland IT Security Manager validates knowledge of IT security management concepts and regulatory requirements for security managers in Germany."
+    "description": "TÜV Rheinland IT Security Manager validates knowledge of IT security management concepts and regulatory requirements for security managers in Germany."
   },
   {
     "id": "ccrmp",
@@ -5914,9 +6290,9 @@
     ],
     "domain": "core",
     "specialty": "vulnerability-assessment",
-    "issuer": "T\u00dcV Rheinland",
+    "issuer": "TÜV Rheinland",
     "updatedAt": "2024-07",
-    "description": "T\u00dcV Rheinland Mobile Security Analyst validates knowledge of mobile device security assessment and mobile threat analysis."
+    "description": "TÜV Rheinland Mobile Security Analyst validates knowledge of mobile device security assessment and mobile threat analysis."
   },
   {
     "id": "devnet-a",
@@ -5936,7 +6312,11 @@
     "specialty": "secure-development",
     "issuer": "Cisco",
     "updatedAt": "2024-07",
-    "description": "Cisco DevNet Associate validates foundational skills in software development and APIs for automating and programming Cisco infrastructure."
+    "description": "Cisco DevNet Associate validates foundational skills in software development and APIs for automating and programming Cisco infrastructure.",
+    "requires": [],
+    "leadsTo": [
+      "devnet-pro"
+    ]
   },
   {
     "id": "cysa-plus",
@@ -5956,7 +6336,11 @@
     "specialty": "soc-analyst",
     "issuer": "CompTIA",
     "updatedAt": "2024-07",
-    "description": "CompTIA Cybersecurity Analyst+ validates skills in threat detection, analysis, and response for cybersecurity analysts in a SOC environment."
+    "description": "CompTIA Cybersecurity Analyst+ validates skills in threat detection, analysis, and response for cybersecurity analysts in a SOC environment.",
+    "requires": [
+      "security-plus"
+    ],
+    "leadsTo": []
   },
   {
     "id": "csx-p",
@@ -6059,7 +6443,13 @@
     "specialty": "defense-analysis",
     "issuer": "OffSec",
     "updatedAt": "2024-07",
-    "description": "OffSec Defense Analyst validates skills in defending networks, detecting threats, and responding to incidents using a blue team methodology."
+    "description": "OffSec Defense Analyst validates skills in defending networks, detecting threats, and responding to incidents using a blue team methodology.",
+    "requires": [
+      "oscc"
+    ],
+    "leadsTo": [
+      "osth"
+    ]
   },
   {
     "id": "emapt",
@@ -6160,7 +6550,12 @@
     "specialty": "general",
     "issuer": "OffSec",
     "updatedAt": "2026-11",
-    "description": "OffSec Certified Professional CyberCore validates foundational cybersecurity knowledge covering core concepts in security operations and monitoring."
+    "description": "OffSec Certified Professional CyberCore validates foundational cybersecurity knowledge covering core concepts in security operations and monitoring.",
+    "requires": [],
+    "leadsTo": [
+      "osir",
+      "osda"
+    ]
   },
   {
     "id": "osir",
@@ -6180,7 +6575,11 @@
     "specialty": "incident-response",
     "issuer": "OffSec",
     "updatedAt": "2026-11",
-    "description": "OffSec Incident Responder validates practical incident response skills including evidence collection, analysis, and containment for security professionals."
+    "description": "OffSec Incident Responder validates practical incident response skills including evidence collection, analysis, and containment for security professionals.",
+    "requires": [
+      "oscc"
+    ],
+    "leadsTo": []
   },
   {
     "id": "osth",
@@ -6200,7 +6599,11 @@
     "specialty": "threat-intelligence",
     "issuer": "OffSec",
     "updatedAt": "2026-11",
-    "description": "OffSec Threat Hunter validates advanced threat hunting skills including behavioral analysis and hypothesis-driven hunting in enterprise environments."
+    "description": "OffSec Threat Hunter validates advanced threat hunting skills including behavioral analysis and hypothesis-driven hunting in enterprise environments.",
+    "requires": [
+      "osda"
+    ],
+    "leadsTo": []
   },
   {
     "id": "sjd-100",
@@ -6282,7 +6685,11 @@
     "specialty": "vendor-neutral",
     "issuer": "CREST",
     "updatedAt": "2024-07",
-    "description": "CREST Certified Network Intrusion Analyst validates expertise in analyzing network traffic to detect and characterize intrusion activity."
+    "description": "CREST Certified Network Intrusion Analyst validates expertise in analyzing network traffic to detect and characterize intrusion activity.",
+    "requires": [
+      "crest-cria"
+    ],
+    "leadsTo": []
   },
   {
     "id": "cige",
@@ -6322,7 +6729,14 @@
     "specialty": "azure",
     "issuer": "Microsoft",
     "updatedAt": "2024-07",
-    "description": "Microsoft Azure Administrator Associate validates skills in managing Azure identities, storage, compute, networking, and monitoring."
+    "description": "Microsoft Azure Administrator Associate validates skills in managing Azure identities, storage, compute, networking, and monitoring.",
+    "requires": [
+      "az-900"
+    ],
+    "leadsTo": [
+      "az-500",
+      "ms-100"
+    ]
   },
   {
     "id": "clcsm",
@@ -6446,7 +6860,11 @@
     "specialty": "security-leadership",
     "issuer": "EC-Council",
     "updatedAt": "2024-07",
-    "description": "EC-Council Certified Network Defense Architect validates advanced skills in designing and implementing comprehensive network defense architectures."
+    "description": "EC-Council Certified Network Defense Architect validates advanced skills in designing and implementing comprehensive network defense architectures.",
+    "requires": [
+      "ceh"
+    ],
+    "leadsTo": []
   },
   {
     "id": "dacrp",
@@ -6609,9 +7027,9 @@
     ],
     "domain": "core",
     "specialty": "vulnerability-assessment",
-    "issuer": "T\u00dcV Rheinland",
+    "issuer": "TÜV Rheinland",
     "updatedAt": "2024-07",
-    "description": "T\u00dcV Rheinland IT Security Auditor validates knowledge of IT security auditing methodologies and standards for auditors in Germany."
+    "description": "TÜV Rheinland IT Security Auditor validates knowledge of IT security auditing methodologies and standards for auditors in Germany."
   },
   {
     "id": "ctprp",
@@ -6691,7 +7109,11 @@
     "specialty": "soc-analyst",
     "issuer": "Microsoft",
     "updatedAt": "2024-07",
-    "description": "Microsoft Security Operations Analyst Associate validates skills in mitigating threats using Microsoft Sentinel, Defender, and other Microsoft security tools."
+    "description": "Microsoft Security Operations Analyst Associate validates skills in mitigating threats using Microsoft Sentinel, Defender, and other Microsoft security tools.",
+    "requires": [
+      "sc-900"
+    ],
+    "leadsTo": []
   },
   {
     "id": "mrci",
@@ -6753,7 +7175,11 @@
     "specialty": "threat-hunting",
     "issuer": "Hack The Box",
     "updatedAt": "2024-07",
-    "description": "Hack the Box Certified Defensive Security Analyst validates practical blue team skills through hands-on threat detection and incident analysis."
+    "description": "Hack the Box Certified Defensive Security Analyst validates practical blue team skills through hands-on threat detection and incident analysis.",
+    "requires": [],
+    "leadsTo": [
+      "htb-cdep"
+    ]
   },
   {
     "id": "cfr",
@@ -6833,7 +7259,11 @@
     "specialty": "general",
     "issuer": "INE",
     "updatedAt": "2024-07",
-    "description": "eLearnSecurity Junior Penetration Tester validates entry-level penetration testing knowledge and practical skills through a hands-on lab exam."
+    "description": "eLearnSecurity Junior Penetration Tester validates entry-level penetration testing knowledge and practical skills through a hands-on lab exam.",
+    "requires": [],
+    "leadsTo": [
+      "ecppt"
+    ]
   },
   {
     "id": "s-ehp",
@@ -6853,7 +7283,13 @@
     "specialty": "general",
     "issuer": "SECO Institute",
     "updatedAt": "2024-07",
-    "description": "SECO Ethical Hacking Practitioner validates practical ethical hacking skills for security professionals conducting penetration tests."
+    "description": "SECO Ethical Hacking Practitioner validates practical ethical hacking skills for security professionals conducting penetration tests.",
+    "requires": [
+      "s-ehf"
+    ],
+    "leadsTo": [
+      "s-ehe"
+    ]
   },
   {
     "id": "chat",
@@ -6894,7 +7330,13 @@
     "specialty": "general",
     "issuer": "CREST",
     "updatedAt": "2024-07",
-    "description": "CREST Practitioner Security Analyst validates foundational technical security knowledge as an entry point to the CREST certification pathway."
+    "description": "CREST Practitioner Security Analyst validates foundational technical security knowledge as an entry point to the CREST certification pathway.",
+    "requires": [],
+    "leadsTo": [
+      "crest-crt",
+      "crest-cpia",
+      "crest-cptia"
+    ]
   },
   {
     "id": "f5-ca",
@@ -6914,7 +7356,12 @@
     "specialty": "f5",
     "issuer": "F5",
     "updatedAt": "2024-07",
-    "description": "F5 BIG-IP Certified Administrator validates foundational skills in managing and administering F5 BIG-IP application delivery platforms."
+    "description": "F5 BIG-IP Certified Administrator validates foundational skills in managing and administering F5 BIG-IP application delivery platforms.",
+    "requires": [],
+    "leadsTo": [
+      "f5-cts-apm",
+      "f5-cts-dns"
+    ]
   },
   {
     "id": "endp",
@@ -6974,7 +7421,11 @@
     "specialty": "gcp",
     "issuer": "Google",
     "updatedAt": "2024-07",
-    "description": "Google Professional Cloud Security Engineer validates expertise in designing and implementing secure Google Cloud Platform infrastructure."
+    "description": "Google Professional Cloud Security Engineer validates expertise in designing and implementing secure Google Cloud Platform infrastructure.",
+    "requires": [
+      "google-ace"
+    ],
+    "leadsTo": []
   },
   {
     "id": "exin-pcsm",
@@ -7074,7 +7525,7 @@
     "specialty": "security-architecture",
     "issuer": "Limes Security",
     "updatedAt": "2024-07",
-    "description": "Limes Security T\u00dcV Certified OT Security Manager validates management-level knowledge of operational technology security and IEC 62443 governance."
+    "description": "Limes Security TÜV Certified OT Security Manager validates management-level knowledge of operational technology security and IEC 62443 governance."
   },
   {
     "id": "zach-eaa",
@@ -7095,7 +7546,11 @@
     "specialty": "enterprise-architecture",
     "issuer": "Zachman International",
     "updatedAt": "2024-07",
-    "description": "Zachman Enterprise Architect Associate validates foundational knowledge of the Zachman Framework for enterprise architecture design and documentation."
+    "description": "Zachman Enterprise Architect Associate validates foundational knowledge of the Zachman Framework for enterprise architecture design and documentation.",
+    "requires": [],
+    "leadsTo": [
+      "zach-eap"
+    ]
   },
   {
     "id": "cad",
@@ -7441,7 +7896,11 @@
     "specialty": "incident-response",
     "issuer": "EC-Council",
     "updatedAt": "2024-07",
-    "description": "EC-Council Certified Ethical Hacker validates knowledge of ethical hacking tools and techniques, one of the most widely recognized security certifications."
+    "description": "EC-Council Certified Ethical Hacker validates knowledge of ethical hacking tools and techniques, one of the most widely recognized security certifications.",
+    "requires": [],
+    "leadsTo": [
+      "cnda"
+    ]
   },
   {
     "id": "sog-capen",
@@ -7645,7 +8104,11 @@
     "specialty": "access-control",
     "issuer": "Microsoft",
     "updatedAt": "2024-07",
-    "description": "Microsoft Identity and Access Administrator Associate validates skills in designing, implementing, and managing Azure Active Directory identity solutions."
+    "description": "Microsoft Identity and Access Administrator Associate validates skills in designing, implementing, and managing Azure Active Directory identity solutions.",
+    "requires": [
+      "sc-900"
+    ],
+    "leadsTo": []
   },
   {
     "id": "csa-ccsk",
@@ -7725,7 +8188,11 @@
     "specialty": null,
     "issuer": "LPI",
     "updatedAt": "2024-07",
-    "description": "LPI LPIC-1 validates foundational Linux system administration skills including command line, networking, and security fundamentals."
+    "description": "LPI LPIC-1 validates foundational Linux system administration skills including command line, networking, and security fundamentals.",
+    "requires": [],
+    "leadsTo": [
+      "lpic-2"
+    ]
   },
   {
     "id": "gicsp",
@@ -7930,7 +8397,11 @@
     "specialty": "general",
     "issuer": "CompTIA",
     "updatedAt": "2024-07",
-    "description": "CompTIA Pentest+ validates practical penetration testing skills and vulnerability management knowledge for security professionals."
+    "description": "CompTIA Pentest+ validates practical penetration testing skills and vulnerability management knowledge for security professionals.",
+    "requires": [
+      "security-plus"
+    ],
+    "leadsTo": []
   },
   {
     "id": "crest-csas",
@@ -7990,7 +8461,11 @@
     "specialty": "juniper",
     "issuer": "Juniper Networks",
     "updatedAt": "2024-07",
-    "description": "Juniper Networks Certified Internet Associate Security validates foundational knowledge of Juniper security concepts and products."
+    "description": "Juniper Networks Certified Internet Associate Security validates foundational knowledge of Juniper security concepts and products.",
+    "requires": [],
+    "leadsTo": [
+      "jncis-sec"
+    ]
   },
   {
     "id": "fca",
@@ -8010,7 +8485,15 @@
     "specialty": "fortinet",
     "issuer": "Fortinet",
     "updatedAt": "2024-07",
-    "description": "Fortinet Certified Associate validates foundational knowledge of Fortinet products and cybersecurity concepts through free training and exams."
+    "description": "Fortinet Certified Associate validates foundational knowledge of Fortinet products and cybersecurity concepts through free training and exams.",
+    "requires": [
+      "fcf"
+    ],
+    "leadsTo": [
+      "fcp-ns",
+      "fcp-pcs",
+      "fcp-so"
+    ]
   },
   {
     "id": "wcna",
@@ -8112,7 +8595,12 @@
     "specialty": "multi-cloud",
     "issuer": "CNCF",
     "updatedAt": "2024-07",
-    "description": "CNCF Kubernetes and Cloud Native Associate validates foundational knowledge of Kubernetes and cloud-native technologies."
+    "description": "CNCF Kubernetes and Cloud Native Associate validates foundational knowledge of Kubernetes and cloud-native technologies.",
+    "requires": [],
+    "leadsTo": [
+      "cka",
+      "ckad"
+    ]
   },
   {
     "id": "linux-plus",
@@ -8190,9 +8678,15 @@
     ],
     "domain": "grc",
     "specialty": "governance",
-    "issuer": "(ISC)\u00b2",
+    "issuer": "(ISC)²",
     "updatedAt": "2024-07",
-    "description": "ISC2 Systems Security Certified Practitioner validates foundational knowledge across seven security domains for entry-level security practitioners."
+    "description": "ISC2 Systems Security Certified Practitioner validates foundational knowledge across seven security domains for entry-level security practitioners.",
+    "requires": [
+      "cc"
+    ],
+    "leadsTo": [
+      "cissp"
+    ]
   },
   {
     "id": "sog-cap",
@@ -8252,7 +8746,14 @@
     "specialty": "digital-forensics",
     "issuer": "CREST",
     "updatedAt": "2024-07",
-    "description": "CREST Practitioner Intrusion Analyst validates foundational competency in analyzing intrusion data as an entry point to CREST certifications."
+    "description": "CREST Practitioner Intrusion Analyst validates foundational competency in analyzing intrusion data as an entry point to CREST certifications.",
+    "requires": [
+      "crest-cpsa"
+    ],
+    "leadsTo": [
+      "crest-cria",
+      "crest-cchia"
+    ]
   },
   {
     "id": "mese",
@@ -8292,7 +8793,13 @@
     "specialty": "threat-intelligence",
     "issuer": "CREST",
     "updatedAt": "2024-07",
-    "description": "CREST Practitioner Threat Intelligence Analyst validates foundational threat intelligence skills as an entry point to CREST certifications."
+    "description": "CREST Practitioner Threat Intelligence Analyst validates foundational threat intelligence skills as an entry point to CREST certifications.",
+    "requires": [
+      "crest-cpsa"
+    ],
+    "leadsTo": [
+      "crest-crtia"
+    ]
   },
   {
     "id": "mcpt",
@@ -8372,7 +8879,11 @@
     "specialty": "checkpoint",
     "issuer": "Check Point",
     "updatedAt": "2024-07",
-    "description": "Check Point Certified Security Administrator validates foundational skills in managing and administering Check Point security gateway solutions."
+    "description": "Check Point Certified Security Administrator validates foundational skills in managing and administering Check Point security gateway solutions.",
+    "requires": [],
+    "leadsTo": [
+      "ccse"
+    ]
   },
   {
     "id": "its-ns",
@@ -8452,7 +8963,11 @@
     "specialty": "gcp",
     "issuer": "Google",
     "updatedAt": "2024-07",
-    "description": "Google Associate Cloud Engineer validates skills in deploying, managing, and monitoring applications on the Google Cloud Platform."
+    "description": "Google Associate Cloud Engineer validates skills in deploying, managing, and monitoring applications on the Google Cloud Platform.",
+    "requires": [],
+    "leadsTo": [
+      "google-pcse"
+    ]
   },
   {
     "id": "sog-ccsp-aws",
@@ -8513,7 +9028,12 @@
     "specialty": null,
     "issuer": "ISA",
     "updatedAt": "2024-07",
-    "description": "ISA Certified Fundamentals Specialist validates foundational knowledge of ICS cybersecurity based on ISA/IEC 62443 standards."
+    "description": "ISA Certified Fundamentals Specialist validates foundational knowledge of ICS cybersecurity based on ISA/IEC 62443 standards.",
+    "requires": [],
+    "leadsTo": [
+      "isa-cras",
+      "isa-cds"
+    ]
   },
   {
     "id": "eitca-is",
@@ -8573,7 +9093,15 @@
     "specialty": "governance",
     "issuer": "CompTIA",
     "updatedAt": "2024-07",
-    "description": "CompTIA Security+ validates foundational cybersecurity skills and is widely recognized as the benchmark entry-level security certification."
+    "description": "CompTIA Security+ validates foundational cybersecurity skills and is widely recognized as the benchmark entry-level security certification.",
+    "requires": [
+      "net-plus"
+    ],
+    "leadsTo": [
+      "cysa-plus",
+      "pentest-plus",
+      "securityx"
+    ]
   },
   {
     "id": "ecss",
@@ -8694,7 +9222,13 @@
     "specialty": "vendor-neutral",
     "issuer": "CompTIA",
     "updatedAt": "2024-07",
-    "description": "CompTIA Network+ validates foundational networking skills including network configuration, management, and troubleshooting."
+    "description": "CompTIA Network+ validates foundational networking skills including network configuration, management, and troubleshooting.",
+    "requires": [
+      "a-plus"
+    ],
+    "leadsTo": [
+      "security-plus"
+    ]
   },
   {
     "id": "cams",
@@ -8734,7 +9268,11 @@
     "specialty": "azure",
     "issuer": "Microsoft",
     "updatedAt": "2024-07",
-    "description": "Microsoft Azure Fundamentals validates foundational knowledge of cloud concepts and Microsoft Azure services for those new to cloud computing."
+    "description": "Microsoft Azure Fundamentals validates foundational knowledge of cloud concepts and Microsoft Azure services for those new to cloud computing.",
+    "requires": [],
+    "leadsTo": [
+      "az-104"
+    ]
   },
   {
     "id": "mcsf",
@@ -8835,7 +9373,7 @@
     "specialty": "security-architecture",
     "issuer": "Limes Security",
     "updatedAt": "2024-07",
-    "description": "Limes Security T\u00dcV Certified OT Security Technical Expert validates technical knowledge of operational technology security and IEC 62443."
+    "description": "Limes Security TÜV Certified OT Security Technical Expert validates technical knowledge of operational technology security and IEC 62443."
   },
   {
     "id": "epdpf",
@@ -8876,7 +9414,11 @@
     "specialty": "enterprise-architecture",
     "issuer": "The Open Group",
     "updatedAt": "2024-07",
-    "description": "OpenGroup TOGAF Foundation validates introductory knowledge of the TOGAF enterprise architecture framework, as an entry-level certification."
+    "description": "OpenGroup TOGAF Foundation validates introductory knowledge of the TOGAF enterprise architecture framework, as an entry-level certification.",
+    "requires": [],
+    "leadsTo": [
+      "togaf"
+    ]
   },
   {
     "id": "csp",
@@ -9078,9 +9620,9 @@
     ],
     "domain": "core",
     "specialty": "vulnerability-assessment",
-    "issuer": "T\u00dcV Rheinland",
+    "issuer": "TÜV Rheinland",
     "updatedAt": "2024-07",
-    "description": "T\u00dcV Rheinland Cybersecurity Specialist validates foundational cybersecurity knowledge and skills for IT professionals in Germany."
+    "description": "TÜV Rheinland Cybersecurity Specialist validates foundational cybersecurity knowledge and skills for IT professionals in Germany."
   },
   {
     "id": "csst",
@@ -9223,7 +9765,11 @@
     "specialty": "general",
     "issuer": "SECO Institute",
     "updatedAt": "2024-07",
-    "description": "SECO Ethical Hacking Foundation validates introductory knowledge of ethical hacking concepts, tools, and methodologies."
+    "description": "SECO Ethical Hacking Foundation validates introductory knowledge of ethical hacking concepts, tools, and methodologies.",
+    "requires": [],
+    "leadsTo": [
+      "s-ehp"
+    ]
   },
   {
     "id": "cha",
@@ -9264,7 +9810,11 @@
     "specialty": "fortinet",
     "issuer": "Fortinet",
     "updatedAt": "2024-07",
-    "description": "Fortinet Certified Fundamentals validates foundational cybersecurity knowledge through Fortinet's free training and certification program."
+    "description": "Fortinet Certified Fundamentals validates foundational cybersecurity knowledge through Fortinet's free training and certification program.",
+    "requires": [],
+    "leadsTo": [
+      "fca"
+    ]
   },
   {
     "id": "pccet",
@@ -9304,7 +9854,11 @@
     "specialty": "aws",
     "issuer": "Amazon Web Services",
     "updatedAt": "2024-07",
-    "description": "AWS Certified Cloud Practitioner validates foundational understanding of AWS Cloud concepts, services, and pricing."
+    "description": "AWS Certified Cloud Practitioner validates foundational understanding of AWS Cloud concepts, services, and pricing.",
+    "requires": [],
+    "leadsTo": [
+      "aws-saa"
+    ]
   },
   {
     "id": "exin-pca",
@@ -9344,7 +9898,11 @@
     "specialty": "multi-cloud",
     "issuer": "CompTIA",
     "updatedAt": "2024-07",
-    "description": "CompTIA A+ validates foundational IT technician skills covering hardware, software, networking, and troubleshooting."
+    "description": "CompTIA A+ validates foundational IT technician skills covering hardware, software, networking, and troubleshooting.",
+    "requires": [],
+    "leadsTo": [
+      "net-plus"
+    ]
   },
   {
     "id": "ciotsp",
@@ -9384,7 +9942,7 @@
     "specialty": "security-architecture",
     "issuer": "Limes Security",
     "updatedAt": "2024-07",
-    "description": "Limes Security T\u00dcV Certified OT Security Practitioner validates foundational operational technology security knowledge based on IEC 62443."
+    "description": "Limes Security TÜV Certified OT Security Practitioner validates foundational operational technology security knowledge based on IEC 62443."
   },
   {
     "id": "epdpe",
@@ -9465,7 +10023,11 @@
     "specialty": "project-management",
     "issuer": "Scrum.org",
     "updatedAt": "2024-07",
-    "description": "Scrum.org Professional Scrum Master I validates foundational knowledge of the Scrum framework and the Scrum Master role."
+    "description": "Scrum.org Professional Scrum Master I validates foundational knowledge of the Scrum framework and the Scrum Master role.",
+    "requires": [],
+    "leadsTo": [
+      "psm-ii"
+    ]
   },
   {
     "id": "apmg-20000f",
@@ -9543,9 +10105,13 @@
     ],
     "domain": "grc",
     "specialty": "governance",
-    "issuer": "(ISC)\u00b2",
+    "issuer": "(ISC)²",
     "updatedAt": "2024-07",
-    "description": "ISC2 Certified in Cybersecurity validates foundational cybersecurity knowledge and is available as a free exam for those entering the field."
+    "description": "ISC2 Certified in Cybersecurity validates foundational cybersecurity knowledge and is available as a free exam for those entering the field.",
+    "requires": [],
+    "leadsTo": [
+      "sscp"
+    ]
   },
   {
     "id": "s-isf",
@@ -9565,7 +10131,11 @@
     "specialty": "specialist-management",
     "issuer": "SECO Institute",
     "updatedAt": "2024-07",
-    "description": "SECO Information Security Foundation validates foundational knowledge of information security concepts, standards, and best practices."
+    "description": "SECO Information Security Foundation validates foundational knowledge of information security concepts, standards, and best practices.",
+    "requires": [],
+    "leadsTo": [
+      "s-isp"
+    ]
   },
   {
     "id": "gisf",
@@ -9669,9 +10239,9 @@
     ],
     "domain": "core",
     "specialty": "vulnerability-assessment",
-    "issuer": "T\u00dcV Rheinland",
+    "issuer": "TÜV Rheinland",
     "updatedAt": "2024-07",
-    "description": "T\u00dcV Rheinland Cybersecurity Awareness validates knowledge of human factors in cybersecurity and competency in running awareness programs."
+    "description": "TÜV Rheinland Cybersecurity Awareness validates knowledge of human factors in cybersecurity and competency in running awareness programs."
   },
   {
     "id": "mase",
@@ -9791,7 +10361,12 @@
     "specialty": "access-control",
     "issuer": "Microsoft",
     "updatedAt": "2024-07",
-    "description": "Microsoft Security, Compliance, and Identity Fundamentals validates foundational knowledge of Microsoft security, compliance, and identity concepts."
+    "description": "Microsoft Security, Compliance, and Identity Fundamentals validates foundational knowledge of Microsoft security, compliance, and identity concepts.",
+    "requires": [],
+    "leadsTo": [
+      "sc-200",
+      "sc-300"
+    ]
   },
   {
     "id": "cloud-essnt",
@@ -9832,7 +10407,12 @@
     "specialty": "it-service-management",
     "issuer": "AXELOS",
     "updatedAt": "2024-07",
-    "description": "AXELOS ITIL Foundation validates knowledge of key IT service management concepts and the ITIL 4 framework, as an entry point for IT professionals."
+    "description": "AXELOS ITIL Foundation validates knowledge of key IT service management concepts and the ITIL 4 framework, as an entry point for IT professionals.",
+    "requires": [],
+    "leadsTo": [
+      "itil-mp",
+      "itil-sl"
+    ]
   },
   {
     "id": "project-plus",
@@ -10043,7 +10623,7 @@
     "name": "TeleTrusT Information Security Professional",
     "url": "https://www.teletrust.de/en/certifications/tisp/",
     "details": [
-      "~\u20ac800 exam"
+      "~€800 exam"
     ],
     "level": "expert",
     "crossDomain": false,
@@ -10075,7 +10655,11 @@
     "specialty": "siem-detection",
     "issuer": "Hack The Box",
     "updatedAt": "2024-07",
-    "description": "Hack the Box Certified Detection Engineering Professional validates skills in building detection rules, alert logic, and security monitoring pipelines."
+    "description": "Hack the Box Certified Detection Engineering Professional validates skills in building detection rules, alert logic, and security monitoring pipelines.",
+    "requires": [
+      "htb-cdsa"
+    ],
+    "leadsTo": []
   },
   {
     "id": "pjsa",
@@ -10116,7 +10700,11 @@
     "specialty": "general",
     "issuer": "Altered Security",
     "updatedAt": "2024-07",
-    "description": "Altered Security Certified Red Team Professional validates practical Active Directory attack and red team skills through a hands-on lab exam."
+    "description": "Altered Security Certified Red Team Professional validates practical Active Directory attack and red team skills through a hands-on lab exam.",
+    "requires": [],
+    "leadsTo": [
+      "crte"
+    ]
   },
   {
     "id": "crte",
@@ -10137,7 +10725,13 @@
     "specialty": "general",
     "issuer": "Altered Security",
     "updatedAt": "2024-07",
-    "description": "Altered Security Certified Red Team Expert validates expert-level Active Directory attack techniques and advanced red team tradecraft."
+    "description": "Altered Security Certified Red Team Expert validates expert-level Active Directory attack techniques and advanced red team tradecraft.",
+    "requires": [
+      "crtp"
+    ],
+    "leadsTo": [
+      "crtm"
+    ]
   },
   {
     "id": "arta",
@@ -10145,7 +10739,7 @@
     "name": "AWS Red Team Apprentice",
     "url": "https://hacktricks-training.com/courses/arta/",
     "details": [
-      "\u20ac359 lifetime lab access (30 days extendable)"
+      "€359 lifetime lab access (30 days extendable)"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -10157,7 +10751,11 @@
     "specialty": "cloud",
     "issuer": "HackTricks Training",
     "updatedAt": "2026-11",
-    "description": "Start with the AWS security foundations that matter most in real environments. Covers access control, encryption, networking, and common service misconfigurations as a foundation for the AWS Red Team Expert path."
+    "description": "Start with the AWS security foundations that matter most in real environments. Covers access control, encryption, networking, and common service misconfigurations as a foundation for the AWS Red Team Expert path.",
+    "requires": [],
+    "leadsTo": [
+      "arte"
+    ]
   },
   {
     "id": "arte",
@@ -10177,7 +10775,11 @@
     "specialty": "cloud",
     "issuer": "HackTricks Training",
     "updatedAt": "2026-11",
-    "description": "HackTricks Training AWS Red Team Expert validates expert-level AWS cloud attack techniques and advanced penetration testing against AWS environments."
+    "description": "HackTricks Training AWS Red Team Expert validates expert-level AWS cloud attack techniques and advanced penetration testing against AWS environments.",
+    "requires": [
+      "arta"
+    ],
+    "leadsTo": []
   },
   {
     "id": "grta",
@@ -10185,7 +10787,7 @@
     "name": "GCP Red Team Apprentice",
     "url": "https://hacktricks-training.com/courses/grta/",
     "details": [
-      "\u20ac359 lifetime lab access (30 days extendable)"
+      "€359 lifetime lab access (30 days extendable)"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -10197,7 +10799,11 @@
     "specialty": "cloud",
     "issuer": "HackTricks Training",
     "updatedAt": "2026-11",
-    "description": "Learn the GCP and Google Workspace security basics needed to operate confidently in cloud environments. Covers access control, data protection, networking, and common misconfigurations that lead into the GCP Red Team Expert path."
+    "description": "Learn the GCP and Google Workspace security basics needed to operate confidently in cloud environments. Covers access control, data protection, networking, and common misconfigurations that lead into the GCP Red Team Expert path.",
+    "requires": [],
+    "leadsTo": [
+      "grte"
+    ]
   },
   {
     "id": "grte",
@@ -10217,7 +10823,11 @@
     "specialty": "cloud",
     "issuer": "HackTricks Training",
     "updatedAt": "2026-11",
-    "description": "HackTricks Training GCP Red Team Expert validates expert-level attack techniques and penetration testing against Google Cloud environments."
+    "description": "HackTricks Training GCP Red Team Expert validates expert-level attack techniques and penetration testing against Google Cloud environments.",
+    "requires": [
+      "grta"
+    ],
+    "leadsTo": []
   },
   {
     "id": "azrta",
@@ -10225,7 +10835,7 @@
     "name": "Azure Red Team Apprentice",
     "url": "https://hacktricks-training.com/courses/azrta/",
     "details": [
-      "\u20ac359 lifetime lab access (30 days extendable)"
+      "€359 lifetime lab access (30 days extendable)"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -10237,7 +10847,11 @@
     "specialty": "cloud",
     "issuer": "HackTricks Training",
     "updatedAt": "2026-11",
-    "description": "Build a practical foundation in Azure and Entra ID security. Covers access controls, data protection, networking basics, and misconfigurations that prepare you for the Azure Red Team Expert track."
+    "description": "Build a practical foundation in Azure and Entra ID security. Covers access controls, data protection, networking basics, and misconfigurations that prepare you for the Azure Red Team Expert track.",
+    "requires": [],
+    "leadsTo": [
+      "azrte"
+    ]
   },
   {
     "id": "azrte",
@@ -10257,7 +10871,11 @@
     "specialty": "cloud",
     "issuer": "HackTricks Training",
     "updatedAt": "2026-11",
-    "description": "HackTricks Training Azure Red Team Expert validates expert-level attack techniques and penetration testing against Microsoft Azure environments."
+    "description": "HackTricks Training Azure Red Team Expert validates expert-level attack techniques and penetration testing against Microsoft Azure environments.",
+    "requires": [
+      "azrta"
+    ],
+    "leadsTo": []
   },
   {
     "id": "google-cyb-prof",
@@ -10407,7 +11025,7 @@
     "name": "Kubernetes Red Team Expert",
     "url": "https://hacktricks-training.com/courses/krte/",
     "details": [
-      "\u20ac1099 60 days lab access (extendable)"
+      "€1099 60 days lab access (extendable)"
     ],
     "level": "expert",
     "crossDomain": false,
@@ -10427,7 +11045,7 @@
     "name": "Linux Exploitation Expert",
     "url": "https://hacktricks-training.com/courses/lee/",
     "details": [
-      "\u20ac1099 60 days lab access (extendable)"
+      "€1099 60 days lab access (extendable)"
     ],
     "level": "expert",
     "crossDomain": false,
@@ -10447,7 +11065,7 @@
     "name": "Linux Hardening Expert",
     "url": "https://hacktricks-training.com/courses/lhe/",
     "details": [
-      "\u20ac359 60 days lab access (extendable)"
+      "€359 60 days lab access (extendable)"
     ],
     "level": "expert",
     "crossDomain": false,

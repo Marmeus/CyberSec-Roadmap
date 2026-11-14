@@ -10767,7 +10767,7 @@
     "name": "AWS Red Team Apprentice",
     "url": "https://hacktricks-training.com/courses/arta/",
     "details": [
-      "\u20ac359 lifetime lab access (30 days extendable)"
+      "\u20ac359 lifetime, lab access (30 days extendable)"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -10791,7 +10791,7 @@
     "name": "AWS Red Team Expert",
     "url": "https://hacktricks-training.com/courses/arte/",
     "details": [
-      "$395 exam"
+      "€1099"
     ],
     "level": "expert",
     "crossDomain": false,
@@ -10815,7 +10815,7 @@
     "name": "GCP Red Team Apprentice",
     "url": "https://hacktricks-training.com/courses/grta/",
     "details": [
-      "\u20ac359 lifetime lab access (30 days extendable)"
+      "\u20ac359 lifetime, lab access (30 days extendable)"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -10839,7 +10839,7 @@
     "name": "GCP Red Team Expert",
     "url": "https://hacktricks-training.com/courses/grte/",
     "details": [
-      "$395 exam"
+      "€1099"
     ],
     "level": "expert",
     "crossDomain": false,
@@ -10863,7 +10863,7 @@
     "name": "Azure Red Team Apprentice",
     "url": "https://hacktricks-training.com/courses/azrta/",
     "details": [
-      "\u20ac359 lifetime lab access (30 days extendable)"
+      "\u20ac359 lifetime, lab access (30 days extendable)"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -10887,7 +10887,7 @@
     "name": "Azure Red Team Expert",
     "url": "https://hacktricks-training.com/courses/azrte/",
     "details": [
-      "$395 exam"
+      "€1099"
     ],
     "level": "expert",
     "crossDomain": false,

@@ -10112,10 +10112,10 @@
   {
     "id": "arta",
     "abbreviation": "ARTA",
-    "name": "HackTricks Training AWS Red Team Associate",
-    "url": "https://training.hacktricks.xyz/courses/arta",
+    "name": "AWS Red Team Apprentice",
+    "url": "https://hacktricks-training.com/courses/arta/",
     "details": [
-      "$199 exam"
+      "\u20ac359 lifetime lab access (30 days extendable)"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -10125,15 +10125,15 @@
     ],
     "domain": "penetration-testing",
     "specialty": "cloud",
-    "issuer": "HackTricks Academy",
-    "updatedAt": "2024-07",
-    "description": "HackTricks Training AWS Red Team Associate validates foundational AWS penetration testing and cloud attack skills."
+    "issuer": "HackTricks Training",
+    "updatedAt": "2026-11",
+    "description": "Start with the AWS security foundations that matter most in real environments. Covers access control, encryption, networking, and common service misconfigurations as a foundation for the AWS Red Team Expert path."
   },
   {
     "id": "arte",
     "abbreviation": "ARTE",
     "name": "HackTricks Training AWS Red Team Expert",
-    "url": "https://training.hacktricks.xyz/courses/arte",
+    "url": "https://hacktricks-training.com/courses/arte/",
     "details": [
       "$395 exam"
     ],
@@ -10145,17 +10145,17 @@
     ],
     "domain": "penetration-testing",
     "specialty": "cloud",
-    "issuer": "HackTricks Academy",
-    "updatedAt": "2024-07",
+    "issuer": "HackTricks Training",
+    "updatedAt": "2026-11",
     "description": "HackTricks Training AWS Red Team Expert validates expert-level AWS cloud attack techniques and advanced penetration testing against AWS environments."
   },
   {
     "id": "grta",
     "abbreviation": "GRTA",
-    "name": "HackTricks Training GCP Red Team Associate",
-    "url": "https://training.hacktricks.xyz/courses/grta",
+    "name": "GCP Red Team Apprentice",
+    "url": "https://hacktricks-training.com/courses/grta/",
     "details": [
-      "$199 exam"
+      "\u20ac359 lifetime lab access (30 days extendable)"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -10165,15 +10165,15 @@
     ],
     "domain": "penetration-testing",
     "specialty": "cloud",
-    "issuer": "HackTricks Academy",
-    "updatedAt": "2024-07",
-    "description": "HackTricks Training GCP Red Team Associate validates foundational Google Cloud Platform penetration testing and attack skills."
+    "issuer": "HackTricks Training",
+    "updatedAt": "2026-11",
+    "description": "Learn the GCP and Google Workspace security basics needed to operate confidently in cloud environments. Covers access control, data protection, networking, and common misconfigurations that lead into the GCP Red Team Expert path."
   },
   {
     "id": "grte",
     "abbreviation": "GRTE",
     "name": "HackTricks Training GCP Red Team Expert",
-    "url": "https://training.hacktricks.xyz/courses/grte",
+    "url": "https://hacktricks-training.com/courses/grte/",
     "details": [
       "$395 exam"
     ],
@@ -10185,17 +10185,17 @@
     ],
     "domain": "penetration-testing",
     "specialty": "cloud",
-    "issuer": "HackTricks Academy",
-    "updatedAt": "2024-07",
+    "issuer": "HackTricks Training",
+    "updatedAt": "2026-11",
     "description": "HackTricks Training GCP Red Team Expert validates expert-level attack techniques and penetration testing against Google Cloud environments."
   },
   {
     "id": "azrta",
     "abbreviation": "AzRTA",
-    "name": "HackTricks Training Azure Red Team Associate",
-    "url": "https://training.hacktricks.xyz/courses/azrta",
+    "name": "Azure Red Team Apprentice",
+    "url": "https://hacktricks-training.com/courses/azrta/",
     "details": [
-      "$199 exam"
+      "\u20ac359 lifetime lab access (30 days extendable)"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -10205,15 +10205,15 @@
     ],
     "domain": "penetration-testing",
     "specialty": "cloud",
-    "issuer": "HackTricks Academy",
-    "updatedAt": "2024-07",
-    "description": "HackTricks Training Azure Red Team Associate validates foundational Azure penetration testing and cloud attack skills."
+    "issuer": "HackTricks Training",
+    "updatedAt": "2026-11",
+    "description": "Build a practical foundation in Azure and Entra ID security. Covers access controls, data protection, networking basics, and misconfigurations that prepare you for the Azure Red Team Expert track."
   },
   {
     "id": "azrte",
     "abbreviation": "AzRTE",
     "name": "HackTricks Training Azure Red Team Expert",
-    "url": "https://training.hacktricks.xyz/courses/azrte",
+    "url": "https://hacktricks-training.com/courses/azrte/",
     "details": [
       "$395 exam"
     ],
@@ -10225,8 +10225,8 @@
     ],
     "domain": "penetration-testing",
     "specialty": "cloud",
-    "issuer": "HackTricks Academy",
-    "updatedAt": "2024-07",
+    "issuer": "HackTricks Training",
+    "updatedAt": "2026-11",
     "description": "HackTricks Training Azure Red Team Expert validates expert-level attack techniques and penetration testing against Microsoft Azure environments."
   },
   {
@@ -10370,5 +10370,65 @@
     "issuer": "MalDev Academy",
     "updatedAt": "2026-11",
     "description": "An advanced course exploring the internals and techniques utilized by modern ransomware while simulating its behaviour in a controlled environment."
+  },
+  {
+    "id": "krte",
+    "abbreviation": "KRTE",
+    "name": "Kubernetes Red Team Expert",
+    "url": "https://hacktricks-training.com/courses/krte/",
+    "details": [
+      "\u20ac1099 60 days lab access (extendable)"
+    ],
+    "level": "expert",
+    "crossDomain": false,
+    "area": "operations",
+    "areas": [
+      "operations"
+    ],
+    "domain": "penetration-testing",
+    "specialty": "cloud",
+    "issuer": "HackTricks Training",
+    "updatedAt": "2026-11",
+    "description": "Go from core Kubernetes security concepts to advanced attack and defense tradecraft. Covers RBAC abuse, container escapes, networking, managed clusters (EKS, GKE, AKS), and GitOps attack surfaces."
+  },
+  {
+    "id": "lee",
+    "abbreviation": "LEE",
+    "name": "Linux Exploitation Expert",
+    "url": "https://hacktricks-training.com/courses/lee/",
+    "details": [
+      "\u20ac1099 60 days lab access (extendable)"
+    ],
+    "level": "expert",
+    "crossDomain": false,
+    "area": "operations",
+    "areas": [
+      "operations"
+    ],
+    "domain": "exploitation",
+    "specialty": "exploit-development",
+    "issuer": "HackTricks Training",
+    "updatedAt": "2026-11",
+    "description": "Progress from binary exploitation fundamentals to advanced Linux exploit development across userland, heap, ARM, kernel, and browser targets using GDB, pwntools, QEMU, and binary recon tools."
+  },
+  {
+    "id": "lhe",
+    "abbreviation": "LHE",
+    "name": "Linux Hardening Expert",
+    "url": "https://hacktricks-training.com/courses/lhe/",
+    "details": [
+      "\u20ac359 60 days lab access (extendable)"
+    ],
+    "level": "expert",
+    "crossDomain": false,
+    "area": "engineering",
+    "areas": [
+      "engineering"
+    ],
+    "domain": "nix",
+    "specialty": null,
+    "issuer": "HackTricks Training",
+    "updatedAt": "2026-11",
+    "description": "Move from Linux security fundamentals to advanced hardening and privilege escalation. Covers authentication, permissions, encryption, and network exposure hardening across real Linux environments."
   }
 ]

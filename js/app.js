@@ -610,6 +610,52 @@
     }, true);
   }
 
+  function makeBoardPager(board) {
+    var pager = el("div", { class: "board-pager" });
+    var prev = el("button", { class: "pager-btn", "aria-label": "Previous", type: "button" }, "←");
+    var label = el("span", { class: "pager-label" });
+    var next = el("button", { class: "pager-btn", "aria-label": "Next", type: "button" }, "→");
+    pager.append(prev, label, next);
+
+    function cols() { return board.querySelectorAll(":scope > .column"); }
+
+    function scrollPos(col) {
+      return col.getBoundingClientRect().left - board.getBoundingClientRect().left + board.scrollLeft;
+    }
+
+    function getIndex() {
+      var cs = cols();
+      var sl = board.scrollLeft;
+      var best = 0, bestDist = Infinity;
+      for (var i = 0; i < cs.length; i++) {
+        var d = Math.abs(scrollPos(cs[i]) - sl);
+        if (d < bestDist) { bestDist = d; best = i; }
+      }
+      return { i: best, n: cs.length };
+    }
+
+    function update() {
+      var r = getIndex();
+      label.textContent = (r.i + 1) + " / " + r.n;
+      prev.disabled = r.i === 0;
+      next.disabled = r.i >= r.n - 1;
+    }
+
+    board.addEventListener("scroll", update, { passive: true });
+
+    prev.addEventListener("click", function () {
+      var r = getIndex(), cs = cols();
+      if (r.i > 0) board.scrollTo({ left: scrollPos(cs[r.i - 1]), behavior: "smooth" });
+    });
+    next.addEventListener("click", function () {
+      var r = getIndex(), cs = cols();
+      if (r.i < r.n - 1) board.scrollTo({ left: scrollPos(cs[r.i + 1]), behavior: "smooth" });
+    });
+
+    update();
+    return pager;
+  }
+
   function updateCount(matched, total, label) {
     var text = "Showing " + matched + " of " + total;
     countEl.textContent = label ? text + " in " + label : text + " certifications";
@@ -643,7 +689,8 @@
         updateCount(selectedMatch.length, selectedTotal, selected ? selected.title : "");
         matched = selectedMatch;
       }
-      main.append(state.groupByDomain ? renderDomainBoard(matched) : renderBoard(matched));
+      var board = state.groupByDomain ? renderDomainBoard(matched) : renderBoard(matched);
+      main.append(board, makeBoardPager(board));
     }
     updateHScroll();
 

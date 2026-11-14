@@ -120,6 +120,8 @@ main {
 }
 .board::-webkit-scrollbar { height: 0; width: 0; }
 
+.board-pager { display: none; }
+
 .hscroll {
   flex: 1 0 100%;
   height: 16px;
@@ -531,8 +533,48 @@ main {
 
   main { padding: 0.75rem 1rem 2rem; }
 
-  /* each board column fills the mobile viewport width */
-  .column { flex: 0 0 calc(100vw - 2rem); width: calc(100vw - 2rem); }
+  /* hide the custom scrollbar — snap pager replaces it */
+  #hscroll { display: none !important; }
+
+  /* snap board: each column peeks the next one */
+  .board { scroll-snap-type: x mandatory; }
+  .column {
+    flex: 0 0 calc(100vw - 4rem);
+    width: calc(100vw - 4rem);
+    scroll-snap-align: start;
+  }
+
+  /* pager (prev / N of M / next) shown only on mobile */
+  .board-pager {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 0.75rem 0 0;
+  }
+  .pager-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #d4cec3;
+    border-radius: 50%;
+    background: var(--card);
+    color: var(--ink);
+    font-size: 1.1rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0;
+    flex-shrink: 0;
+  }
+  .pager-btn:disabled { opacity: 0.3; cursor: default; }
+  .pager-label {
+    font: 600 0.85rem/1 "Source Sans 3", sans-serif;
+    color: var(--muted);
+    min-width: 3.5rem;
+    text-align: center;
+  }
 
   /* single-column sections on small phones */
   .section-row, .section-row--fixed { grid-template-columns: 1fr !important; overflow-x: visible; }

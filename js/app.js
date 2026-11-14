@@ -217,9 +217,6 @@
     var meta = document.getElementById("detail-meta");
     meta.replaceChildren();
     addMeta(meta, "Area", area ? area.title : cert.area);
-    if (area && area.domains.length > 1 && domain) addMeta(meta, "Domain", domain.title);
-    if (spec) addMeta(meta, "Specialty", spec.title);
-    addMeta(meta, "Level", levelLabel(cert.level));
     if (cert.crossDomain) {
       var others = cert.areas.filter(function (areaId) { return areaId !== cert.area; })
         .map(function (areaId) {
@@ -227,6 +224,9 @@
         });
       addMeta(meta, "Also in", others.join(", "));
     }
+    if (area && area.domains.length > 1 && domain) addMeta(meta, "Domain", domain.title);
+    if (spec) addMeta(meta, "Specialty", spec.title);
+    addMeta(meta, "Level", levelLabel(cert.level));
 
     var lines = document.getElementById("detail-lines");
     lines.replaceChildren();

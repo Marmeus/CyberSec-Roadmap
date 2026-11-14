@@ -2,7 +2,7 @@
 
 A static site for browsing 500+ cybersecurity certifications organised by area, domain, specialty, and level. The overview shows all areas side by side; each area also has its own dedicated page. On narrow screens the overview switches to a single-area view with horizontal swipe navigation.
 
-This project is licensed [CC BY-SA 4.0](LICENSE).
+This project is licensed [CC BY-SA 4.0](LICENSE).  Heavily based on unmaintained [Paul Jerimy's Security Certification Roadmap](https://github.com/PaulJerimy/SecCertRoadmapHTML).
 
 ## View it
 

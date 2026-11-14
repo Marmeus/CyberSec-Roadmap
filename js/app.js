@@ -557,7 +557,7 @@
 
     var rows = [
       el("div", { class: "legend-row" }, demoBtn, el("span", null, "= also placed in another area")),
-      el("div", { class: "legend-row" }, swatchBeg, swatchMid, swatchAdv, el("span", null, "= shade indicates difficulty (lighter = easier)")),
+      el("div", { class: "legend-row" }, swatchBeg, swatchMid, swatchAdv, el("span", null, "= shade indicates difficulty (lighter = more beginner-friendly)")),
       el("div", { class: "legend-row" }, el("span", null, "Certifications listed alphabetically within each level."))
     ];
 

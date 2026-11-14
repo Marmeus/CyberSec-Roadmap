@@ -10288,5 +10288,87 @@
     "issuer": "WiFiChallenge Academy",
     "updatedAt": "2026-11",
     "description": "WiFiChallenge Certified Professional validates advanced wireless security skills through practical wireless attack and defense challenges."
+  },
+  {
+    "id": "mda-maldev",
+    "abbreviation": "MDA MalDev",
+    "name": "Malware Development Course",
+    "url": "https://maldevacademy.com/maldev-course",
+    "details": [
+      "$499 lifetime",
+      "$699 bundle with Malware Database"
+    ],
+    "level": "expert",
+    "crossDomain": false,
+    "area": "operations",
+    "areas": [
+      "operations"
+    ],
+    "domain": "exploitation",
+    "specialty": "exploit-development",
+    "issuer": "MalDev Academy",
+    "updatedAt": "2026-11",
+    "description": "A continuously updated module-based malware development course with over 200 learning modules and challenges covering process injection, API hooking, evasion techniques, and advanced Windows offensive tooling."
+  },
+  {
+    "id": "mda-edr",
+    "abbreviation": "MDA EDR",
+    "name": "EDR Internals & Development Course",
+    "url": "https://maldevacademy.com/edr-course",
+    "details": [
+      "$499 lifetime"
+    ],
+    "level": "expert",
+    "crossDomain": true,
+    "area": "operations",
+    "areas": [
+      "operations",
+      "engineering"
+    ],
+    "domain": "monitoring",
+    "specialty": "blue-team",
+    "issuer": "MalDev Academy",
+    "updatedAt": "2026-11",
+    "description": "An advanced course exploring the internals of modern Endpoint Detection and Response (EDR) agents while guiding the development of a custom EDR agent with real-world features and capabilities."
+  },
+  {
+    "id": "mda-phishing",
+    "abbreviation": "MDA Phishing",
+    "name": "Offensive Phishing Operations Course",
+    "url": "https://maldevacademy.com/phishing-course",
+    "details": [
+      "$499 lifetime"
+    ],
+    "level": "expert",
+    "crossDomain": false,
+    "area": "operations",
+    "areas": [
+      "operations"
+    ],
+    "domain": "penetration-testing",
+    "specialty": "general",
+    "issuer": "MalDev Academy",
+    "updatedAt": "2026-11",
+    "description": "An advanced phishing operations course exploring modern phishing techniques, secure phishing infrastructure, evasion strategies, and MFA bypass techniques."
+  },
+  {
+    "id": "mda-ransomware",
+    "abbreviation": "MDA Ransomware",
+    "name": "Ransomware Internals, Simulation and Detection Course",
+    "url": "https://maldevacademy.com/ransomware-course",
+    "details": [
+      "$349 lifetime"
+    ],
+    "level": "expert",
+    "crossDomain": false,
+    "area": "operations",
+    "areas": [
+      "operations"
+    ],
+    "domain": "exploitation",
+    "specialty": "exploit-development",
+    "issuer": "MalDev Academy",
+    "updatedAt": "2026-11",
+    "description": "An advanced course exploring the internals and techniques utilized by modern ransomware while simulating its behaviour in a controlled environment."
   }
 ]

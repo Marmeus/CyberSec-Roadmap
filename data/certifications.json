@@ -378,7 +378,7 @@
     ],
     "domain": "grc",
     "specialty": "governance",
-    "issuer": "(ISC)²",
+    "issuer": "(ISC)\u00b2",
     "updatedAt": "2024-07",
     "description": "ISC2 CISSP Concentrations validate specialized expertise in one of four domains (architecture, engineering, management, or cloud) for practicing CISSPs.",
     "requires": [
@@ -683,7 +683,7 @@
     ],
     "domain": "grc",
     "specialty": "governance",
-    "issuer": "(ISC)²",
+    "issuer": "(ISC)\u00b2",
     "updatedAt": "2024-07",
     "description": "ISC2 Certified Information Systems Security Professional validates broad expertise across eight cybersecurity domains, widely recognized as the leading senior security credential.",
     "requires": [
@@ -1200,7 +1200,11 @@
     "specialty": "azure",
     "issuer": "Microsoft",
     "updatedAt": "2024-07",
-    "description": "Microsoft Azure Solutions Architect Expert validates advanced skills in designing cloud and hybrid Azure solutions meeting business and technical requirements."
+    "description": "Microsoft Azure Solutions Architect Expert validates advanced skills in designing cloud and hybrid Azure solutions meeting business and technical requirements.",
+    "requires": [
+      "az-104"
+    ],
+    "leadsTo": []
   },
   {
     "id": "vcix-nv",
@@ -2040,7 +2044,11 @@
     "specialty": "fortinet",
     "issuer": "Fortinet",
     "updatedAt": "2024-07",
-    "description": "Fortinet Certified Solution Specialist Zero Trust Access validates expertise in implementing zero trust access solutions using the Fortinet security fabric."
+    "description": "Fortinet Certified Solution Specialist Zero Trust Access validates expertise in implementing zero trust access solutions using the Fortinet security fabric.",
+    "requires": [
+      "fca"
+    ],
+    "leadsTo": []
   },
   {
     "id": "fcss-sase",
@@ -2060,7 +2068,11 @@
     "specialty": "federation-sso",
     "issuer": "Fortinet",
     "updatedAt": "2024-07",
-    "description": "Fortinet Certified Solution Specialist SASE validates competency in deploying and managing Secure Access Service Edge solutions using Fortinet technologies."
+    "description": "Fortinet Certified Solution Specialist SASE validates competency in deploying and managing Secure Access Service Edge solutions using Fortinet technologies.",
+    "requires": [
+      "fca"
+    ],
+    "leadsTo": []
   },
   {
     "id": "fcss-pcs",
@@ -2233,7 +2245,7 @@
     ],
     "domain": "grc",
     "specialty": "risk-management",
-    "issuer": "(ISC)²",
+    "issuer": "(ISC)\u00b2",
     "updatedAt": "2024-07",
     "description": "ISC2 Certified in Governance, Risk and Compliance validates competency in developing and implementing security governance, risk, and compliance programs."
   },
@@ -3256,7 +3268,11 @@
     "specialty": null,
     "issuer": "Fortinet",
     "updatedAt": "2024-07",
-    "description": "Fortinet Certified Solution Specialist OT Security validates expertise in securing operational technology networks using Fortinet security products."
+    "description": "Fortinet Certified Solution Specialist OT Security validates expertise in securing operational technology networks using Fortinet security products.",
+    "requires": [
+      "fca"
+    ],
+    "leadsTo": []
   },
   {
     "id": "cssa",
@@ -3402,7 +3418,7 @@
     ],
     "domain": "core",
     "specialty": "secure-development",
-    "issuer": "(ISC)²",
+    "issuer": "(ISC)\u00b2",
     "updatedAt": "2024-07",
     "description": "ISC2 Certified Secure Software Lifecycle Professional validates expertise in incorporating security into every phase of the software development lifecycle."
   },
@@ -3693,7 +3709,7 @@
     ],
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
-    "issuer": "(ISC)²",
+    "issuer": "(ISC)\u00b2",
     "updatedAt": "2024-07",
     "description": "ISC2 Certified Cloud Security Professional validates expertise in cloud security architecture, governance, and operations across all major platforms."
   },
@@ -3857,7 +3873,11 @@
     "specialty": "it-service-management",
     "issuer": "AXELOS",
     "updatedAt": "2024-07",
-    "description": "AXELOS M_o_R Practitioner validates ability to apply the Management of Risk framework in real organizational contexts, for risk management professionals."
+    "description": "AXELOS M_o_R Practitioner validates ability to apply the Management of Risk framework in real organizational contexts, for risk management professionals.",
+    "requires": [
+      "m-o-r-fdn"
+    ],
+    "leadsTo": []
   },
   {
     "id": "cpd",
@@ -4418,9 +4438,9 @@
     ],
     "domain": "ics-iot",
     "specialty": null,
-    "issuer": "TÜV Rheinland",
+    "issuer": "T\u00dcV Rheinland",
     "updatedAt": "2024-07",
-    "description": "TÜV Rheinland Certified OT Cybersecurity Professional validates knowledge of operational technology cybersecurity principles and IEC 62443 standards."
+    "description": "T\u00dcV Rheinland Certified OT Cybersecurity Professional validates knowledge of operational technology cybersecurity principles and IEC 62443 standards."
   },
   {
     "id": "sabsa-scf",
@@ -6185,9 +6205,9 @@
     ],
     "domain": "grc",
     "specialty": "compliance-awareness",
-    "issuer": "TÜV Rheinland",
+    "issuer": "T\u00dcV Rheinland",
     "updatedAt": "2024-07",
-    "description": "TÜV Rheinland IT Security Manager validates knowledge of IT security management concepts and regulatory requirements for security managers in Germany."
+    "description": "T\u00dcV Rheinland IT Security Manager validates knowledge of IT security management concepts and regulatory requirements for security managers in Germany."
   },
   {
     "id": "ccrmp",
@@ -6290,9 +6310,9 @@
     ],
     "domain": "core",
     "specialty": "vulnerability-assessment",
-    "issuer": "TÜV Rheinland",
+    "issuer": "T\u00dcV Rheinland",
     "updatedAt": "2024-07",
-    "description": "TÜV Rheinland Mobile Security Analyst validates knowledge of mobile device security assessment and mobile threat analysis."
+    "description": "T\u00dcV Rheinland Mobile Security Analyst validates knowledge of mobile device security assessment and mobile threat analysis."
   },
   {
     "id": "devnet-a",
@@ -6735,7 +6755,8 @@
     ],
     "leadsTo": [
       "az-500",
-      "ms-100"
+      "ms-100",
+      "az-305"
     ]
   },
   {
@@ -7027,9 +7048,9 @@
     ],
     "domain": "core",
     "specialty": "vulnerability-assessment",
-    "issuer": "TÜV Rheinland",
+    "issuer": "T\u00dcV Rheinland",
     "updatedAt": "2024-07",
-    "description": "TÜV Rheinland IT Security Auditor validates knowledge of IT security auditing methodologies and standards for auditors in Germany."
+    "description": "T\u00dcV Rheinland IT Security Auditor validates knowledge of IT security auditing methodologies and standards for auditors in Germany."
   },
   {
     "id": "ctprp",
@@ -7525,7 +7546,7 @@
     "specialty": "security-architecture",
     "issuer": "Limes Security",
     "updatedAt": "2024-07",
-    "description": "Limes Security TÜV Certified OT Security Manager validates management-level knowledge of operational technology security and IEC 62443 governance."
+    "description": "Limes Security T\u00dcV Certified OT Security Manager validates management-level knowledge of operational technology security and IEC 62443 governance."
   },
   {
     "id": "zach-eaa",
@@ -8492,7 +8513,10 @@
     "leadsTo": [
       "fcp-ns",
       "fcp-pcs",
-      "fcp-so"
+      "fcp-so",
+      "fcss-zta",
+      "fcss-sase",
+      "fcss-ot"
     ]
   },
   {
@@ -8678,7 +8702,7 @@
     ],
     "domain": "grc",
     "specialty": "governance",
-    "issuer": "(ISC)²",
+    "issuer": "(ISC)\u00b2",
     "updatedAt": "2024-07",
     "description": "ISC2 Systems Security Certified Practitioner validates foundational knowledge across seven security domains for entry-level security practitioners.",
     "requires": [
@@ -9373,7 +9397,7 @@
     "specialty": "security-architecture",
     "issuer": "Limes Security",
     "updatedAt": "2024-07",
-    "description": "Limes Security TÜV Certified OT Security Technical Expert validates technical knowledge of operational technology security and IEC 62443."
+    "description": "Limes Security T\u00dcV Certified OT Security Technical Expert validates technical knowledge of operational technology security and IEC 62443."
   },
   {
     "id": "epdpf",
@@ -9620,9 +9644,9 @@
     ],
     "domain": "core",
     "specialty": "vulnerability-assessment",
-    "issuer": "TÜV Rheinland",
+    "issuer": "T\u00dcV Rheinland",
     "updatedAt": "2024-07",
-    "description": "TÜV Rheinland Cybersecurity Specialist validates foundational cybersecurity knowledge and skills for IT professionals in Germany."
+    "description": "T\u00dcV Rheinland Cybersecurity Specialist validates foundational cybersecurity knowledge and skills for IT professionals in Germany."
   },
   {
     "id": "csst",
@@ -9942,7 +9966,7 @@
     "specialty": "security-architecture",
     "issuer": "Limes Security",
     "updatedAt": "2024-07",
-    "description": "Limes Security TÜV Certified OT Security Practitioner validates foundational operational technology security knowledge based on IEC 62443."
+    "description": "Limes Security T\u00dcV Certified OT Security Practitioner validates foundational operational technology security knowledge based on IEC 62443."
   },
   {
     "id": "epdpe",
@@ -9982,7 +10006,11 @@
     "specialty": "it-service-management",
     "issuer": "AXELOS",
     "updatedAt": "2024-07",
-    "description": "AXELOS M_o_R Foundation validates understanding of the Management of Risk principles and framework, for those entering risk management roles."
+    "description": "AXELOS M_o_R Foundation validates understanding of the Management of Risk principles and framework, for those entering risk management roles.",
+    "requires": [],
+    "leadsTo": [
+      "m-o-r-p"
+    ]
   },
   {
     "id": "fair-fdn",
@@ -10105,7 +10133,7 @@
     ],
     "domain": "grc",
     "specialty": "governance",
-    "issuer": "(ISC)²",
+    "issuer": "(ISC)\u00b2",
     "updatedAt": "2024-07",
     "description": "ISC2 Certified in Cybersecurity validates foundational cybersecurity knowledge and is available as a free exam for those entering the field.",
     "requires": [],
@@ -10239,9 +10267,9 @@
     ],
     "domain": "core",
     "specialty": "vulnerability-assessment",
-    "issuer": "TÜV Rheinland",
+    "issuer": "T\u00dcV Rheinland",
     "updatedAt": "2024-07",
-    "description": "TÜV Rheinland Cybersecurity Awareness validates knowledge of human factors in cybersecurity and competency in running awareness programs."
+    "description": "T\u00dcV Rheinland Cybersecurity Awareness validates knowledge of human factors in cybersecurity and competency in running awareness programs."
   },
   {
     "id": "mase",
@@ -10623,7 +10651,7 @@
     "name": "TeleTrusT Information Security Professional",
     "url": "https://www.teletrust.de/en/certifications/tisp/",
     "details": [
-      "~€800 exam"
+      "~\u20ac800 exam"
     ],
     "level": "expert",
     "crossDomain": false,
@@ -10739,7 +10767,7 @@
     "name": "AWS Red Team Apprentice",
     "url": "https://hacktricks-training.com/courses/arta/",
     "details": [
-      "€359 lifetime lab access (30 days extendable)"
+      "\u20ac359 lifetime lab access (30 days extendable)"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -10760,7 +10788,7 @@
   {
     "id": "arte",
     "abbreviation": "ARTE",
-    "name": "HackTricks Training AWS Red Team Expert",
+    "name": "AWS Red Team Expert",
     "url": "https://hacktricks-training.com/courses/arte/",
     "details": [
       "$395 exam"
@@ -10787,7 +10815,7 @@
     "name": "GCP Red Team Apprentice",
     "url": "https://hacktricks-training.com/courses/grta/",
     "details": [
-      "€359 lifetime lab access (30 days extendable)"
+      "\u20ac359 lifetime lab access (30 days extendable)"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -10808,7 +10836,7 @@
   {
     "id": "grte",
     "abbreviation": "GRTE",
-    "name": "HackTricks Training GCP Red Team Expert",
+    "name": "GCP Red Team Expert",
     "url": "https://hacktricks-training.com/courses/grte/",
     "details": [
       "$395 exam"
@@ -10835,7 +10863,7 @@
     "name": "Azure Red Team Apprentice",
     "url": "https://hacktricks-training.com/courses/azrta/",
     "details": [
-      "€359 lifetime lab access (30 days extendable)"
+      "\u20ac359 lifetime lab access (30 days extendable)"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -10856,7 +10884,7 @@
   {
     "id": "azrte",
     "abbreviation": "AzRTE",
-    "name": "HackTricks Training Azure Red Team Expert",
+    "name": "Azure Red Team Expert",
     "url": "https://hacktricks-training.com/courses/azrte/",
     "details": [
       "$395 exam"
@@ -11025,7 +11053,7 @@
     "name": "Kubernetes Red Team Expert",
     "url": "https://hacktricks-training.com/courses/krte/",
     "details": [
-      "€1099 60 days lab access (extendable)"
+      "\u20ac1099 60 days lab access (extendable)"
     ],
     "level": "expert",
     "crossDomain": false,
@@ -11045,7 +11073,7 @@
     "name": "Linux Exploitation Expert",
     "url": "https://hacktricks-training.com/courses/lee/",
     "details": [
-      "€1099 60 days lab access (extendable)"
+      "\u20ac1099 60 days lab access (extendable)"
     ],
     "level": "expert",
     "crossDomain": false,
@@ -11065,7 +11093,7 @@
     "name": "Linux Hardening Expert",
     "url": "https://hacktricks-training.com/courses/lhe/",
     "details": [
-      "€359 60 days lab access (extendable)"
+      "\u20ac359 60 days lab access (extendable)"
     ],
     "level": "expert",
     "crossDomain": false,

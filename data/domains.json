@@ -525,6 +525,20 @@
               "description": "Mobile platform exploitation and vulnerability research certifications."
             }
           ]
+        },
+        {
+          "id": "red-team",
+          "title": "Red Team",
+          "description": "Adversary simulation and full kill-chain operations: C2 frameworks, lateral movement, persistence, and end-to-end offensive campaigns.",
+          "color": "#c0514d",
+          "ink": "#ffffff",
+          "specialties": [
+            {
+              "id": "general",
+              "title": "General",
+              "description": "Broad red team operator and adversary simulation certifications."
+            }
+          ]
         }
       ]
     }

@@ -508,6 +508,24 @@ main {
   font: 600 0.9rem/1.2 "Source Sans 3", sans-serif;
   cursor: pointer;
 }
+.filter-reset:not([hidden]) {
+  display: inline-flex;
+  align-items: center;
+  background: var(--card);
+  border: 1px solid #d4cec3;
+  border-radius: 999px;
+  padding: 0.45rem 1rem;
+  font: 700 1rem/1.2 "Source Sans 3", sans-serif;
+  color: var(--ink);
+  cursor: pointer;
+  letter-spacing: normal;
+  text-transform: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+.filter-reset:not([hidden]):hover {
+  background: color-mix(in srgb, #888 12%, var(--card));
+  border-color: #bbb;
+}
 .detail-kicker {
   display: inline-block;
   margin: 0 0 0.55rem;
@@ -632,12 +650,17 @@ main {
     width: 100%;
     background: transparent;
     border: 1px solid #d4cec3;
-    border-radius: 8px;
-    padding: 0.5rem;
-    font: 600 0.9rem/1.2 "Source Sans 3", sans-serif;
-    color: var(--muted);
+    border-radius: 999px;
+    padding: 0.5rem 1rem;
+    font: 700 0.9rem/1 "Source Sans 3", sans-serif;
+    color: var(--ink);
     cursor: pointer;
     text-align: center;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .toolbar.filters-open .filter-reset:not([hidden]):hover {
+    background: color-mix(in srgb, #888 12%, var(--card));
+    border-color: #bbb;
   }
 
   main { padding: 0.75rem 1rem 2rem; }

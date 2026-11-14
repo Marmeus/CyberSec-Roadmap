@@ -240,6 +240,8 @@
     if (area && area.domains.length > 1 && domain) addMeta(meta, "Domain", domain.title);
     if (spec) addMeta(meta, "Specialty", spec.title);
     addMeta(meta, "Level", levelLabel(cert.level));
+    if (cert.issuer) addMeta(meta, "Issuer", cert.issuer);
+    if (cert.updatedAt) addMeta(meta, "This Info Last Updated At:", cert.updatedAt);
 
     var lines = document.getElementById("detail-lines");
     lines.replaceChildren();

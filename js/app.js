@@ -214,12 +214,17 @@
     document.getElementById("detail-title").textContent = cert.abbreviation;
     document.getElementById("detail-name").textContent = cert.name;
 
+    var descEl = document.getElementById("detail-desc");
+    if (cert.description) {
+      descEl.textContent = cert.description;
+      descEl.hidden = false;
+    } else {
+      descEl.hidden = true;
+    }
+
     var meta = document.getElementById("detail-meta");
     meta.replaceChildren();
     addMeta(meta, "Area", area ? area.title : cert.area);
-    if (area && area.domains.length > 1 && domain) addMeta(meta, "Domain", domain.title);
-    if (spec) addMeta(meta, "Specialty", spec.title);
-    addMeta(meta, "Level", levelLabel(cert.level));
     if (cert.crossDomain) {
       var others = cert.areas.filter(function (areaId) { return areaId !== cert.area; })
         .map(function (areaId) {
@@ -227,6 +232,9 @@
         });
       addMeta(meta, "Also in", others.join(", "));
     }
+    if (area && area.domains.length > 1 && domain) addMeta(meta, "Domain", domain.title);
+    if (spec) addMeta(meta, "Specialty", spec.title);
+    addMeta(meta, "Level", levelLabel(cert.level));
 
     var lines = document.getElementById("detail-lines");
     lines.replaceChildren();
@@ -237,13 +245,14 @@
     var linkHost = document.getElementById("detail-link");
     linkHost.replaceChildren();
     if (cert.url && /^https?:\/\//i.test(cert.url)) {
-      linkHost.append(el("a", { href: cert.url, target: "_blank", rel: "noopener noreferrer" }, "Official certification page"));
+      linkHost.append(el("a", { class: "detail-cta", href: cert.url, target: "_blank", rel: "noopener noreferrer" }, "Official certification page →"));
     }
     if (area) {
-      if (linkHost.childNodes.length) linkHost.append(document.createTextNode(" · "));
-      linkHost.append(el("a", { href: "#/area/" + area.id }, area.title + " area"));
+      linkHost.append(el("a", { class: "detail-area", href: "#/area/" + area.id }, "Browse " + area.title));
     }
 
+    var colors = paint(cert);
+    detail.style.setProperty("--bar", colors.color);
     detail.hidden = false;
     backdrop.hidden = false;
     setPressed(id);
@@ -535,13 +544,28 @@
   }
 
   function lede() {
-    var text = "A double border means the certification is also drawn into another area.";
+    var demoBtn = el("span", { class: "legend-demo-cert is-cross", "aria-hidden": "true" }, "EXAM");
+    demoBtn.style.background = "#2e5688";
+    demoBtn.style.color = "#fff";
+
+    var swatchBeg = el("span", { class: "legend-swatch" });
+    swatchBeg.style.background = "color-mix(in srgb, #2e5688 40%, white)";
+    var swatchMid = el("span", { class: "legend-swatch" });
+    swatchMid.style.background = "color-mix(in srgb, #2e5688 70%, white)";
+    var swatchAdv = el("span", { class: "legend-swatch" });
+    swatchAdv.style.background = "#2e5688";
+
+    var rows = [
+      el("div", { class: "legend-row" }, demoBtn, el("span", null, "= also placed in another area")),
+      el("div", { class: "legend-row" }, swatchBeg, swatchMid, swatchAdv, el("span", null, "= shade indicates difficulty (lighter = easier)")),
+      el("div", { class: "legend-row" }, el("span", null, "Certifications listed alphabetically within each level."))
+    ];
+
     if (state.route.name === "chart") {
-      text += " Choose an area name to open its domains.";
+      rows.push(el("div", { class: "legend-row" }, el("span", null, "Choose an area tab to open its domains.")));
     }
-    text += " Certifications are listed alphabetically within each level.";
-    text += " Darker shade indicates higher difficulty; lighter shade indicates easier certifications.";
-    return el("p", { class: "lede" }, text);
+
+    return el("div", { class: "lede-box" }, el("p", { class: "lede-title" }, "Legend"), rows);
   }
 
   function renderTabs() {
@@ -668,7 +692,7 @@
     updateFilterBadge();
     renderTabs();
     areaField.hidden = state.route.name === "area";
-    var title = "Security Certification Roadmap";
+    var title = "Security Certification Map";
     main.replaceChildren(lede());
 
     if (state.route.name === "area") {

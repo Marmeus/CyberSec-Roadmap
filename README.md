@@ -1,4 +1,4 @@
-# Security Certification Roadmap
+# Security Certification Map
 
 A static site for browsing cybersecurity certifications by area, section, subsection, and level. The overview has a column for each area, with its sections side by side and levels stacked from expert at the top to beginner at the bottom. Each area also has its own page with the same layout.
 

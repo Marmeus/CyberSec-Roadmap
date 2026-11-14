@@ -544,13 +544,28 @@
   }
 
   function lede() {
-    var text = "A double border means the certification is also drawn into another area.";
+    var demoBtn = el("span", { class: "legend-demo-cert is-cross", "aria-hidden": "true" }, "EXAM");
+    demoBtn.style.background = "#2e5688";
+    demoBtn.style.color = "#fff";
+
+    var swatchBeg = el("span", { class: "legend-swatch" });
+    swatchBeg.style.background = "color-mix(in srgb, #2e5688 40%, white)";
+    var swatchMid = el("span", { class: "legend-swatch" });
+    swatchMid.style.background = "color-mix(in srgb, #2e5688 70%, white)";
+    var swatchAdv = el("span", { class: "legend-swatch" });
+    swatchAdv.style.background = "#2e5688";
+
+    var rows = [
+      el("div", { class: "legend-row" }, demoBtn, el("span", null, "= also placed in another area")),
+      el("div", { class: "legend-row" }, swatchBeg, swatchMid, swatchAdv, el("span", null, "= shade indicates difficulty (lighter = easier)")),
+      el("div", { class: "legend-row" }, el("span", null, "Certifications listed alphabetically within each level."))
+    ];
+
     if (state.route.name === "chart") {
-      text += " Choose an area name to open its domains.";
+      rows.push(el("div", { class: "legend-row" }, el("span", null, "Choose an area tab to open its domains.")));
     }
-    text += " Certifications are listed alphabetically within each level.";
-    text += " Darker shade indicates higher difficulty; lighter shade indicates easier certifications.";
-    return el("p", { class: "lede" }, text);
+
+    return el("div", { class: "lede-box" }, el("p", { class: "lede-title" }, "Legend"), rows);
   }
 
   function renderTabs() {

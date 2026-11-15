@@ -223,7 +223,7 @@
       descEl.hidden = true;
     }
 
-    renderPathSection(detailRequires, cert.requires || []);
+    renderPathSection(detailRequires, cert.priorCerts || []);
     renderPathSection(detailLeadsTo,  cert.leadsTo  || []);
 
     var meta = document.getElementById("detail-meta");

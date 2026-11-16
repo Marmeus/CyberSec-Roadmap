@@ -378,7 +378,7 @@
     ],
     "domain": "grc",
     "specialty": "governance",
-    "issuer": "(ISC)\u00b2",
+    "issuer": "(ISC)²",
     "updatedAt": "2024-07",
     "description": "ISC2 CISSP Concentrations validate specialized expertise in one of four domains (architecture, engineering, management, or cloud) for practicing CISSPs.",
     "priorCerts": [
@@ -683,7 +683,7 @@
     ],
     "domain": "grc",
     "specialty": "governance",
-    "issuer": "(ISC)\u00b2",
+    "issuer": "(ISC)²",
     "updatedAt": "2024-07",
     "description": "ISC2 Certified Information Systems Security Professional validates broad expertise across eight cybersecurity domains, widely recognized as the leading senior security credential.",
     "priorCerts": [
@@ -1801,9 +1801,9 @@
     "id": "crto-ii",
     "abbreviation": "CRTO II",
     "name": "Zero Point Security Red Team Operator II",
-    "url": "https://training.zeropointsecurity.co.uk/courses/red-team-ops-ii",
+    "url": "https://www.zeropointsecurity.co.uk/course/red-team-ops-ii",
     "details": [
-      "$121 lab"
+      "£449"
     ],
     "level": "expert",
     "crossDomain": false,
@@ -1814,11 +1814,55 @@
     "domain": "red-team",
     "specialty": "general",
     "issuer": "Zero Point Security",
-    "updatedAt": "2024-07",
-    "description": "Zero Point Security Red Team Operator II validates advanced red team operator skills focusing on evasive tradecraft and complex attack chains.",
+    "updatedAt": "2026-11",
+    "description": "Gain the knowledge and skills required to operate against advanced defences.",
     "priorCerts": [
       "crto"
     ],
+    "leadsTo": []
+  },
+  {
+    "id": "bof-dev",
+    "abbreviation": "BOF",
+    "name": "BOF Development & Tradecraft",
+    "url": "https://www.zeropointsecurity.co.uk/course/bof-dev",
+    "details": [
+      "£199"
+    ],
+    "level": "intermediate",
+    "crossDomain": false,
+    "area": "operations",
+    "areas": [
+      "operations"
+    ],
+    "domain": "red-team",
+    "specialty": "general",
+    "issuer": "Zero Point Security",
+    "updatedAt": "2026-11",
+    "description": "Learn how to write and unit test Beacon Object Files for use in Cobalt Strike and other C2 frameworks.",
+    "priorCerts": [],
+    "leadsTo": []
+  },
+  {
+    "id": "udrl-sleepmask",
+    "abbreviation": "UDRL",
+    "name": "UDRL and Sleepmask Development",
+    "url": "https://www.zeropointsecurity.co.uk/course/udrl-sleepmask-dev",
+    "details": [
+      "£299"
+    ],
+    "level": "expert",
+    "crossDomain": false,
+    "area": "operations",
+    "areas": [
+      "operations"
+    ],
+    "domain": "red-team",
+    "specialty": "general",
+    "issuer": "Zero Point Security",
+    "updatedAt": "2026-11",
+    "description": "Learn how to apply low-level Windows knowledge and offensive tradecraft to Cobalt Strike's UDRL and Sleepmask for advanced evasion.",
+    "priorCerts": [],
     "leadsTo": []
   },
   {
@@ -2245,7 +2289,7 @@
     ],
     "domain": "grc",
     "specialty": "risk-management",
-    "issuer": "(ISC)\u00b2",
+    "issuer": "(ISC)²",
     "updatedAt": "2024-07",
     "description": "ISC2 Certified in Governance, Risk and Compliance validates competency in developing and implementing security governance, risk, and compliance programs."
   },
@@ -3031,9 +3075,9 @@
     "id": "crto",
     "abbreviation": "CRTO",
     "name": "Zero Point Security Certified Red Team Operator",
-    "url": "https://courses.zeropointsecurity.co.uk/courses/red-team-ops",
+    "url": "https://www.zeropointsecurity.co.uk/course/red-team-ops",
     "details": [
-      "$121 lab"
+      "£399"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -3044,7 +3088,7 @@
     "domain": "red-team",
     "specialty": "general",
     "issuer": "Zero Point Security",
-    "updatedAt": "2024-07",
+    "updatedAt": "2026-11",
     "description": "Zero Point Security Certified Red Team Operator validates practical red team operations skills including command-and-control, evasion, and Active Directory attacks.",
     "priorCerts": [],
     "leadsTo": [
@@ -3418,7 +3462,7 @@
     ],
     "domain": "core",
     "specialty": "secure-development",
-    "issuer": "(ISC)\u00b2",
+    "issuer": "(ISC)²",
     "updatedAt": "2024-07",
     "description": "ISC2 Certified Secure Software Lifecycle Professional validates expertise in incorporating security into every phase of the software development lifecycle."
   },
@@ -3709,7 +3753,7 @@
     ],
     "domain": "cloud-sysops",
     "specialty": "multi-cloud",
-    "issuer": "(ISC)\u00b2",
+    "issuer": "(ISC)²",
     "updatedAt": "2024-07",
     "description": "ISC2 Certified Cloud Security Professional validates expertise in cloud security architecture, governance, and operations across all major platforms."
   },
@@ -4438,9 +4482,9 @@
     ],
     "domain": "ics-iot",
     "specialty": null,
-    "issuer": "T\u00dcV Rheinland",
+    "issuer": "TÜV Rheinland",
     "updatedAt": "2024-07",
-    "description": "T\u00dcV Rheinland Certified OT Cybersecurity Professional validates knowledge of operational technology cybersecurity principles and IEC 62443 standards."
+    "description": "TÜV Rheinland Certified OT Cybersecurity Professional validates knowledge of operational technology cybersecurity principles and IEC 62443 standards."
   },
   {
     "id": "sabsa-scf",
@@ -6205,9 +6249,9 @@
     ],
     "domain": "grc",
     "specialty": "compliance-awareness",
-    "issuer": "T\u00dcV Rheinland",
+    "issuer": "TÜV Rheinland",
     "updatedAt": "2024-07",
-    "description": "T\u00dcV Rheinland IT Security Manager validates knowledge of IT security management concepts and regulatory requirements for security managers in Germany."
+    "description": "TÜV Rheinland IT Security Manager validates knowledge of IT security management concepts and regulatory requirements for security managers in Germany."
   },
   {
     "id": "ccrmp",
@@ -6310,9 +6354,9 @@
     ],
     "domain": "core",
     "specialty": "vulnerability-assessment",
-    "issuer": "T\u00dcV Rheinland",
+    "issuer": "TÜV Rheinland",
     "updatedAt": "2024-07",
-    "description": "T\u00dcV Rheinland Mobile Security Analyst validates knowledge of mobile device security assessment and mobile threat analysis."
+    "description": "TÜV Rheinland Mobile Security Analyst validates knowledge of mobile device security assessment and mobile threat analysis."
   },
   {
     "id": "devnet-a",
@@ -7048,9 +7092,9 @@
     ],
     "domain": "core",
     "specialty": "vulnerability-assessment",
-    "issuer": "T\u00dcV Rheinland",
+    "issuer": "TÜV Rheinland",
     "updatedAt": "2024-07",
-    "description": "T\u00dcV Rheinland IT Security Auditor validates knowledge of IT security auditing methodologies and standards for auditors in Germany."
+    "description": "TÜV Rheinland IT Security Auditor validates knowledge of IT security auditing methodologies and standards for auditors in Germany."
   },
   {
     "id": "ctprp",
@@ -7546,7 +7590,7 @@
     "specialty": "security-architecture",
     "issuer": "Limes Security",
     "updatedAt": "2024-07",
-    "description": "Limes Security T\u00dcV Certified OT Security Manager validates management-level knowledge of operational technology security and IEC 62443 governance."
+    "description": "Limes Security TÜV Certified OT Security Manager validates management-level knowledge of operational technology security and IEC 62443 governance."
   },
   {
     "id": "zach-eaa",
@@ -8702,7 +8746,7 @@
     ],
     "domain": "grc",
     "specialty": "governance",
-    "issuer": "(ISC)\u00b2",
+    "issuer": "(ISC)²",
     "updatedAt": "2024-07",
     "description": "ISC2 Systems Security Certified Practitioner validates foundational knowledge across seven security domains for entry-level security practitioners.",
     "priorCerts": [
@@ -9397,7 +9441,7 @@
     "specialty": "security-architecture",
     "issuer": "Limes Security",
     "updatedAt": "2024-07",
-    "description": "Limes Security T\u00dcV Certified OT Security Technical Expert validates technical knowledge of operational technology security and IEC 62443."
+    "description": "Limes Security TÜV Certified OT Security Technical Expert validates technical knowledge of operational technology security and IEC 62443."
   },
   {
     "id": "epdpf",
@@ -9644,9 +9688,9 @@
     ],
     "domain": "core",
     "specialty": "vulnerability-assessment",
-    "issuer": "T\u00dcV Rheinland",
+    "issuer": "TÜV Rheinland",
     "updatedAt": "2024-07",
-    "description": "T\u00dcV Rheinland Cybersecurity Specialist validates foundational cybersecurity knowledge and skills for IT professionals in Germany."
+    "description": "TÜV Rheinland Cybersecurity Specialist validates foundational cybersecurity knowledge and skills for IT professionals in Germany."
   },
   {
     "id": "csst",
@@ -9966,7 +10010,7 @@
     "specialty": "security-architecture",
     "issuer": "Limes Security",
     "updatedAt": "2024-07",
-    "description": "Limes Security T\u00dcV Certified OT Security Practitioner validates foundational operational technology security knowledge based on IEC 62443."
+    "description": "Limes Security TÜV Certified OT Security Practitioner validates foundational operational technology security knowledge based on IEC 62443."
   },
   {
     "id": "epdpe",
@@ -10133,7 +10177,7 @@
     ],
     "domain": "grc",
     "specialty": "governance",
-    "issuer": "(ISC)\u00b2",
+    "issuer": "(ISC)²",
     "updatedAt": "2024-07",
     "description": "ISC2 Certified in Cybersecurity validates foundational cybersecurity knowledge and is available as a free exam for those entering the field.",
     "priorCerts": [],
@@ -10267,9 +10311,9 @@
     ],
     "domain": "core",
     "specialty": "vulnerability-assessment",
-    "issuer": "T\u00dcV Rheinland",
+    "issuer": "TÜV Rheinland",
     "updatedAt": "2024-07",
-    "description": "T\u00dcV Rheinland Cybersecurity Awareness validates knowledge of human factors in cybersecurity and competency in running awareness programs."
+    "description": "TÜV Rheinland Cybersecurity Awareness validates knowledge of human factors in cybersecurity and competency in running awareness programs."
   },
   {
     "id": "mase",
@@ -10651,7 +10695,7 @@
     "name": "TeleTrusT Information Security Professional",
     "url": "https://www.teletrust.de/en/certifications/tisp/",
     "details": [
-      "~\u20ac800 exam"
+      "~€800 exam"
     ],
     "level": "expert",
     "crossDomain": false,
@@ -10767,7 +10811,7 @@
     "name": "AWS Red Team Apprentice",
     "url": "https://hacktricks-training.com/courses/arta/",
     "details": [
-      "\u20ac359 lifetime, lab access (30 days extendable)"
+      "€359 lifetime, lab access (30 days extendable)"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -10815,7 +10859,7 @@
     "name": "GCP Red Team Apprentice",
     "url": "https://hacktricks-training.com/courses/grta/",
     "details": [
-      "\u20ac359 lifetime, lab access (30 days extendable)"
+      "€359 lifetime, lab access (30 days extendable)"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -10863,7 +10907,7 @@
     "name": "Azure Red Team Apprentice",
     "url": "https://hacktricks-training.com/courses/azrta/",
     "details": [
-      "\u20ac359 lifetime, lab access (30 days extendable)"
+      "€359 lifetime, lab access (30 days extendable)"
     ],
     "level": "intermediate",
     "crossDomain": false,
@@ -11053,7 +11097,7 @@
     "name": "Kubernetes Red Team Expert",
     "url": "https://hacktricks-training.com/courses/krte/",
     "details": [
-      "\u20ac1099 60 days lab access (extendable)"
+      "€1099 60 days lab access (extendable)"
     ],
     "level": "expert",
     "crossDomain": false,
@@ -11073,7 +11117,7 @@
     "name": "Linux Exploitation Expert",
     "url": "https://hacktricks-training.com/courses/lee/",
     "details": [
-      "\u20ac1099 60 days lab access (extendable)"
+      "€1099 60 days lab access (extendable)"
     ],
     "level": "expert",
     "crossDomain": false,
@@ -11093,7 +11137,7 @@
     "name": "Linux Hardening Expert",
     "url": "https://hacktricks-training.com/courses/lhe/",
     "details": [
-      "\u20ac359 60 days lab access (extendable)"
+      "€359 60 days lab access (extendable)"
     ],
     "level": "expert",
     "crossDomain": false,

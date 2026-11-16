@@ -180,7 +180,7 @@
       "title": "Asset Security",
       "shortTitle": "Asset",
       "color": "#e4ac03",
-      "ink": "#241c04",
+      "ink": "#ffffff",
       "description": "Protecting data and other assets across collection, storage, retention, and destruction, including classification, ownership, and the data lifecycle.",
       "domains": [
         {

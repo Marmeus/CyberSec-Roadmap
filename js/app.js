@@ -343,7 +343,7 @@
     } else {
       button.style.background = levelBg(colors.color, cert.level);
     }
-    var whiteAreas = ["management", "operations", "testing"];
+    var whiteAreas = ["management", "operations", "testing", "asset"];
     button.style.color = whiteAreas.indexOf(cert.area) !== -1 ? "#ffffff" : "#1c1917";
     extra(button, cert);
     return button;

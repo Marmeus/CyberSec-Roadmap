@@ -3590,6 +3590,26 @@
     "updatedAt": "2024-07",
     "description": "EC-Council Licensed Penetration Tester validates advanced penetration testing expertise with a practical lab component for experienced security professionals."
   },
+    {
+    "id": "pjpt",
+    "abbreviation": "PJPT",
+    "name": "TCM Security Practical Junior Penetration Tester",
+    "url": "https://certifications.tcm-sec.com/pjpt/",
+    "details": [
+      "$249 exam"
+    ],
+    "level": "beginner",
+    "crossDomain": false,
+    "area": "operations",
+    "areas": [
+      "operations"
+    ],
+    "domain": "penetration-testing",
+    "specialty": "network",
+    "issuer": "TCM Security",
+    "updatedAt": "2024-07",
+    "description": "TCM Security Practical Junior Penetration Tester is a penetration testing exam experience that will assess a student’s ability to perform an internal network penetration test at an associate level."
+  },
   {
     "id": "pnpt",
     "abbreviation": "PNPT",
@@ -7429,13 +7449,6 @@
     ]
   },
   {
-    "id": "endp",
-    "abbreviation": "eNDP",
-    "name": "eLearnSecurity Network Defense Professional",
-    "url": "https://www.elearnsecurity.com/certification/endp/",
-    "details": [
-      "$400 exam"
-    ],
     "level": "intermediate",
     "crossDomain": false,
     "area": "network",

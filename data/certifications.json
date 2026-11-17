@@ -7449,19 +7449,6 @@
     ]
   },
   {
-    "level": "intermediate",
-    "crossDomain": false,
-    "area": "network",
-    "areas": [
-      "network"
-    ],
-    "domain": "core",
-    "specialty": "vendor-neutral",
-    "issuer": "INE Security",
-    "updatedAt": "2024-07",
-    "description": "eLearnSecurity Network Defense Professional validates practical skills in configuring and managing network security controls and defenses."
-  },
-  {
     "id": "cist",
     "abbreviation": "CIST",
     "name": "IMI Certified Identity and Security Technologist",
